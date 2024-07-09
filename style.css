@@ -1,0 +1,227 @@
+:root {
+    --primary: #ff9436;
+    --accent: #4ea647;
+    --green: #3b9d30;
+}
+
+.logo {
+    max-width: 250px;
+}
+.navbar__menu {
+    display: flex;
+    column-gap: 10px;
+    color: var(--accent);
+    align-items: center;
+    cursor: pointer;
+}
+.navbar__menu span {
+    background-color: var(--accent);
+    border-radius: 30px;
+    color: white;
+    display: grid;
+    height: 30px;
+    width: 30px;
+
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+.navbar__menu span::after {
+    content: "+";
+    font-size: 2rem;
+    transform: translate(4px, -12px);
+}
+.hero {
+    min-height: calc(100vh - 100px);
+
+}
+.section-bg {
+    display: grid;
+    grid-template: 1fr 1fr;
+}
+.section-bg > * {
+    grid-area: 1 / 1 / 1 / 1;
+}
+.img-bg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.hero__bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.overview {
+    padding-bottom: 200px;
+}
+.overview .sun {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    top: -10%;
+    right: 0;
+}
+.overview .sun img {
+    max-width: 100%;
+}
+.overview .sun .sun__inner {
+    max-width: 30%;
+}
+.overview .sun > * {
+    grid-area: 1 / 1 / 1 / 1;
+}
+.overview .sun .sun__outer {
+    animation: rotate 20s linear 0s infinite forwards normal;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);  
+    }
+}
+
+.icon {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-left: 1px solid #dfdfdf;
+    padding: 0px 20px;
+}
+.icon:first-child {
+    border: none;
+}
+.carousel-control-prev, .carousel-control-next {
+    top: calc(100% + 50px);
+}
+.carousel-control-next {
+    right: calc(100% - 100px);
+}
+.card-img-top {
+    min-height: 225px;
+    object-fit: cover;
+    filter: sepia(0.5);
+    transition: filter 0.3s ease-out;
+}
+
+.clients__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    place-items: center;
+}
+.card {
+    transition: box-shadow 0.3s ease-out;
+}
+.card:hover {
+    box-shadow: 0px 3px 10px #b3a6a6;
+}
+.card:hover .card-img-top {
+    filter: sepia(0);
+}
+
+.icon img {
+    max-width: 50px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+footer .gray {
+    background-color: #323232;
+}
+.btn {
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+.btn--black {
+    border-color: black;
+}
+.btn--green {
+    border-color: var(--accent);
+    color:var(--accent);
+}
+.btn--orange {
+    border-color: var(--primary);
+    color:var(--primary);
+}
+.solutions .btn[aria-selected="true"] {
+    background-color: var(--primary);
+    color: white;
+}
+.solutions .accordion-item {
+    border-radius: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.solutions .accordion-button, .solutions .accordion-body {
+    background-color: none;
+    border-radius: 0;
+    padding-left: 0;
+}
+.solutions .accordion-button[aria-expanded="true"] {
+    color: var(--primary);
+    background-color: white;
+    font-weight: bold;
+}
+.projects__icon {
+
+}
+.clients .carousel-item .h2 {
+    font-weight: 100;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: var(--green);
+    transition: background-color 0.3s ease-out;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+.carousel-indicators .active[data-bs-target] {
+    background-color: var(--primary);
+}
+
+
+.solutions .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    content: "-";
+    color: black;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 0;
+    transform: translate(12px, 4px);
+}
+.solutions .accordion-button::after {
+    background-image: none;
+    content: "+";
+    color: black;
+    font-size: 3rem;
+    font-weight: 100;
+    line-height: 0;
+    transform: translate(12px, 4px);
+}
