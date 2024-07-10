@@ -16,17 +16,35 @@
         <div class="d-flex flex-column">
             <div class="hero__bg w-100 flex-fill" style="background-image: url('./images/1.png');    background-size: cover;">
                 <div class="container">
-                    <div class="navbar mt-4">
+                    <div class="d-flex justify-content-between mt-4">
                         <div class="navbar__logo">
                             <img src="./images/logo-15.png" class="logo">
                         </div>
                         <div class="navbar__menu">
                             Menu
-                            <span></span>
+                            <span class="menu_toggle"></span>
+                            <div class="menu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Home
+                                            <span>></span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">About<span>></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact<span>></span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Services<span>></span></a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="d-flex flex-column hero col-4 col-sm-6 col-xs-12">
+                        <div class="d-flex flex-column hero col-md-6 col-lg-4">
                             <div class="d-flex flex-column flex-fill justify-content-center align-items-start">
                                 <h1>Harnessing Natuer's Most Abundant Resource</h1>
                                 <div class="hero__content mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing
@@ -44,10 +62,10 @@
         <div class="overview pt-5" style="background-image: url('./images/2.png');    background-size: cover;">
             <div class="container mt-5 position-relative">
                 <div class="row mb-5">
-                    <div class="col" data-aos="fade-up">
+                    <div class="col mb-3" data-aos="fade-up">
                         <img src="./images/3.png" class="img-fluid">
                     </div>
-                    <div class="col" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-12 col-sm-6" data-aos="fade-up" data-aos-delay="100">
                         <h2 class="highlight">Overview</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa impedit inventore officia
                             natus
@@ -217,7 +235,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col align-items-center d-flex">
+                    <div class="col align-items-center d-none d-md-flex">
                         <img src="./images/5.png" class="img-fluid">
                     </div>
                 </div>
@@ -232,13 +250,13 @@
                     </div>
                 </div>
                 <div class="row mb-5">
-                    <div class="col" data-aos="fade-up" data-aos-delay="100">
-                        <div id="projects2" class="carousel-dark carousel slide" data-bs-ride="carousel">
+                    <div class="col-12 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                        <div id="projects2" class="mb-3 carousel-dark carousel slide" data-bs-interval="false">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <h3>Pragati Power Corporation Limited</h3>
                                     <div>Govt. largest single site rooftop solar</div>
-                                    <div class="fs-6">
+                                    <div class="fs-6 mb-3">
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore eligendi
                                         officia
                                         molestias animi asperiores obcaecati nobis enim laudantium reprehenderit,
@@ -253,7 +271,7 @@
                                 <div class="carousel-item">
                                     <h3>Pragati Power Corporation Limited</h3>
                                     <div>Govt. largest single site rooftop solar</div>
-                                    <div class="fs-6">
+                                    <div class="fs-6 mb-3">
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore eligendi
                                         officia
                                         molestias animi asperiores obcaecati nobis enim laudantium reprehenderit,
@@ -268,7 +286,7 @@
                                 <div class="carousel-item">
                                     <h3>Pragati Power Corporation Limited</h3>
                                     <div>Govt. largest single site rooftop solar</div>
-                                    <div class="fs-6">
+                                    <div class="fs-6 mb-3">
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore eligendi
                                         officia
                                         molestias animi asperiores obcaecati nobis enim laudantium reprehenderit,
@@ -283,18 +301,18 @@
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#projects"
                                 data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="custom_carousel-control-prev-icon" aria-hidden="true"><</span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
                             <button class="carousel-control-next" type="button" data-bs-target="#projects"
                                 data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="custom_carousel-control-next-icon" aria-hidden="true">></span>
                                 <span class="visually-hidden">Next</span>
                             </button>
                         </div>
                     </div>
-                    <div class="col" data-aos="fade-up" data-aos-delay="200">
-                        <div id="projects" class="carousel slide" data-bs-ride="carousel">
+                    <div class="col-12 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                        <div id="projects" class="carousel slide" data-bs-interval="false">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img src="./images/6.png" class="d-block w-100" alt="./images/6.png">
@@ -322,7 +340,7 @@
         <div class="clients pt-5" style="background-image: url('./images/8.png');">
             <div class="container">
                 <div class="row mb-5">
-                    <div class="col justify-content-center d-flex flex-column col-5">
+                    <div class="col-12 col-sm-5 d-flex justify-content-center flex-column">
                         <h2 data-aos="fade-up" class="highlight">Our Clients</h2>
                         <p data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet consectetur adipisicing
                             elit. Eligendi commodi, officia vitae
@@ -332,7 +350,7 @@
                             assumenda, illo aliquid adipisci.</p>
                     </div>
                     <div class="col"></div>
-                    <div class="col-6 clients__grid">
+                    <div class="col-12 col-sm-6 clients__grid">
                         <img src="./images/c1.png" class="img-fluid" data-aos="fade-left">
                         <img src="./images/c2.png" class="img-fluid" data-aos="fade-left" data-aos-delay="100">
                         <img src="./images/c4.png" class="img-fluid" data-aos="fade-left" data-aos-delay="200">
@@ -506,7 +524,7 @@
             <div class="container">
                 <div class="row" data-aos="fade-up">
                     <div class="col d-flex justify-content-center mb-5">
-                        <div class="d-flex fs-1 align-items-center">
+                        <h1 class="d-flex flex-md-row justify-content-center align-items-center flex-column">
                             Championing &nbsp;
                             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
@@ -520,9 +538,10 @@
                                     <img src="./images/c4.png" class="">
                                   </div>
                                 </div>
+                                's
                               </div>
-                            's Sustainable Choice
-                        </div>
+                             Sustainable Choice
+                            </h1>
                     </div>
                 </div>
                 <div class="row">
@@ -728,8 +747,24 @@
         <script>
             document.addEventListener("DOMContentLoaded", () => {
                 AOS.init();
+                let projects = document.getElementById('projects')
+                let projects2 = document.getElementById('projects2')
+                projects2 = new bootstrap.Carousel(projects2)
+                projects.addEventListener('slide.bs.carousel', function (e) {
+                    if (e.direction === 'left') {
+                        projects2.next()
+                    }else{
+                        projects2.prev()
+                    }
+                })
+                let menu_toggle = document.querySelector(".menu_toggle");
+                menu_toggle.addEventListener('click', (e)=>{
+                    // document.querySelector(".menu").classList.toggle('open')
+                    document.body.classList.toggle('open')
+                })
             })
         </script>
+        
         <script src="./node_modules/aos/dist/aos.js"></script>
 </body>
 
