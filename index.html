@@ -8,21 +8,22 @@
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js" defer></script>
     <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Enernew</title>
 </head>
 
 <body>
     <div class="main__wrapper">
         <div class="d-flex flex-column">
-            <div class="hero__bg w-100 flex-fill" style="background-image: url('./images/1.png');    background-size: cover;">
+            <div class="hero__bg w-100 flex-fill"
+                style="background-image: url('./images/1.png');    background-size: cover;">
                 <div class="container">
-                    <div class="d-flex justify-content-between mt-4">
+                    <div class="d-flex justify-content-between mt-4 ">
                         <div class="navbar__logo">
                             <img src="./images/logo-15.png" class="logo">
                         </div>
                         <div class="navbar__menu">
                             Menu
-                            <span class="menu_toggle"></span>
+                            <span class="menu_toggle">+</span>
                             <div class="menu">
                                 <ul>
                                     <li>
@@ -60,12 +61,12 @@
             </div>
         </div>
         <div class="overview pt-5" style="background-image: url('./images/2.png');    background-size: cover;">
-            <div class="container mt-5 position-relative">
+            <div class="container-fluid mt-5 position-relative">
                 <div class="row mb-5">
                     <div class="col mb-3" data-aos="fade-up">
                         <img src="./images/3.png" class="img-fluid">
                     </div>
-                    <div class="col-12 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-12 col-sm-5" data-aos="fade-up" data-aos-delay="100">
                         <h2 class="highlight">Overview</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa impedit inventore officia
                             natus
@@ -73,13 +74,13 @@
                             atque, suscipit ea dolor officiis.</p>
                         <div class="btn btn--orange">Read More</div>
                     </div>
+                    <div class="col-sm-1"></div>
+
                 </div>
-                <div class="sun position-absolute">
-                    <img src="./images/outer.png" class="sun__outer">
-                    <img src="./images/inner.png" class="sun__inner">
-                </div>
+            </div>
+            <div class="container position-relative">
                 <div class="row">
-                    <div class="col d-flex">
+                    <div class="col d-flex flex-wrap flex-md-nowrap justify-content-center">
                         <div class="icon" data-aos="fade-up">
                             <img src="./images/icon-14.png" class="img-fluid">
                             <h4>2010</h4>
@@ -101,7 +102,14 @@
                             <span>Companies work with us</span>
                         </div>
                     </div>
-                    <div class="col"></div>
+                    <div class="col d-none d-md-block">
+                        <div class="sun__container">
+                            <div class="sun position-sticky">
+                                <img src="./images/outer.png" class="sun__outer">
+                                <img src="./images/inner.png" class="sun__inner">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -235,7 +243,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col align-items-center d-none d-md-flex">
+                    <div class="col align-items-start d-none d-md-flex">
                         <img src="./images/5.png" class="img-fluid">
                     </div>
                 </div>
@@ -301,8 +309,9 @@
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#projects"
                                 data-bs-slide="prev">
-                                <span class="custom_carousel-control-prev-icon" aria-hidden="true"><</span>
-                                <span class="visually-hidden">Previous</span>
+                                <span class="custom_carousel-control-prev-icon" aria-hidden="true">
+                                    << /span>
+                                        <span class="visually-hidden">Previous</span>
                             </button>
                             <button class="carousel-control-next" type="button" data-bs-target="#projects"
                                 data-bs-slide="next">
@@ -364,8 +373,9 @@
 
                 <div class="row mt-5 justify-content-center pt-5">
                     <div class="col-9 mb-5">
-                        <div id="clients" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                            <h2 class="text-center mb-3 highlight highlight--center" data-aos="fade-up">Testimonials</h2>
+                        <div id="clients" class="carousel carousel-dark slide flex-column" data-bs-ride="carousel">
+                            <h2 class="text-center mb-3 highlight highlight--center" data-aos="fade-up">Testimonials
+                            </h2>
 
                             <div class="carousel-inner" data-aos="fade-up" data-aos-delay="100">
                                 <div class="carousel-item active" data-bs-interval="false">
@@ -373,7 +383,7 @@
                                         <svg width="50" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 57 57"
                                             xml:space="preserve">
-                                            
+
                                             <g>
                                                 <circle style="fill:#3b9d30;" cx="18.5" cy="31.5" r="5.5" />
                                                 <path style="fill:#3b9d30;" d="M18.5,38c-3.584,0-6.5-2.916-6.5-6.5s2.916-6.5,6.5-6.5s6.5,2.916,6.5,6.5S22.084,38,18.5,38z
@@ -389,10 +399,10 @@
                                             <path style="fill:#3b9d30;" d="M30,32c-0.553,0-1-0.447-1-1c0-7.72,6.28-14,14-14c0.553,0,1,0.447,1,1s-0.447,1-1,1
 	c-6.617,0-12,5.383-12,12C31,31.553,30.553,32,30,32z" />
                                         </svg>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, incidunt
+                                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, incidunt
                                             libero?
                                             Totam tempora quod hic nihil debitis sapiente facere cupiditate sint sunt,
-                                            voluptatum ullam commodi temporibus esse assumenda praesentium ab!</p>
+                                            voluptatum ullam commodi temporibus esse assumenda praesentium ab!</i>
                                         <h2 class="h2">P. ANAND</h2>
                                         <p>India power company</p>
                                     </div>
@@ -403,9 +413,8 @@
                                         <svg width="50" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 57 57"
                                             xml:space="preserve"
-                                            style="fill:linear-gradient(113deg, rgba(112,192,77,1) 0%, rgba(59,157,48,1) 100%);"
-                                            >
-                                            
+                                            style="fill:linear-gradient(113deg, rgba(112,192,77,1) 0%, rgba(59,157,48,1) 100%);">
+
                                             <g>
                                                 <circle style="fill:#3b9d30;" cx="18.5" cy="31.5" r="5.5" />
                                                 <path style="fill:#3b9d30;" d="M18.5,38c-3.584,0-6.5-2.916-6.5-6.5s2.916-6.5,6.5-6.5s6.5,2.916,6.5,6.5S22.084,38,18.5,38z
@@ -421,10 +430,10 @@
                                             <path style="fill:#3b9d30;" d="M30,32c-0.553,0-1-0.447-1-1c0-7.72,6.28-14,14-14c0.553,0,1,0.447,1,1s-0.447,1-1,1
 	c-6.617,0-12,5.383-12,12C31,31.553,30.553,32,30,32z" />
                                         </svg>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, incidunt
+                                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, incidunt
                                             libero?
                                             Totam tempora quod hic nihil debitis sapiente facere cupiditate sint sunt,
-                                            voluptatum ullam commodi temporibus esse assumenda praesentium ab!</p>
+                                            voluptatum ullam commodi temporibus esse assumenda praesentium ab!</i>
                                         <h2 class="h2">P. ANAND</h2>
                                         <p>India power company</p>
                                     </div>
@@ -435,7 +444,7 @@
                                         <svg width="50" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                             xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 57 57"
                                             xml:space="preserve">
-                                            
+
                                             <g>
                                                 <circle style="fill:#3b9d30;" cx="18.5" cy="31.5" r="5.5" />
                                                 <path style="fill:#3b9d30;" d="M18.5,38c-3.584,0-6.5-2.916-6.5-6.5s2.916-6.5,6.5-6.5s6.5,2.916,6.5,6.5S22.084,38,18.5,38z
@@ -451,10 +460,10 @@
                                             <path style="fill:#3b9d30;" d="M30,32c-0.553,0-1-0.447-1-1c0-7.72,6.28-14,14-14c0.553,0,1,0.447,1,1s-0.447,1-1,1
 	c-6.617,0-12,5.383-12,12C31,31.553,30.553,32,30,32z" />
                                         </svg>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, incidunt
+                                        <i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, incidunt
                                             libero?
                                             Totam tempora quod hic nihil debitis sapiente facere cupiditate sint sunt,
-                                            voluptatum ullam commodi temporibus esse assumenda praesentium ab!</p>
+                                            voluptatum ullam commodi temporibus esse assumenda praesentium ab!</i>
                                         <h2 class="h2">P. ANAND</h2>
                                         <p>India power company</p>
                                     </div>
@@ -473,23 +482,80 @@
                 </div>
             </div>
         </div>
+        <div class="lets_talk py-5 d-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="highlight highlight--center text-center">Let's talk</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 flex-column justify-content-around d-flex py-5">
+                        <div class="">
+                            <h3 class="highlight">Our Email</h3>
+                            <span>contact@enernew.in</span>
+                        </div>
+                        <div>
+                            <h3 class="highlight">Phone No.</h3>
+                            <span>contact@enernew.in</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <div class="lets_talk__form">
+                            <h4>Drop a line</h4>
+                            <div class="d-grid lets_talk__form_input_group mb-5">
+                                <label for="">
+                                    <input type="text">
+                                </label>
+                                <label for="">
+                                    <input type="email">
+                                </label>
+                                <label for="">
+                                    <input type="phone">
+                                </label>
+                                <label for="">
+                                    <input type="select">
+                                </label>
+                                <label for="">
+                                    <input type="number">
+                                </label>
+                                <label for="">
+                                    <input type="text">
+                                </label>
+                                <label for="">
+                                    <input type="text">
+                                </label>
+                                <label for="">
+                                    <input type="text">
+                                </label>
+                            </div>
+                            <a href="#" class="btn btn--orange">Send Message</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="knowledge-center pb-5" style="background-color: #e6e6e6;">
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <h2 class="mb-5 mt-5 text-center highlight highlight--center" data-aos="fade-up">Knowledge Center</h2>
+                        <h2 class="mb-5 mt-5 text-center highlight highlight--center" data-aos="fade-up">Knowledge
+                            Center</h2>
                     </div>
                 </div>
                 <div class="row mb-5">
                     <div class="col d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="100">
                         <div class="card" style="width: 18rem;">
-                            <img src="./images/12.png" class="card-img-top" alt="...">
+                            <label for="">
+                                <img src="./images/12.png" class="card-img-top" alt="...">
+                            </label>
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk
                                     of the card's content.</p>
-                                <a href="#" data-aos="fade-right" data-aos-delay="400" class="text-orange">Go somewhere</a>
+                                <a href="#" data-aos="fade-right" data-aos-delay="400" class="text-orange">Go
+                                    somewhere</a>
                             </div>
                         </div>
                     </div>
@@ -501,7 +567,8 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk
                                     of the card's content.</p>
-                                <a href="#" data-aos="fade-right" data-aos-delay="500" class="text-orange">Go somewhere</a>
+                                <a href="#" data-aos="fade-right" data-aos-delay="500" class="text-orange">Go
+                                    somewhere</a>
                             </div>
                         </div>
                     </div>
@@ -513,7 +580,8 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the
                                     bulk
                                     of the card's content.</p>
-                                <a href="#" data-aos="fade-right" data-aos-delay="600" class="text-orange">Go somewhere</a>
+                                <a href="#" data-aos="fade-right" data-aos-delay="600" class="text-orange">Go
+                                    somewhere</a>
                             </div>
                         </div>
                     </div>
@@ -528,32 +596,34 @@
                             Championing &nbsp;
                             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
-                                  <div class="carousel-item active">
-                                    <img src="./images/c1.png" class="">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./images/c2.png" class="">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="./images/c4.png" class="">
-                                  </div>
+                                    <div class="carousel-item active">
+                                        <img src="./images/c1.png" class="">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/c2.png" class="">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="./images/c4.png" class="">
+                                    </div>
                                 </div>
                                 's
-                              </div>
-                             Sustainable Choice
-                            </h1>
+                            </div>
+                            Sustainable Choice
+                        </h1>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-3 justify-content-center d-flex flex-column" data-aos="fade-up">
                         <img src="./images/logo-15.png" class="logo mb-3">
-                        <p class="mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur necessitatibus repellat
+                        <p class="mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur
+                            necessitatibus repellat
                             rerum totam unde molestiae officiis, excepturi reprehenderit, doloremque est placeat eos,
                             dolorum quis iure laboriosam maxime enim odio odit!</p>
                     </div>
                     <div class="col-12 col-md-9">
                         <div class="row mb-5">
-                            <div data-aos="fade-up" data-aos-delay="100" class="col-md-3 col-6 col-2 px-3 py-3 border border-bottom-0 border-top-0">
+                            <div data-aos="fade-up" data-aos-delay="100"
+                                class="col-md-3 col-6 col-2 px-3 py-3 border border-bottom-0 border-top-0">
                                 <dl>
                                     <dt>
                                         Title
@@ -575,7 +645,8 @@
                                     </dd>
                                 </dl>
                             </div>
-                            <div data-aos="fade-up" data-aos-delay="200" class="col-md-3 col-6 px-3 py-3 border border-bottom-0 border-top-0 border-start-0">
+                            <div data-aos="fade-up" data-aos-delay="200"
+                                class="col-md-3 col-6 px-3 py-3 border border-bottom-0 border-top-0 border-start-0">
                                 <dl>
                                     <dt>
                                         Title
@@ -597,7 +668,8 @@
                                     </dd>
                                 </dl>
                             </div>
-                            <div data-aos="fade-up" data-aos-delay="300" class="col-md-3 col-6 px-3 py-3 border border-bottom-0 border-top-0 border-start-1">
+                            <div data-aos="fade-up" data-aos-delay="300"
+                                class="col-md-3 col-6 px-3 py-3 border border-bottom-0 border-top-0 border-start-1">
                                 <dl>
                                     <dt>
                                         Title
@@ -619,7 +691,8 @@
                                     </dd>
                                 </dl>
                             </div>
-                            <div data-aos="fade-up" data-aos-delay="400" class="col-md-3 col-6 px-3 py-3 border border-bottom-0 border-top-0 border-start-0">
+                            <div data-aos="fade-up" data-aos-delay="400"
+                                class="col-md-3 col-6 px-3 py-3 border border-bottom-0 border-top-0 border-start-0">
                                 <dl>
                                     <dt>
                                         Title
@@ -641,7 +714,8 @@
                                     </dd>
                                 </dl>
                             </div>
-                            <div data-aos="fade-up" data-aos-delay="500" class="col-md-3 col-6 px-3 py-3 border border-bottom-0">
+                            <div data-aos="fade-up" data-aos-delay="500"
+                                class="col-md-3 col-6 px-3 py-3 border border-bottom-0">
                                 <dl>
                                     <dt>
                                         Title
@@ -663,7 +737,8 @@
                                     </dd>
                                 </dl>
                             </div>
-                            <div data-aos="fade-up" data-aos-delay="600" class="col-md-3 col-6 px-3 py-3 border border-bottom-0 border-start-0">
+                            <div data-aos="fade-up" data-aos-delay="600"
+                                class="col-md-3 col-6 px-3 py-3 border border-bottom-0 border-start-0">
                                 <dl>
                                     <dt>
                                         Title
@@ -685,7 +760,8 @@
                                     </dd>
                                 </dl>
                             </div>
-                            <div data-aos="fade-up" data-aos-delay="700" class="col-md-3 col-6 px-3 py-3 border border-bottom-0 border-start-0">
+                            <div data-aos="fade-up" data-aos-delay="700"
+                                class="col-md-3 col-6 px-3 py-3 border border-bottom-0 border-start-0">
                                 <dl>
                                     <dt>
                                         Title
@@ -707,7 +783,8 @@
                                     </dd>
                                 </dl>
                             </div>
-                            <div data-aos="fade-up" data-aos-delay="800" class="col-md-3 col-6 px-3 py-3 border border-bottom-0 border-start-0">
+                            <div data-aos="fade-up" data-aos-delay="800"
+                                class="col-md-3 col-6 px-3 py-3 border border-bottom-0 border-start-0">
                                 <dl>
                                     <dt>
                                         Title
@@ -753,18 +830,18 @@
                 projects.addEventListener('slide.bs.carousel', function (e) {
                     if (e.direction === 'left') {
                         projects2.next()
-                    }else{
+                    } else {
                         projects2.prev()
                     }
                 })
                 let menu_toggle = document.querySelector(".menu_toggle");
-                menu_toggle.addEventListener('click', (e)=>{
+                menu_toggle.addEventListener('click', (e) => {
                     // document.querySelector(".menu").classList.toggle('open')
                     document.body.classList.toggle('open')
                 })
             })
         </script>
-        
+
         <script src="./node_modules/aos/dist/aos.js"></script>
 </body>
 
