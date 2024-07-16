@@ -521,7 +521,7 @@ footer .gray {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: auto;
-    row-gap: 20px;;
+    row-gap: 40px;;
     grid-auto-flow: row dense;
 }
 
@@ -606,13 +606,96 @@ footer .gray {
 }
 .infra {
     display: grid;
+
+    
 }
 .infra__image, .infra__item_wrapper {
     display: grid;
     grid-area: 1 / 1 / 1 / 1;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    column-gap: 20px;
+    row-gap: 40px;
+    place-items: center;
 }
 
 .infra__item {
-
+    max-width: 200px;
+    text-align: center;
 } 
+.infra__item img {
+    max-width: 80px;
+    margin-bottom: 20px;
+}
+
+.about-us .mb-100 {
+    margin-bottom: 100px;
+}
+.about-us .overview {
+    padding-bottom: 0px;
+}
+[id='timelineCarousel'] {
+    margin-top: 170px;
+}
+[id='timelineCarousel'] .carousel-item {
+    column-gap: 20px;
+    align-items: center;
+}
+[id='timelineCarousel'] .carousel-indicators {
+    top: -120px;
+    bottom: initial;
+    column-gap: 40px;
+    margin: 0;
+    justify-content: space-between;
+}
+[id='timelineCarousel'] .carousel-indicators:before {
+    content: " ";
+    height: 3px;
+    width: 100%;
+    background-color: var(--green);
+    position: absolute;
+    top: 50%;
+}
+[id='timelineCarousel'] .carousel-indicators [data-bs-target]:before {
+    content: attr(aria-label);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: var(--green);
+    background: white;
+}
+[id='timelineCarousel'] .carousel-indicators [data-bs-target] {
+    padding: 25px;
+    background: transparent;
+    border: 1px solid var(--green);
+    position: relative;
+    text-indent: initial;
+    opacity: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+[id='timelineCarousel'] .carousel-indicators .active[data-bs-target]:before {
+    background-color: var(--green);
+}
+[id='timelineCarousel'] .carousel-indicators .active[data-bs-target]:before {
+    color: #fff;
+}
+
+[id='timelineCarousel'] .carousel-indicators .carousel-item.active, [id='timelineCarousel'] .carousel-item-next, [id='timelineCarousel'] .carousel-item-prev {
+    display: flex;
+}
+[id='timelineCarousel']  .carousel-indicators .carousel-control-prev, [id='timelineCarousel']  .carousel-indicators .carousel-control-next {
+    margin: 0;
+    padding: 10px;
+    top: 15px;
+    background: white;
+    color: var(--green);
+}
+[id='timelineCarousel']  .carousel-indicators .carousel-control-prev:before, [id='timelineCarousel']  .carousel-indicators .carousel-control-next:before {
+    content: none;
+}
