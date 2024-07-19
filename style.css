@@ -35,7 +35,8 @@
 
 .navbar__menu>span>svg{
     fill: #fff;
-    width: 20px;
+    width: 15px;
+    height: 15px;   
 } 
 
 .navbar__menu>span:before {
@@ -210,12 +211,13 @@ body.open {
     opacity: 1;
 }
 .open .menu_toggle {
-    transform: rotate(45deg);
-    animation: none;
+    /* animation: none; */
+    transform: rotate(0deg);
+
     position: fixed;
 }
-.navbar__menu .menu_toggle {
-
+.menu_toggle {
+    transform: rotate(45deg);
 }
 .overview {
     padding-bottom: 200px;
