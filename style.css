@@ -348,6 +348,7 @@ dt {
     max-height: 400px;
     direction: rtl;
     overflow-x: hidden;
+    row-gap: 50px;
 }
 .clients__grid::-webkit-scrollbar {
     width: 8px;    
@@ -455,7 +456,8 @@ footer .gray {
 }
 .btn:hover {
     border-width: 1px;
-    border-color: black;
+    border-color: var(--accent);
+    color: var(--accent);
 }
 .btn--black:hover {
     color: var(--primary);
@@ -479,7 +481,9 @@ footer .gray {
     background-color: var(--primary);
     color: white;
 }
-
+.solutions .nav-item button {
+    width: 100%;
+}
 .solutions .accordion-item {
     border-radius: 0;
     border-left: 0;
@@ -498,6 +502,12 @@ footer .gray {
     background-color: white;
     font-weight: bold;
 }
+
+/* .projects__content {
+    max-height: 70px;
+    overflow: hidden;
+} */
+
 .projects__read_more {
     text-decoration: none;
     color: black;
@@ -853,6 +863,11 @@ footer .gray {
     }
 }
 
+.overview .icon:last-child img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 
 h1, .h1 {
     font-family: "Merriweather", serif;
@@ -872,3 +887,7 @@ h4, h5 {
     font-family: "Open Sans", sans-serif;
     font-weight: 500;
 }
+
+
+
+
