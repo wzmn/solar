@@ -2,8 +2,14 @@
     --primary: #ff9436;
     --accent: #4ea647;
     --green: #3b9d30;
-    --orange: #ffdeb1;
-    --gradient: linear-gradient(90deg, rgba(249, 190, 33, 1) 0%, rgba(255, 148, 53, 1) 100%);
+    --black: #000000;
+    --orange: #f8a40e;
+    --white: #ffffff;
+    --gradient: linear-gradient(
+      90deg,
+      rgba(249, 190, 33, 1) 0%,
+      rgba(255, 148, 53, 1) 100%
+    );
 }
 
 .text-orange {
@@ -891,3 +897,247 @@ h4, h5 {
 
 
 
+
+/*--------- Career -------------*/
+.rich-text-component h1 {
+    font-size: 2.62rem;
+    color: var(--black);
+  }
+  .rich-text-component .content {
+    text-align: justify;
+  }
+  .rich-text-component p {
+    font-size: 17px;
+    color: var(--black);
+  }
+  /*-------- Slider -----------*/
+  .slider h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    color: var(--black);
+    text-transform: capitalize;
+    padding: 0 15px;
+  }
+  .slider .nav-box {
+    position: relative;
+    max-width: 845px;
+    margin: 85px auto 0;
+  }
+  .swiper-container {
+    padding-bottom: 20px;
+  }
+  .swiper-scrollbar.swiper-scrollbar-horizontal {
+    height: 1px;
+    background: var(--black);
+  }
+  .swiper-scrollbar .swiper-scrollbar-drag {
+    background: var(--orange);
+    height: 11px;
+    top: -5px;
+    border-radius: 0;
+  }
+  
+  /* .swiper-horizontal > .swiper-scrollbar {
+    border-radius: 2px;
+    height: 5px;
+    width: 845px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  } */
+  
+  .swiper-wrapper img {
+    width: 100%;
+  }
+  
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    height: 1px;
+    background: #000;
+    margin: 0 0 0;
+    top: -4px;
+    display: flex;
+  }
+  .swiper-pagination-horizontal.swiper-pagination-bullets
+    .swiper-pagination-bullet {
+    background: transparent;
+    height: 11px;
+    top: -5px;
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    opacity: 1;
+  }
+  .swiper-pagination-horizontal.swiper-pagination-bullets
+    .swiper-pagination-bullet:before {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 100%;
+    left: 0;
+    background: var(--orange);
+  }
+  .swiper-pagination-horizontal.swiper-pagination-bullets
+    .swiper-pagination-bullet-active:before {
+    width: 100%;
+    transition: all 0.4s linear;
+  }
+  .swiper-button-next {
+    background: url("./images/next.png") no-repeat;
+    height: 30px;
+    width: 16px;
+    margin-top: -19px;
+    right: -30px;
+  }
+  .swiper-button-prev {
+    background: url("./images/next.png") no-repeat;
+    height: 30px;
+    width: 16px;
+    margin-top: -19px;
+    left: -30px;
+    transform: rotate(180deg);
+  }
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    display: none;
+  }
+  @media only screen and (max-width: 1200px) {
+    .slider .nav-box {
+      width: 600px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .slider .nav-box {
+      width: calc(100% - 100px);
+    }
+  }
+  
+  /*----------- Job opening ---------*/
+  .primary-btn {
+    background: var(--primary);
+    color: var(--white);
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    padding: 9px 30px 11px;
+    min-width: 168px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  .opening-component .content {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+  .opening-component .accordion {
+    background: var(--white);
+    padding: 60px 80px;
+    max-width: 1266px;
+    margin: 0 auto;
+  }
+  .opening-component .accordion .accordion-item {
+    border: 2px solid var(--primary);
+    border-radius: 6px !important;
+    margin-bottom: 2rem;
+  }
+  .opening-component
+    .accordion
+    .accordion-item
+    .accordion-header
+    .accordion-button {
+    border-radius: 6px !important;
+  }
+  .accordion .accordion-button {
+    font-size: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+    color: var(--primary);
+    padding: 28px 85px 28px 30px;
+  }
+  .accordion .accordion-button:after {
+    background: url("./images/plus.png") no-repeat;
+    height: 33px;
+    width: 33px;
+    position: absolute;
+    right: 45px;
+    background-size: 100%;
+  }
+  .accordion-button:not(.collapsed) {
+    background: transparent;
+    box-shadow: none;
+  }
+  .accordion-button:not(.collapsed)::after {
+    background: url("./images/minus.png") no-repeat;
+    height: 3px;
+    width: 33px;
+    transform: none;
+  }
+  .accordion-button:focus {
+    box-shadow: none;
+    outline: 0;
+  }
+  .accordion-item .accordion-collapse {
+    border-top: 2px solid var(--primary);
+  }
+  .accordion-item .accordion-body {
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    color: var(--black);
+    font-weight: 400;
+    padding: 25px 30px 35px;
+  }
+  .accordion-item .accordion-body *:not(.primary-btn) {
+    font-family: inherit;
+    font-weight: inherit;
+    color: inherit;
+    font-size: inherit;
+  }
+  .accordion-item .accordion-body h6 {
+    font-weight: 700 !important;
+  }
+  .accordion-item .accordion-body ul {
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 2rem;
+  }
+  .accordion-item .accordion-body ul li {
+    position: relative;
+    padding-left: 25px;
+  }
+  .accordion-item .accordion-body ul li:before {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--black);
+    top: 10px;
+    left: 0;
+  }
+  .accordion-item .accordion-body .primary-btn {
+    margin-left: 25px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .accordion .accordion-button {
+      font-size: 1.25rem;
+      padding: 20px 45px 20px 20px;
+    }
+    .accordion .accordion-button:after {
+      width: 22px;
+      height: 22px;
+      right: 20px;
+    }
+    .accordion-button:not(.collapsed)::after {
+      width: 22px;
+      height: 3px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .opening-component .accordion .accordion-item {
+      margin-bottom: 1.25rem;
+    }
+  }
+  
