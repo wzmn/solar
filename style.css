@@ -31,13 +31,22 @@
 .logo {
     max-width: 200px;
 }
-
+.bold {
+    font-weight: 700;
+}
 .navbar__menu {
     display: flex;
     column-gap: 10px;
     color: var(--accent);
     align-items: center;
     cursor: pointer;
+}
+.btn.bg-orange {
+    color: white;
+}
+.btn.bg-orange:hover {
+    background-color: white;
+    color: var(--primary);
 }
 
 .navbar__menu>span>svg{
@@ -226,6 +235,11 @@ body.open {
 .menu_toggle {
     transform: rotate(45deg);
 }
+
+.accordion-button {
+    font-family: "Open Sans", sans-serif;
+}
+
 .overview {
     padding-bottom: 200px;
 }
@@ -438,6 +452,9 @@ dt {
     max-width: 70px;
     margin-bottom: 20px;
 }
+footer .fs-7 {
+    font-size: 0.8rem;
+}
 footer a, footer p {
     font-weight: 400;
 }
@@ -453,6 +470,11 @@ footer .col-md-3 {
 }
 footer .gray {
     background-color: #323232;
+}
+
+footer .container>.row>.col>h2:first-child, #footerCarousel {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
 }
 
 .btn {
@@ -740,7 +762,7 @@ footer .gray {
     min-height: 100px;    
 }
 
-.about-us .mb-100 {
+.about-us .mb-100, .career .mb-100 {
     margin-bottom: 100px;
 }
 .about-us .overview {
@@ -948,6 +970,8 @@ h4, h5 {
   
   .swiper-wrapper img {
     width: 100%;
+    max-height: 302px;
+    object-fit: cover;
   }
   
   .swiper-pagination-bullets.swiper-pagination-horizontal {
@@ -1013,7 +1037,7 @@ h4, h5 {
   }
   
   /*----------- Job opening ---------*/
-  .primary-btn {
+  .career .primary-btn {
     background: var(--primary);
     color: var(--white);
     font-size: 20px;
@@ -1049,13 +1073,14 @@ h4, h5 {
     .accordion-button {
     border-radius: 6px !important;
   }
-  .accordion .accordion-button {
+
+  .career .accordion .accordion-button {
     font-size: 1.5rem;
     font-family: "Open Sans", sans-serif;
     color: var(--primary);
     padding: 28px 85px 28px 30px;
   }
-  .accordion .accordion-button:after {
+  .career .accordion .accordion-button:after {
     background: url("./images/plus.png") no-repeat;
     height: 33px;
     width: 33px;
@@ -1063,49 +1088,49 @@ h4, h5 {
     right: 45px;
     background-size: 100%;
   }
-  .accordion-button:not(.collapsed) {
+  .career .accordion .accordion-button:not(.collapsed) {
     background: transparent;
     box-shadow: none;
   }
-  .accordion-button:not(.collapsed)::after {
+  .career .accordion .accordion-button:not(.collapsed)::after {
     background: url("./images/minus.png") no-repeat;
     height: 3px;
     width: 33px;
     transform: none;
   }
-  .accordion-button:focus {
+  .career .accordion .accordion-button:focus {
     box-shadow: none;
     outline: 0;
   }
-  .accordion-item .accordion-collapse {
+  .career .accordion-item .accordion-collapse {
     border-top: 2px solid var(--primary);
   }
-  .accordion-item .accordion-body {
+  .career .accordion-item .accordion-body {
     font-size: 17px;
     font-family: "Open Sans", sans-serif;
     color: var(--black);
     font-weight: 400;
     padding: 25px 30px 35px;
   }
-  .accordion-item .accordion-body *:not(.primary-btn) {
+  /* .accordion-item .accordion-body *:not(.primary-btn) {
     font-family: inherit;
     font-weight: inherit;
     color: inherit;
     font-size: inherit;
-  }
-  .accordion-item .accordion-body h6 {
+  } */
+  .career .accordion-item .accordion-body h6 {
     font-weight: 700 !important;
   }
-  .accordion-item .accordion-body ul {
+  .career .accordion-item .accordion-body ul {
     padding: 0;
     list-style-type: none;
     margin-bottom: 2rem;
   }
-  .accordion-item .accordion-body ul li {
+  .career .accordion-item .accordion-body ul li {
     position: relative;
     padding-left: 25px;
   }
-  .accordion-item .accordion-body ul li:before {
+  .career .accordion-item .accordion-body ul li:before {
     position: absolute;
     content: "";
     width: 6px;
@@ -1115,28 +1140,28 @@ h4, h5 {
     top: 10px;
     left: 0;
   }
-  .accordion-item .accordion-body .primary-btn {
+  .career .accordion-item .accordion-body .primary-btn {
     margin-left: 25px;
   }
   
   @media screen and (max-width: 1200px) {
-    .accordion .accordion-button {
+    .career .accordion .accordion-button {
       font-size: 1.25rem;
       padding: 20px 45px 20px 20px;
     }
-    .accordion .accordion-button:after {
+    .career .accordion .accordion-button:after {
       width: 22px;
       height: 22px;
       right: 20px;
     }
-    .accordion-button:not(.collapsed)::after {
+    .career .accordion-button:not(.collapsed)::after {
       width: 22px;
       height: 3px;
     }
   }
   
   @media screen and (max-width: 767px) {
-    .opening-component .accordion .accordion-item {
+    .career .opening-component .accordion .accordion-item {
       margin-bottom: 1.25rem;
     }
   }
