@@ -1,5 +1,15 @@
 @extends("layouts.website")
 
+@section("header")
+<div class="d-flex flex-column flex-fill justify-content-center align-items-start">
+<h1>Harnessing Nature's Most Abundant Resource</h1>
+<div class="hero__content mb-3">We are here to unleash the potentials of solar power with break-through clean energy solutions that is going to set the pace of various solar power projects of tomorrow. 
+</div>
+<div class="hero__btn btn btn--black">Read More</div>
+</div>
+@endsection
+
+
 @section("content")
 <div class="overview pt-5"
             style="background-image: url('./assets/images/2.png');    background-position: 70%;    background-size: cover;">

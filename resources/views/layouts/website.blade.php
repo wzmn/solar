@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{ asset('assets/node_modules/bootstrap/dist/css/bootstrap.css') }}">
     <script src="{{ asset('assets/node_modules/bootstrap/dist/js/bootstrap.js') }}" defer></script>
     <link rel="stylesheet" href="{{ asset('assets/node_modules/aos/dist/aos.css') }}" />
+    <link rel="stylesheet" href="{{ asset('assets/node_modules/swiper/swiper-bundle.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/style.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +28,7 @@
     <div class="main__wrapper">
     <div class="d-flex flex-column">
             <div class="hero__bg w-100 flex-fill"
-                style="background-image: url('{{ asset('assets/images/1.png') }}');    background-size: cover;">
+                style="background-image: url('{{ $hero_img }}');    background-size: cover;">
                 <div class="container">
                     <div class="d-flex justify-content-between mt-4 ">
                         <div class="navbar__logo">
@@ -44,17 +45,23 @@
                                 <ul>
                                     <li>
                                         <a href="/">Home
-                                            <span>></span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/about">About<span>></span></a>
+                                        <a href="/about">About Us<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg></a>
                                     </li>
                                     <li>
-                                        <a href="/contact">Contact<span>></span></a>
+                                        <a href="/solutions">Our Solutions Us<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg></a>
                                     </li>
                                     <li>
-                                        <a href="/services">Services<span>></span></a>
+                                        <a href="/clients">Our clients<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg></a>
+                                    </li>
+                                    <li>
+                                        <a href="/blogs">Blogs<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg></a>
+                                    </li>
+                                    <li>
+                                        <a href="/contact">Contact<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg></a>
                                     </li>
                                 </ul>
                             </div>
@@ -62,12 +69,7 @@
                     </div>
                     <div class="row">
                         <div class="d-flex flex-column hero col-md-6 col-lg-4">
-                            <div class="d-flex flex-column flex-fill justify-content-center align-items-start">
-                                <h1>Harnessing Nature's Most Abundant Resource</h1>
-                                <div class="hero__content mb-3">We are here to unleash the potentials of solar power with break-through clean energy solutions that is going to set the pace of various solar power projects of tomorrow. 
-                                </div>
-                                <div class="hero__btn btn btn--black">Read More</div>
-                            </div>
+                            @yield("header")
                         </div>
                     </div>
                 </div>
@@ -127,19 +129,19 @@
                                         About Us
                                     </dt>
                                     <dd>
-                                        <a href="#">About Enernew</a>
+                                        <a href="/about">About Enernew</a>
                                     </dd>
                                     <dd>
-                                        <a href="#">Our History</a>
+                                        <a href="/about#history">Our History</a>
                                     </dd>
                                     <dd>
-                                        <a href="#">Our Founders/Team</a>
+                                        <a href="/about#founders">Our Founders/Team</a>
                                     </dd>
                                     <dd>
-                                        <a href="#">Vision, Mission & Values</a>
+                                        <a href="/about#vision">Vision, Mission & Values</a>
                                     </dd>
                                     <dd>
-                                        <a href="#">Why Us</a>
+                                        <a href="/about#whyus">Why Us</a>
                                     </dd>
                                 </dl>
                             </div>
@@ -153,13 +155,13 @@
                                         <a href="#">Why Enernew</a>
                                     </dd>
                                     <dd>
-                                        <a href="#">Our Culture</a>
+                                        <a href="#">Our Values</a>
                                     </dd>
                                     <dd>
-                                        <a href="#">Openings</a>
+                                        <a href="/job-openings">Openings</a>
                                     </dd>
                                     <dd>
-                                        <a href="#">Life@Enernew</a>
+                                        <a href="/life-at-enernew">Life@Enernew</a>
                                     </dd>
                                 </dl>
                             </div>
@@ -170,10 +172,10 @@
                                         Contact Us
                                     </dt>
                                     <dd>
-                                        <a href="#">contact@enernew</a>
+                                        <a href="mailto:contact@enernew">contact@enernew</a>
                                     </dd>
                                     <dd>
-                                        <a href="#">+91 88 00 222 600</a>
+                                        <a href="tel:+91 88 00 222 600">+91 88 00 222 600</a>
                                     </dd>
 
                                 </dl>
@@ -214,14 +216,14 @@
                                         <a href="#">Knowledge center</a>
                                     </dd>
                                     <dd>
-                                        <a href="#">PR</a>
+                                        <a href="pr">PR</a>
                                     </dd>
                                 </dl>
                             </div>
                             <div data-aos="fade-up" data-aos-delay="700"
                                 class="col-md-3 col-6 py-3 border border-bottom-0 border-start-0">
                                 <div class="d-flex justify-content-around">
-                                    <a href="#" linkedin>
+                                    <a href="https://www.linkedin.com/company/enernew-pvt-ltd/" linkedin target="_blank">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="15.381" height="15.381"
                                             viewBox="0 0 15.381 15.381">
                                             <g id="_x31_0.Linkedin" transform="translate(0 0)">
@@ -236,7 +238,7 @@
                                             </g>
                                         </svg>
                                     </a>
-                                    <a href="#" twitter>
+                                    <a href="https://x.com/enernewpvtltd?s=11" twitter target="_blank">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="14.935" height="14.178"
                                             viewBox="0 0 14.935 14.178">
                                             <path id="twitter_1_" data-name="twitter (1)"
@@ -245,7 +247,7 @@
                                                 stroke-width="1" />
                                         </svg>
                                     </a>
-                                    <a href="#" youtube>
+                                    <a href="https://www.youtube.com/@Enernew" youtube target="_blank">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="21.53" height="15.074"
                                             viewBox="0 0 21.53 15.074">
                                             <path id="youtube"
@@ -253,7 +255,7 @@
                                             transform="translate(-0.001 6.082)" fill="#000" />
                                         </svg>
                                     </a>
-                                    <a href="#" facebook>
+                                    <a href="https://www.facebook.com/people/Enernew-Pvt-Ltd/61558307954152/" facebook target="_blank">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="7.432" height="14.917"
                                             viewBox="0 0 7.432 14.917">
                                             <path id="Icon"
@@ -261,7 +263,7 @@
                                                 transform="translate(-40.9 -11)" fill="#000" />
                                         </svg>
                                     </a>
-                                    <a href="#" instagram>
+                                    <a href="https://www.instagram.com/enernewsolar/" instagram target="_blank">
                                         <!-- <svg id="social-media" xmlns="http://www.w3.org/2000/svg" width="16.023"
                                             height="16.023" viewBox="0 0 16.023 16.023">
                                             <path id="Path_4" data-name="Path 4"
@@ -271,7 +273,7 @@
                                                 d="M17.447,5H8.576A3.582,3.582,0,0,0,5,8.576v8.871a3.58,3.58,0,0,0,3.576,3.576h8.871a3.578,3.578,0,0,0,3.576-3.576V8.576A3.58,3.58,0,0,0,17.447,5ZM13.012,18.2A5.19,5.19,0,1,1,18.2,13.012,5.2,5.2,0,0,1,13.012,18.2Zm5.3-9.438a1.1,1.1,0,1,1,1.1-1.1A1.1,1.1,0,0,1,18.312,8.766Z"
                                                 transform="translate(-5 -5)" fill="#000" />
                                         </svg> -->
-                                        <svg id="social-media" xmlns="http://www.w3.org/2000/svg" width="16.023" height="16.023" viewBox="0 0 16.023 16.023">
+                                        <svg style="border-radius: 4px" id="social-media" xmlns="http://www.w3.org/2000/svg" width="16.023" height="16.023" viewBox="0 0 16.023 16.023">
                                             <path id="Path_4" data-name="Path 4" d="M23.769,20.83a2.94,2.94,0,1,0,2.942,2.939A2.941,2.941,0,0,0,23.769,20.83Z" transform="translate(-15.757 -15.757)" fill="#fff" stroke="#000"></path>
                                             <path id="Path_5" data-name="Path 5" d="M17.447,5H8.576A3.582,3.582,0,0,0,5,8.576v8.871a3.58,3.58,0,0,0,3.576,3.576h8.871a3.578,3.578,0,0,0,3.576-3.576V8.576A3.58,3.58,0,0,0,17.447,5ZM13.012,18.2A5.19,5.19,0,1,1,18.2,13.012,5.2,5.2,0,0,1,13.012,18.2Zm5.3-9.438a1.1,1.1,0,1,1,1.1-1.1A1.1,1.1,0,0,1,18.312,8.766Z" transform="translate(-5 -5)" fill="#fff" stroke="#000"></path>
                                         </svg>
@@ -326,7 +328,7 @@
                         }
                     })
                 })
-                    let menu_toggle = document.querySelector(".menu_toggle");
+                let menu_toggle = document.querySelector(".menu_toggle");
                 menu_toggle.addEventListener('click', (e) => {
                     // document.querySelector(".menu").classList.toggle('open')
                     document.body.classList.toggle('open')
@@ -374,6 +376,7 @@
 
             })
         </script>
+        @yield('scripts')
         <script src="{{ asset('assets/node_modules/aos/dist/aos.js') }}"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.7.2/axios.min.js" integrity="sha512-JSCFHhKDilTRRXe9ak/FJ28dcpOJxzQaCd3Xg8MyF6XFjODhy/YMCM8HW0TFDckNHWUewW+kfvhin43hKtJxAw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
