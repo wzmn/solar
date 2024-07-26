@@ -1,50 +1,272 @@
 @extends("layouts.website")
 
-@section("content")
-<div class="overview pt-5" style="background-image: url('./images/2.png');    background-size: cover;">
-    <div class="container-fluid mt-5 position-relative">
-        <div class="row mb-5">
-            <div class="col-12 col-sm-5" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="highlight">About Us</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa impedit inventore officia
-                    natus
-                    perferendis itaque veniam placeat dicta neque ab aliquid praesentium molestias amet commodi
-                    atque, suscipit ea dolor officiis.</p>
-                <div class="btn btn--orange">Read More</div>
-            </div>
-            <div class="col-sm-1"></div>
 
+@section("header")
+<div class="mb-100 d-flex flex-column flex-fill justify-content-end align-items-start">
+    <h1 class="text-white">Contact Us</h1>
+    <div class="hero__content text-white mb-3">
+        Home > Contact Us
+    </div>
+</div>
+@endsection
+
+@section("content")
+<div class="bg-peach">
+    <div class="container py-5">
+        <div class="my-5">
+            <br>
         </div>
     </div>
-    <div class="container position-relative">
-        <div class="row">
-            <div class="col d-flex flex-wrap flex-md-nowrap justify-content-center">
-                <div class="icon" data-aos="fade-up">
-                    <img src="./images/icon-14.png" class="img-fluid">
-                    <h4>2010</h4>
-                    <span>Founding Year</span>
-                </div>
-                <div class="icon" data-aos="fade-up" data-aos-delay="100">
-                    <img src="./images/icon-16.png" class="img-fluid">
-                    <h4>2000+</h4>
-                    <span>Happy Customers</span>
-                </div>
-                <div class="icon" data-aos="fade-up" data-aos-delay="200">
-                    <img src="./images/ICON-17.png" class="img-fluid">
-                    <h4>750+</h4>
-                    <span>Projects Completed</span>
-                </div>
-                <div class="icon" data-aos="fade-up" data-aos-delay="300">
-                    <img src="./images/icon-18.png" class="img-fluid">
-                    <h4>190+</h4>
-                    <span>Companies work with us</span>
+</div>
+<div style="background-image: url('{{ asset('assets/images/contact-us-map.png') }}');    background-size: cover;">
+    <div class="container py-5">
+        <div class="contact my-5 py-5">
+            <div class="contact__info bg-white p-5 rounded-3">
+                <div class="row">
+                    <div class="align-items-center border-2 border-end col d-grid p-5">
+                        <div class="contact__info_block d-flex gap-3 align-items-center">
+                            <img src="{{ asset('assets/images/icon-location.png') }}" alt="">
+                            <div>
+                                <div class="bold fs-4">Office Address</div>
+                                <div>
+                                    6th floor, 378-379, Udyog Vihar, Phase IV, Gurgaon, Haryana-122015 (India)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col p-5">
+                        <div class="contact__info_block d-flex gap-3 align-items-center mb-5">
+                            <img src="{{ asset('assets/images/icon-phone.png') }}" alt="">
+                            <div>
+                                <div class="bold fs-4">Phone No.</div>
+                                <div>
+                                    +91 88 00 222 600
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact__info_block d-flex gap-3 align-items-center">
+                            <img src="{{ asset('assets/images/icon-mail.png') }}" alt="">
+                            <div>
+                                <div class="bold fs-4">E-mail ID</div>
+                                <div>
+                                    contact@enernew
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col d-none d-md-block">
-                <div class="sun__container">
-                    <div class="sun position-sticky">
-                        <img src="./images/outer.png" class="sun__outer">
-                        <img src="./images/inner.png" class="sun__inner">
+        </div>
+    </div>
+</div>
+<div style="background-image: url('{{ asset('assets/images/7.png') }}');    background-size: cover;">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="contact__grid">
+                    <div class="contact__grid_item contact__grid_item--2"
+                        style="background-image: url('{{ asset('assets/images/contact-grid-image.png') }}');height: 100%;background-size: cover;">
+
+                    </div>
+                    <div class="contact__grid_item"
+                        style="background-image: url('{{ asset('assets/images/contact-grid-section-bg.png') }}');height: 100%;background-size: cover;">
+                        <div class="fs-1">Sales Enquiry</div>
+                        <div>Connect to our sales times to discuss your clean energy project</div>
+                        <a href="#" class="btn bg-orange">Connect Sales Team</a>
+                    </div>
+                    <div class="contact__grid_item"
+                        style="background-image: url('{{ asset('assets/images/contact-grid-section-bg.png') }}');height: 100%;background-size: cover;">
+                        <div>
+                            <img src="{{ asset('assets/images/icon-news.png') }}" alt="">
+                            <div class="fs-4 mb-3">
+                                Careers at Enernew
+                            </div>
+                            <div class="mb-4">
+                                Join team Enernew and make your power move.
+                            </div>
+                        </div>
+                        <div>
+                            <a href="/job-openings" class="btn bg-orange">Current Opportunities</a>
+                        </div>
+                    </div>
+                    <div class="contact__grid_item"
+                        style="background-image: url('{{ asset('assets/images/contact-grid-section-bg.png') }}');height: 100%;background-size: cover;">
+                        <div>
+                            <img src="{{ asset('assets/images/icon-news.png') }}" alt="">
+
+                            <div class="fs-4 mb-3">
+                                Become a Channel Partner
+                            </div>
+
+                            <div class="mb-4">
+                                For becoming a channel partner, get in touch with us.
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#" class="btn bg-orange">Channel Partner</a>
+                        </div>
+                    </div>
+                    <div class="contact__grid_item"
+                        style="background-image: url('{{ asset('assets/images/contact-grid-section-bg.png') }}');height: 100%;background-size: cover;">
+                        <div>
+                            <img src="{{ asset('assets/images/icon-news.png') }}" alt="">
+
+                            <div class="fs-4 mb-3">
+                                Media & Press Inquiries
+                            </div>
+
+                            <div class="mb-4">
+                                For media inquiries or press-related matters, please contact our press team for more information.
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#" class="btn bg-orange">Contact Press & Media</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="background-image: url('{{ asset('assets/images/4.png') }}');padding-bottom: 1px;background-size: cover;">
+    <div class="container mb-100" data-aos="fade-up">
+        <div class="row" data-aos="fade-up">
+            <div class="col">
+                <h2 class="text-center mt-5 mb-5 highlight highlight--center">Reach out to get a free quote</h2>
+            </div>
+        </div>
+        <div class="row bg-white pt-5 rounded">
+            <div class="col">
+                <ul class="nav nav-pills flex-column flex-md-row mb-3 gap-2 justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="btn btn--green active" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">General enquiry</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="btn btn--green" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">Sales enquiry</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="btn btn--green" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">Supplier enquiry</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row bg-white p-5 rounded mb-5">
+            <div class="col mb-5 col-md-12">
+
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                        aria-labelledby="pills-home-tab">
+                        <form class="lets_talk__form" name="contact-us">
+                            <div>* represents mandatory fields</div>
+                            <div class="d-grid lets_talk__form_input_group mb-3">
+                                @csrf
+                                <label for="FirstName">
+                                    <input type="text" placeholder="First Name*" name="FirstName" id="FirstName" required>
+                                </label>
+                                <label for="LastName">
+                                    <input type="text" placeholder="First Name*" name="LastName" id="LastName" required>
+                                </label>
+                                <label for="email">
+                                    <input name="email" id="email" type="email" placeholder="Email Address*" required>
+                                </label>
+                                <label for="phone">
+                                    <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
+                                </label>
+                                <label for="zip">
+                                    <input name="zip" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
+                                </label>
+                                <label for="city">
+                                    <input name="city" id="city" type="text" placeholder="City*" required>
+                                </label>
+                                <label for="state">
+                                    <input name="state" id="state" type="text" placeholder="State*" required>
+                                </label>
+                                <label for="country">
+                                    <input name="country" id="country" type="text" placeholder="Country*" required>
+                                </label>
+                                <textarea name="message" id="message" id="" placeholder="Your Message" rows="30"></textarea>
+                                <div class="message_box"></div>
+                            </div>
+                            <button type="submit" class="btn btn--orange">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                        aria-labelledby="pills-profile-tab">
+                        <form class="lets_talk__form" name="contact-us">
+                            <div>* represents mandatory fields</div>
+                            <div class="d-grid lets_talk__form_input_group mb-3">
+                                @csrf
+                                <label for="FirstName">
+                                    <input type="text" placeholder="First Name*" name="FirstName" id="FirstName" required>
+                                </label>
+                                <label for="LastName">
+                                    <input type="text" placeholder="First Name*" name="LastName" id="LastName" required>
+                                </label>
+                                <label for="email">
+                                    <input name="email" id="email" type="email" placeholder="Email Address*" required>
+                                </label>
+                                <label for="phone">
+                                    <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
+                                </label>
+                                <label for="zip">
+                                    <input name="zip" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
+                                </label>
+                                <label for="city">
+                                    <input name="city" id="city" type="text" placeholder="City*" required>
+                                </label>
+                                <label for="state">
+                                    <input name="state" id="state" type="text" placeholder="State*" required>
+                                </label>
+                                <label for="country">
+                                    <input name="country" id="country" type="text" placeholder="Country*" required>
+                                </label>
+                                <textarea name="message" id="message" id="" placeholder="Your Message" rows="30"></textarea>
+                                <div class="message_box"></div>
+                            </div>
+                            <button type="submit" class="btn btn--orange">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                        aria-labelledby="pills-contact-tab">
+                        <form class="lets_talk__form" name="contact-us">
+                            <div>* represents mandatory fields</div>
+                            <div class="d-grid lets_talk__form_input_group mb-3">
+                                @csrf
+                                <label for="FirstName">
+                                    <input type="text" placeholder="First Name*" name="FirstName" id="FirstName" required>
+                                </label>
+                                <label for="LastName">
+                                    <input type="text" placeholder="First Name*" name="LastName" id="LastName" required>
+                                </label>
+                                <label for="email">
+                                    <input name="email" id="email" type="email" placeholder="Email Address*" required>
+                                </label>
+                                <label for="phone">
+                                    <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
+                                </label>
+                                <label for="zip">
+                                    <input name="zip" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
+                                </label>
+                                <label for="city">
+                                    <input name="city" id="city" type="text" placeholder="City*" required>
+                                </label>
+                                <label for="state">
+                                    <input name="state" id="state" type="text" placeholder="State*" required>
+                                </label>
+                                <label for="country">
+                                    <input name="country" id="country" type="text" placeholder="Country*" required>
+                                </label>
+                                <textarea name="message" id="message" id="" placeholder="Your Message" rows="30"></textarea>
+                                <div class="message_box"></div>
+                            </div>
+                            <button type="submit" class="btn btn--orange">Send Message</button>
+                        </form>
                     </div>
                 </div>
             </div>

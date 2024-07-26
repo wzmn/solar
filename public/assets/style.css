@@ -4,12 +4,16 @@
     --green: #3b9d30;
     --black: #000000;
     --orange: #f8a40e;
+    --peach: #ffdeb1;
     --white: #ffffff;
     --gradient: linear-gradient(90deg,
             rgba(249, 190, 33, 1) 0%,
             rgba(255, 148, 53, 1) 100%);
 }
-
+a {
+    text-decoration: none;
+    color: #000;
+}
 .text-orange {
     color: var(--primary);
 }
@@ -20,6 +24,9 @@
 
 .bg-orange {
     background-color: var(--primary);
+}
+.bg-peach {
+    background-color: var(--peach);
 }
 
 .bg-green {
@@ -349,7 +356,9 @@ dt {
     font-size: 0.9rem;
 }
 
-
+.contact__info  {
+    transform: translateY(-70%);
+}
 .icon:first-child {
     border: none;
 }
@@ -388,7 +397,9 @@ dt {
     filter: sepia(0.5);
     transition: filter 0.3s ease-out;
 }
-
+.blogs .card-img-top {
+    height: 200px;
+}
 .clients__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -599,6 +610,7 @@ footer .container>.row>.col>h2:first-child,
     line-height: 0;
     transform: translateY(-3px);
 }
+
 
 .clients .carousel-item .h2 {
     font-weight: 100;
@@ -965,7 +977,60 @@ footer .container>.row>.col>h2:first-child,
     transition: width 0.3s ease;
 }
 
+.recent__post {
+    display: grid;
+    grid-template: 100px / repeat(5, 1fr);
+    align-items: center;
+}
+.recent__post img {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.recent__post .recent__post_content {
+    grid-area: 1 / 2 / 2 / -1;
+}
+.search h4 {
+    color: var(--primary);
+}
+.search__box {
+    display: flex;
+}
+.search__box > [type='text'] {
+    border: 1px solid var(--primary);
+    flex-basis: 100%;
+}
+.search__box button {
+    border: 1px solid var(--primary);
+    border-left: none;
+    padding: 10px;
+    background-color: var(--primary);
+}
+
+.contact__grid {
+    display: grid;
+    grid-template: repeat(2, 350px) / 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.contact__grid_item {
+    color: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+    align-self: center;
+    display: grid;
+    align-content: space-between;
+    padding: 40px;
+}
+.contact__grid_item--2 {
+    text-align: center;
+    grid-column: 1 / 3;
+}
+
 @media only screen and (max-width: 768px) {
+    .contact__grid {
+        grid-template: repeat(3, minmax(350px, 1fr)) / repeat(2, 1fr);
+    }
     .vision__grid_item {
         flex-direction: column;
     }
@@ -976,6 +1041,9 @@ footer .container>.row>.col>h2:first-child,
 
     .bg-1::after {
         content: inherit;
+    }
+    .contact__info {
+        transform: translateY(0%);
     }
 }
 

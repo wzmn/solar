@@ -28,7 +28,7 @@ Route::get('/about', function () {
 
 
 Route::get('/contact', function () {
-    return view('website.contact', ['hero_img' => asset('assets/images/1.png')]);
+    return view('website.contact', ['hero_img' => asset('assets/images/contact-us.png')]);
 });
 
 Route::get('/career', function () {
@@ -51,7 +51,7 @@ Route::get('/pr', function () {
 });
 
 Route::get('/blogs', function () {
-    return view('website.blog', ['hero_img' => asset('assets/images/1.png')]);
+    return view('website.blog', ['hero_img' => asset('assets/images/blog-header.png')]);
 });
 
 
