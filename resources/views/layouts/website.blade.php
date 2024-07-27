@@ -151,6 +151,9 @@
                                         Career
                                     </dt>
                                     <dd>
+                                        <a href="/careers">Careers</a>
+                                    </dd>
+                                    <dd>
                                         <a href="#">Why Enernew?</a>
                                     </dd>
                                     <dd>
@@ -218,7 +221,7 @@
                                         <a href="/blogs">Knowledge center</a>
                                     </dd>
                                     <dd>
-                                        <a href="pr">PR</a>
+                                        <a href="/press-release">PR</a>
                                     </dd>
                                 </dl>
                             </div>
@@ -289,10 +292,10 @@
                                         Legal
                                     </dt>
                                     <dd>
-                                        <a href="#">Privacy</a>
+                                        <a href="/privacy">Privacy</a>
                                     </dd>
                                     <dd>
-                                        <a href="#">Terms of use</a>
+                                        <a href="/terms-of-use">Terms of use</a>
                                     </dd>
                                 </dl>
                             </div>

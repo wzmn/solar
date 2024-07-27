@@ -6,6 +6,7 @@
     --orange: #f8a40e;
     --peach: #ffdeb1;
     --white: #ffffff;
+    --grey: #f4f4f4;
     --gradient: linear-gradient(90deg,
             rgba(249, 190, 33, 1) 0%,
             rgba(255, 148, 53, 1) 100%);
@@ -31,6 +32,9 @@ a {
 
 .bg-green {
     background-color: var(--accent);
+}
+.bg-grey {
+    background-color: var(--grey);
 }
 
 .logo {
@@ -318,6 +322,24 @@ body.open {
         transform: rotate(360deg);
     }
 }
+.career__cta_bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+    z-index: -1;
+}
+.career__cta_img {
+    height: 400px;
+    overflow: hidden;
+}
+.career__cta_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 
 .highlight::after {
     content: " ";
@@ -333,6 +355,9 @@ body.open {
     transform: translateY(4px) translateX(-50%);
     left: 50%;
     position: relative;
+}
+.highlight--center {
+    text-align: center;
 }
 
 
@@ -1058,6 +1083,11 @@ footer .container>.row>.col>h2:first-child,
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+.press_release  img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
 }
 
 

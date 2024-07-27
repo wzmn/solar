@@ -1,51 +1,119 @@
 @extends("layouts.website")
 
-@section("content")
-<div class="overview pt-5" style="background-image: url('./images/2.png');    background-size: cover;">
-    <div class="container-fluid mt-5 position-relative">
-        <div class="row mb-5">
-            <div class="col-12 col-sm-5" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="highlight">About Us</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa impedit inventore officia
-                    natus
-                    perferendis itaque veniam placeat dicta neque ab aliquid praesentium molestias amet commodi
-                    atque, suscipit ea dolor officiis.</p>
-                <div class="btn btn--orange">Read More</div>
-            </div>
-            <div class="col-sm-1"></div>
+@section("header")
+<div class="mb-100 d-flex flex-column flex-fill justify-content-end align-items-start">
+  <h1 class="text-white">Press Release</h1>
+  <div class="hero__content text-white mb-3">
+    Home > Press Release
+  </div>
+</div>
+@endsection
 
+@section("content")
+<div class="container my-5">
+    <div class="row mb-5">
+        <div class="col">
+            <h1 class="highlight mb-4">Enernew's Latest Innovations and Sustainability Initiatives</h1>
+            <p>Stay informed with Enernew's latest updates and announcements. Dive into our press releases to witness our efforts come to life through groundbreaking projects, partnerships, and advancements in sustainable energy solutions. Explore how Enernew is leading the charge in shaping the future of renewable energy through innovation and strategic initiatives. Join us as we pave the way towards a greener tomorrow.</p>
         </div>
     </div>
-    <div class="container position-relative">
-        <div class="row">
-            <div class="col d-flex flex-wrap flex-md-nowrap justify-content-center">
-                <div class="icon" data-aos="fade-up">
-                    <img src="./images/icon-14.png" class="img-fluid">
-                    <h4>2010</h4>
-                    <span>Founding Year</span>
+    <div class="row press_release">
+        <div class="col-12 col-md-4 mb-4">
+            <div class="card">
+                <div class="p-3">
+                    <img src="{{ asset('assets/images/pr-1.png') }}" class="img-fluid">
                 </div>
-                <div class="icon" data-aos="fade-up" data-aos-delay="100">
-                    <img src="./images/icon-16.png" class="img-fluid">
-                    <h4>2000+</h4>
-                    <span>Happy Customers</span>
-                </div>
-                <div class="icon" data-aos="fade-up" data-aos-delay="200">
-                    <img src="./images/ICON-17.png" class="img-fluid">
-                    <h4>750+</h4>
-                    <span>Projects Completed</span>
-                </div>
-                <div class="icon" data-aos="fade-up" data-aos-delay="300">
-                    <img src="./images/icon-18.png" class="img-fluid">
-                    <h4>190+</h4>
-                    <span>Companies work with us</span>
+                <div class="card-body border-top">
+                    <div class="text-center text-green">Business Standard</div>
+                    <div class="text-center fs-7">June 25th, 2024</div>
                 </div>
             </div>
-            <div class="col d-none d-md-block">
-                <div class="sun__container">
-                    <div class="sun position-sticky">
-                        <img src="./images/outer.png" class="sun__outer">
-                        <img src="./images/inner.png" class="sun__inner">
-                    </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+            <div class="card">
+                <div class="p-3">
+                    <img src="{{ asset('assets/images/pr-2.png') }}" class="img-fluid">
+                </div>
+                <div class="card-body border-top">
+                    <div class="text-center text-green">The Econimic Times</div>
+                    <div class="text-center fs-7">June 25th, 2024</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+            <div class="card">
+                <div class="p-3">
+                    <img src="{{ asset('assets/images/pr-3.png') }}" class="img-fluid">
+                </div>
+                <div class="card-body border-top">
+                    <div class="text-center text-green">The Tribune</div>
+                    <div class="text-center fs-7">June 25th, 2024</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+            <div class="card">
+                <div class="p-3">
+                    <img src="{{ asset('assets/images/pr-4.png') }}" class="img-fluid">
+                </div>
+                <div class="card-body border-top">
+                    <div class="text-center text-green">The Pioneer</div>
+                    <div class="text-center fs-7">June 25th, 2024</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+            <div class="card">
+                <div class="p-3">
+                    <img src="{{ asset('assets/images/pr-5.png') }}" class="img-fluid">
+                </div>
+                <div class="card-body border-top">
+                    <div class="text-center text-green">ABP News</div>
+                    <div class="text-center fs-7">June 25th, 2024</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+            <div class="card">
+                <div class="p-3">
+                    <img src="{{ asset('assets/images/pr-6.png') }}" class="img-fluid">
+                </div>
+                <div class="card-body border-top">
+                    <div class="text-center text-green">Times of India</div>
+                    <div class="text-center fs-7">June 25th, 2024</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+            <div class="card">
+                <div class="p-3">
+                    <img src="{{ asset('assets/images/pr-7.png') }}" class="img-fluid">
+                </div>
+                <div class="card-body border-top">
+                    <div class="text-center text-green">Business Standard</div>
+                    <div class="text-center fs-7">June 25th, 2024</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+            <div class="card">
+                <div class="p-3">
+                    <img src="{{ asset('assets/images/pr-8.png') }}" class="img-fluid">
+                </div>
+                <div class="card-body border-top">
+                    <div class="text-center text-green">The Econimic Times</div>
+                    <div class="text-center fs-7">June 25th, 2024</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+            <div class="card">
+                <div class="p-3">
+                    <img src="{{ asset('assets/images/pr-9.png') }}" class="img-fluid">
+                </div>
+                <div class="card-body border-top">
+                    <div class="text-center text-green">The Tribune</div>
+                    <div class="text-center fs-7">June 25th, 2024</div>
                 </div>
             </div>
         </div>

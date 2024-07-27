@@ -2,9 +2,9 @@
 
 @section("header")
 <div class="mb-100 d-flex flex-column flex-fill justify-content-end align-items-start">
-    <h1 class="text-white">Blog</h1>
+    <h1 class="text-white">Knowledge Center</h1>
     <div class="hero__content text-white mb-3">
-        Home > Blog
+        Home > Knowledge Center
     </div>
 </div>
 @endsection
