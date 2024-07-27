@@ -79,10 +79,10 @@
         @yield("content")
 
 
-
+       
         <footer class="pt-5">
             <div class="container">
-                <div class="row" data-aos="fade-up">
+                <div class="row" @if(Route::is('home') ) data-aos="fade-up"  @endif>
                     <div class="col d-flex justify-content-center mb-5">
                         <h2
                             class="d-flex flex-md-row justify-content-center fs-1 align-items-center flex-column overflow-hidden">
@@ -115,14 +115,14 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-3 justify-content-center d-flex flex-column" data-aos="fade-up">
+                    <div class="col-12 col-md-3 justify-content-center d-flex flex-column" @if(Route::is('home') ) data-aos="fade-up"  @endif>
                         <img src="{{ asset('assets/images/logo-15.png') }}" class="logo mb-3">
-                        <p class="mb-3 lh-lg">Enernew continues the legacy of Sriram Cables, a brand well known since 45
+                        <p class="mb-3 lh-lg fs-7">Enernew continues the legacy of Sriram Cables, a brand well known since 45
                             years for its performance, trust and reliability.</p>
                     </div>
                     <div class="col-12 col-md-9">
                         <div class="row mb-5">
-                            <div data-aos="fade-up" data-aos-delay="100"
+                            <div @if(Route::is('home') ) data-aos="fade-up"  @endif data-aos-delay="100"
                                 class="col-md-3 col-6 col-2 py-3 border border-bottom-0 border-top-0">
                                 <dl>
                                     <dt class="mb-2">
@@ -141,18 +141,18 @@
                                         <a href="/about#vision">Vision, Mission & Values</a>
                                     </dd>
                                     <dd>
-                                        <a href="/about#whyus">Why Us</a>
+                                        <a href="/about#whyus">Why Us?</a>
                                     </dd>
                                 </dl>
                             </div>
-                            <div data-aos="fade-up" data-aos-delay="200"
+                            <div @if(Route::is('home') ) data-aos="fade-up"  @endif data-aos-delay="200"
                                 class="col-md-3 col-6 py-3 border border-bottom-0 border-top-0 border-start-0">
                                 <dl>
                                     <dt class="mb-2">
                                         Career
                                     </dt>
                                     <dd>
-                                        <a href="#">Why Enernew</a>
+                                        <a href="#">Why Enernew?</a>
                                     </dd>
                                     <dd>
                                         <a href="#">Our Values</a>
@@ -163,16 +163,19 @@
                                     <dd>
                                         <a href="/life-at-enernew">Life@Enernew</a>
                                     </dd>
+                                    <dd>
+                                        <a href="/employee-testimonials">Employee Testimonials</a>
+                                    </dd>
                                 </dl>
                             </div>
-                            <div data-aos="fade-up" data-aos-delay="300"
+                            <div @if(Route::is('home') ) data-aos="fade-up"  @endif data-aos-delay="300"
                                 class="col-md-3 col-6 py-3 border border-bottom-0 border-top-0 border-start-1">
                                 <dl>
                                     <dt class="mb-2">
-                                        Contact Us
+                                        <a class="bold" href="/contact">Contact Us</a>
                                     </dt>
                                     <dd>
-                                        <a href="mailto:contact@enernew">contact@enernew</a>
+                                        <a href="mailto:contact@enernew">contact@enernew.in</a>
                                     </dd>
                                     <dd>
                                         <a href="tel:+91 88 00 222 600">+91 88 00 222 600</a>
@@ -180,7 +183,7 @@
 
                                 </dl>
                             </div>
-                            <div data-aos="fade-up" data-aos-delay="400"
+                            <div @if(Route::is('home') ) data-aos="fade-up"  @endif data-aos-delay="400"
                                 class="col-md-3 col-6 py-3 border border-bottom-0 border-top-0 border-start-0">
                                 <dl>
                                     <dt class="mb-2">
@@ -189,7 +192,7 @@
 
                                 </dl>
                             </div>
-                            <div data-aos="fade-up" data-aos-delay="500"
+                            <div @if(Route::is('home') ) data-aos="fade-up"  @endif data-aos-delay="500"
                                 class="col-md-3 col-6 py-3 border border-bottom-0">
                                 <dl>
                                     <dt class="mb-2">
@@ -206,21 +209,21 @@
                                     </dd>
                                 </dl>
                             </div>
-                            <div data-aos="fade-up" data-aos-delay="600"
+                            <div @if(Route::is('home') ) data-aos="fade-up"  @endif data-aos-delay="600"
                                 class="col-md-3 col-6 py-3 border border-bottom-0 border-start-0">
                                 <dl>
                                     <dt class="mb-2">
                                         Media
                                     </dt>
                                     <dd>
-                                        <a href="#">Knowledge center</a>
+                                        <a href="/blogs">Knowledge center</a>
                                     </dd>
                                     <dd>
                                         <a href="pr">PR</a>
                                     </dd>
                                 </dl>
                             </div>
-                            <div data-aos="fade-up" data-aos-delay="700"
+                            <div @if(Route::is('home') ) data-aos="fade-up"  @endif data-aos-delay="700"
                                 class="col-md-3 col-6 py-3 border border-bottom-0 border-start-0">
                                 <div class="d-flex justify-content-around">
                                     <a href="https://www.linkedin.com/company/enernew-pvt-ltd/" linkedin target="_blank">
@@ -280,7 +283,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div data-aos="fade-up" data-aos-delay="800"
+                            <div @if(Route::is('home') ) data-aos="fade-up"  @endif data-aos-delay="800"
                                 class="col-md-3 col-6 py-3 border border-bottom-0 border-start-0">
                                 <dl>
                                     <dt class="mb-2">

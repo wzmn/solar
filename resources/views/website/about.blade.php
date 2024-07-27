@@ -212,7 +212,7 @@
     </div>
 
 </div>
-<div class="timeline py-5">
+<div class="timeline py-5" id="history">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -347,7 +347,7 @@
         </div>
     </div>
 </div>
-<div class="founders" style="background-image: url('{{ asset('assets/images/7.png') }}');    background-size: cover;">
+<div id="founders" class="founders" style="background-image: url('{{ asset('assets/images/7.png') }}');    background-size: cover;">
     <div class="container py-5">
         <div class="row">
             <div class="col my-5">
@@ -402,7 +402,7 @@
         </div>
     </div>
 </div>
-<div class="vision">
+<div class="vision" id="vision">
     <div class="container my-5">
         <div class="row mb-5">
             <div class="col mt-5">
@@ -437,7 +437,7 @@
         </div>
     </div>
 </div>
-<div class="work_with_us flex-column flex-md-row">
+<div class="work_with_us flex-column flex-md-row" id="whyus">
     <div class="bg-1 d-flex justify-content-center p-5 "
         style="background-image: url('{{ asset('assets/images/4.png') }}');    background-size: cover;    background-position: 30px 430px;">
         <div class="align-items-center col-12 col-sm-5 d-flex my-5">

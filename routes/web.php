@@ -15,11 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('website.index', ['hero_img' => asset('assets/images/1.png')]);
-});
+})->name('home');
 
 Auth::routes();
 
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/', [App\Http\Controllers\PageController::class, 'index'])->name('home');
 
 
 Route::get('/about', function () {
@@ -34,8 +34,9 @@ Route::get('/contact', function () {
 Route::get('/career', function () {
     return view('website.career', ['hero_img' => asset('assets/images/1.png')]);
 });
+
 Route::get('/employee-testimonials', function () {
-    return view('website.employee-testimonials', ['hero_img' => asset('assets/images/1.png')]);
+    return view('website.employee-testimonials', ['hero_img' => asset('assets/images/employee-testimonials.png')]);
 });
 
 Route::get('/job-openings', function () {
