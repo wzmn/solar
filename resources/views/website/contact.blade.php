@@ -129,7 +129,7 @@
     </div>
 </div>
 <div style="background-image: url('{{ asset('assets/images/4.png') }}');padding-bottom: 1px;background-size: cover;">
-    <div class="container mb-100" data-aos="fade-up">
+    <div class="container mb-100 solutions" data-aos="fade-up">
         <div class="row" data-aos="fade-up">
             <div class="col">
                 <h2 class="text-center mt-5 mb-5 highlight highlight--center">Reach out to get a free quote</h2>
@@ -153,6 +153,16 @@
                             data-bs-target="#pills-contact" type="button" role="tab"
                             aria-controls="pills-contact" aria-selected="false">Supplier enquiry</button>
                     </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="btn btn--green" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">Channel enquiry</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="btn btn--green" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">Media enquiry</button>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -170,7 +180,7 @@
                                     <input type="text" placeholder="First Name*" name="FirstName" id="FirstName" required>
                                 </label>
                                 <label for="LastName">
-                                    <input type="text" placeholder="First Name*" name="LastName" id="LastName" required>
+                                    <input type="text" placeholder="Last Name*" name="LastName" id="LastName" required>
                                 </label>
                                 <label for="email">
                                     <input name="email" id="email" type="email" placeholder="Email Address*" required>
@@ -206,7 +216,7 @@
                                     <input type="text" placeholder="First Name*" name="FirstName" id="FirstName" required>
                                 </label>
                                 <label for="LastName">
-                                    <input type="text" placeholder="First Name*" name="LastName" id="LastName" required>
+                                    <input type="text" placeholder="Last Name*" name="LastName" id="LastName" required>
                                 </label>
                                 <label for="email">
                                     <input name="email" id="email" type="email" placeholder="Email Address*" required>
@@ -242,7 +252,7 @@
                                     <input type="text" placeholder="First Name*" name="FirstName" id="FirstName" required>
                                 </label>
                                 <label for="LastName">
-                                    <input type="text" placeholder="First Name*" name="LastName" id="LastName" required>
+                                    <input type="text" placeholder="Last Name*" name="LastName" id="LastName" required>
                                 </label>
                                 <label for="email">
                                     <input name="email" id="email" type="email" placeholder="Email Address*" required>

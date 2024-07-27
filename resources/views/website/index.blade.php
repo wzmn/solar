@@ -67,19 +67,6 @@
                     technologies and robust project management practices, Enernew is committed to ensuring that
                     every venture contributes positively towards the goal of achieving net zero emissions.
                 </p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa impedit inventore officia
-                    natus
-                    perferendis itaque veniam placeat dicta neque ab aliquid praesentium molestias amet commodi
-                    atque, suscipit ea dolor officiis.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa impedit inventore officia
-                    natus
-                    perferendis itaque veniam placeat dicta neque ab aliquid praesentium molestias amet commodi
-                    atque, suscipit ea dolor officiis.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa impedit inventore officia
-                    natus
-                    perferendis itaque veniam placeat dicta neque ab aliquid praesentium molestias amet commodi
-                    atque, suscipit ea dolor officiis.</p>
-
                 <a href="/about" class="btn btn--orange">Read More</a>
             </div>
             <div class="col d-none d-lg-block col-sm-1">

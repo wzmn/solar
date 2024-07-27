@@ -52,16 +52,13 @@
                                         <a href="/about">About Us<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg></a>
                                     </li>
                                     <li>
-                                        <a href="/solutions">Our Solutions Us<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg></a>
+                                        <a href="/solutions">Our Solutions<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg></a>
                                     </li>
                                     <li>
-                                        <a href="/clients">Our clients<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg></a>
+                                        <a href="/blogs">Knowledge Center<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg></a>
                                     </li>
                                     <li>
-                                        <a href="/blogs">Blogs<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg></a>
-                                    </li>
-                                    <li>
-                                        <a href="/contact">Contact<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg></a>
+                                        <a href="/contact">Contact Us<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg></a>
                                     </li>
                                 </ul>
                             </div>
@@ -158,7 +155,7 @@
                                         <a href="#">Our Values</a>
                                     </dd>
                                     <dd>
-                                        <a href="/job-openings">Openings</a>
+                                        <a href="/job-openings">Job Openings</a>
                                     </dd>
                                     <dd>
                                         <a href="/life-at-enernew">Life@Enernew</a>
