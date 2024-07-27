@@ -32,7 +32,9 @@
                 <div class="container">
                     <div class="d-flex justify-content-between mt-4 ">
                         <div class="navbar__logo">
-                            <img src="{{ asset('assets/images/logo-15.png') }}" class="logo">
+                            <a href="/">
+                                <img src="{{ asset('assets/images/logo-15.png') }}" class="logo">
+                            </a>
                         </div>
                         <div class="navbar__menu">
                             Menu
@@ -113,7 +115,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-3 justify-content-center d-flex flex-column" @if(Route::is('home') ) data-aos="fade-up"  @endif>
-                        <img src="{{ asset('assets/images/logo-15.png') }}" class="logo mb-3">
+                        <a href="/"><img src="{{ asset('assets/images/logo-15.png') }}" class="logo mb-3"></a>
                         <p class="mb-3 lh-lg fs-7">Enernew continues the legacy of Sriram Cables, a brand well known since 45
                             years for its performance, trust and reliability.</p>
                     </div>
