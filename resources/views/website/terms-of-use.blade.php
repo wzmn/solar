@@ -1,3 +1,5 @@
+@section("title", "Terms of Use")
+
 @extends("layouts.website")
 
 @section("header")

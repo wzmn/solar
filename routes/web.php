@@ -14,13 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('website.index', ['hero_img' => asset('assets/images/1.png')]);
+    return view('website.index');
 })->name('home');
 
 Auth::routes();
 
-Route::get('/about', function () {
+Route::get('/about-us', function () {
     return view('website.about', ['hero_img' => asset('assets/images/about-header.png')]);
+});
+
+Route::get('/solar-calculator', function () {
+    return view('website.coming-soon', ['hero_img' => asset('assets/images/about-header.png')]);
 });
 
 Route::get('/contact', function () {
@@ -47,7 +51,7 @@ Route::get('/press-release', function () {
     return view('website.pr', ['hero_img' => asset('assets/images/press-release.png')]);
 });
 
-Route::get('/blogs', function () {
+Route::get('/knowledge-center', function () {
     return view('website.blog', ['hero_img' => asset('assets/images/blog-header.png')]);
 });
 

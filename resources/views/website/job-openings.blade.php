@@ -1,3 +1,5 @@
+@section("title", "Job Openings")
+
 @extends("layouts.website")
 
 

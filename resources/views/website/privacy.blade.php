@@ -1,3 +1,5 @@
+@section("title", "Privacy Policy")
+
 @extends("layouts.website")
 
 @section("header")

@@ -1,3 +1,5 @@
+@section("title", "Employee Testimonials")
+
 @extends("layouts.website")
 
 @section("header")

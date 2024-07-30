@@ -1,3 +1,5 @@
+@section("title", "Life @ Enernew")
+
 @extends ("layouts.website")
 
 

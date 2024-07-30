@@ -1,12 +1,30 @@
+@section("title", "Home")
+
 @extends("layouts.website")
 
 @section("header")
-<div class="d-flex flex-column flex-fill justify-content-center align-items-start">
-    <h1>Harnessing Nature's Most Abundant Resource</h1>
-    <div class="hero__content mb-3">We are here to unleash the potentials of solar power with break-through clean energy
-        solutions that is going to set the pace of various solar power projects of tomorrow.
+<div class="align-items-center col-12 d-flex hero">
+    <div class="text-center">
+        <video id="heroVideo" muted loop class="">
+            <source src="{{ asset('assets/videos/hero.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="d-flex">
+            <div>
+                <h1 class="text-white text-shadow fs-xl">Sustainable Energy for a Brighter Future</h1>
+                <div class="text-white hero__content mb-3">We are here to unleash the potentials of solar power with break-through clean energy solutions that is going to set the pace of various solar power projects of tomorrow.</div>
+                {{-- <a href="/about" class="hero__btn btn btn--black">Read More</a> --}}
+            </div>
+            <div>
+                <div class="bg-red hero__play">
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
+                       <path d="M15.541,490V0l458.917,245.009L15.541,490z"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
     </div>
-    <a href="/about" class="hero__btn btn btn--black">Read More</a>
 </div>
 @endsection
 
@@ -344,16 +362,21 @@
                             <h3>BANSWARA SYNTEX LTD</h3>
                             <div class="bold">Rajasthan’s Largest Single site Rooftop commissioned on textile unit</div>
                             <div class="fs-6 mb-3 projects__content">
-                                Banswara Syntex Ltd is a vertically integrated textile company, specializing in the
+                               <p>Banswara Syntex Ltd is a vertically integrated textile company, specializing in the
                                 production of yarn, fabric and readymade garments. Currently, Banswara Syntex Ltd. is a
-                                public limited company listed on NSE and BSE. Due to our varied and highly specialised
-                                product range, we are able to service a number of highly reputed fast fashion brands
+                                public limited company listed on NSE and BSE.</p>
+                                <p>
+                                    Due to our varied and highly specialised product range, we are able to service a number of highly reputed fast fashion brands
                                 like Uniqlo, Calvin Klein, Marks and Spencer, Next. Banswara Syntex has its own thermal
                                 power plant, which generates over 30 MW of captive power for the mill. For their next
-                                step, Banswara Syntex intends to move to solar energy. Sriram Solar is proud to have
+                                step, Banswara Syntex intends to move to solar energy.
+                                </p>
+                                <p>
+                                    Sriram Solar is proud to have
                                 partnered with Banswara Syntex to completely energise the electricity requirement to the
                                 extent of 30 MW. In the first phase, we have been awarded turnkey Solar Power Project
                                 EPC of 4.5 MW at their premises located in Banswara.
+                                </p>
                             </div>
                             <a href="#" class="projects__read_more d-flex align-items-center">
                                 <span class="projects__icon">+</span> <span class="d-flex align-items-center">Read
@@ -675,4 +698,26 @@
         </div>
     </div>
 </div>
+@endsection
+
+@section("scripts")
+<script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+        let vid = document.getElementById("heroVideo");
+        
+        vid.addEventListener("canplay", (event) => {
+            $parent = event.target;
+            let hero__play = document.querySelector('.hero__play');
+            hero__play.addEventListener('click', ()=>{
+                if($parent.classList.contains('playing')){
+                    $parent.classList.remove('playing')
+                    $parent.pause()
+                }else{
+                    $parent.classList.add('playing')
+                    $parent.play()
+                }
+            })
+        });
+    })
+</script>
 @endsection

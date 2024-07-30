@@ -1,3 +1,4 @@
+@section("title", "Contact Us")
 @extends("layouts.website")
 
 

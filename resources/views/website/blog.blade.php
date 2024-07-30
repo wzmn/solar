@@ -1,3 +1,5 @@
+@section("title", "Knowledge Center")
+
 @extends("layouts.website")
 
 @section("header")

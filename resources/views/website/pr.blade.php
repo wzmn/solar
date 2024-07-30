@@ -1,3 +1,5 @@
+@section("title", "Press Release")
+
 @extends("layouts.website")
 
 @section("header")
