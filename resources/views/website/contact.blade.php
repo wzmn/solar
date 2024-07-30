@@ -19,7 +19,7 @@
         </div>
     </div>
 </div>
-<div style="background-image: url('{{ asset('assets/images/contact-us-map.png') }}');    background-size: cover;">
+<div style="background-image: url('{{ asset('assets/images/contact-us-map-new.png') }}');    background-size: cover;background-position: 100% 100px;">
     <div class="container py-5">
         <div class="contact my-5 py-5">
             <div class="contact__info bg-white p-5 rounded-3">

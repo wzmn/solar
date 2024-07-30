@@ -95,7 +95,7 @@
 <div class="slider-component pb-5 pt-3">
   <div class="slider mb-5">
     <h2 class="text-center mb-5" data-aos="fade-up">
-      Expo
+      REI - Expo
     </h2>
     <div class="swiper-container swiper">
       <div class="swiper-wrapper">

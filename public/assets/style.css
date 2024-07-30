@@ -149,10 +149,16 @@ a {
     background: white;
     opacity: 0;
     transition: opacity 0.5s ease;
+    object-fit: cover;
 }
 .hero video.playing {
     opacity: 1;
 }
+.hero video.playing + div > div:first-of-type > * {
+    display: none;
+}
+
+
 .hero__play {
     width: 80px;
     height:80px;
@@ -160,11 +166,34 @@ a {
     display: grid;
     place-items: center;
     cursor: pointer;
+
+    transition: all 1s ease;
 }
 .hero__play > svg {
     width: 40px;
     height: 40px;
     fill: white;
+}
+.hero__play path {
+    transition: all 1s ease;
+}
+.playing + div path:first-child {
+    transform: rotate(146deg) scale(0) skewY(25deg);
+}
+.hero__play > svg > path:last-child {
+    opacity: 0;
+    transform: rotate(-46deg) scale(0);
+}
+.hero .playing + div path:last-child {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+}
+.playing + div .hero__play {
+    position: absolute;
+    top: 20%;
+    opacity: 0.4;
+    z-index: 10;
+    right: 10%;
 }
 
 .section-bg {
@@ -189,7 +218,18 @@ a {
     position: relative;
     background-image: url(./images/1.png);
     z-index: 0;
-
+}
+.hero__bg::before {
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;    
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(255,255,255,0) 20%);
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(255,255,255,0) 20%);
+    background: linear-gradient(0deg, rgba(0,0,0,0.6026785714285714) 0%, rgba(255,255,255,0) 20%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ffffff",GradientType=1);
+    z-index: -1;
 }
 
 /* .menu {
@@ -330,6 +370,7 @@ body.open {
 }
 
 .overview {
+    overflow: hidden;
     padding-bottom: 200px;
 }
 

@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('website.index');
+    return view('website.index', ['hero_img' => asset('assets/images/video.webp')]);
 })->name('home');
 
 Auth::routes();
@@ -27,7 +27,7 @@ Route::get('/solar-calculator', function () {
     return view('website.coming-soon', ['hero_img' => asset('assets/images/about-header.png')]);
 });
 
-Route::get('/contact', function () {
+Route::get('/contact-us', function () {
     return view('website.contact', ['hero_img' => asset('assets/images/contact-us.png')]);
 });
 
@@ -56,11 +56,11 @@ Route::get('/knowledge-center', function () {
 });
 
 Route::get('/privacy', function () {
-    return view('website.privacy', ['hero_img' => asset('assets/images/blog-header.png')]);
+    return view('website.privacy', ['hero_img' => asset('assets/images/privacy-policy.png')]);
 });
 
 Route::get('/terms-of-use', function () {
-    return view('website.terms-of-use', ['hero_img' => asset('assets/images/blog-header.png')]);
+    return view('website.terms-of-use', ['hero_img' => asset('assets/images/terms-of-use.png')]);
 });
 
 

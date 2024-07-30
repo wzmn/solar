@@ -3,7 +3,7 @@
 @extends("layouts.website")
 
 @section("header")
-<div class="align-items-center col-12 d-flex hero">
+<div class="align-items-center col-12 d-flex hero justify-content-end   ">
     <div class="text-center">
         <video id="heroVideo" muted loop class="">
             <source src="{{ asset('assets/videos/hero.mp4') }}" type="video/mp4">
@@ -12,14 +12,18 @@
         <div class="d-flex">
             <div>
                 <h1 class="text-white text-shadow fs-xl">Sustainable Energy for a Brighter Future</h1>
-                <div class="text-white hero__content mb-3">We are here to unleash the potentials of solar power with break-through clean energy solutions that is going to set the pace of various solar power projects of tomorrow.</div>
+                <div class="text-white hero__content mb-3">We are here to unleash the potentials of solar power with
+                    break-through clean energy solutions that is going to set the pace of various solar power projects
+                    of tomorrow.</div>
                 {{-- <a href="/about" class="hero__btn btn btn--black">Read More</a> --}}
             </div>
             <div>
                 <div class="bg-red hero__play">
-                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                    viewBox="0 0 490 490" style="enable-background:new 0 0 490 490;" xml:space="preserve">
-                       <path d="M15.541,490V0l458.917,245.009L15.541,490z"/>
+                    <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490"
+                        style="enable-background:new 0 0 490 490;" xml:space="preserve">
+                        <path d="M15.541,490V0l458.917,245.009L15.541,490z" />
+                        <path d="M 15.541 490 V 0 l 453.459 -1 L 469 490 z" />
                     </svg>
                 </div>
             </div>
@@ -67,7 +71,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-sm-5" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-12 col-lg-5" data-aos="fade-up" data-aos-delay="100">
                 <h2 class="highlight">Overview</h2>
                 <p>
                     Sriram Cables Pvt. Ltd. has unveiled its latest venture, Enernew Pvt. Ltd., a fully owned
@@ -89,11 +93,11 @@
             </div>
             <div class="col d-none d-lg-block col-sm-1">
 
-                    <div class="sun__container">
-                        <div class="sun position-sticky">
-                            <img src="./assets/images/outer.png" class="sun__outer">
-                            <img src="./assets/images/inner.png" class="sun__inner">
-                        </div>
+                <div class="sun__container">
+                    <div class="sun position-sticky">
+                        <img src="./assets/images/outer.png" class="sun__outer">
+                        <img src="./assets/images/inner.png" class="sun__inner">
+                    </div>
                 </div>
             </div>
         </div>
@@ -135,187 +139,231 @@
             </div>
         </div>
         <div class="row bg-white p-5 rounded mb-5">
-            <div class="col mb-5 col-md-6">
+            <div class="col mb-5">
+                <div class="row">
+                    <div class="tab-content" id="solutions-tabContent">
+                        <div class="tab-pane col-12 fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <div class="d-flex flex-lg-row flex-column-reverse gap-3">
+                                <div class="col">
+                                    <div class="h3">Solar Power Park Developer</div>
+                                    <p>Enernew is currently developing Utility Scale Solar Parks, which will be
+                                        available
+                                        for Captive customers. Our Solar Park will offer the following:</p>
 
-                <div class="tab-content" id="solutions-tabContent">
-                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                        aria-labelledby="pills-home-tab">
-                        <div class="h3">Solar Power Park Developer</div>
-                        <p>Enernew is currently developing Utility Scale Solar Parks, which will be available
-                            for Captive customers. Our Solar Park will offer the following:</p>
-
-                        <div class="accordion" id="solutions-accordion1">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Well Planned individual Solar Plant Units
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingOne" data-bs-parent="#solutions-tabContent">
-                                    <div class="accordion-body">
-                                        Enernew has taken utmost care in structuring and planning the plot
-                                        sizing for each Solar Plant Unit in the Solar Park. The process has been
-                                        meticulously and carefully designed by our technical team. It has been
-                                        divided in an orderly fashion to avoid cluttered free Solar Park.
+                                    <div class="accordion" id="solutions-accordion1">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseOne" aria-expanded="true"
+                                                    aria-controls="collapseOne">
+                                                    Well Planned individual Solar Plant Units
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                                aria-labelledby="headingOne" data-bs-parent="#solutions-tabContent">
+                                                <div class="accordion-body">
+                                                    Enernew has taken utmost care in structuring and planning the plot
+                                                    sizing for each Solar Plant Unit in the Solar Park. The process has
+                                                    been
+                                                    meticulously and carefully designed by our technical team. It has
+                                                    been
+                                                    divided in an orderly fashion to avoid cluttered free Solar Park.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingTwo">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                    aria-expanded="false" aria-controls="collapseTwo">
+                                                    Permits and approvals
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                                aria-labelledby="headingTwo" data-bs-parent="#solutions-tabContent">
+                                                <div class="accordion-body">
+                                                    Enernew has taken utmost care in structuring and planning the plot
+                                                    sizing for each Solar Plant Unit in the Solar Park. The process has
+                                                    been
+                                                    meticulously and carefully designed by our technical team. It has
+                                                    been
+                                                    divided in an orderly fashion to avoid cluttered free Solar Park.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingThree">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                    Land Aggregation
+                                                </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse"
+                                                aria-labelledby="headingThree" data-bs-parent="#solutions-tabContent">
+                                                <div class="accordion-body">
+                                                    Enernew has taken utmost care in structuring and planning the plot
+                                                    sizing for each Solar Plant Unit in the Solar Park. The process has
+                                                    been
+                                                    meticulously and carefully designed by our technical team. It has
+                                                    been
+                                                    divided in an orderly fashion to avoid cluttered free Solar Park.
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Permits and approvals
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#solutions-tabContent">
-                                    <div class="accordion-body">
-                                        Enernew has taken utmost care in structuring and planning the plot
-                                        sizing for each Solar Plant Unit in the Solar Park. The process has been
-                                        meticulously and carefully designed by our technical team. It has been
-                                        divided in an orderly fashion to avoid cluttered free Solar Park.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        Land Aggregation
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#solutions-tabContent">
-                                    <div class="accordion-body">
-                                        Enernew has taken utmost care in structuring and planning the plot
-                                        sizing for each Solar Plant Unit in the Solar Park. The process has been
-                                        meticulously and carefully designed by our technical team. It has been
-                                        divided in an orderly fashion to avoid cluttered free Solar Park.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                        <div class="h3">B2B Solutions</div>
-                        <p>Tailored Solar Energy Solutions for Commercial & Industrial Clients</p>
-                        <div class="accordion" id="solutions-accordion2">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Rooftop and Ground-Mount Solutions
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingOne" data-bs-parent="#solutions-tabContent">
-                                    <div class="accordion-body">
-                                        Offering flexible financing options (CAPEX / OPEX) for rooftop and
-                                        ground-mounted solar installations, tailored to meet specific client needs.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Design and Engineering Expertise
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#solutions-tabContent">
-                                    <div class="accordion-body">
-                                        Utilizing an experienced in-house team to design and engineer over 50 MW of
-                                        solar plants, ensuring customized solutions that optimize energy efficiency and
-                                        operational performance.
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        Turnkey Project Execution
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#solutions-tabContent">
-                                    <div class="accordion-body">
-                                        Successfully delivering turnkey solar projects across India, managed by
-                                        dedicated project managers and site engineers, ensuring seamless execution from
-                                        inception to completion.
-
-                                    </div>
+                                <div class="col align-items-start d-md-flex mb-4">
+                                    <img src="{{ asset('assets/images/5.png') }}" class="img-fluid">
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                        <div class="h3">Asset Management Services</div>
-                        <p>Comprehensive Management for Optimal Solar Asset Performance</p>
+                        <div class="tab-pane col-12 fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">
+                            <div class="d-flex flex-lg-row flex-column-reverse gap-3">
+                                <div class="col">
+                                    <div class="h3">B2B Solutions</div>
+                                    <p>Tailored Solar Energy Solutions for Commercial & Industrial Clients</p>
+                                    <div class="accordion" id="solutions-accordion2">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseOne" aria-expanded="true"
+                                                    aria-controls="collapseOne">
+                                                    Rooftop and Ground-Mount Solutions
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                                aria-labelledby="headingOne" data-bs-parent="#solutions-tabContent">
+                                                <div class="accordion-body">
+                                                    Offering flexible financing options (CAPEX / OPEX) for rooftop and
+                                                    ground-mounted solar installations, tailored to meet specific client
+                                                    needs.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingTwo">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                    aria-expanded="false" aria-controls="collapseTwo">
+                                                    Design and Engineering Expertise
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                                aria-labelledby="headingTwo" data-bs-parent="#solutions-tabContent">
+                                                <div class="accordion-body">
+                                                    Utilizing an experienced in-house team to design and engineer over
+                                                    50 MW of
+                                                    solar plants, ensuring customized solutions that optimize energy
+                                                    efficiency and
+                                                    operational performance.
 
-                        <div class="accordion" id="solutions-accordion3">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Performance Analytics
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingOne" data-bs-parent="#solutions-tabContent">
-                                    <div class="accordion-body">
-                                        Providing detailed performance reports on energy generation and key metrics,
-                                        shared regularly with stakeholders to ensure transparency and informed
-                                        decision-making.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingThree">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                    Turnkey Project Execution
+                                                </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse"
+                                                aria-labelledby="headingThree" data-bs-parent="#solutions-tabContent">
+                                                <div class="accordion-body">
+                                                    Successfully delivering turnkey solar projects across India, managed
+                                                    by
+                                                    dedicated project managers and site engineers, ensuring seamless
+                                                    execution from
+                                                    inception to completion.
 
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Preventive and Routine Maintenance
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#solutions-tabContent">
-                                    <div class="accordion-body">
-                                        Implementing proactive maintenance strategies and routine activities to minimize
-                                        downtime and extend the lifespan of solar assets.
-
-                                    </div>
+                                <div class="col align-items-start d-md-flex mb-4">
+                                    <img src="{{ asset('assets/images/solution-2.png') }}" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        Corrective Actions and Issue Resolution
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#solutions-tabContent">
-                                    <div class="accordion-body">
-                                        Rapid response to any faults or issues, with a dedicated team of skilled
-                                        technicians ensuring timely corrective actions to maintain optimal performance.
+                        </div>
+                        <div class="tab-pane col-12 fade" id="pills-contact" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">
+                            <div class="d-flex flex-lg-row flex-column-reverse gap-3">
+                                <div class="col">
+                                    <div class="h3">Asset Management Services</div>
+                                    <p>Comprehensive Management for Optimal Solar Asset Performance</p>
 
+                                    <div class="accordion" id="solutions-accordion3">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseOne" aria-expanded="true"
+                                                    aria-controls="collapseOne">
+                                                    Performance Analytics
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                                aria-labelledby="headingOne" data-bs-parent="#solutions-tabContent">
+                                                <div class="accordion-body">
+                                                    Providing detailed performance reports on energy generation and key
+                                                    metrics,
+                                                    shared regularly with stakeholders to ensure transparency and
+                                                    informed
+                                                    decision-making.
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingTwo">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                    aria-expanded="false" aria-controls="collapseTwo">
+                                                    Preventive and Routine Maintenance
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                                aria-labelledby="headingTwo" data-bs-parent="#solutions-tabContent">
+                                                <div class="accordion-body">
+                                                    Implementing proactive maintenance strategies and routine activities
+                                                    to minimize
+                                                    downtime and extend the lifespan of solar assets.
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingThree">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                    Corrective Actions and Issue Resolution
+                                                </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse"
+                                                aria-labelledby="headingThree" data-bs-parent="#solutions-tabContent">
+                                                <div class="accordion-body">
+                                                    Rapid response to any faults or issues, with a dedicated team of
+                                                    skilled
+                                                    technicians ensuring timely corrective actions to maintain optimal
+                                                    performance.
+
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
+                                </div>
+                                <div class="col align-items-start d-md-flex mb-4">
+                                    <img src="{{ asset('assets/images/solution-3.png') }}" class="img-fluid">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-12 col-md-6 align-items-start d-md-flex">
-                <img src="{{ asset('assets/images/5.png') }}" class="img-fluid">
             </div>
         </div>
     </div>
@@ -362,20 +410,26 @@
                             <h3>BANSWARA SYNTEX LTD</h3>
                             <div class="bold">Rajasthan’s Largest Single site Rooftop commissioned on textile unit</div>
                             <div class="fs-6 mb-3 projects__content">
-                               <p>Banswara Syntex Ltd is a vertically integrated textile company, specializing in the
-                                production of yarn, fabric and readymade garments. Currently, Banswara Syntex Ltd. is a
-                                public limited company listed on NSE and BSE.</p>
+                                <p>Banswara Syntex Ltd is a vertically integrated textile company, specializing in the
+                                    production of yarn, fabric and readymade garments. Currently, Banswara Syntex Ltd.
+                                    is a
+                                    public limited company listed on NSE and BSE.</p>
                                 <p>
-                                    Due to our varied and highly specialised product range, we are able to service a number of highly reputed fast fashion brands
-                                like Uniqlo, Calvin Klein, Marks and Spencer, Next. Banswara Syntex has its own thermal
-                                power plant, which generates over 30 MW of captive power for the mill. For their next
-                                step, Banswara Syntex intends to move to solar energy.
+                                    Due to our varied and highly specialised product range, we are able to service a
+                                    number of highly reputed fast fashion brands
+                                    like Uniqlo, Calvin Klein, Marks and Spencer, Next. Banswara Syntex has its own
+                                    thermal
+                                    power plant, which generates over 30 MW of captive power for the mill. For their
+                                    next
+                                    step, Banswara Syntex intends to move to solar energy.
                                 </p>
                                 <p>
                                     Sriram Solar is proud to have
-                                partnered with Banswara Syntex to completely energise the electricity requirement to the
-                                extent of 30 MW. In the first phase, we have been awarded turnkey Solar Power Project
-                                EPC of 4.5 MW at their premises located in Banswara.
+                                    partnered with Banswara Syntex to completely energise the electricity requirement to
+                                    the
+                                    extent of 30 MW. In the first phase, we have been awarded turnkey Solar Power
+                                    Project
+                                    EPC of 4.5 MW at their premises located in Banswara.
                                 </p>
                             </div>
                             <a href="#" class="projects__read_more d-flex align-items-center">
@@ -424,13 +478,13 @@
                 <div id="projects" class="carousel slide" data-bs-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./assets/images/6.png" class="d-block w-100" alt="./assets/images/6.png">
+                            <img src="./assets/images/Projects03.png" class="d-block w-100" alt="./assets/images/6.png">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/6.png" class="d-block w-100" alt="./assets/images/6.png">
+                            <img src="./assets/images/Projects02.png" class="d-block w-100" alt="./assets/images/6.png">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/6.png" class="d-block w-100" alt="./assets/images/6.png">
+                            <img src="./assets/images/Projects04.png" class="d-block w-100" alt="./assets/images/6.png">
                         </div>
                     </div>
                     <div class="carousel-indicators">
@@ -702,17 +756,17 @@
 
 @section("scripts")
 <script>
-    document.addEventListener('DOMContentLoaded', ()=>{
+    document.addEventListener('DOMContentLoaded', () => {
         let vid = document.getElementById("heroVideo");
-        
+
         vid.addEventListener("canplay", (event) => {
             $parent = event.target;
             let hero__play = document.querySelector('.hero__play');
-            hero__play.addEventListener('click', ()=>{
-                if($parent.classList.contains('playing')){
+            hero__play.addEventListener('click', () => {
+                if ($parent.classList.contains('playing')) {
                     $parent.classList.remove('playing')
                     $parent.pause()
-                }else{
+                } else {
                     $parent.classList.add('playing')
                     $parent.play()
                 }
