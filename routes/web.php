@@ -14,14 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('website.index', ['hero_img' => [asset('assets/images/hero-1.png'), asset('assets/images/career.png'), asset('assets/images/about-header.png'), asset('assets/images/contact-us.png')]]);
+    return view('website.index', ['hero_img' => [asset('assets/images/1.png'), asset('assets/images/career.png'), asset('assets/images/hero-1.png'), asset('assets/images/contact-us.png')]]);
 })->name('home');
 
 Auth::routes();
 
 Route::get('/about-us', function () {
     return view('website.about', ['hero_img' => [asset('assets/images/about-header.png')]]);
-});
+})->name('about-us');
 
 Route::get('/solar-calculator', function () {
     return view('website.coming-soon', ['hero_img' => [asset('assets/images/about-header.png')]]);

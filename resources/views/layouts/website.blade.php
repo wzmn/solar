@@ -25,7 +25,7 @@
 </head>
 
 <body>
-    <div class="main__wrapper">
+    <div class="main__wrapper {{Route::currentRouteName()}}">
     <div class="d-flex flex-column">
             <div class="hero__bg w-100 flex-fill slide-0"
             @isset($hero_img)
@@ -98,11 +98,8 @@
                                                 <div class="col-md-3 col-6 py-3">
                                                     <dl>
                                                         <dt class="mb-2">
-                                                            Career
-                                                        </dt>
-                                                        <dd>
                                                             <a href="/careers">Careers</a>
-                                                        </dd>
+                                                        </dt>
                                                         <dd>
                                                             <a href="#">Why Enernew?</a>
                                                         </dd>
@@ -324,11 +321,8 @@
                                 class="col-md-3 col-6 py-3 border border-bottom-0 border-top-0 border-start-0">
                                 <dl>
                                     <dt class="mb-2">
-                                        Career
+                                        <a class="bold" href="/careers">Careers</a>
                                     </dt>
-                                    <dd>
-                                        <a href="/careers">Careers</a>
-                                    </dd>
                                     <dd>
                                         <a href="#">Why Enernew?</a>
                                     </dd>

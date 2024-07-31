@@ -19,7 +19,7 @@
                 <div class="col-12 d-md-flex flex-wrap flex-md-nowrap justify-content-center">
                     <div class="icon" data-aos="fade-up">
                         <img src="{{ asset('assets/images/icon-14.png') }}" class="img-fluid">
-                        <h4>2010</h4>
+                        <h4 style="--from: 0; --to: 2010; --duration: 2s;">2010</h4>
                         <span>Founding Year</span>
                     </div>
                     <div class="icon" data-aos="fade-up" data-aos-delay="100">
@@ -40,13 +40,8 @@
                 </div>
             </div>
             <div class="col-12 col-lg-5" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="highlight mb-4">Leading the Way in Clean Energy at </h2>
-                <p>The demand for clean energy is surging among large commercial and industrial (C&I) entities.
-                    In response, Enernew has introduced the Enernew Solar Park with a mission to achieve net
-                    zero carbon emissions. Our state-of-the-art park provides a seamless opportunity for
-                    customers to establish their own solar power plants for captive consumption. By offering
-                    access to captive open-access power at significantly reduced electricity costs, we ensure an
-                    efficient and cost-effective transition to renewable energy.</p>
+                <h4 class="mb-4">Leading the Way in Clean Energy at </h4>
+                <h2 class="highlight fs-1">Enernew Solar Park</h2>
                 <p>The demand for clean energy is surging among large commercial and industrial (C&I) entities.
                     In response, Enernew has introduced the Enernew Solar Park with a mission to achieve net
                     zero carbon emissions. Our state-of-the-art park provides a seamless opportunity for
@@ -463,6 +458,18 @@
                 <div class="infra__item" data-aos="fade-up" data-aos-delay="300">
                     <img src="{{ asset('assets/images/why-1.png') }}" class="img-fluid">
                     <div class="text-white">45 Years of Expertise in the Power Sector</div>
+                </div>
+                <div class="infra__item" data-aos="fade-up" data-aos-delay="400">
+                    <img src="{{ asset('assets/images/why-3.png') }}" class="img-fluid">
+                    <div class="text-white">Innovative Technology Integration</div>
+                </div>
+                <div class="infra__item" data-aos="fade-up" data-aos-delay="500">
+                    <img src="{{ asset('assets/images/why-2.png') }}" class="img-fluid">
+                    <div class="text-white">Dedicated Customer Support</div>
+                </div>
+                <div class="infra__item" data-aos="fade-up" data-aos-delay="600">
+                    <img src="{{ asset('assets/images/why-1.png') }}" class="img-fluid">
+                    <div class="text-white">Proven Track Record of Success</div>
                 </div>
             </div>
         </div>

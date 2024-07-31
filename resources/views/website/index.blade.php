@@ -5,7 +5,7 @@
 @section("header")
 
 <div class="align-items-center col-12 d-flex hero justify-content-end">
-    <div class="text-center w-100">
+    <div class="w-100">
         <video id="heroVideo" muted loop>
             <source src="{{ asset('assets/videos/hero.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
@@ -13,9 +13,9 @@
         <div class="d-flex justify-content-between flex-column-reverse flex-md-row">
             <div class="col-12 col-md-6 show" id="hero__text_wrapper">
                 <h1 class="text-white text-shadow fs-xl hero__title">Sustainable Energy for a Brighter Future</h1>
-                <div class="text-white hero__content mb-3">We are here to unleash the potentials of solar power with
-                    break-through clean energy solutions that is going to set the pace of various solar power projects
-                    of tomorrow.</div>
+                <div class="text-white hero__content mb-3">We are dedicated to unleashing the power of solar energy
+                    through transformative clean energy solutions, forging the path for the future of solar projects.
+                </div>
             </div>
             <div class="d-flex align-items-end flex-column">
                 <div class="bg-red hero__play">
@@ -27,9 +27,9 @@
                     </svg>
                 </div>
                 <div class="bg-red hero__sound">
-                    <svg version="1.1" id="sound" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                    viewBox="0 0 93.038 93.038" style="enable-background:new 0 0 93.038 93.038;"
-                    xml:space="preserve">
+                    <svg version="1.1" id="sound" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 93.038 93.038"
+                        style="enable-background:new 0 0 93.038 93.038;" xml:space="preserve">
                         <g>
                             <path d="M46.547,75.521c0,1.639-0.947,3.128-2.429,3.823c-0.573,0.271-1.187,0.402-1.797,0.402c-0.966,0-1.923-0.332-2.696-0.973
                                 l-23.098-19.14H4.225C1.892,59.635,0,57.742,0,55.409V38.576c0-2.334,1.892-4.226,4.225-4.226h12.303l23.098-19.14
@@ -41,10 +41,11 @@
                                 c-0.764,0.903-1.869,1.445-3.052,1.495c-0.058,0.002-0.117,0.004-0.177,0.004c-1.119,0-2.193-0.442-2.988-1.237l-0.555-0.555
                                 c-1.551-1.55-1.656-4.029-0.246-5.707c6.814-8.104,10.568-18.396,10.568-28.982c0-11.011-4.019-21.611-11.314-29.847
                                 c-1.479-1.672-1.404-4.203,0.17-5.783l0.554-0.555c0.822-0.826,1.89-1.281,3.115-1.242c1.163,0.033,2.263,0.547,3.036,1.417
-                                c8.818,9.928,13.675,22.718,13.675,36.01C93.04,59.783,88.499,72.207,80.252,81.976z"/>
-                            <path d="M 46.547 75.521 c 0 1.639 -0.947 3.128 -2.429 3.823 c -0.573 0.271 -1.187 0.402 -1.797 0.402 c -0.966 0 -1.923 -0.332 -2.696 -0.973 l -23.098 -19.14 H 4.225 C 1.892 59.635 0 57.742 0 55.409 V 38.576 c 0 -2.334 1.892 -4.226 4.225 -4.226 h 12.303 l 23.098 -19.14 c 1.262 -1.046 3.012 -1.269 4.493 -0.569 c 1.481 0.695 2.429 2.185 2.429 3.823 L 46.547 75.521 z z z" />
+                                c8.818,9.928,13.675,22.718,13.675,36.01C93.04,59.783,88.499,72.207,80.252,81.976z" />
+                            <path
+                                d="M 46.547 75.521 c 0 1.639 -0.947 3.128 -2.429 3.823 c -0.573 0.271 -1.187 0.402 -1.797 0.402 c -0.966 0 -1.923 -0.332 -2.696 -0.973 l -23.098 -19.14 H 4.225 C 1.892 59.635 0 57.742 0 55.409 V 38.576 c 0 -2.334 1.892 -4.226 4.225 -4.226 h 12.303 l 23.098 -19.14 c 1.262 -1.046 3.012 -1.269 4.493 -0.569 c 1.481 0.695 2.429 2.185 2.429 3.823 L 46.547 75.521 z z z" />
                         </g>
-                        </svg>
+                    </svg>
                 </div>
             </div>
         </div>
@@ -52,18 +53,14 @@
 </div>
 <div class="col-12">
     <div class="carousel-indicators">
-        <button type="button" data-slide-to="slide-0" data-title="Sustainable Energy for a Brighter Future" data-content="We are here to unleash the potentials of solar power with
-                    break-through clean energy solutions that is going to set the pace of various solar power projects
-                    of tomorrow."></button>
-        <button type="button" data-slide-to="slide-1" data-title="Clean Energy" data-content="We are here to unleash the potentials of solar power with
-        break-through clean energy solutions that is going to set the pace of various solar power projects
-        of tomorrow."></button>
-        <button type="button" data-slide-to="slide-2" data-title="Green Energy" data-content="We are here to unleash the potentials of solar power with
-        break-through clean energy solutions that is going to set the pace of various solar power projects
-        of tomorrow."></button>
-        <button type="button" data-slide-to="slide-3" data-title="Sustainable Energy for a Brighter Future" data-content="We are here to unleash the potentials of solar power with
-        break-through clean energy solutions that is going to set the pace of various solar power projects
-        of tomorrow."></button>
+        <button type="button" data-slide-to="slide-0" data-title="Radiant Solar Futures"
+            data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button>
+        <button type="button" data-slide-to="slide-1" data-title="Radiant Solar Futures"
+            data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button>
+        <button type="button" data-slide-to="slide-2" data-title="Radiant Solar Futures"
+            data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button>
+        <button type="button" data-slide-to="slide-3" data-title="Radiant Solar Futures"
+            data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button>
     </div>
 </div>
 @endsection
@@ -110,20 +107,13 @@
             <div class="col-12 col-lg-5" data-aos="fade-up" data-aos-delay="100">
                 <h2 class="highlight">Overview</h2>
                 <p>
-                    Sriram Cables Pvt. Ltd. has unveiled its latest venture, Enernew Pvt. Ltd., a fully owned
-                    subsidiary dedicated to renewable energy endeavors. Enernew’s primary focus lies in
-                    developing Off-Site Captive Open Access Solar Parks and On-Site C&I Solar Projects, catering
-                    to conglomerates across various sectors of the economy. With an illustrious track record of
-                    executing over 50 MWp+ Solar projects, Enernew is poised to lead the charge towards a
-                    greener future.
+                    In the ever-evolving landscape of renewable energy, Enernew Private Limited stands as a pioneering force dedicated to delivering innovative and sustainable energy solutions. Founded by the visionaries behind Sriram Cables Pvt. Ltd., Enernew has recently unveiled its latest venture, Enernew Pvt. Ltd., a fully owned subsidiary committed to pushing the boundaries of solar energy.
                 </p>
                 <p>
-                    Enernew’s mission transcends mere business objectives; it aspires to become a catalyst for
-                    sustainable development by delivering clean energy solutions. By harnessing the potential of
-                    solar power, Enernew aims to not only meet the energy demands of its clientele but also
-                    contribute significantly to environmental conservation efforts. Through innovative
-                    technologies and robust project management practices, Enernew is committed to ensuring that
-                    every venture contributes positively towards the goal of achieving net zero emissions.
+                    Specializing in Off-Site Captive Open Access Solar Parks and On-Site C&I Solar Projects, Enernew caters to conglomerates spanning various sectors of the economy. With a stellar track record of successfully executing over 50 MWp+ Solar projects, Enernew is not just leading but reshaping the journey towards a greener future.
+                </p>
+                <p>
+                    Beyond mere business ambitions, Enernew's mission is rooted in catalyzing sustainable development through clean energy solutions. By harnessing the inexhaustible potential of solar power, Enernew not only meets the energy demands of its diverse clientele but also champions environmental conservation efforts. Through cutting-edge technologies and meticulous project management practices, Enernew is steadfast in its commitment to achieving net-zero emissions, ensuring that each project contributes meaningfully to global sustainability goals.
                 </p>
                 <a href="/about" class="btn btn--orange">Read More</a>
             </div>
@@ -183,9 +173,7 @@
                             <div class="d-flex flex-lg-row flex-column-reverse gap-3">
                                 <div class="col">
                                     <div class="h3">Solar Power Park Developer</div>
-                                    <p>Enernew is currently developing Utility Scale Solar Parks, which will be
-                                        available
-                                        for Captive customers. Our Solar Park will offer the following:</p>
+                                    <p>Developing Comprehensive Solar Solutions for Captive Customers</p>
 
                                     <div class="accordion" id="solutions-accordion1">
                                         <div class="accordion-item">
@@ -193,18 +181,13 @@
                                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                                     data-bs-target="#collapseOne" aria-expanded="true"
                                                     aria-controls="collapseOne">
-                                                    Well Planned individual Solar Plant Units
+                                                    Well-Planned Solar Plant Units
                                                 </button>
                                             </h2>
                                             <div id="collapseOne" class="accordion-collapse collapse show"
                                                 aria-labelledby="headingOne" data-bs-parent="#solutions-tabContent">
                                                 <div class="accordion-body">
-                                                    Enernew has taken utmost care in structuring and planning the plot
-                                                    sizing for each Solar Plant Unit in the Solar Park. The process has
-                                                    been
-                                                    meticulously and carefully designed by our technical team. It has
-                                                    been
-                                                    divided in an orderly fashion to avoid cluttered free Solar Park.
+                                                    Enernew meticulously designs and structures individual solar plant units within its solar parks, ensuring optimal layout and configuration to maximize energy output and operational efficiency.
                                                 </div>
                                             </div>
                                         </div>
@@ -213,18 +196,13 @@
                                                 <button class="accordion-button collapsed" type="button"
                                                     data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                                                     aria-expanded="false" aria-controls="collapseTwo">
-                                                    Permits and approvals
+                                                    Regulatory Approvals and Compliance
                                                 </button>
                                             </h2>
                                             <div id="collapseTwo" class="accordion-collapse collapse"
                                                 aria-labelledby="headingTwo" data-bs-parent="#solutions-tabContent">
                                                 <div class="accordion-body">
-                                                    Enernew has taken utmost care in structuring and planning the plot
-                                                    sizing for each Solar Plant Unit in the Solar Park. The process has
-                                                    been
-                                                    meticulously and carefully designed by our technical team. It has
-                                                    been
-                                                    divided in an orderly fashion to avoid cluttered free Solar Park.
+                                                    Enernew prioritizes comprehensive regulatory approvals and compliance, navigating government policies and frameworks to secure all necessary permits for seamless project execution and long-term operation.
                                                 </div>
                                             </div>
                                         </div>
@@ -233,18 +211,13 @@
                                                 <button class="accordion-button collapsed" type="button"
                                                     data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                                     aria-expanded="false" aria-controls="collapseThree">
-                                                    Land Aggregation
+                                                    Efficient Land Aggregation and Planning
                                                 </button>
                                             </h2>
                                             <div id="collapseThree" class="accordion-collapse collapse"
                                                 aria-labelledby="headingThree" data-bs-parent="#solutions-tabContent">
                                                 <div class="accordion-body">
-                                                    Enernew has taken utmost care in structuring and planning the plot
-                                                    sizing for each Solar Plant Unit in the Solar Park. The process has
-                                                    been
-                                                    meticulously and carefully designed by our technical team. It has
-                                                    been
-                                                    divided in an orderly fashion to avoid cluttered free Solar Park.
+                                                    Leveraging strong local relationships and expertise, Enernew conducts thorough topographical assessments and planning to aggregate land efficiently, selecting prime locations that enhance solar generation potential and logistical connectivity.
                                                 </div>
                                             </div>
                                         </div>
@@ -439,15 +412,17 @@
                             </div>
                             <a href="#" class="projects__read_more d-inline-flex align-items-center">
                                 <span class="projects__icon">
-                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18"
-	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18"
+                                        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
 
-		<path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216
-			v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z"/>
-	
-</svg>
-                            </span>
-                             <span class="d-flex align-items-center h-100">Explore
+                                        <path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216
+			v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
+
+                                    </svg>
+                                </span>
+                                <span class="d-flex align-items-center h-100">Explore
                                     more</span>
                             </a>
                         </div>
@@ -479,15 +454,17 @@
                             </div>
                             <a href="#" class="projects__read_more d-inline-flex align-items-center">
                                 <span class="projects__icon">
-                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18"
-	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18"
+                                        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
 
-		<path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216
-			v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z"/>
-	
-</svg>
-                            </span>
-                             <span class="d-flex align-items-center">Explore
+                                        <path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216
+			v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
+
+                                    </svg>
+                                </span>
+                                <span class="d-flex align-items-center">Explore
                                     more</span>
                             </a>
                         </div>
@@ -763,7 +740,8 @@
                         <img src="./assets/images/12.png" class="card-img-top" alt="...">
                     </label>
                     <div class="card-body d-flex flex-column justify-content-around">
-                        <h5 class="card-title highlight mb-3">Why Off-Site Solar Parks are the Future of Renewable Energy</h5>
+                        <h5 class="card-title highlight mb-3">Why Off-Site Solar Parks are the Future of Renewable
+                            Energy</h5>
                         <p class="card-text">Solar panels don't require a lot of upkeep, but there are some things you
                             can do to keep them powering ...</p>
                         <a href="#" data-aos="fade-right" data-aos-delay="400" class="text-orange">Read More</a>
@@ -806,23 +784,21 @@
         let hero__title = document.querySelector('.hero__title');
         let hero__content = document.querySelector('.hero__content');
 
-        function showHeroText(title, text){
+        function showHeroText(title, text) {
             clearTimeout(window.hero_interval);
-            window.hero_interval = setTimeout(()=>{
+            window.hero_interval = setTimeout(() => {
                 hero__text_wrapper.classList.add('show')
                 hero__title.innerText = title
                 hero__content.innerText = text
-            }, 500);
+            }, 1000);
         }
 
-        [...document.querySelectorAll('[data-slide-to]')].map(s=>{
+        [...document.querySelectorAll('[data-slide-to]')].map(s => {
             s.addEventListener('click', e => {
                 $this = e.target;
                 hero.classList.remove(...['slide-0', 'slide-1', 'slide-2', 'slide-3'])
                 hero.classList.add($this.getAttribute('data-slide-to'))
                 hero__text_wrapper.classList.remove('show');
-                // hero__title.innerText = $this.getAttribute('data-title')
-                // hero__content.innerText = $this.getAttribute('data-content')
                 showHeroText($this.getAttribute('data-title'), $this.getAttribute('data-content'));
             })
         })
@@ -832,7 +808,7 @@
             $parent = event.target;
             let hero__play = document.querySelector('.hero__play');
             let hero__sound = document.querySelector('.hero__sound');
-            
+
             hero__play.addEventListener('click', () => {
                 if ($parent.classList.contains('playing')) {
                     $parent.classList.remove('playing')
@@ -842,7 +818,7 @@
                     $parent.play()
                 }
             })
-            hero__sound.addEventListener('click', ()=>{
+            hero__sound.addEventListener('click', () => {
                 if ($parent.muted) {
                     $parent.classList.add('sound')
                     $parent.muted = false;
@@ -850,7 +826,7 @@
                     $parent.classList.remove('sound')
                     $parent.muted = true;
                 }
-                
+
             })
         });
     })
