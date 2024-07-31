@@ -27,9 +27,16 @@
 <body>
     <div class="main__wrapper">
     <div class="d-flex flex-column">
-            <div class="hero__bg w-100 flex-fill"
+            <div class="hero__bg w-100 flex-fill slide-0"
             @isset($hero_img)
-            style="background-image: url('{{ $hero_img }}');    background-size: cover;"
+            style="background-image: 
+            @foreach ($hero_img as $item)
+                url('{{ $item }}')
+                @if (!$loop->last)
+                    ,
+                @endif
+            @endforeach
+            ;background-size: cover;"
             @endisset
                 
                 >
@@ -207,10 +214,7 @@
                                                             </svg>
                                                         </a>
                                                         <a href="https://www.instagram.com/enernewsolar/" instagram target="_blank">
-                                                            <svg style="border-radius: 4px" id="social-media" xmlns="http://www.w3.org/2000/svg" width="16.023" height="16.023" viewBox="0 0 16.023 16.023">
-                                                                <path id="Path_4" data-name="Path 4" d="M23.769,20.83a2.94,2.94,0,1,0,2.942,2.939A2.941,2.941,0,0,0,23.769,20.83Z" transform="translate(-15.757 -15.757)" fill="#fff" stroke="#000"></path>
-                                                                <path id="Path_5" data-name="Path 5" d="M17.447,5H8.576A3.582,3.582,0,0,0,5,8.576v8.871a3.58,3.58,0,0,0,3.576,3.576h8.871a3.578,3.578,0,0,0,3.576-3.576V8.576A3.58,3.58,0,0,0,17.447,5ZM13.012,18.2A5.19,5.19,0,1,1,18.2,13.012,5.2,5.2,0,0,1,13.012,18.2Zm5.3-9.438a1.1,1.1,0,1,1,1.1-1.1A1.1,1.1,0,0,1,18.312,8.766Z" transform="translate(-5 -5)" fill="#fff" stroke="#000"></path>
-                                                            </svg>
+                                                            <svg viewBox="0 0 60 60" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><g><path d="m30 20.83c-5.06 0-9.17 4.11-9.17 9.17s4.11 9.18 9.17 9.18 9.18-4.12 9.18-9.18-4.12-9.17-9.18-9.17z"/><path d="m43.84 5h-27.68c-6.15 0-11.16 5.01-11.16 11.16v27.68c0 6.16 5.01 11.16 11.16 11.16h27.68c6.16 0 11.16-5 11.16-11.16v-27.68c0-6.15-5-11.16-11.16-11.16zm-13.84 41.2c-8.93 0-16.2-7.27-16.2-16.2s7.27-16.19 16.2-16.19 16.2 7.26 16.2 16.19-7.27 16.2-16.2 16.2zm16.54-29.45c-1.89 0-3.43-1.53-3.43-3.42s1.54-3.43 3.43-3.43 3.43 1.54 3.43 3.43-1.54 3.42-3.43 3.42z"/></g></svg>
                                                         </a>
                                                     </div>
                                                 </div>
@@ -441,19 +445,9 @@
                                         </svg>
                                     </a>
                                     <a href="https://www.instagram.com/enernewsolar/" instagram target="_blank">
-                                        <!-- <svg id="social-media" xmlns="http://www.w3.org/2000/svg" width="16.023"
-                                            height="16.023" viewBox="0 0 16.023 16.023">
-                                            <path id="Path_4" data-name="Path 4"
-                                                d="M23.769,20.83a2.94,2.94,0,1,0,2.942,2.939A2.941,2.941,0,0,0,23.769,20.83Z"
-                                                transform="translate(-15.757 -15.757)" fill="#000" />
-                                            <path id="Path_5" data-name="Path 5"
-                                                d="M17.447,5H8.576A3.582,3.582,0,0,0,5,8.576v8.871a3.58,3.58,0,0,0,3.576,3.576h8.871a3.578,3.578,0,0,0,3.576-3.576V8.576A3.58,3.58,0,0,0,17.447,5ZM13.012,18.2A5.19,5.19,0,1,1,18.2,13.012,5.2,5.2,0,0,1,13.012,18.2Zm5.3-9.438a1.1,1.1,0,1,1,1.1-1.1A1.1,1.1,0,0,1,18.312,8.766Z"
-                                                transform="translate(-5 -5)" fill="#000" />
-                                        </svg> -->
-                                        <svg style="border-radius: 4px" id="social-media" xmlns="http://www.w3.org/2000/svg" width="16.023" height="16.023" viewBox="0 0 16.023 16.023">
-                                            <path id="Path_4" data-name="Path 4" d="M23.769,20.83a2.94,2.94,0,1,0,2.942,2.939A2.941,2.941,0,0,0,23.769,20.83Z" transform="translate(-15.757 -15.757)" fill="#fff" stroke="#000"></path>
-                                            <path id="Path_5" data-name="Path 5" d="M17.447,5H8.576A3.582,3.582,0,0,0,5,8.576v8.871a3.58,3.58,0,0,0,3.576,3.576h8.871a3.578,3.578,0,0,0,3.576-3.576V8.576A3.58,3.58,0,0,0,17.447,5ZM13.012,18.2A5.19,5.19,0,1,1,18.2,13.012,5.2,5.2,0,0,1,13.012,18.2Zm5.3-9.438a1.1,1.1,0,1,1,1.1-1.1A1.1,1.1,0,0,1,18.312,8.766Z" transform="translate(-5 -5)" fill="#fff" stroke="#000"></path>
-                                        </svg>
+                                        <svg viewBox="0 0 60 60" width="20" height="20" xmlns="http://www.w3.org/2000/svg"><g>
+                                            <!--- Thanks Floyd -->
+                                            <path d="m30 20.83c-5.06 0-9.17 4.11-9.17 9.17s4.11 9.18 9.17 9.18 9.18-4.12 9.18-9.18-4.12-9.17-9.18-9.17z"/><path d="m43.84 5h-27.68c-6.15 0-11.16 5.01-11.16 11.16v27.68c0 6.16 5.01 11.16 11.16 11.16h27.68c6.16 0 11.16-5 11.16-11.16v-27.68c0-6.15-5-11.16-11.16-11.16zm-13.84 41.2c-8.93 0-16.2-7.27-16.2-16.2s7.27-16.19 16.2-16.19 16.2 7.26 16.2 16.19-7.27 16.2-16.2 16.2zm16.54-29.45c-1.89 0-3.43-1.53-3.43-3.42s1.54-3.43 3.43-3.43 3.43 1.54 3.43 3.43-1.54 3.42-3.43 3.42z"/></g></svg>
                                     </a>
                                 </div>
                             </div>

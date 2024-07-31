@@ -150,7 +150,7 @@
             <div class="col-12">
                 <h2 class="highlight mb-4 highlight--center text-white" data-aos="fade-up">Contact Information</h2>
                 <div class="text-white text-center" data-aos="fade-up">
-                    For more information about career opportunities at Enernew, please reach out to our <br> dedicated HR team at hr@enernew.in or call +91-8800222600
+                    For more information about career opportunities at Enernew, please reach out to our <br> dedicated HR team at careers@enernew.in or call +91-8800222600
                 </div>
             </div>
         </div>

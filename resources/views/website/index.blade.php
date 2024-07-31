@@ -3,21 +3,21 @@
 @extends("layouts.website")
 
 @section("header")
-<div class="align-items-center col-12 d-flex hero justify-content-end   ">
-    <div class="text-center">
-        <video id="heroVideo" muted loop class="">
+
+<div class="align-items-center col-12 d-flex hero justify-content-end">
+    <div class="text-center w-100">
+        <video id="heroVideo" muted loop>
             <source src="{{ asset('assets/videos/hero.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
-        <div class="d-flex">
-            <div>
-                <h1 class="text-white text-shadow fs-xl">Sustainable Energy for a Brighter Future</h1>
+        <div class="d-flex justify-content-between flex-column-reverse flex-md-row">
+            <div class="col-12 col-md-6 show" id="hero__text_wrapper">
+                <h1 class="text-white text-shadow fs-xl hero__title">Sustainable Energy for a Brighter Future</h1>
                 <div class="text-white hero__content mb-3">We are here to unleash the potentials of solar power with
                     break-through clean energy solutions that is going to set the pace of various solar power projects
                     of tomorrow.</div>
-                {{-- <a href="/about" class="hero__btn btn btn--black">Read More</a> --}}
             </div>
-            <div>
+            <div class="d-flex align-items-end flex-column">
                 <div class="bg-red hero__play">
                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490"
@@ -26,8 +26,44 @@
                         <path d="M 15.541 490 V 0 l 453.459 -1 L 469 490 z" />
                     </svg>
                 </div>
+                <div class="bg-red hero__sound">
+                    <svg version="1.1" id="sound" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 93.038 93.038" style="enable-background:new 0 0 93.038 93.038;"
+                    xml:space="preserve">
+                        <g>
+                            <path d="M46.547,75.521c0,1.639-0.947,3.128-2.429,3.823c-0.573,0.271-1.187,0.402-1.797,0.402c-0.966,0-1.923-0.332-2.696-0.973
+                                l-23.098-19.14H4.225C1.892,59.635,0,57.742,0,55.409V38.576c0-2.334,1.892-4.226,4.225-4.226h12.303l23.098-19.14
+                                c1.262-1.046,3.012-1.269,4.493-0.569c1.481,0.695,2.429,2.185,2.429,3.823L46.547,75.521L46.547,75.521z M62.784,68.919
+                                c-0.103,0.007-0.202,0.011-0.304,0.011c-1.116,0-2.192-0.441-2.987-1.237l-0.565-0.567c-1.482-1.479-1.656-3.822-0.408-5.504
+                                c3.164-4.266,4.834-9.323,4.834-14.628c0-5.706-1.896-11.058-5.484-15.478c-1.366-1.68-1.24-4.12,0.291-5.65l0.564-0.565
+                                c0.844-0.844,1.975-1.304,3.199-1.231c1.192,0.06,2.305,0.621,3.061,1.545c4.977,6.09,7.606,13.484,7.606,21.38
+                                c0,7.354-2.325,14.354-6.725,20.24C65.131,68.216,64.007,68.832,62.784,68.919z M80.252,81.976
+                                c-0.764,0.903-1.869,1.445-3.052,1.495c-0.058,0.002-0.117,0.004-0.177,0.004c-1.119,0-2.193-0.442-2.988-1.237l-0.555-0.555
+                                c-1.551-1.55-1.656-4.029-0.246-5.707c6.814-8.104,10.568-18.396,10.568-28.982c0-11.011-4.019-21.611-11.314-29.847
+                                c-1.479-1.672-1.404-4.203,0.17-5.783l0.554-0.555c0.822-0.826,1.89-1.281,3.115-1.242c1.163,0.033,2.263,0.547,3.036,1.417
+                                c8.818,9.928,13.675,22.718,13.675,36.01C93.04,59.783,88.499,72.207,80.252,81.976z"/>
+                            <path d="M 46.547 75.521 c 0 1.639 -0.947 3.128 -2.429 3.823 c -0.573 0.271 -1.187 0.402 -1.797 0.402 c -0.966 0 -1.923 -0.332 -2.696 -0.973 l -23.098 -19.14 H 4.225 C 1.892 59.635 0 57.742 0 55.409 V 38.576 c 0 -2.334 1.892 -4.226 4.225 -4.226 h 12.303 l 23.098 -19.14 c 1.262 -1.046 3.012 -1.269 4.493 -0.569 c 1.481 0.695 2.429 2.185 2.429 3.823 L 46.547 75.521 z z z" />
+                        </g>
+                        </svg>
+                </div>
             </div>
         </div>
+    </div>
+</div>
+<div class="col-12">
+    <div class="carousel-indicators">
+        <button type="button" data-slide-to="slide-0" data-title="Sustainable Energy for a Brighter Future" data-content="We are here to unleash the potentials of solar power with
+                    break-through clean energy solutions that is going to set the pace of various solar power projects
+                    of tomorrow."></button>
+        <button type="button" data-slide-to="slide-1" data-title="Clean Energy" data-content="We are here to unleash the potentials of solar power with
+        break-through clean energy solutions that is going to set the pace of various solar power projects
+        of tomorrow."></button>
+        <button type="button" data-slide-to="slide-2" data-title="Green Energy" data-content="We are here to unleash the potentials of solar power with
+        break-through clean energy solutions that is going to set the pace of various solar power projects
+        of tomorrow."></button>
+        <button type="button" data-slide-to="slide-3" data-title="Sustainable Energy for a Brighter Future" data-content="We are here to unleash the potentials of solar power with
+        break-through clean energy solutions that is going to set the pace of various solar power projects
+        of tomorrow."></button>
     </div>
 </div>
 @endsection
@@ -128,7 +164,7 @@
                     <li class="nav-item" role="presentation">
                         <button class="btn btn--green" id="pills-profile-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                            aria-selected="false">B2B Solutions</button>
+                            aria-selected="false">B2B Solar Solutions</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="btn btn--green" id="pills-contact-tab" data-bs-toggle="pill"
@@ -401,8 +437,17 @@
                                 </p>
 
                             </div>
-                            <a href="#" class="projects__read_more d-flex align-items-center">
-                                <span class="projects__icon">+</span> <span class="d-flex align-items-center h-100">Read
+                            <a href="#" class="projects__read_more d-inline-flex align-items-center">
+                                <span class="projects__icon">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+		<path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216
+			v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z"/>
+	
+</svg>
+                            </span>
+                             <span class="d-flex align-items-center h-100">Explore
                                     more</span>
                             </a>
                         </div>
@@ -432,22 +477,20 @@
                                     EPC of 4.5 MW at their premises located in Banswara.
                                 </p>
                             </div>
-                            <a href="#" class="projects__read_more d-flex align-items-center">
-                                <span class="projects__icon">+</span> <span class="d-flex align-items-center">Read
+                            <a href="#" class="projects__read_more d-inline-flex align-items-center">
+                                <span class="projects__icon">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+
+		<path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216
+			v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z"/>
+	
+</svg>
+                            </span>
+                             <span class="d-flex align-items-center">Explore
                                     more</span>
                             </a>
                         </div>
-                        <!-- <div class="carousel-item">
-                                    <h3>Pragati Power Corporation Limited</h3>
-                                    <div class="bold">Nation's Largest Single-Site Rooftop Solar Project</div>
-                                    <div class="fs-6 mb-3 projects__content">
-                                        In response to the growing energy needs of the capital city, the Delhi Government established Pragati Power Station, Bawana (PPCL-III). This 1500 MW gas turbine station ensures a reliable power supply, addressing the increasing demand and supporting the residents of Delhi.
-                                    </div>
-                                    <a href="#" class="projects__read_more d-flex align-items-center">
-                                        <span class="projects__icon">+</span> <span
-                                            class="d-flex align-items-center">Read more</span>
-                                    </a>
-                                </div> -->
                     </div>
                     <button class="carousel-control-prev d-none d-md-flex" type="button" data-bs-target="#projects"
                         data-bs-slide="prev">
@@ -720,7 +763,7 @@
                         <img src="./assets/images/12.png" class="card-img-top" alt="...">
                     </label>
                     <div class="card-body d-flex flex-column justify-content-around">
-                        <h5 class="card-title highlight mb-3">Keep Your Panels Clean</h5>
+                        <h5 class="card-title highlight mb-3">Why Off-Site Solar Parks are the Future of Renewable Energy</h5>
                         <p class="card-text">Solar panels don't require a lot of upkeep, but there are some things you
                             can do to keep them powering ...</p>
                         <a href="#" data-aos="fade-right" data-aos-delay="400" class="text-orange">Read More</a>
@@ -758,10 +801,38 @@
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         let vid = document.getElementById("heroVideo");
+        let hero = document.querySelector('.hero__bg');
+        let hero__text_wrapper = document.querySelector('#hero__text_wrapper');
+        let hero__title = document.querySelector('.hero__title');
+        let hero__content = document.querySelector('.hero__content');
+
+        function showHeroText(title, text){
+            clearTimeout(window.hero_interval);
+            window.hero_interval = setTimeout(()=>{
+                hero__text_wrapper.classList.add('show')
+                hero__title.innerText = title
+                hero__content.innerText = text
+            }, 500);
+        }
+
+        [...document.querySelectorAll('[data-slide-to]')].map(s=>{
+            s.addEventListener('click', e => {
+                $this = e.target;
+                hero.classList.remove(...['slide-0', 'slide-1', 'slide-2', 'slide-3'])
+                hero.classList.add($this.getAttribute('data-slide-to'))
+                hero__text_wrapper.classList.remove('show');
+                // hero__title.innerText = $this.getAttribute('data-title')
+                // hero__content.innerText = $this.getAttribute('data-content')
+                showHeroText($this.getAttribute('data-title'), $this.getAttribute('data-content'));
+            })
+        })
+
 
         vid.addEventListener("canplay", (event) => {
             $parent = event.target;
             let hero__play = document.querySelector('.hero__play');
+            let hero__sound = document.querySelector('.hero__sound');
+            
             hero__play.addEventListener('click', () => {
                 if ($parent.classList.contains('playing')) {
                     $parent.classList.remove('playing')
@@ -770,6 +841,16 @@
                     $parent.classList.add('playing')
                     $parent.play()
                 }
+            })
+            hero__sound.addEventListener('click', ()=>{
+                if ($parent.muted) {
+                    $parent.classList.add('sound')
+                    $parent.muted = false;
+                } else {
+                    $parent.classList.remove('sound')
+                    $parent.muted = true;
+                }
+                
             })
         });
     })

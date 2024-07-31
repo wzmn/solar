@@ -5,9 +5,9 @@
 
 @section("header")
 <div class="mb-100 d-flex flex-column flex-fill justify-content-end align-items-start">
-  <h1 class="text-white">Life @Enernew</h1>
+  <h1 class="text-white">Life @ Enernew</h1>
   <div class="hero__content text-white mb-3">
-    Home > Career > Life @Enernew
+    Home > Career > Life @ Enernew
   </div>
 </div>
 @endsection

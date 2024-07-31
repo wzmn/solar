@@ -14,53 +14,53 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('website.index', ['hero_img' => asset('assets/images/video.webp')]);
+    return view('website.index', ['hero_img' => [asset('assets/images/hero-1.png'), asset('assets/images/career.png'), asset('assets/images/about-header.png'), asset('assets/images/contact-us.png')]]);
 })->name('home');
 
 Auth::routes();
 
 Route::get('/about-us', function () {
-    return view('website.about', ['hero_img' => asset('assets/images/about-header.png')]);
+    return view('website.about', ['hero_img' => [asset('assets/images/about-header.png')]]);
 });
 
 Route::get('/solar-calculator', function () {
-    return view('website.coming-soon', ['hero_img' => asset('assets/images/about-header.png')]);
+    return view('website.coming-soon', ['hero_img' => [asset('assets/images/about-header.png')]]);
 });
 
 Route::get('/contact-us', function () {
-    return view('website.contact', ['hero_img' => asset('assets/images/contact-us.png')]);
+    return view('website.contact', ['hero_img' => [asset('assets/images/contact-us.png')]]);
 });
 
 Route::get('/careers', function () {
-    return view('website.career', ['hero_img' => asset('assets/images/career.png')]);
+    return view('website.career', ['hero_img' => [asset('assets/images/career.png')]]);
 });
 
 Route::get('/employee-testimonials', function () {
-    return view('website.employee-testimonials', ['hero_img' => asset('assets/images/employee-testimonials.png')]);
+    return view('website.employee-testimonials', ['hero_img' => [asset('assets/images/employee-testimonials.png')]]);
 });
 
 Route::get('/job-openings', function () {
-    return view('website.job-openings', ['hero_img' => asset('assets/images/job-openings.png')]);
+    return view('website.job-openings', ['hero_img' => [asset('assets/images/job-openings.png')]]);
 });
 
 Route::get('/life-at-enernew', function () {
-    return view('website.life-at-enernew', ['hero_img' => asset('assets/images/life-enernew.png')]);
+    return view('website.life-at-enernew', ['hero_img' => [asset('assets/images/life-enernew.png')]]);
 });
 
 Route::get('/press-release', function () {
-    return view('website.pr', ['hero_img' => asset('assets/images/press-release.png')]);
+    return view('website.pr', ['hero_img' => [asset('assets/images/press-release.png')]]);
 });
 
 Route::get('/knowledge-center', function () {
-    return view('website.blog', ['hero_img' => asset('assets/images/blog-header.png')]);
+    return view('website.blog', ['hero_img' => [asset('assets/images/blog-header.png')]]);
 });
 
 Route::get('/privacy', function () {
-    return view('website.privacy', ['hero_img' => asset('assets/images/privacy-policy.png')]);
+    return view('website.privacy', ['hero_img' => [asset('assets/images/privacy-policy.png')]]);
 });
 
 Route::get('/terms-of-use', function () {
-    return view('website.terms-of-use', ['hero_img' => asset('assets/images/terms-of-use.png')]);
+    return view('website.terms-of-use', ['hero_img' => [asset('assets/images/terms-of-use.png')]]);
 });
 
 
