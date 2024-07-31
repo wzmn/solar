@@ -59,8 +59,8 @@
             data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button>
         <button type="button" data-slide-to="slide-2" data-title="Radiant Solar Futures"
             data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button>
-        <button type="button" data-slide-to="slide-3" data-title="Radiant Solar Futures"
-            data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button>
+        {{-- <button type="button" data-slide-to="slide-3" data-title="Radiant Solar Futures"
+            data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button> --}}
     </div>
 </div>
 @endsection
