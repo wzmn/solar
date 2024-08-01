@@ -490,10 +490,10 @@
                             e.preventDefault();
                             if(content.classList.contains("open")){
                                 content.classList.remove("open")
-                                readmore.innerText = "Read More";
+                                readmore.innerText = "Explore More";
                             }else{
                                 content.classList.add("open")
-                                readmore.innerText = "Read Less";
+                                readmore.innerText = "Explore Less";
                             }
                         })
                     })

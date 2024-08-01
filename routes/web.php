@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('website.index', ['hero_img' => [asset('assets/images/1.png'), asset('assets/images/career.png'), asset('assets/images/hero-1.png'), asset('assets/images/contact-us.png')]]);
+    return view('website.index', ['hero_img' => [asset('assets/images/1.png'), asset('assets/images/hero-1.png'), asset('assets/images/hero-1.png')]]);
 })->name('home');
 
 Auth::routes();

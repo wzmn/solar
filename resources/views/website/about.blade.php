@@ -17,25 +17,54 @@
             <div class="col mb-3" data-aos="fade-up">
                 <img src="{{ asset('assets/images/3.png') }}" class="img-fluid">
                 <div class="col-12 d-md-flex flex-wrap flex-md-nowrap justify-content-center">
-                    <div class="icon" data-aos="fade-up">
-                        <img src="{{ asset('assets/images/icon-14.png') }}" class="img-fluid">
-                        <h4 style="--from: 0; --to: 2010; --duration: 2s;">2010</h4>
-                        <span>Founding Year</span>
+                    <div class="icon">
+                        <div class="icon__box" data-aos="fade-up">
+                            <img src="./assets/images/icon-14.png" class="img-fluid">
+                            <div>
+                                <span class="bold">Founded in </span>
+                                <h4 class="mb-0" style="--to: 2018;"></h4>
+                                <span class="bold">
+                                    &nbsp;
+                                </span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="icon" data-aos="fade-up" data-aos-delay="100">
-                        <img src="{{ asset('assets/images/icon-16.png') }}" class="img-fluid">
-                        <h4>2000+</h4>
-                        <span>Happy Customers</span>
+                    <div class="icon">
+                        <div class="icon__box" data-aos="fade-up" data-aos-delay="100">
+                            <img src="./assets/images/icon-16.png" class="img-fluid">
+                            <div>
+                                <span class="bold">Partnered with </span>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <h4 class="mb-0" style="--to: 54;"></h4><div class="fs-4">+</div>
+                                </div>
+                                <span class="bold">Companies</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="icon" data-aos="fade-up" data-aos-delay="200">
-                        <img src="{{ asset('assets/images/ICON-17.png') }}" class="img-fluid">
-                        <h4>750+</h4>
-                        <span>Projects Completed</span>
+                    <div class="icon">
+                        <div class="icon__box" data-aos="fade-up" data-aos-delay="200">
+                            <img src="./assets/images/ICON-17.png" class="img-fluid">
+                            <div>
+                                <span class="bold">Commissioned</span>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <h4 class="mb-0" style="--to: 100;"></h4><div class="fs-4">+</div>
+                                </div>
+                                <span class="bold">Megawatts</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="icon" data-aos="fade-up" data-aos-delay="300">
-                        <img src="{{ asset('assets/images/icon-18.png') }}" class="img-fluid">
-                        <h4>190+</h4>
-                        <span>Companies work with us</span>
+                    <div class="icon">
+                        <div class="icon__box" data-aos="fade-up" data-aos-delay="300">
+                            <img src="./assets/images/icon-18.png" class="img-fluid">
+                            <div>
+                                <span class="bold">Saved</span>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <h4 class="mb-0" style="--to: 85000;"></h4><div class="fs-4">+</div>
+                                </div>
+                                <span class="bold">tons of Coal
+                                    </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

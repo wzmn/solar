@@ -12,10 +12,10 @@
         </video>
         <div class="d-flex justify-content-between flex-column-reverse flex-md-row">
             <div class="col-12 col-md-6 show" id="hero__text_wrapper">
-                <h1 class="text-white text-shadow fs-xl hero__title">Sustainable Energy for a Brighter Future</h1>
-                <div class="text-white hero__content mb-3">We are dedicated to unleashing the power of solar energy
-                    through transformative clean energy solutions, forging the path for the future of solar projects.
+                <h1 class="text-white text-shadow fs-xl hero__title">Enlightening Tomorrow's Energy Landscape</h1>
+                <div class="text-white hero__content mb-3">We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects.
                 </div>
+                <a href="/about-us" class="btn btn--black">Explore Our Solution</a>
             </div>
             <div class="d-flex align-items-end flex-column">
                 <div class="bg-red hero__play">
@@ -53,12 +53,12 @@
 </div>
 <div class="col-12">
     <div class="carousel-indicators">
-        <button type="button" data-slide-to="slide-0" data-title="Radiant Solar Futures"
+        <button type="button" data-slide-to="slide-0" data-title="Enlightening Tomorrow's Energy Landscape"
             data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button>
-        <button type="button" data-slide-to="slide-1" data-title="Radiant Solar Futures"
-            data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button>
-        <button type="button" data-slide-to="slide-2" data-title="Radiant Solar Futures"
-            data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button>
+        <button type="button" data-slide-to="slide-1" data-title="Harnessing Nature’s Most Abundant Resource"
+            data-content="We are here to unleash the potentials of solar power with break-through clean energy solutions that is going to set the pace of various solar power projects of tomorrow."></button>
+        {{-- <button type="button" data-slide-to="slide-2" data-title="Radiant Solar Futures"
+            data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button> --}}
         {{-- <button type="button" data-slide-to="slide-3" data-title="Radiant Solar Futures"
             data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button> --}}
     </div>
@@ -71,51 +71,85 @@
     style="background-image: url('./assets/images/2.png');    background-position: 70%;    background-size: cover;">
     <div class="container-fluid mt-5 position-relative">
         <div class="row mb-5">
-            <div class="col mb-3" data-aos="fade-up">
+            <div class="col mb-3">
                 <img src="./assets/images/3.png" class="img-fluid">
-                <div class="d-md-flex flex-wrap flex-md-nowrap justify-content-center">
-                    <div class="icon" data-aos="fade-up">
-                        <div class="icon__box">
+                <div class="d-md-flex flex-wrap flex-md-nowrap justify-content-center icon_wrapper animate" data-aos="fade-up"  data-aos-offset="400">
+                    <div class="icon">
+                        <div class="icon__box" data-aos="fade-up">
                             <img src="./assets/images/icon-14.png" class="img-fluid">
-                            <h4>2010</h4>
-                            <span>Founding Year</span>
+                            <div>
+                                <span class="bold">Founded in </span>
+                                <h4 class="mb-0" style="--to: 2018;"></h4>
+                                <span class="bold">
+                                    &nbsp;
+                                </span>
+                            </div>
                         </div>
                     </div>
-                    <div class="icon" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon__box">
+                    <div class="icon">
+                        <div class="icon__box" data-aos="fade-up" data-aos-delay="100">
                             <img src="./assets/images/icon-16.png" class="img-fluid">
-                            <h4>2000+</h4>
-                            <span>Happy Customers</span>
+                            <div>
+                                <span class="bold">Partnered with </span>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <h4 class="mb-0" style="--to: 54;"></h4><div class="fs-4">+</div>
+                                </div>
+                                <span class="bold">Companies</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="icon" data-aos="fade-up" data-aos-delay="200">
-                        <div class="icon__box">
+                    <div class="icon">
+                        <div class="icon__box" data-aos="fade-up" data-aos-delay="200">
                             <img src="./assets/images/ICON-17.png" class="img-fluid">
-                            <h4>750+</h4>
-                            <span>Projects Completed</span>
+                            <div>
+                                <span class="bold">Commissioned</span>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <h4 class="mb-0" style="--to: 100;"></h4><div class="fs-4">+</div>
+                                </div>
+                                <span class="bold">Megawatts</span>
+                            </div>
                         </div>
                     </div>
-                    <div class="icon" data-aos="fade-up" data-aos-delay="300">
-                        <div class="icon__box">
+                    <div class="icon">
+                        <div class="icon__box" data-aos="fade-up" data-aos-delay="300">
                             <img src="./assets/images/icon-18.png" class="img-fluid">
-                            <h4>190+</h4>
-                            <span>Companies work with us</span>
+                            <div>
+                                <span class="bold">Saved</span>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <h4 class="mb-0" style="--to: 85000;"></h4><div class="fs-4">+</div>
+                                </div>
+                                <span class="bold">tons of Coal
+                                    </span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-12 col-lg-5" data-aos="fade-up" data-aos-delay="100">
                 <h2 class="highlight">Overview</h2>
-                <p>
+                {{-- <p class="text-justify">
                     In the ever-evolving landscape of renewable energy, Enernew Private Limited stands as a pioneering force dedicated to delivering innovative and sustainable energy solutions. Founded by the visionaries behind Sriram Cables Pvt. Ltd., Enernew has recently unveiled its latest venture, Enernew Pvt. Ltd., a fully owned subsidiary committed to pushing the boundaries of solar energy.
                 </p>
-                <p>
+                <p class="text-justify">
                     Specializing in Off-Site Captive Open Access Solar Parks and On-Site C&I Solar Projects, Enernew caters to conglomerates spanning various sectors of the economy. With a stellar track record of successfully executing over 50 MWp+ Solar projects, Enernew is not just leading but reshaping the journey towards a greener future.
                 </p>
-                <p>
+                <p class="text-justify">
+                    Beyond mere business ambitions, Enernew's mission is rooted in catalyzing sustainable development through clean energy solutions. By harnessing the inexhaustible potential of solar power, Enernew not only meets the energy demands of its diverse clientele but also champions environmental conservation efforts. Through cutting-edge technologies and meticulous project management practices, Enernew is steadfast in its commitment to achieving net-zero emissions, ensuring that each project contributes meaningfully to global sustainability goals.
+                </p> --}}
+                <p class="text-justify">
+                    In the ever-evolving landscape of renewable energy, Enernew stands as a pioneering force dedicated to delivering innovative and sustainable energy solutions. Founded by the visionaries behind Sriram Cables, Enernew has recently unveiled its latest venture, committed to pushing the boundaries of green energy.
+
+                </p>
+                <p class="text-justify">
+                    Specializing in Off-Site Captive Open Access Solar Parks and On-Site C&I Solar Projects, Enernew caters to conglomerates spanning various sectors of the economy. With a stellar track record of successfully executing over 100 MWp+ Solar projects, Enernew is not just leading but reshaping the journey towards a greener future.
+                </p>
+                <p class="text-justify">
+                    We empower industries to transcend traditional energy constraints by leveraging cutting-edge renewable technologies, including wind, Battery Energy Storage Systems (BESS), and advanced wind-solar hybrids, to create a future where power needs are met sustainably and efficiently.
+                </p>
+                <p class="text-justify">
                     Beyond mere business ambitions, Enernew's mission is rooted in catalyzing sustainable development through clean energy solutions. By harnessing the inexhaustible potential of solar power, Enernew not only meets the energy demands of its diverse clientele but also champions environmental conservation efforts. Through cutting-edge technologies and meticulous project management practices, Enernew is steadfast in its commitment to achieving net-zero emissions, ensuring that each project contributes meaningfully to global sustainability goals.
                 </p>
-                <a href="/about" class="btn btn--orange">Read More</a>
+                <a href="/about-us" class="btn btn--orange">Explore Our Solution</a>
             </div>
             <div class="col d-none d-lg-block col-sm-1">
 
@@ -222,10 +256,14 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="mt-4">
+                                        <a href="/about-us" class="btn btn--orange">Explore Our Solution</a>
+                                    </div>
                                 </div>
                                 <div class="col align-items-start d-md-flex mb-4">
                                     <img src="{{ asset('assets/images/5.png') }}" class="img-fluid">
                                 </div>
+                               
                             </div>
                         </div>
                         <div class="tab-pane col-12 fade" id="pills-profile" role="tabpanel"
@@ -293,10 +331,14 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="mt-4">
+                                        <a href="/about-us" class="btn btn--orange">Explore Our Solution</a>
+                                    </div>
                                 </div>
                                 <div class="col align-items-start d-md-flex mb-4">
                                     <img src="{{ asset('assets/images/solution-2.png') }}" class="img-fluid">
                                 </div>
+                                
                             </div>
                         </div>
                         <div class="tab-pane col-12 fade" id="pills-contact" role="tabpanel"
@@ -365,6 +407,9 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="mt-4">
+                                        <a href="/about-us" class="btn btn--orange">Explore Our Solution</a>
+                                    </div>
                                 </div>
                                 <div class="col align-items-start d-md-flex mb-4">
                                     <img src="{{ asset('assets/images/solution-3.png') }}" class="img-fluid">
@@ -390,23 +435,15 @@
                 <div id="projects2" class="mb-3 carousel-dark carousel slide" data-bs-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <h3>Pragati Power Corporation Limited</h3>
-                            <div class="bold">Delhi Govt largest single site Rooftop Solar</div>
+                            <h3>Railway Coimbatore</h3>
+                            <div class="bold">India’s First Solar-Powered Running Coaches</div>
                             <div class="fs-6 mb-3 projects__content">
                                 <p>
-                                    To bridge the gap between demand and supply and to give reliable supply to the
-                                    Capital City, Delhi Govt. had set up Pragati Power Station, Bawana (PPCL - III) a
-                                    1500 MW Gas Turbine station to cater to the growing needs of the people of Delhi.
+                                    We showcased our engineering prowess by integrating solar panels on Janshatabdi coaches' roofs for Southern Railways. 
                                 </p>
 
                                 <p>
-                                    We are privileged to have constructed Delhi's Largest and most challenging
-                                    Distributed Rooftop Solar Power Project for Delhi Govt. at Pragati Power Station,
-                                    Bawana of capacity 1.36 MW on a turnkey basis for their captive load purposes. The
-                                    project is setup over 14 different locations at a single premise with one of the
-                                    roofs being at a whooping height of 160 Ft where over 700 KW Solar Power Plant was
-                                    setup. The project was inaugurated by the Chief Minister of Delhi, Mr. Arvind
-                                    Kejriwal.
+                                    Completed in a record 72 hours per coach, this complex project involved designing Corten Steel structures to ensure aerodynamic stability, incorporating water drainage systems, and using special rubber for cushioning to prevent breakage. This initiative reduces CO2 emissions by 300 tonnes and saves 95,000 liters of diesel per rake annually.
                                 </p>
 
                             </div>
@@ -417,8 +454,7 @@
                                         viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
                                         xml:space="preserve">
 
-                                        <path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216
-			v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
+                                        <path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216 v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
 
                                     </svg>
                                 </span>
@@ -459,8 +495,110 @@
                                         viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
                                         xml:space="preserve">
 
-                                        <path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216
-			v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
+                                        <path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216 v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
+
+                                    </svg>
+                                </span>
+                                <span class="d-flex align-items-center">Explore
+                                    more</span>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <h3>Pragati Power Corporation Limited</h3>
+                            <div class="bold">Delhi Govt largest single site Rooftop Solar</div>
+                            <div class="fs-6 mb-3 projects__content">
+                                <p>
+                                    To bridge the gap between demand and supply and to give reliable supply to the
+                                    Capital City, Delhi Govt. had set up Pragati Power Station, Bawana (PPCL - III) a
+                                    1500 MW Gas Turbine station to cater to the growing needs of the people of Delhi.
+                                </p>
+
+                                <p>
+                                    We are privileged to have constructed Delhi's Largest and most challenging
+                                    Distributed Rooftop Solar Power Project for Delhi Govt. at Pragati Power Station,
+                                    Bawana of capacity 1.36 MW on a turnkey basis for their captive load purposes. The
+                                    project is setup over 14 different locations at a single premise with one of the
+                                    roofs being at a whooping height of 160 Ft where over 700 KW Solar Power Plant was
+                                    setup. The project was inaugurated by the Chief Minister of Delhi, Mr. Arvind
+                                    Kejriwal.
+                                </p>
+
+                            </div>
+                            <a href="#" class="projects__read_more d-inline-flex align-items-center">
+                                <span class="projects__icon">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18"
+                                        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+
+                                        <path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216 v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
+
+                                    </svg>
+                                </span>
+                                <span class="d-flex align-items-center h-100">Explore
+                                    more</span>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <h3>BANSWARA SYNTEX LTD</h3>
+                            <div class="bold">Rajasthan’s Largest Single site Rooftop commissioned on textile unit</div>
+                            <div class="fs-6 mb-3 projects__content">
+                                <p>Banswara Syntex Ltd, a leading vertically integrated textile company, specializes in yarn, fabric, and ready-made garments. Listed on both the NSE and BSE, the company serves renowned fast fashion brands such as Uniqlo, Calvin Klein, Marks and Spencer, and Next. With its own thermal power plant generating over 30 MW of captive power, Banswara Syntex is now transitioning to solar energy.</p>
+                                <p>Banswara Syntex to meet their electricity needs with a comprehensive solar solution. In the first phase, we have been awarded a turnkey Solar Power Project EPC of 4.5 MW at their facility in Banswara.</p>
+                            </div>
+                            <a href="#" class="projects__read_more d-inline-flex align-items-center">
+                                <span class="projects__icon">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18"
+                                        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+
+                                        <path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216 v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
+
+                                    </svg>
+                                </span>
+                                <span class="d-flex align-items-center">Explore
+                                    more</span>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <h3>JTEKT CORPORATION (Japanese Group)</h3>
+                            <div class="bold">Empowering a Sustainable Future with Renewable Energy</div>
+                            <div class="fs-6 mb-3 projects__content">
+                                <p>JTEKT Group, with approximately 150 subsidiaries and 50,000 employees across 30 countries, is a global leader in power steering systems, automotive parts, bearings, and machine tools. </p>
+                                <p>Embracing the vision of "No.1 & Only ONE ‒ Shaping a Better Future," JTEKT India Ltd. has entrusted us with a turnkey EPC contract to supply renewable energy for all its factories and plants in India. </p>
+                                <p>We are proud to have commissioned a 2.1 MW solar power project as the first phase of this extensive renewable energy initiative.</p>
+                            </div>
+                            <a href="#" class="projects__read_more d-inline-flex align-items-center">
+                                <span class="projects__icon">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18"
+                                        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+
+                                        <path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216 v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
+
+                                    </svg>
+                                </span>
+                                <span class="d-flex align-items-center">Explore
+                                    more</span>
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <h3>JINDAL SAW LTD.</h3>
+                            <div class="bold">Powering Industrial Growth with Ground-Mounted Solar Energy</div>
+                            <div class="fs-6 mb-3 projects__content">
+                                <p>Jindal Saw Ltd., a flagship company of the Jindal Group led by Mr. Prithvi Raj Jindal, specializes in manufacturing SAW pipes, spiral pipes for energy transportation, and various pipes and tubes for industrial and water transportation applications. </p>
+                                <p>We are proud to have installed a 125 KW ground-mounted solar power project at their facility in Bhilwara, Rajasthan, contributing to their sustainability goals. This project highlights our commitment to supporting industrial leaders in their transition to renewable energy solutions.</p>
+                            </div>
+                            <a href="#" class="projects__read_more d-inline-flex align-items-center">
+                                <span class="projects__icon">
+                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18"
+                                        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                        xml:space="preserve">
+
+                                        <path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216 v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
 
                                     </svg>
                                 </span>
@@ -542,14 +680,6 @@
                 <img src="./assets/images/c6.png" class="img-fluid" data-aos="fade-left" data-aos-delay="400">
                 <img src="./assets/images/c7.png" class="img-fluid" data-aos="fade-left" data-aos-delay="500">
                 <img src="./assets/images/c8.png" class="img-fluid" data-aos="fade-left" data-aos-delay="600">
-                <img src="./assets/images/c9.png" class="img-fluid">
-                <img src="./assets/images/c1.png" class="img-fluid">
-                <img src="./assets/images/c2.png" class="img-fluid">
-                <img src="./assets/images/c4.png" class="img-fluid">
-                <img src="./assets/images/c5.png" class="img-fluid">
-                <img src="./assets/images/c6.png" class="img-fluid">
-                <img src="./assets/images/c7.png" class="img-fluid">
-                <img src="./assets/images/c8.png" class="img-fluid">
                 <img src="./assets/images/c9.png" class="img-fluid">
             </div>
         </div>
