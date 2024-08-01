@@ -55,10 +55,10 @@
     <div class="carousel-indicators">
         <button type="button" data-slide-to="slide-0" data-title="Enlightening Tomorrow's Energy Landscape"
             data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button>
-        <button type="button" data-slide-to="slide-1" data-title="Harnessing Nature’s Most Abundant Resource"
+        <button type="button" data-slide-to="slide-1" data-title="Sustainable Energy for a Brighter Future"
             data-content="We are here to unleash the potentials of solar power with break-through clean energy solutions that is going to set the pace of various solar power projects of tomorrow."></button>
-        {{-- <button type="button" data-slide-to="slide-2" data-title="Radiant Solar Futures"
-            data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button> --}}
+        <button type="button" data-slide-to="slide-2" data-title="Radiant Solar Futures"
+            data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button>
         {{-- <button type="button" data-slide-to="slide-3" data-title="Radiant Solar Futures"
             data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button> --}}
     </div>
@@ -71,7 +71,7 @@
     style="background-image: url('./assets/images/2.png');    background-position: 70%;    background-size: cover;">
     <div class="container-fluid mt-5 position-relative">
         <div class="row mb-5">
-            <div class="col mb-3">
+            <div class="col-lg-5 col mb-3">
                 <img src="./assets/images/3.png" class="img-fluid">
                 <div class="d-md-flex flex-wrap flex-md-nowrap justify-content-center icon_wrapper animate" data-aos="fade-up"  data-aos-offset="400">
                     <div class="icon">
@@ -118,7 +118,7 @@
                                 <div class="d-flex justify-content-center align-items-center">
                                     <h4 class="mb-0" style="--to: 85000;"></h4><div class="fs-4">+</div>
                                 </div>
-                                <span class="bold">tons of Coal
+                                <span class="bold">Tons of Coal
                                     </span>
                             </div>
                         </div>
@@ -188,7 +188,7 @@
                     <li class="nav-item" role="presentation">
                         <button class="btn btn--green" id="pills-profile-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                            aria-selected="false">B2B Solar Solutions</button>
+                            aria-selected="false">Our Solar Solutions</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="btn btn--green" id="pills-contact-tab" data-bs-toggle="pill"
@@ -270,7 +270,7 @@
                             aria-labelledby="pills-profile-tab">
                             <div class="d-flex flex-lg-row flex-column-reverse gap-3">
                                 <div class="col">
-                                    <div class="h3">B2B Solutions</div>
+                                    <div class="h3">Our Solar Solutions</div>
                                     <p>Tailored Solar Energy Solutions for Commercial & Industrial Clients</p>
                                     <div class="accordion" id="solutions-accordion2">
                                         <div class="accordion-item">
@@ -663,7 +663,7 @@
         <div class="row pb-5">
             <div class="col-12 col-sm-5 d-flex justify-content-center flex-column mb-5">
                 <h2 data-aos="fade-up" class="highlight">Our Clients</h2>
-                <p data-aos="fade-up" data-aos-delay="100">We take pride in serving a diverse and prestigious clientele
+                <p data-aos="fade-up" data-aos-delay="100" class="text-justify">We take pride in serving a diverse and prestigious clientele
                     that spans various industries and sectors. From large corporations and government agencies to
                     educational institutions and residential communities, our clients trust us to deliver reliable,
                     innovative, and sustainable solar energy solutions. Our commitment to excellence and customer
@@ -679,7 +679,7 @@
                 <img src="./assets/images/c5.png" class="img-fluid" data-aos="fade-left" data-aos-delay="300">
                 <img src="./assets/images/c6.png" class="img-fluid" data-aos="fade-left" data-aos-delay="400">
                 <img src="./assets/images/c7.png" class="img-fluid" data-aos="fade-left" data-aos-delay="500">
-                <img src="./assets/images/c8.png" class="img-fluid" data-aos="fade-left" data-aos-delay="600">
+                <img src="./assets/images/c8.png" class="img-fluid">
                 <img src="./assets/images/c9.png" class="img-fluid">
             </div>
         </div>
@@ -835,7 +835,7 @@
                             <input name="reason" id="reason" type="select" placeholder="Reason for Contact*" required>
                         </label>
                         <label for="zip">
-                            <input name="zip" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
+                            <input name="zip" autocomplete="off" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
                         </label>
                         <label for="city">
                             <input name="city" id="city" type="text" placeholder="City*" required>

@@ -30,7 +30,7 @@
                             <div>
                                 <div class="bold fs-4">Office Address</div>
                                 <div>
-                                    6th floor, 378-379, Udyog Vihar, Phase IV, Gurgaon, Haryana-122015 (India)
+                                    378-379, Electronic City, Phase IV, Udyog Vihar, Sector 18, Gurugram, Haryana 122015
                                 </div>
                             </div>
                         </div>
@@ -73,12 +73,12 @@
                         style="background-image: url('{{ asset('assets/images/contact-grid-section-bg.png') }}');height: 100%;background-size: cover;">
                         <div class="fs-1">Sales Enquiry</div>
                         <div>Connect to our sales times to discuss your clean energy project</div>
-                        <a href="#" class="btn bg-orange">Connect Sales Team</a>
+                        <a href="#contact" data-click-target="#pills-sales" class="btn bg-orange">Connect Sales Team</a>
                     </div>
                     <div class="contact__grid_item"
                         style="background-image: url('{{ asset('assets/images/contact-grid-section-bg.png') }}');height: 100%;background-size: cover;">
                         <div>
-                            <img src="{{ asset('assets/images/icon-news.png') }}" alt="">
+                            <img src="{{ asset('assets/images/icon-careers.png') }}" alt="">
                             <div class="fs-4 mb-3">
                                 Careers at Enernew
                             </div>
@@ -93,7 +93,7 @@
                     <div class="contact__grid_item"
                         style="background-image: url('{{ asset('assets/images/contact-grid-section-bg.png') }}');height: 100%;background-size: cover;">
                         <div>
-                            <img src="{{ asset('assets/images/icon-news.png') }}" alt="">
+                            <img src="{{ asset('assets/images/icon-partner.png') }}" alt="">
 
                             <div class="fs-4 mb-3">
                                 Become a Channel Partner
@@ -104,7 +104,7 @@
                             </div>
                         </div>
                         <div>
-                            <a href="#" class="btn bg-orange">Channel Partner</a>
+                            <a href="#contact" data-click-target="#pills-channel" class="btn bg-orange">Channel Partner</a>
                         </div>
                     </div>
                     <div class="contact__grid_item"
@@ -121,7 +121,7 @@
                             </div>
                         </div>
                         <div>
-                            <a href="#" class="btn bg-orange">Contact Press & Media</a>
+                            <a href="#contact" data-click-target="#pills-media" class="btn bg-orange">Contact Press & Media</a>
                         </div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
         </div>
     </div>
 </div>
-<div style="background-image: url('{{ asset('assets/images/4.png') }}');padding-bottom: 1px;background-size: cover;">
+<div style="background-image: url('{{ asset('assets/images/4.png') }}');padding-bottom: 1px;background-size: cover;" id="contact">
     <div class="container mb-100 solutions" data-aos="fade-up">
         <div class="row" data-aos="fade-up">
             <div class="col">
@@ -146,22 +146,22 @@
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="btn btn--green" id="pills-profile-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-profile" type="button" role="tab"
+                            data-bs-target="#pills-sales" type="button" role="tab"
                             aria-controls="pills-profile" aria-selected="false">Sales enquiry</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="btn btn--green" id="pills-contact-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-contact" type="button" role="tab"
+                            data-bs-target="#pills-supplier" type="button" role="tab"
                             aria-controls="pills-contact" aria-selected="false">Supplier enquiry</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="btn btn--green" id="pills-profile-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-home" type="button" role="tab"
+                            data-bs-target="#pills-channel" type="button" role="tab"
                             aria-controls="pills-profile" aria-selected="false">Channel enquiry</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="btn btn--green" id="pills-contact-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-home" type="button" role="tab"
+                            data-bs-target="#pills-media" type="button" role="tab"
                             aria-controls="pills-contact" aria-selected="false">Media enquiry</button>
                     </li>
                 </ul>
@@ -190,7 +190,7 @@
                                     <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
                                 </label>
                                 <label for="zip">
-                                    <input name="zip" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
+                                    <input name="zip" autocomplete="off" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
                                 </label>
                                 <label for="city">
                                     <input name="city" id="city" type="text" placeholder="City*" required>
@@ -207,7 +207,7 @@
                             <button type="submit" class="btn btn--orange">Send Message</button>
                         </form>
                     </div>
-                    <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                    <div class="tab-pane fade" id="pills-sales" role="tabpanel"
                         aria-labelledby="pills-profile-tab">
                         <form class="lets_talk__form" name="contact-us">
                             <div>* represents mandatory fields</div>
@@ -226,7 +226,7 @@
                                     <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
                                 </label>
                                 <label for="zip">
-                                    <input name="zip" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
+                                    <input name="zip" autocomplete="off" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
                                 </label>
                                 <label for="city">
                                     <input name="city" id="city" type="text" placeholder="City*" required>
@@ -243,7 +243,7 @@
                             <button type="submit" class="btn btn--orange">Send Message</button>
                         </form>
                     </div>
-                    <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                    <div class="tab-pane fade" id="pills-supplier" role="tabpanel"
                         aria-labelledby="pills-contact-tab">
                         <form class="lets_talk__form" name="contact-us">
                             <div>* represents mandatory fields</div>
@@ -262,7 +262,79 @@
                                     <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
                                 </label>
                                 <label for="zip">
-                                    <input name="zip" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
+                                    <input name="zip" autocomplete="off" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
+                                </label>
+                                <label for="city">
+                                    <input name="city" id="city" type="text" placeholder="City*" required>
+                                </label>
+                                <label for="state">
+                                    <input name="state" id="state" type="text" placeholder="State*" required>
+                                </label>
+                                <label for="country">
+                                    <input name="country" id="country" type="text" placeholder="Country*" required>
+                                </label>
+                                <textarea name="message" id="message" id="" placeholder="Your Message" rows="30"></textarea>
+                                <div class="message_box"></div>
+                            </div>
+                            <button type="submit" class="btn btn--orange">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="pills-channel" role="tabpanel"
+                        aria-labelledby="pills-profile-tab">
+                        <form class="lets_talk__form" name="contact-us">
+                            <div>* represents mandatory fields</div>
+                            <div class="d-grid lets_talk__form_input_group mb-3">
+                                @csrf
+                                <label for="FirstName">
+                                    <input type="text" placeholder="First Name*" name="FirstName" id="FirstName" required>
+                                </label>
+                                <label for="LastName">
+                                    <input type="text" placeholder="Last Name*" name="LastName" id="LastName" required>
+                                </label>
+                                <label for="email">
+                                    <input name="email" id="email" type="email" placeholder="Email Address*" required>
+                                </label>
+                                <label for="phone">
+                                    <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
+                                </label>
+                                <label for="zip">
+                                    <input name="zip" autocomplete="off" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
+                                </label>
+                                <label for="city">
+                                    <input name="city" id="city" type="text" placeholder="City*" required>
+                                </label>
+                                <label for="state">
+                                    <input name="state" id="state" type="text" placeholder="State*" required>
+                                </label>
+                                <label for="country">
+                                    <input name="country" id="country" type="text" placeholder="Country*" required>
+                                </label>
+                                <textarea name="message" id="message" id="" placeholder="Your Message" rows="30"></textarea>
+                                <div class="message_box"></div>
+                            </div>
+                            <button type="submit" class="btn btn--orange">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="pills-media" role="tabpanel"
+                        aria-labelledby="pills-contact-tab">
+                        <form class="lets_talk__form" name="contact-us">
+                            <div>* represents mandatory fields</div>
+                            <div class="d-grid lets_talk__form_input_group mb-3">
+                                @csrf
+                                <label for="FirstName">
+                                    <input type="text" placeholder="First Name*" name="FirstName" id="FirstName" required>
+                                </label>
+                                <label for="LastName">
+                                    <input type="text" placeholder="Last Name*" name="LastName" id="LastName" required>
+                                </label>
+                                <label for="email">
+                                    <input name="email" id="email" type="email" placeholder="Email Address*" required>
+                                </label>
+                                <label for="phone">
+                                    <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
+                                </label>
+                                <label for="zip">
+                                    <input name="zip" autocomplete="off" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
                                 </label>
                                 <label for="city">
                                     <input name="city" id="city" type="text" placeholder="City*" required>
@@ -284,4 +356,16 @@
         </div>
     </div>
 </div>
+@endsection
+
+@section('scripts')
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        [...document.querySelectorAll('[data-click-target]')].map(s=>{
+            s.addEventListener('click', e => {
+                document.querySelector(`[data-bs-target='${e.target.getAttribute('data-click-target')}']`).click()
+            })
+        })
+    })
+</script>
 @endsection

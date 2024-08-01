@@ -567,7 +567,7 @@ body.open {
 .icon h4 {
     --to: 0;
     font-weight: 700;
-    transition: --num 1s;
+    transition: --num 3s;
     counter-reset: num var(--num);
 }
 /* .icon h4:hover {
@@ -835,6 +835,7 @@ footer .container>.row>.col>h2:first-child,
 
 .projects__content>p {
     display: none;
+    text-align: justify;
 }
 
 .projects__content>p:first-child,
@@ -950,7 +951,7 @@ footer .container>.row>.col>h2:first-child,
     grid-auto-flow: row dense;
 } */
 .history__grid {
-    row-gap: 3rem;
+    row-gap: 2rem;
 }
 
 .history__grid__gallery {

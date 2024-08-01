@@ -36,7 +36,7 @@
             </div>
 
             <div class="col-12 col-md-6 py-5 mb-5">
-                <img src="{{ asset('assets/images/career-2.png') }}" class="img-fluid rounded-3">
+                <img src="{{ asset('assets/images/life-enernew/Diwali 3.jpeg') }}" class="img-fluid rounded-3">
             </div>
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
                 <div class="fs-5 mb-2">Work Culture and Environment</div>

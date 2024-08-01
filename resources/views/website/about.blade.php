@@ -61,7 +61,7 @@
                                 <div class="d-flex justify-content-center align-items-center">
                                     <h4 class="mb-0" style="--to: 85000;"></h4><div class="fs-4">+</div>
                                 </div>
-                                <span class="bold">tons of Coal
+                                <span class="bold">Tons of Coal
                                     </span>
                             </div>
                         </div>
@@ -69,15 +69,15 @@
                 </div>
             </div>
             <div class="col-12 col-lg-5" data-aos="fade-up" data-aos-delay="100">
-                <h4 class="mb-4">Leading the Way in Clean Energy at </h4>
-                <h2 class="highlight fs-1">Enernew Solar Park</h2>
-                <p>The demand for clean energy is surging among large commercial and industrial (C&I) entities.
+                {{-- <h4 class="mb-4"></h4> --}}
+                <h2 class="highlight fs-1">Leading the Way in Clean Energy at Enernew Solar Park</h2>
+                <p class="text-justify">The demand for clean energy is surging among large commercial and industrial (C&I) entities.
                     In response, Enernew has introduced the Enernew Solar Park with a mission to achieve net
                     zero carbon emissions. Our state-of-the-art park provides a seamless opportunity for
                     customers to establish their own solar power plants for captive consumption. By offering
                     access to captive open-access power at significantly reduced electricity costs, we ensure an
                     efficient and cost-effective transition to renewable energy.</p>
-                <div class="overview__ul_title mb-3">Benefits: </div>
+                <div class="overview__ul_title mb-3 bold">Benefits: </div>
                 <ul class="overview__ul">
                     <li class="mb-2"><b>Significantly Lower Costs</b>: Enjoy much cheaper electricity compared
                         to DISCOM
@@ -136,7 +136,7 @@
                 <h5 data-aos="fade-up">Leaders in Precision Cable Manufacturing and Innovation</h5>
                 <div class="row history__grid mb-5">
                     <div class="col-12">
-                        <p class="history__grid_item" data-aos="fade-up">Sriram Cables Pvt. Ltd. operates from a
+                        <p class="history__grid_item text-justify" data-aos="fade-up">Sriram Cables Pvt. Ltd. operates from a
                             cutting-edge
                             manufacturing facility in Chopanki
                             Industrial Area, Bhiwadi (Rajasthan), strategically located near Delhi. Spanning
@@ -147,7 +147,7 @@
                             Voltage cables up to 66 KV Voltage Grade.</p>
                     </div>
                     <div class="col-md-6">
-                        <p class="history__grid_item" data-aos="fade-up">We specialize in HT/LT-XLPE/PVC
+                        <p class="history__grid_item text-justify" data-aos="fade-up">We specialize in HT/LT-XLPE/PVC
                             Power,
                             Control, Telecom,
                             Signalling, Axle Counter, Aerial
@@ -158,7 +158,7 @@
                             Automobiles, Power Generation, Steel Plants, Chemicals, Fertilizers, Space Research,
                             Nuclear
                             Power, Petrochemicals, Electronics, Defence, and more.</p>
-                        <p class="history__grid_item history__grid_item--half" data-aos="fade-up">Equipped with
+                        <p class="history__grid_item history__grid_item--half text-justify" data-aos="fade-up">Equipped with
                             the
                             latest technology
                             including a
@@ -181,7 +181,7 @@
                     </div>
 
                     <div class="col-12">
-                        <p class="history__grid_item history__grid_item--half" data-aos="fade-up">At Sriram
+                        <p class="history__grid_item history__grid_item--half text-justify" data-aos="fade-up">At Sriram
                             Cables,
                             we uphold rigorous
                             quality and safety
@@ -287,7 +287,7 @@
                                 </div>
                                 <div class="col-md-8 col-12" data-aos="fade-up">
                                     <h4>Sriram Cables</h4>
-                                    <p>In 2005, we established our state-of-the-art manufacturing facility in
+                                    <p class=" text-justify">In 2005, we established our state-of-the-art manufacturing facility in
                                         Chopanki
                                         Industrial Area, Bhiwadi (Rajasthan), strategically located near Delhi.
                                         Spanning

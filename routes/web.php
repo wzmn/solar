@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('website.index', ['hero_img' => [asset('assets/images/1.png'), asset('assets/images/hero-1.png'), asset('assets/images/hero-1.png')]]);
+    return view('website.index', ['hero_img' => [asset('assets/images/1.png'), asset('assets/images/video-slide.png'), asset('assets/images/slider-3.jpg')]]);
 })->name('home');
 
 Auth::routes();
@@ -56,11 +56,11 @@ Route::get('/knowledge-center', function () {
 });
 
 Route::get('/privacy', function () {
-    return view('website.privacy', ['hero_img' => [asset('assets/images/privacy-policy.png')]]);
+    return view('website.privacy', ['hero_img' => [asset('assets/images/privacy-policy.jpg')]]);
 });
 
 Route::get('/terms-of-use', function () {
-    return view('website.terms-of-use', ['hero_img' => [asset('assets/images/terms-of-use.png')]]);
+    return view('website.terms-of-use', ['hero_img' => [asset('assets/images/terms-of-use.jpg')]]);
 });
 
 
