@@ -30,7 +30,7 @@
                             <div>
                                 <div class="bold fs-4">Office Address</div>
                                 <div>
-                                    378-379, Electronic City, Phase IV, Udyog Vihar, Sector 18, Gurugram, Haryana 122015
+                                    378-379, Electronic City, <br>Phase IV, Udyog Vihar, Sector 18, <br>Gurugram, Haryana 122015
                                 </div>
                             </div>
                         </div>
@@ -50,7 +50,7 @@
                             <div>
                                 <div class="bold fs-4">E-mail ID</div>
                                 <div>
-                                    contact@enernew
+                                    contact@enernew.in
                                 </div>
                             </div>
                         </div>

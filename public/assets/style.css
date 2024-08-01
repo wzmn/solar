@@ -398,13 +398,9 @@ a {
 
 .menu a>svg {
     max-width: 30px;
-    transition: 0.3s 0.2s ease;
+    /* transition: 0.3s 0.2s ease; */
 }
 
-.menu a:hover svg {
-    transform: translateX(20px);
-    fill: var(--orange);
-}
 
 /* .menu_toggle:before {
     content: "MENU";

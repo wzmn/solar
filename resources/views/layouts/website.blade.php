@@ -169,7 +169,7 @@
                                                     </dl>
                                                 </div>
                                                 <div class="col-md-3 col-6 py-3">
-                                                    <div class="d-flex justify-content-around">
+                                                    <div class="column-gap-3 d-flex justify-content-start">
                                                         <a href="https://www.linkedin.com/company/enernew-pvt-ltd/" linkedin target="_blank">
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="15.381" height="15.381"
                                                                 viewBox="0 0 15.381 15.381">

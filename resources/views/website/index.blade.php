@@ -540,11 +540,11 @@
                             </a>
                         </div>
                         <div class="carousel-item">
-                            <h3>BANSWARA SYNTEX LTD</h3>
-                            <div class="bold">Rajasthan’s Largest Single site Rooftop commissioned on textile unit</div>
+                            <h3>JINDAL SAW LTD.</h3>
+                            <div class="bold">Powering Industrial Growth with Ground-Mounted Solar Energy</div>
                             <div class="fs-6 mb-3 projects__content">
-                                <p>Banswara Syntex Ltd, a leading vertically integrated textile company, specializes in yarn, fabric, and ready-made garments. Listed on both the NSE and BSE, the company serves renowned fast fashion brands such as Uniqlo, Calvin Klein, Marks and Spencer, and Next. With its own thermal power plant generating over 30 MW of captive power, Banswara Syntex is now transitioning to solar energy.</p>
-                                <p>Banswara Syntex to meet their electricity needs with a comprehensive solar solution. In the first phase, we have been awarded a turnkey Solar Power Project EPC of 4.5 MW at their facility in Banswara.</p>
+                                <p>Jindal Saw Ltd., a flagship company of the Jindal Group led by Mr. Prithvi Raj Jindal, specializes in manufacturing SAW pipes, spiral pipes for energy transportation, and various pipes and tubes for industrial and water transportation applications. </p>
+                                <p>We are proud to have installed a 125 KW ground-mounted solar power project at their facility in Bhilwara, Rajasthan, contributing to their sustainability goals. This project highlights our commitment to supporting industrial leaders in their transition to renewable energy solutions.</p>
                             </div>
                             <a href="#" class="projects__read_more d-inline-flex align-items-center">
                                 <span class="projects__icon">
