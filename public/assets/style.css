@@ -1077,7 +1077,7 @@ footer .container>.row>.col>h2:first-child,
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 100%;
     align-items: center;
 }

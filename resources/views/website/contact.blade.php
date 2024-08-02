@@ -26,7 +26,7 @@
                 <div class="row">
                     <div class="align-items-center border-2 border-end col d-grid p-5">
                         <div class="contact__info_block d-flex gap-3 align-items-center">
-                            <img src="{{ asset('assets/images/icon-location.png') }}" alt="">
+                            <img src="{{ asset('assets/images/social-location.png') }}" alt="">
                             <div>
                                 <div class="bold fs-4">Office Address</div>
                                 <div>
@@ -37,20 +37,20 @@
                     </div>
                     <div class="col p-5">
                         <div class="contact__info_block d-flex gap-3 align-items-center mb-5">
-                            <img src="{{ asset('assets/images/icon-phone.png') }}" alt="">
+                            <img src="{{ asset('assets/images/social-phone.png') }}" alt="">
                             <div>
                                 <div class="bold fs-4">Phone No.</div>
                                 <div>
-                                    +91 88 00 222 600
+                                    <a href="tel:+91 88 00 222 600">+91 88 00 222 600</a>
                                 </div>
                             </div>
                         </div>
                         <div class="contact__info_block d-flex gap-3 align-items-center">
-                            <img src="{{ asset('assets/images/icon-mail.png') }}" alt="">
+                            <img src="{{ asset('assets/images/social-email.png') }}" alt="">
                             <div>
                                 <div class="bold fs-4">E-mail ID</div>
                                 <div>
-                                    contact@enernew.in
+                                    <a href="mailto:contact@enernew.in">contact@enernew.in</a>
                                 </div>
                             </div>
                         </div>
@@ -190,7 +190,7 @@
                                     <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
                                 </label>
                                 <label for="zip">
-                                    <input name="zip" autocomplete="off" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
+                                    <input name="zip" autocomplete="off" id="zip" type="tel" placeholder="Zipcode/Pincode*" required>
                                 </label>
                                 <label for="city">
                                     <input name="city" id="city" type="text" placeholder="City*" required>
@@ -226,7 +226,7 @@
                                     <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
                                 </label>
                                 <label for="zip">
-                                    <input name="zip" autocomplete="off" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
+                                    <input name="zip" autocomplete="off" id="zip" type="tel" placeholder="Zipcode/Pincode*" required>
                                 </label>
                                 <label for="city">
                                     <input name="city" id="city" type="text" placeholder="City*" required>
@@ -262,7 +262,7 @@
                                     <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
                                 </label>
                                 <label for="zip">
-                                    <input name="zip" autocomplete="off" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
+                                    <input name="zip" autocomplete="off" id="zip" type="tel" placeholder="Zipcode/Pincode*" required>
                                 </label>
                                 <label for="city">
                                     <input name="city" id="city" type="text" placeholder="City*" required>
@@ -298,7 +298,7 @@
                                     <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
                                 </label>
                                 <label for="zip">
-                                    <input name="zip" autocomplete="off" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
+                                    <input name="zip" autocomplete="off" id="zip" type="tel" placeholder="Zipcode/Pincode*" required>
                                 </label>
                                 <label for="city">
                                     <input name="city" id="city" type="text" placeholder="City*" required>
@@ -334,7 +334,7 @@
                                     <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
                                 </label>
                                 <label for="zip">
-                                    <input name="zip" autocomplete="off" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
+                                    <input name="zip" autocomplete="off" id="zip" type="tel" placeholder="Zipcode/Pincode*" required>
                                 </label>
                                 <label for="city">
                                     <input name="city" id="city" type="text" placeholder="City*" required>

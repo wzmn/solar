@@ -79,34 +79,15 @@
                     efficient and cost-effective transition to renewable energy.</p>
                 <div class="overview__ul_title mb-3 bold">Benefits: </div>
                 <ul class="overview__ul">
-                    <li class="mb-2"><b>Significantly Lower Costs</b>: Enjoy much cheaper electricity compared
+                    <li class="mb-3"><b>Significantly Lower Costs</b>: Enjoy much cheaper electricity compared
                         to DISCOM
                         rates.</li>
-                    <li class="mb-2"><b>Regulatory Compliance</b>: Seamlessly meet renewable purchase
-                        obligations.</li>
-                    <li class="mb-2"><b>Hassle-Free Setup</b>: Avoid the complexities of obtaining government
-                        and statutory
-                        approvals or acquiring land.</li>
-                    <li class="mb-2"><b>Asset Ownership</b>: Gain ownership of a Solar Power Plant and leverage
-                        the benefits
-                        of accelerated depreciation.</li>
-                    <li class="mb-2"><b>Attractive Returns</b>: Experience high returns on investment and
-                        internal rate of
-                        return.</li>
-                    <li class="mb-2"><b>Significantly Lower Costs</b>: Enjoy much cheaper electricity compared
-                        to DISCOM
-                        rates.</li>
-                    <li class="mb-2"><b>Regulatory Compliance</b>: Seamlessly meet renewable purchase
-                        obligations.</li>
-                    <li class="mb-2"><b>Hassle-Free Setup</b>: Avoid the complexities of obtaining government
-                        and statutory
-                        approvals or acquiring land.</li>
-                    <li class="mb-2"><b>Asset Ownership</b>: Gain ownership of a Solar Power Plant and leverage
-                        the benefits
-                        of accelerated depreciation.</li>
-                    <li class="mb-2"><b>Attractive Returns</b>: Experience high returns on investment and
-                        internal rate of
-                        return.</li>
+                    <li class="mb-3"><b>Regulatory Compliance</b>: Ensure adherence to renewable energy regulations effortlessly.</li>
+                    <li class="mb-3"><b>Hassle-Free Setup</b>: Avoid land acquisition and simplify solar project setup with our streamlined ORM services.</li>
+                    <li class="mb-3"><b>Asset Ownership</b>: Gain ownership of a Solar Power Plant and leverage the benefits of accelerated depreciation.</li>
+                    <li class="mb-3"><b>Attractive Returns</b>: Experience high returns on investment and internal rate of return.</li>
+                    <li class="mb-3"><b>Financial Exemptions</b>: Benefit from exemptions on additional surcharges and cross-subsidy surcharges.</li>
+                    <li class="mb-3"><b>Trusted Expertise</b>: Backed by Sriram Cables, a leader in the Indian cable and power industry for over 45 years.</li>
                 </ul>
             </div>
             <div class="col-lg-1 d-none d-lg-block"></div>
@@ -136,15 +117,7 @@
                 <h5 data-aos="fade-up">Leaders in Precision Cable Manufacturing and Innovation</h5>
                 <div class="row history__grid mb-5">
                     <div class="col-12">
-                        <p class="history__grid_item text-justify" data-aos="fade-up">Sriram Cables Pvt. Ltd. operates from a
-                            cutting-edge
-                            manufacturing facility in Chopanki
-                            Industrial Area, Bhiwadi (Rajasthan), strategically located near Delhi. Spanning
-                            40,000
-                            square meters, our ISO 9001 and ISO 14001 certified facility houses state-of-the-art
-                            machinery capable of producing a wide array of cables, including Low Voltage and
-                            High
-                            Voltage cables up to 66 KV Voltage Grade.</p>
+                        <p class="history__grid_item text-justify" data-aos="fade-up">Sriram Cables Pvt. Ltd. operates from a cutting-edge manufacturing facility in Chopanki Industrial Area, Bhiwadi (Rajasthan), strategically located near Delhi. Spanning 40,000 square meters, our ISO 9001 and ISO 14001 certified facility houses state-of-the-art machinery capable of producing a wide array of cables, including Low Voltage and High Voltage cables up to 132 KV Voltage Grade.</p>
                     </div>
                     <div class="col-md-6">
                         <p class="history__grid_item text-justify" data-aos="fade-up">We specialize in HT/LT-XLPE/PVC
@@ -489,15 +462,15 @@
                     <div class="text-white">45 Years of Expertise in the Power Sector</div>
                 </div>
                 <div class="infra__item" data-aos="fade-up" data-aos-delay="400">
-                    <img src="{{ asset('assets/images/why-3.png') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/why-4.png') }}" class="img-fluid">
                     <div class="text-white">Innovative Technology Integration</div>
                 </div>
                 <div class="infra__item" data-aos="fade-up" data-aos-delay="500">
-                    <img src="{{ asset('assets/images/why-2.png') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/why-5.png') }}" class="img-fluid">
                     <div class="text-white">Dedicated Customer Support</div>
                 </div>
                 <div class="infra__item" data-aos="fade-up" data-aos-delay="600">
-                    <img src="{{ asset('assets/images/why-1.png') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/why-6.png') }}" class="img-fluid">
                     <div class="text-white">Proven Track Record of Success</div>
                 </div>
             </div>

@@ -63,7 +63,21 @@ Route::get('/terms-of-use', function () {
     return view('website.terms-of-use', ['hero_img' => [asset('assets/images/terms-of-use.jpg')]]);
 });
 
+Route::get('/b2b-solar-solutions', function () {
+    return view('website.coming-soon', ['hero_img' => [asset('assets/images/about-header.png')]]);
+});
 
+Route::get('/asset-management-services', function () {
+    return view('website.coming-soon', ['hero_img' => [asset('assets/images/about-header.png')]]);
+});
+
+Route::get('/utility-scale-solar-power-park-solutions', function () {
+    return view('website.coming-soon', ['hero_img' => [asset('assets/images/about-header.png')]]);
+});
+
+Route::get('/our-solutions', function () {
+    return view('website.coming-soon', ['hero_img' => [asset('assets/images/about-header.png')]]);
+});
 
 
 

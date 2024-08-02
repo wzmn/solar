@@ -188,7 +188,7 @@
                     <li class="nav-item" role="presentation">
                         <button class="btn btn--green" id="pills-profile-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                            aria-selected="false">Our Solar Solutions</button>
+                            aria-selected="false">B2B Solutions</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="btn btn--green" id="pills-contact-tab" data-bs-toggle="pill"
@@ -270,7 +270,7 @@
                             aria-labelledby="pills-profile-tab">
                             <div class="d-flex flex-lg-row flex-column-reverse gap-3">
                                 <div class="col">
-                                    <div class="h3">Our Solar Solutions</div>
+                                    <div class="h3">B2B Solutions</div>
                                     <p>Tailored Solar Energy Solutions for Commercial & Industrial Clients</p>
                                     <div class="accordion" id="solutions-accordion2">
                                         <div class="accordion-item">
@@ -278,15 +278,13 @@
                                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                                     data-bs-target="#collapseOne" aria-expanded="true"
                                                     aria-controls="collapseOne">
-                                                    Rooftop and Ground-Mount Solutions
+                                                    Flexible Solar Financing Solutions
                                                 </button>
                                             </h2>
                                             <div id="collapseOne" class="accordion-collapse collapse show"
                                                 aria-labelledby="headingOne" data-bs-parent="#solutions-tabContent">
                                                 <div class="accordion-body">
-                                                    Offering flexible financing options (CAPEX / OPEX) for rooftop and
-                                                    ground-mounted solar installations, tailored to meet specific client
-                                                    needs.
+                                                    Providing adaptable financing options for solar installations, customized to suit diverse client requirements. Our solutions are designed to deliver flexibility and efficiency, ensuring optimal performance and value.
                                                 </div>
                                             </div>
                                         </div>
@@ -466,26 +464,12 @@
                             <h3>BANSWARA SYNTEX LTD</h3>
                             <div class="bold">Rajasthan’s Largest Single site Rooftop commissioned on textile unit</div>
                             <div class="fs-6 mb-3 projects__content">
-                                <p>Banswara Syntex Ltd is a vertically integrated textile company, specializing in the
-                                    production of yarn, fabric and readymade garments. Currently, Banswara Syntex Ltd.
-                                    is a
-                                    public limited company listed on NSE and BSE.</p>
+                                <p>Banswara Syntex Ltd, a leading vertically integrated textile company, specializes in yarn, fabric, and ready-made garments. Listed on both the NSE and BSE, the company serves renowned fast fashion brands such as Uniqlo, Calvin Klein, Marks and Spencer, and Next. </p>
                                 <p>
-                                    Due to our varied and highly specialised product range, we are able to service a
-                                    number of highly reputed fast fashion brands
-                                    like Uniqlo, Calvin Klein, Marks and Spencer, Next. Banswara Syntex has its own
-                                    thermal
-                                    power plant, which generates over 30 MW of captive power for the mill. For their
-                                    next
-                                    step, Banswara Syntex intends to move to solar energy.
+                                    With its own thermal power plant generating over 30 MW of captive power, Banswara Syntex is now transitioning to solar energy. We are honored to partner with Banswara Syntex to meet their electricity needs with a comprehensive solar solution. 
                                 </p>
                                 <p>
-                                    Sriram Solar is proud to have
-                                    partnered with Banswara Syntex to completely energise the electricity requirement to
-                                    the
-                                    extent of 30 MW. In the first phase, we have been awarded turnkey Solar Power
-                                    Project
-                                    EPC of 4.5 MW at their premises located in Banswara.
+                                    In the first phase, we have been awarded a turnkey Solar Power Project EPC of 4.5 MW at their facility in Banswara.
                                 </p>
                             </div>
                             <a href="#" class="projects__read_more d-inline-flex align-items-center">
@@ -508,19 +492,11 @@
                             <div class="bold">Delhi Govt largest single site Rooftop Solar</div>
                             <div class="fs-6 mb-3 projects__content">
                                 <p>
-                                    To bridge the gap between demand and supply and to give reliable supply to the
-                                    Capital City, Delhi Govt. had set up Pragati Power Station, Bawana (PPCL - III) a
-                                    1500 MW Gas Turbine station to cater to the growing needs of the people of Delhi.
+                                    To address the growing energy needs of the capital city, the Delhi Government established Pragati Power Station, Bawana (PPCL - III), a 1500 MW gas turbine facility. We are honored to have delivered Delhi's largest and most complex distributed rooftop solar power project at this site, with a total capacity of 1.36 MW.
                                 </p>
 
                                 <p>
-                                    We are privileged to have constructed Delhi's Largest and most challenging
-                                    Distributed Rooftop Solar Power Project for Delhi Govt. at Pragati Power Station,
-                                    Bawana of capacity 1.36 MW on a turnkey basis for their captive load purposes. The
-                                    project is setup over 14 different locations at a single premise with one of the
-                                    roofs being at a whooping height of 160 Ft where over 700 KW Solar Power Plant was
-                                    setup. The project was inaugurated by the Chief Minister of Delhi, Mr. Arvind
-                                    Kejriwal.
+                                    This turnkey project spans 14 different locations within the same premise, including a challenging installation at a height of 160 feet, where over 700 KW of solar capacity was installed. The project was inaugurated by Delhi's Chief Minister, Mr. Arvind Kejriwal.
                                 </p>
 
                             </div>
@@ -568,28 +544,6 @@
                                 <p>JTEKT Group, with approximately 150 subsidiaries and 50,000 employees across 30 countries, is a global leader in power steering systems, automotive parts, bearings, and machine tools. </p>
                                 <p>Embracing the vision of "No.1 & Only ONE ‒ Shaping a Better Future," JTEKT India Ltd. has entrusted us with a turnkey EPC contract to supply renewable energy for all its factories and plants in India. </p>
                                 <p>We are proud to have commissioned a 2.1 MW solar power project as the first phase of this extensive renewable energy initiative.</p>
-                            </div>
-                            <a href="#" class="projects__read_more d-inline-flex align-items-center">
-                                <span class="projects__icon">
-                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                        xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18"
-                                        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
-                                        xml:space="preserve">
-
-                                        <path d="M492,236H276V20c0-11.046-8.954-20-20-20c-11.046,0-20,8.954-20,20v216H20c-11.046,0-20,8.954-20,20s8.954,20,20,20h216 v216c0,11.046,8.954,20,20,20s20-8.954,20-20V276h216c11.046,0,20-8.954,20-20C512,244.954,503.046,236,492,236z" />
-
-                                    </svg>
-                                </span>
-                                <span class="d-flex align-items-center">Explore
-                                    more</span>
-                            </a>
-                        </div>
-                        <div class="carousel-item">
-                            <h3>JINDAL SAW LTD.</h3>
-                            <div class="bold">Powering Industrial Growth with Ground-Mounted Solar Energy</div>
-                            <div class="fs-6 mb-3 projects__content">
-                                <p>Jindal Saw Ltd., a flagship company of the Jindal Group led by Mr. Prithvi Raj Jindal, specializes in manufacturing SAW pipes, spiral pipes for energy transportation, and various pipes and tubes for industrial and water transportation applications. </p>
-                                <p>We are proud to have installed a 125 KW ground-mounted solar power project at their facility in Bhilwara, Rajasthan, contributing to their sustainability goals. This project highlights our commitment to supporting industrial leaders in their transition to renewable energy solutions.</p>
                             </div>
                             <a href="#" class="projects__read_more d-inline-flex align-items-center">
                                 <span class="projects__icon">
@@ -835,7 +789,7 @@
                             <input name="reason" id="reason" type="select" placeholder="Reason for Contact*" required>
                         </label>
                         <label for="zip">
-                            <input name="zip" autocomplete="off" id="zip" type="number" placeholder="Zipcode/Pincode*" required>
+                            <input name="zip" autocomplete="off" id="zip" type="tel" placeholder="Zipcode/Pincode*" required>
                         </label>
                         <label for="city">
                             <input name="city" id="city" type="text" placeholder="City*" required>
