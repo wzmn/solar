@@ -188,7 +188,7 @@
                     <li class="nav-item" role="presentation">
                         <button class="btn btn--green" id="pills-profile-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                            aria-selected="false">B2B Solutions</button>
+                            aria-selected="false">Our Solar Solutions</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="btn btn--green" id="pills-contact-tab" data-bs-toggle="pill"
