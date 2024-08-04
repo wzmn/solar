@@ -139,13 +139,13 @@
                                                             Our Solutions
                                                         </dt>
                                                         <dd>
-                                                            <a href="#">Solar Power Park Developer</a>
+                                                            <a href="/utility-scale-solar-power-park-solutions">Solar Power Park Developer</a>
                                                         </dd>
                                                         <dd>
-                                                            <a href="#">B2B Solutions</a>
+                                                            <a href="/b2b-solar-solutions">B2B Solutions</a>
                                                         </dd>
                                                         <dd>
-                                                            <a href="#">Asset Managment</a>
+                                                            <a href="/asset-management-services">Asset Managment</a>
                                                         </dd>
                                                     </dl>
                                                 </div>
@@ -391,13 +391,13 @@
                                         Our Solutions
                                     </dt>
                                     <dd>
-                                        <a href="#">Solar Power Park Developer</a>
+                                        <a href="/utility-scale-solar-power-park-solutions">Solar Power Park Developer</a>
                                     </dd>
                                     <dd>
-                                        <a href="#">B2B Solutions</a>
+                                        <a href="/b2b-solar-solutions">B2B Solutions</a>
                                     </dd>
                                     <dd>
-                                        <a href="#">Asset Managment</a>
+                                        <a href="/asset-management-services">Asset Managment</a>
                                     </dd>
                                 </dl>
                             </div>

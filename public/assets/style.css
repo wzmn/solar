@@ -1055,6 +1055,13 @@ footer .container>.row>.col>h2:first-child,
     width: 100%;
 }
 
+.cta {
+    min-height: 650px;
+}
+i {
+    font-weight: 600;
+}
+
 .infra {
     display: grid;
 

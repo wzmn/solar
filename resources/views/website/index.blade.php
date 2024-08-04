@@ -257,7 +257,7 @@
                                         </div>   
                                     </div>
                                     <div class="mt-4">
-                                        <a href="/about-us" class="btn btn--orange">Explore Our Solution</a>
+                                        <a href="/utility-scale-solar-power-park-solutions" class="btn btn--orange">Explore Our Solution</a>
                                     </div>
                                 </div>
                                 <div class="col align-items-start d-md-flex mb-4">
@@ -325,7 +325,7 @@
                                         </div>
                                     </div>
                                     <div class="mt-4">
-                                        <a href="/about-us" class="btn btn--orange">Explore Our Solution</a>
+                                        <a href="/b2b-solar-solutions" class="btn btn--orange">Explore Our Solution</a>
                                     </div>
                                 </div>
                                 <div class="col align-items-start d-md-flex mb-4">
@@ -401,7 +401,7 @@
                                         </div>
                                     </div>
                                     <div class="mt-4">
-                                        <a href="/about-us" class="btn btn--orange">Explore Our Solution</a>
+                                        <a href="/asset-management-services" class="btn btn--orange">Explore Our Solution</a>
                                     </div>
                                 </div>
                                 <div class="col align-items-start d-md-flex mb-4">

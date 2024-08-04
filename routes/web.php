@@ -64,15 +64,15 @@ Route::get('/terms-of-use', function () {
 });
 
 Route::get('/b2b-solar-solutions', function () {
-    return view('website.coming-soon', ['hero_img' => [asset('assets/images/about-header.png')]]);
+    return view('website.b2b', ['hero_img' => [asset('assets/images/b2b.png')]]);
 });
 
 Route::get('/asset-management-services', function () {
-    return view('website.coming-soon', ['hero_img' => [asset('assets/images/about-header.png')]]);
+    return view('website.asset-management', ['hero_img' => [asset('assets/images/asset.png')]]);
 });
 
 Route::get('/utility-scale-solar-power-park-solutions', function () {
-    return view('website.coming-soon', ['hero_img' => [asset('assets/images/about-header.png')]]);
+    return view('website.solar-solutions', ['hero_img' => [asset('assets/images/utility-scale.png')]]);
 });
 
 Route::get('/our-solutions', function () {
