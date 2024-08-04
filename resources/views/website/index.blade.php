@@ -457,7 +457,7 @@
                         </div>
                         <div class="carousel-item">
                             <h3>BANSWARA SYNTEX LTD</h3>
-                            <div class="bold">Rajasthan’s Largest Single site Rooftop commissioned on textile unit</div>
+                            <div class="bold">Rajasthan’s Largest Single-Site Rooftop Solar Project</div>
                             <div class="fs-6 mb-3 projects__content">
                                 <p>Banswara Syntex Ltd, a leading vertically integrated textile company, specializes in yarn, fabric, and ready-made garments. Listed on both the NSE and BSE, the company serves renowned fast fashion brands such as Uniqlo, Calvin Klein, Marks and Spencer, and Next. </p>
                                 <p>
