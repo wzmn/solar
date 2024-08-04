@@ -270,7 +270,7 @@
                             aria-labelledby="pills-profile-tab">
                             <div class="d-flex flex-lg-row flex-column-reverse gap-3">
                                 <div class="col">
-                                    <div class="h3">B2B Solutions</div>
+                                    <div class="h3">Our Solar Solutions</div>
                                     <p>Tailored Solar Energy Solutions for Commercial & Industrial Clients</p>
                                     <div class="accordion" id="solutions-accordion2">
                                         <div class="accordion-item">
@@ -299,12 +299,7 @@
                                             <div id="collapseTwo" class="accordion-collapse collapse"
                                                 aria-labelledby="headingTwo" data-bs-parent="#solutions-tabContent">
                                                 <div class="accordion-body">
-                                                    Utilizing an experienced in-house team to design and engineer over
-                                                    50 MW of
-                                                    solar plants, ensuring customized solutions that optimize energy
-                                                    efficiency and
-                                                    operational performance.
-
+                                                    Utilizing an experienced in-house team to design and engineer over 100 MW of solar plants, ensuring customized solutions that optimize energy efficiency and operational performance.
                                                 </div>
                                             </div>
                                         </div>
