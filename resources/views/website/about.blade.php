@@ -449,30 +449,32 @@
         <div class="infra py-5 my-5">
             <!-- <img src="https://placehold.co/640x480" class="infra__image"> -->
             <div class="infra__item_wrapper">
+                <div class="infra__item" data-aos="fade-up" data-aos-delay="300">
+                    <img src="{{ asset('assets/images/why-1.png') }}" class="img-fluid">
+                    <div class="text-white">Pioneering Green Energy Innovation</div>
+                </div>                
+                <div class="infra__item" data-aos="fade-up" data-aos-delay="600">
+                    <img src="{{ asset('assets/images/why-6.png') }}" class="img-fluid">
+                    <div class="text-white">Comprehensive Excellence in Project Delivery</div>
+                </div>                
+
+                <div class="infra__item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="{{ asset('assets/images/why-2.png') }}" class="img-fluid">
+                    <div class="text-white">Relentless Pursuit of Net-Zero Emissions</div>
+                </div>
                 <div class="infra__item" data-aos="fade-up" data-aos-delay="100">
                     <img src="{{ asset('assets/images/why-3.png') }}" class="img-fluid">
                     <div class="text-white">Ready-to-Implement Infrastructure</div>
                 </div>
-                <div class="infra__item" data-aos="fade-up" data-aos-delay="200">
-                    <img src="{{ asset('assets/images/why-2.png') }}" class="img-fluid">
-                    <div class="text-white">Environmentally Friendly Solutions</div>
-                </div>
-                <div class="infra__item" data-aos="fade-up" data-aos-delay="300">
-                    <img src="{{ asset('assets/images/why-1.png') }}" class="img-fluid">
-                    <div class="text-white">45 Years of Expertise in the Power Sector</div>
-                </div>
                 <div class="infra__item" data-aos="fade-up" data-aos-delay="400">
                     <img src="{{ asset('assets/images/why-4.png') }}" class="img-fluid">
-                    <div class="text-white">Innovative Technology Integration</div>
+                    <div class="text-white">Legacy of Expertise: Sriram Cables’ Proven Team</div>
                 </div>
-                <div class="infra__item" data-aos="fade-up" data-aos-delay="500">
+                <!-- <div class="infra__item" data-aos="fade-up" data-aos-delay="500">
                     <img src="{{ asset('assets/images/why-5.png') }}" class="img-fluid">
                     <div class="text-white">Dedicated Customer Support</div>
-                </div>
-                <div class="infra__item" data-aos="fade-up" data-aos-delay="600">
-                    <img src="{{ asset('assets/images/why-6.png') }}" class="img-fluid">
-                    <div class="text-white">Proven Track Record of Success</div>
-                </div>
+                </div> -->
+
             </div>
         </div>
     </div>
