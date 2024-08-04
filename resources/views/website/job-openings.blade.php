@@ -18,7 +18,7 @@
     <div class="row">
       <div class="col-12">
         <h1 data-aos="fade-up" class="highlight text-center highlight--center mb-4 pb-3">
-          Current Openings - Enernew
+          Current Openings
         </h1>
         <div class="content text-center" data-aos="fade-up">
           <p>
