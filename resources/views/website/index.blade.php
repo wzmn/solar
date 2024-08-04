@@ -13,7 +13,7 @@
         <div class="d-flex justify-content-between flex-column-reverse flex-md-row">
             <div class="col-12 col-md-6 show" id="hero__text_wrapper">
                 <h1 class="text-white text-shadow fs-xl hero__title">Enlightening Tomorrow's Energy Landscape</h1>
-                <div class="text-white hero__content mb-3">We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects.
+                <div class="text-white hero__content mb-3">We are dedicated to unleashing the power of renewable energy through transformative clean energy solutions, forging the path to the future of decarbonisation projects.
                 </div>
                 <a href="/about-us" class="btn btn--black">Explore Our Solution</a>
             </div>
