@@ -428,7 +428,7 @@
                 <div id="projects2" class="mb-3 carousel-dark carousel slide" data-bs-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <h3>Railway Coimbatore</h3>
+                            <h3>RAILWAY COIMBATORE</h3>
                             <div class="bold">India’s First Solar-Powered Running Coaches</div>
                             <div class="fs-6 mb-3 projects__content">
                                 <p>
@@ -483,8 +483,8 @@
                             </a>
                         </div>
                         <div class="carousel-item">
-                            <h3>Pragati Power Corporation Limited</h3>
-                            <div class="bold">Delhi Govt largest single site Rooftop Solar</div>
+                            <h3>PRAGATI POWER CORPORATION LIMITED</h3>
+                            <div class="bold">Delhi Govt's Largest Single-Site Rooftop Solar Project</div>
                             <div class="fs-6 mb-3 projects__content">
                                 <p>
                                     To address the growing energy needs of the capital city, the Delhi Government established Pragati Power Station, Bawana (PPCL - III), a 1500 MW gas turbine facility. We are honored to have delivered Delhi's largest and most complex distributed rooftop solar power project at this site, with a total capacity of 1.36 MW.
