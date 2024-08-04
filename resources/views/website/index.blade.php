@@ -211,17 +211,17 @@
 
                                     <div class="accordion" id="solutions-accordion1">
                                         <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingOne">
-                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                                    data-bs-target="#collapseOne" aria-expanded="true"
-                                                    aria-controls="collapseOne">
-                                                    Well-Planned Solar Plant Units
+                                            <h2 class="accordion-header" id="headingThree">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                    aria-expanded="false" aria-controls="collapseThree">
+                                                    Efficient Land Aggregation and Planning
                                                 </button>
                                             </h2>
-                                            <div id="collapseOne" class="accordion-collapse collapse show"
-                                                aria-labelledby="headingOne" data-bs-parent="#solutions-tabContent">
+                                            <div id="collapseThree" class="accordion-collapse collapse"
+                                                aria-labelledby="headingThree" data-bs-parent="#solutions-tabContent">
                                                 <div class="accordion-body">
-                                                    Enernew meticulously designs and structures individual solar plant units within its solar parks, ensuring optimal layout and configuration to maximize energy output and operational efficiency.
+                                                    Leveraging strong local relationships and expertise, Enernew conducts thorough topographical assessments and planning to aggregate land efficiently, selecting prime locations that enhance solar generation potential and logistical connectivity.
                                                 </div>
                                             </div>
                                         </div>
@@ -241,20 +241,20 @@
                                             </div>
                                         </div>
                                         <div class="accordion-item">
-                                            <h2 class="accordion-header" id="headingThree">
-                                                <button class="accordion-button collapsed" type="button"
-                                                    data-bs-toggle="collapse" data-bs-target="#collapseThree"
-                                                    aria-expanded="false" aria-controls="collapseThree">
-                                                    Efficient Land Aggregation and Planning
+                                            <h2 class="accordion-header" id="headingOne">
+                                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#collapseOne" aria-expanded="true"
+                                                    aria-controls="collapseOne">
+                                                    Well-Planned Solar Plant Units
                                                 </button>
                                             </h2>
-                                            <div id="collapseThree" class="accordion-collapse collapse"
-                                                aria-labelledby="headingThree" data-bs-parent="#solutions-tabContent">
+                                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                                aria-labelledby="headingOne" data-bs-parent="#solutions-tabContent">
                                                 <div class="accordion-body">
-                                                    Leveraging strong local relationships and expertise, Enernew conducts thorough topographical assessments and planning to aggregate land efficiently, selecting prime locations that enhance solar generation potential and logistical connectivity.
+                                                    Enernew meticulously designs and structures individual solar plant units within its solar parks, ensuring optimal layout and configuration to maximize energy output and operational efficiency.
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div>   
                                     </div>
                                     <div class="mt-4">
                                         <a href="/about-us" class="btn btn--orange">Explore Our Solution</a>
