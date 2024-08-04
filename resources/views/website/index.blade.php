@@ -251,7 +251,7 @@
                                             <div id="collapseOne" class="accordion-collapse collapse show"
                                                 aria-labelledby="headingOne" data-bs-parent="#solutions-tabContent">
                                                 <div class="accordion-body">
-                                                    Enernew meticulously designs and structures individual solar plant units within its solar parks, ensuring optimal layout and configuration to maximize energy output and operational efficiency.
+                                                Enernew meticulously designs and structures each solar plant unit within its solar parks, covering all aspects from project development and transmission to EHV substations and pooling stations. This comprehensive approach ensures optimal layout and configuration to maximize energy output and operational efficiency.
                                                 </div>
                                             </div>
                                         </div>   
