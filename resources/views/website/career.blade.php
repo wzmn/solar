@@ -71,7 +71,7 @@
                 <h2 class="highlight mb-5 highlight--center" data-aos="fade-up">Job Openings</h2>
                 <div class="p-5 bg-white text-center rounded-3">
                     <div class="row">
-                        <div class="col-12 col-md-8 offset-md-2 mb-5">Discover your potential with Enernew. Explore current opportunities to join our team and play a vital role in shaping the future of renewable energy</div>
+                        <div class="col-12 col-md-8 offset-md-2 mb-5">Discover your true potential with Enernew. Explore current opportunities to join our team and play a vital role in shaping the future of renewable energy.</div>
                         <div>
                             <a href="/job-openings" class="btn bg-orange">Explore Current Openings</a>
                         </div>
