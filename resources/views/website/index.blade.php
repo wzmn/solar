@@ -128,7 +128,7 @@
             <div class="col-12 col-lg-5" data-aos="fade-up" data-aos-delay="100">
                 <h2 class="highlight">Overview</h2>
                 {{-- <p class="text-justify">
-                    In the ever-evolving landscape of renewable energy, Enernew Private Limited stands as a pioneering force dedicated to delivering innovative and sustainable energy solutions. Founded by the visionaries behind Sriram Cables Pvt. Ltd., Enernew has recently unveiled its latest venture, Enernew Pvt. Ltd., a fully owned subsidiary committed to pushing the boundaries of solar energy.
+                    In the ever-evolving landscape of renewable energy, Enernew Private Limited stands as a pioneering force dedicated to delivering innovative and sustainable energy solutions. Founded by the visionaries behind Sriram Cables, Enernew has recently unveiled its latest venture, Enernew, a fully owned subsidiary committed to pushing the boundaries of solar energy.
                 </p>
                 <p class="text-justify">
                     Specializing in Off-Site Captive Open Access Solar Parks and On-Site C&I Solar Projects, Enernew caters to conglomerates spanning various sectors of the economy. With a stellar track record of successfully executing over 50 MWp+ Solar projects, Enernew is not just leading but reshaping the journey towards a greener future.

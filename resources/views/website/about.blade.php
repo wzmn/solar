@@ -117,7 +117,7 @@
                 <h5 data-aos="fade-up">Leaders in Precision Cable Manufacturing and Innovation</h5>
                 <div class="row history__grid mb-5">
                     <div class="col-12">
-                        <p class="history__grid_item text-justify" data-aos="fade-up">Sriram Cables Pvt. Ltd. operates from a cutting-edge manufacturing facility in Chopanki Industrial Area, Bhiwadi (Rajasthan), strategically located near Delhi. Spanning 40,000 square meters, our ISO 9001 and ISO 14001 certified facility houses state-of-the-art machinery capable of producing a wide array of cables, including Low Voltage and High Voltage cables up to 132 KV Voltage Grade.</p>
+                        <p class="history__grid_item text-justify" data-aos="fade-up">Sriram Cables operates from a cutting-edge manufacturing facility in Chopanki Industrial Area, Bhiwadi (Rajasthan), strategically located near Delhi. Spanning 40,000 square meters, our ISO 9001 and ISO 14001 certified facility houses state-of-the-art machinery capable of producing a wide array of cables, including Low Voltage and High Voltage cables up to 132 KV Voltage Grade.</p>
                     </div>
                     <div class="col-md-6">
                         <p class="history__grid_item text-justify" data-aos="fade-up">We specialize in HT/LT-XLPE/PVC
@@ -353,8 +353,7 @@
                 <h2 class="highlight mb-4" data-aos="fade-up">Visionaries of Clean Energy</h2>
                 <h5 data-aos="fade-up">Meet the Leaders of Enernew</h5>
                 <p data-aos="fade-up">Explore the realm of renewable energy with Ashutosh Garg, the visionary
-                    founder of Enernew
-                    Pvt. Ltd. and driving force behind its groundbreaking initiatives. With an unwavering
+                    founder of Enernew and driving force behind its groundbreaking initiatives. With an unwavering
                     commitment to sustainability and a passion for innovation, Ashutosh Garg leads Enernew in
                     redefining the clean energy landscape.</p>
                 <p data-aos="fade-up">Supporting him is Anil Garg, whose extensive expertise and leadership in
