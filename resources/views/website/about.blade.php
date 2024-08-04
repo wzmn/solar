@@ -351,6 +351,7 @@
         <div class="row">
             <div class="col my-5">
                 <h2 class="highlight mb-4" data-aos="fade-up">Visionaries of Clean Energy</h2>
+                <h5 data-aos="fade-up">Meet the Leaders of Enernew</h5>
                 <p data-aos="fade-up">Explore the realm of renewable energy with Ashutosh Garg, the visionary
                     founder of Enernew
                     Pvt. Ltd. and driving force behind its groundbreaking initiatives. With an unwavering
