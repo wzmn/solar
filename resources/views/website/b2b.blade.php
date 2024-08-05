@@ -32,7 +32,7 @@
         </div>
         <div class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
           <h4 class="mb-4">Rooftop (CAPEX / OPEX)</h4>
-          <p>Our rooftop solar solutions are expertly designed to maximize the utilization of available roof space, delivering efficient and sustainable energy tailored to each client’s needs. Clients can choose between the CAPEX model, where they own the system outright, or the OPEX model, which allows them to pay for the energy generated without the burden of ownership, ensuring a seamless and cost-effective transition to renewable energy</p>
+          <p>Our rooftop solar solutions are expertly designed to maximize the utilization of available roof space, delivering efficient and sustainable energy tailored to each client’s needs. Clients can choose between the CAPEX model, where they own the system outright, or the OPEX model, which allows them to pay for the energy generated without the burden of ownership, ensuring a seamless and cost-effective transition to renewable energy.</p>
         </div>
         <div class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
           <h4 class="mb-4">Ground Mount (CAPEX / OPEX)</h4>
@@ -56,7 +56,7 @@
         <div class="col-md-3">
           <img src="{{ asset('assets/images/b2b-3.png') }}" class="img-fluid rounded-3 mb-5">
           <h4 class="mb-4">Design and Engineering</h4>
-          <p>Each Solar Plant Unit within our parks is meticulously crafted and precisely sized, showcasing the expertise of our technical team. This deliberate planning not only minimizes clutter but also maximizes operational efficiency, ensuring peak performance across the entire solar park.</p>
+          <p>At Enernew, our expertise in design and engineering is unparalleled. With over 50 MW of solar plants designed for top clients, our in-house team of highly experienced engineers ensures that each project is tailored to meet the specific requirements of Commercial & Industrial (C&I) clients. Our designs are optimized for efficiency, reliability, and sustainability.</p>
         </div>
         <div class="col-md-3">
           <img src="{{ asset('assets/images/b2b-4.png') }}" class="img-fluid rounded-3 mb-5">
@@ -81,7 +81,8 @@
   <div class="container">
     <div class="row bg-white rounded-3 justify-content-center py-5">
       <div class="col-md-5 col text-center">
-        <i>Discover Enernew's Utility Scale Solar solutions that can revolutionize your energy strategy, leading your business toward a sustainable and prosperous future.</i>        
+        <i>Discover how Enernew's B2B solutions can provide the perfect solar energy strategy tailored to your specific needs, driving your business toward a sustainable and energy-efficient future.
+        </i>        
       </div>
     </div>
   </div> 
