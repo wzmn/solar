@@ -35,10 +35,15 @@
   <div class="row">
     <div class="col py-5">
       <h2 class="highlight highlight--center mb-5" data-aos="fade-up">Performance Analytics</h2>
+<<<<<<< HEAD
       <p data-aos="fade-up" data-aos-delay="200">
         Enernew is committed to delivering transformative asset management services that ensure the resilience,
         efficiency, and longevity of our solar plants. Our comprehensive approach encompasses performance analytics and
         on-ground services, empowering businesses with the insights and support essential for enduring energy success.
+=======
+      <p data-aos="fade-up">
+      Aligned with our dedication to transparency, Enernew provides detailed performance reports for our solar plants. These meticulously crafted reports are shared with key stakeholders daily, weekly, monthly, and annually, encompassing a wealth of critical information, including:
+>>>>>>> bb1c807756899b19bc6df45829a511d1e59451a3
       </p>
     </div>
   </div>
