@@ -87,7 +87,7 @@
   <div class="container">
     <div class="row bg-white rounded-3 justify-content-center py-5">
       <div class="col-md-5 col text-center">
-        <i>By prioritizing both performance analytics and on-ground services, Enernew ensures that our clients benefit from a holistic asset management strategy that drives operational excellence and fosters long-term success.</i>        
+        <i>Discover Enernew's Utility Scale Solar solutions that can revolutionize your energy strategy, leading your business toward a sustainable and prosperous future.</i>        
       </div>
     </div>
   </div> 
