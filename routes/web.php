@@ -80,6 +80,13 @@ Route::get('/our-solutions', function () {
 });
 
 
+Route::get('/blog/solar-technologies-and-techniques', function () {
+    return view('website.blog-solar-technologies-and-techniques');
+});
+Route::get('/blog/embracing-sustainability-with-solar-energy-and-its-environmental-benefits', function () {
+    return view('website.blog-embracing-sustainability-with-solar-energy-and-its-environmental-benefits');
+});
+
 
 
 Route::get('/form_submit', [App\Http\Controllers\FormController::class, 'store'])->name('form.store');

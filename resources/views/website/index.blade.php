@@ -823,7 +823,7 @@
                             Energy</h5>
                         <p class="card-text">Solar panels don't require a lot of upkeep, but there are some things you
                             can do to keep them powering ...</p>
-                        <a href="#" data-aos="fade-right" data-aos-delay="400" class="text-orange">Read More</a>
+                        <a href="/blog/solar-technologies-and-techniques" data-aos="fade-right" data-aos-delay="400" class="text-orange">Read More</a>
                     </div>
                 </div>
             </div>
@@ -834,7 +834,7 @@
                         <h5 class="card-title highlight mb-3">Solar Technologies and Techniques</h5>
                         <p class="card-text">Solar irradiation data is needed at all levels of solar power
                             development...</p>
-                        <a href="#" data-aos="fade-right" data-aos-delay="500" class="text-orange">Read More</a>
+                        <a href="/blog/embracing-sustainability-with-solar-energy-and-its-environmental-benefits" data-aos="fade-right" data-aos-delay="500" class="text-orange">Read More</a>
                     </div>
                 </div>
             </div>

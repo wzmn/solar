@@ -1050,7 +1050,9 @@ footer .container>.row>.col>h2:first-child,
     right: -30px;
 }
 
-
+.font-light {
+    font-weight: 400;
+}
 .work_with_us .bg-2 {
     width: 100%;
 }

@@ -27,14 +27,14 @@
 <body>
     <div class="main__wrapper {{Route::currentRouteName()}}">
         <div class="d-flex flex-column">
-            <div class="hero__bg w-100 flex-fill slide-0" @isset($hero_img) style="background-image: 
+            @isset($hero_img) <div class="hero__bg w-100 flex-fill slide-0" style="background-image: 
             @foreach ($hero_img as $item)
                 url('{{ $item }}')
                 @if (!$loop->last)
                     ,
                 @endif
             @endforeach
-            ;background-size: cover;" @endisset>
+            ;background-size: cover;">@endisset
                 <div class="container">
                     <div class="d-flex justify-content-between mt-4 ">
                         <div class="navbar__logo">
@@ -255,9 +255,11 @@
                     </div>
                     <div class="row">
                         @if(!Route::is('home') )
+                        @isset($hero_img)
                         <div class="d-flex flex-column hero col-md-6 col-lg-4">
                             @yield("header")
                         </div>
+                        @endisset
                         @else
                         @yield("header")
                         @endif

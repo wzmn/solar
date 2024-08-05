@@ -35,12 +35,24 @@
                             </label>
                             <div class="card-body d-flex flex-column justify-content-around">
                                 <div class="mb-2">January 9, 2024</div>
-                                <div class="h4 mb-4 text-green">All you need to know about solar energy.</div>
-                                <a href="#" class="text-orange">Read More</a>
+                                <div class="h4 mb-4 text-green">Why Off-Site Solar Parks Are the Future of Renewable Energy</div>
+                                <a href="/blog/solar-technologies-and-techniques" class="text-orange">Read More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-12 mb-4">
+                        <div class="card">
+                            <label for="">
+                                <img src="{{ asset('assets/images/12.png') }}" class="card-img-top" alt="...">
+                            </label>
+                            <div class="card-body d-flex flex-column justify-content-around">
+                                <div class="mb-2">January 9, 2024</div>
+                                <div class="h4 mb-4 text-green">Embracing Sustainability with Solar Energy and Its Environmental Benefits</div>
+                                <a href="/blog/embracing-sustainability-with-solar-energy-and-its-environmental-benefits" class="text-orange">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    {{-- <div class="col-sm-6 col-12 mb-4">
                         <div class="card">
                             <label for="">
                                 <img src="{{ asset('assets/images/12.png') }}" class="card-img-top" alt="...">
@@ -63,19 +75,7 @@
                                 <a href="#" class="text-orange">Read More</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-12 mb-4">
-                        <div class="card">
-                            <label for="">
-                                <img src="{{ asset('assets/images/12.png') }}" class="card-img-top" alt="...">
-                            </label>
-                            <div class="card-body d-flex flex-column justify-content-around">
-                                <div class="mb-2">January 9, 2024</div>
-                                <div class="h4 mb-4 text-green">All you need to know about solar energy.</div>
-                                <a href="#" class="text-orange">Read More</a>
-                            </div>
-                        </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
             <div class="col-md-4 col-12">
