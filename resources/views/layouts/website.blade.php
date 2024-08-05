@@ -509,7 +509,7 @@
                         Copyright &copy; 2024, Enernew. All rights reserved.
                     </span>
                     <span class="text-white">
-                        Powered By Swasan Technologies
+                        Powered By <a href="https:www.swasantech.com" target="_blank">Swasan Technologies</a>
                     </span>
                 </div>
             </div>
