@@ -34,7 +34,7 @@
             off-site solar parks are not only a viable solution but the future of renewable energy.
           </p>
 
-          <h4 data-aos="fade-up" class="bold text-center mb-4">What Are Off-Site Solar Parks? Let's Discover the Solar Fields of Tomorrow
+          <h4 data-aos="fade-up" class="bold text-center mb-4">What Are Off-Site Solar Parks? 
           </h4>
           <p data-aos="fade-up" class="text-center font-light">Let's Discover the Solar Fields of Tomorrow</p>
           <p data-aos="fade-up" class="mb-5">
@@ -45,7 +45,7 @@
             positioned to harness maximum sunlight exposure, ensuring optimal energy production.
           </p>
 
-          <h4 data-aos="fade-up" class="bold mb-4 text-center">Off-Site vs. On-Site Solar Installations: The Battle of Solar Titans</h4>
+          <h4 data-aos="fade-up" class="bold mb-4 text-center">Off-Site vs. On-Site Solar Installations</h4>
           <p data-aos="fade-up" class="font-light mb-5 text-center">The Battle of Solar Titans</p>
           <p data-aos="fade-up" class="mb-5">
             The distinction between off-site and on-site solar installations is profound. On-site solar systems are
@@ -57,7 +57,7 @@
             energy projects.
           </p>
 
-          <h4 data-aos="fade-up" class="bold mb-4 text-center">How Off-Site Solar Parks Work: We Turn Sunlight into a Powerhouse</h4>
+          <h4 data-aos="fade-up" class="bold mb-4 text-center">How Off-Site Solar Parks Work</h4>
           <p data-aos="fade-up" class="font-light mb-5 text-center">We Turn Sunlight into a Powerhouse</p>
           <p data-aos="fade-up" class="mb-5">
             Imagine a sprawling landscape dotted with solar panels, each panel working in harmony to convert sunlight
@@ -104,7 +104,8 @@
                   infrastructure; they are sanctuaries of hope, demonstrating that we can power our world sustainably.
                 </p>
 
-                <h4 data-aos="fade-up" class="bold mb-4 text-center">Off-Site Solar Parks: The Vanguard of a Sustainable Future</h4>
+                <h4 data-aos="fade-up" class="bold mb-4 text-center">Off-Site Solar Parks</h4>
+                <p data-aos="fade-up" class="font-light mb-5 text-center">The Vanguard of a Sustainable Future</p>
                 <p data-aos="fade-up" class="mb-5">
                   As we stand on the brink of a renewable energy revolution, off-site solar parks are poised to lead the
                   charge. Their potential to generate clean, sustainable energy while preserving our environment is
