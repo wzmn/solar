@@ -831,7 +831,7 @@
                     <img src="./assets/images/10.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex flex-column justify-content-around">
                         <h5 class="card-title highlight mb-3">Embracing Sustainability with Solar Energy and Its Environmental Benefits</h5>
-                        <p class="card-text">In an era where climate change and environmental degradation are pressing concerns, embracing sustainability has become imperative. Transitioning to sustainable practices is crucial for preserving our planet for future generations...</p>
+                        <p class="card-text">In an era where climate change and environmental degradation are pressing concerns, transitioning to sustainable practices is crucial for preserving our planet for future generations...</p>
                         <a href="/blog/embracing-sustainability-with-solar-energy-and-its-environmental-benefits" data-aos="fade-right" data-aos-delay="500" class="text-orange">Read More</a>
                     </div>
                 </div>
