@@ -53,25 +53,25 @@
     </div>
     <div class="col-12">
       <div class="row">
-        <div class="col-md-3 col-12" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-md-3 col-12 solution_card" data-aos="fade-up" data-aos-delay="200">
           <img src="{{ asset('assets/images/b2b-3.png') }}" class="img-fluid rounded-3 mb-5">
           <h4 class="mb-4">Design and Engineering</h4>
-          <p>At Enernew, our expertise in design and engineering is unparalleled. With over 50 MW of solar plants designed for top clients, our in-house team of highly experienced engineers ensures that each project is tailored to meet the specific requirements of Commercial & Industrial (C&I) clients. Our designs are optimized for efficiency, reliability, and sustainability.</p>
+          <p class="text-justify">At Enernew, our expertise in design and engineering is unparalleled. With over 50 MW of solar plants designed for top clients, our in-house team of highly experienced engineers ensures that each project is tailored to meet the specific requirements of Commercial & Industrial (C&I) clients. Our designs are optimized for efficiency, reliability, and sustainability.</p>
         </div>
-        <div class="col-md-3 col-12" data-aos="fade-up" data-aos-delay="400">
+        <div class="col-md-3 col-12 solution_card" data-aos="fade-up" data-aos-delay="400">
           <img src="{{ asset('assets/images/b2b-4.png') }}" class="img-fluid rounded-3 mb-5">
           <h4 class="mb-4">Turnkey Project Execution</h4>
-          <p>Enernew excels in turnkey project execution, having commissioned over 50 MW of solar power projects across India. Our dedicated team of project managers and site engineers manages every aspect of project execution, ensuring that projects are completed on time, within budget, and to the highest standards.</p>
+          <p class="text-justify">Enernew excels in turnkey project execution, having commissioned over 50 MW of solar power projects across India. Our dedicated team of project managers and site engineers manages every aspect of project execution, ensuring that projects are completed on time, within budget, and to the highest standards.</p>
         </div>
-        <div class="col-md-3 col-12" data-aos="fade-up" data-aos-delay="600">
+        <div class="col-md-3 col-12 solution_card" data-aos="fade-up" data-aos-delay="600">
           <img src="{{ asset('assets/images/b2b-5.png') }}" class="img-fluid rounded-3 mb-5">
           <h4 class="mb-4">HSSE Compliance</h4>
-          <p>Health, Safety, Security, and Environment (HSSE) are at the core of our project execution. Before starting any project, our team strictly adheres to our HSSE policy. Our HSSE managers conduct regular audits during project execution to ensure compliance, and construction is carried out under the highest safety standards.</p>
+          <p class="text-justify">Health, Safety, Security, and Environment (HSSE) are at the core of our project execution. Before starting any project, our team strictly adheres to our HSSE policy. Our HSSE managers conduct regular audits during project execution to ensure compliance, and construction is carried out under the highest safety standards.</p>
         </div>
-        <div class="col-md-3 col-12" data-aos="fade-up" data-aos-delay="800">
+        <div class="col-md-3 col-12 solution_card" data-aos="fade-up" data-aos-delay="800">
           <img src="{{ asset('assets/images/b2b-6.png') }}" class="img-fluid rounded-3 mb-5">
           <h4 class="mb-4">Quality and Assurance</h4>
-          <p>Our commitment to excellence is reflected in our rigorous quality and safety standards. Enernew employs comprehensive quality assurance plans, procedures, and work instructions to ensure that every project meets the highest level of quality and safety. Our dedication to quality ensures the long-term reliability and performance of our solar energy solutions.</p>
+          <p class="text-justify">Our commitment to excellence is reflected in our rigorous quality and safety standards. Enernew employs comprehensive quality assurance plans, procedures, and work instructions to ensure that every project meets the highest level of quality and safety. Our dedication to quality ensures the long-term reliability and performance of our solar energy solutions.</p>
         </div>
       </div>
     </div>

@@ -12,7 +12,7 @@
 @endsection
 
 @section("content")
-<div class="py-5" style="background-image: url('./assets/images/4.png');    background-size: cover;">
+<div class="py-5 asset-management" style="background-image: url('./assets/images/4.png');    background-size: cover;">
   <div class="container my-5">
     <div class="row mb-5">
       <div class="col-12 col-md-5" data-aos="fade-up">
@@ -46,7 +46,7 @@
   <div class="container">
     <div class="row justify-content-center py-5">
       <div class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="200">
-        <div class="card">
+        <div class="card card--asset">
           <div class="card-body d-flex flex-column justify-content-center p-5">
             <h5 class="card-title mb-5">Energy Generation and Key Performance Indicators (KPIs): </h5>
             <p class="card-text">In-depth metrics on energy output, efficiency rates, and operational performance,
@@ -55,7 +55,7 @@
         </div>
       </div>
       <div class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="400">
-        <div class="card">
+        <div class="card card--asset">
           <div class="card-body d-flex flex-column justify-content-center p-5">
             <h4 class="card-title mb-5">Summary of Preventive and Routine Maintenance Activities: </h4>
             <p class="card-text">Comprehensive documentation of maintenance actions taken to ensure optimal plant
@@ -64,7 +64,7 @@
         </div>
       </div>
       <div class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="600">
-        <div class="card">
+        <div class="card card--asset">
           <div class="card-body d-flex flex-column justify-content-center p-5">
             <h4 class="card-title mb-5">Detailed Accounts of Corrective Actions Taken:</h4>
             <p class="card-text">Transparent records of encountered challenges, implemented resolutions, and their
