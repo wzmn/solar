@@ -35,15 +35,8 @@
   <div class="row">
     <div class="col py-5">
       <h2 class="highlight highlight--center mb-5" data-aos="fade-up">Performance Analytics</h2>
-<!-- <<<<<<< HEAD
       <p data-aos="fade-up" data-aos-delay="200">
-        Enernew is committed to delivering transformative asset management services that ensure the resilience,
-        efficiency, and longevity of our solar plants. Our comprehensive approach encompasses performance analytics and
-        on-ground services, empowering businesses with the insights and support essential for enduring energy success.
-======= -->
-      <p data-aos="fade-up" data-aos-delay="200">
-      Aligned with our dedication to transparency, Enernew provides detailed performance reports for our solar plants. These meticulously crafted reports are shared with key stakeholders daily, weekly, monthly, and annually, encompassing a wealth of critical information, including:
-<!-- >>>>>>> bb1c807756899b19bc6df45829a511d1e59451a3 -->
+        Aligned with our dedication to transparency, Enernew provides detailed performance reports for our solar plants. These meticulously crafted reports are shared with key stakeholders daily, weekly, monthly, and annually, encompassing a wealth of critical information, including:
       </p>
     </div>
   </div>
@@ -143,8 +136,7 @@
   <div class="container">
     <div class="row bg-white rounded-3 justify-content-center py-5" data-aos="fade-up">
       <div class="col-md-5 col text-center" data-aos="fade-up" data-aos-delay="200">
-        <i>Discover Enernew's Utility Scale Solar solutions that can revolutionize your energy strategy, leading your
-          business toward a sustainable and prosperous future.</i>
+        <i>By prioritizing both performance analytics and on-ground services, Enernew ensures that our clients benefit from a holistic asset management strategy that drives operational excellence and fosters long-term success.</i>
       </div>
     </div>
   </div>
