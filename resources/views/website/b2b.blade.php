@@ -81,7 +81,7 @@
   <div class="container">
     <div class="row bg-white rounded-3 justify-content-center py-5" data-aos="fade-up" data-aos-delay="100">
       <div class="col-md-5 col text-center" data-aos="fade-up" data-aos-delay="200">
-        <i>Discover Enernew's Utility Scale Solar solutions that can revolutionize your energy strategy, leading your business toward a sustainable and prosperous future.</i>        
+        <i>Discover how Enernew's B2B solutions can provide the perfect solar energy strategy tailored to your specific needs, driving your business toward a sustainable and energy-efficient future.</i>        
       </div>
     </div>
   </div> 
