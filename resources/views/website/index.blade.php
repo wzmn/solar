@@ -821,8 +821,7 @@
                     <div class="card-body d-flex flex-column justify-content-around">
                         <h5 class="card-title highlight mb-3">Why Off-Site Solar Parks are the Future of Renewable
                             Energy</h5>
-                        <p class="card-text">Solar panels don't require a lot of upkeep, but there are some things you
-                            can do to keep them powering ...</p>
+                        <p class="card-text">In the heart of the renewable energy revolution, off-site solar parks are emerging as a beacon of innovation and sustainability ...</p>
                         <a href="/blog/solar-technologies-and-techniques" data-aos="fade-right" data-aos-delay="400" class="text-orange">Read More</a>
                     </div>
                 </div>
@@ -831,9 +830,8 @@
                 <div class="card">
                     <img src="./assets/images/10.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex flex-column justify-content-around">
-                        <h5 class="card-title highlight mb-3">Solar Technologies and Techniques</h5>
-                        <p class="card-text">Solar irradiation data is needed at all levels of solar power
-                            development...</p>
+                        <h5 class="card-title highlight mb-3">Embracing Sustainability with Solar Energy and Its Environmental Benefits</h5>
+                        <p class="card-text">Transitioning to sustainable practices is crucial for preserving our planet for future generations...</p>
                         <a href="/blog/embracing-sustainability-with-solar-energy-and-its-environmental-benefits" data-aos="fade-right" data-aos-delay="500" class="text-orange">Read More</a>
                     </div>
                 </div>
