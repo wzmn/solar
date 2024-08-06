@@ -54,11 +54,11 @@
 <div class="col-12">
     <div class="carousel-indicators">
         <button type="button" data-slide-to="slide-0" data-title="Enlightening Tomorrow's Energy Landscape"
-            data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button>
+            data-content="At the forefront of advancing renewable energy through innovative clean energy solutions, charting a course for a transformative era in decarbonization."></button>
         <button type="button" data-slide-to="slide-1" data-title="Sustainable Energy for a Brighter Future"
-            data-content="We are here to unleash the potentials of solar power with break-through clean energy solutions that is going to set the pace of various solar power projects of tomorrow."></button>
-        <button type="button" data-slide-to="slide-2" data-title="Radiant Solar Futures"
-            data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button>
+            data-content="Striving to redefine sustainable energy with visionary clean energy solutions, creating a path toward a resilient and enduring future."></button>
+        <button type="button" data-slide-to="slide-2" data-title="Illuminating the Future with Solar Innovation"
+            data-content="Leading the charge in harnessing renewable energy through pioneering solutions, establishing new benchmarks for excellence in decarbonization."></button>
         {{-- <button type="button" data-slide-to="slide-3" data-title="Radiant Solar Futures"
             data-content="We are dedicated to unleashing the power of solar energy through transformative clean energy solutions, forging the path for the future of solar projects."></button> --}}
     </div>
