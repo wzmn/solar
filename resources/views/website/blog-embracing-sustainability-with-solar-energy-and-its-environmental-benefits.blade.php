@@ -1,4 +1,4 @@
-@section("title", "Blog - Why Off-Site Solar Parks Are the Future of Renewable Energy")
+@section("title", "Blog - Embracing Sustainability with Solar Energy and Its Environmental Benefits")
 
 @extends("layouts.website")
 
@@ -14,7 +14,7 @@
         <div class="col" data-aos="fade-up">
           <h1 class="highlight mb-4">Embracing Sustainability with Solar Energy and Its Environmental Benefits</h1>
           <div class="mb-4">
-            Jul 23 ,2024 / by Enernew
+            Jul 23, 2024 / by Enernew
           </div>
           <img src="{{ asset('assets/images/asset-cta.png') }}" class="img-fluid rounded-3">
         </div>
