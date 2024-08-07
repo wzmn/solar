@@ -253,6 +253,9 @@ a {
     object-fit: cover;
 }
 
+.open .hero__bg {
+    z-index: 10;
+}
 .hero__bg {
 
     background-repeat: no-repeat;
