@@ -1,12 +1,12 @@
-@section("title", "Solar Calculator")
+@section("title", "Coming Soon")
 
 @extends("layouts.website")
 
 @section("header")
 <div class="mb-100 d-flex flex-column flex-fill justify-content-end align-items-start">
-  <h1 class="text-white">Solar Calculator</h1>
+  <h1 class="text-white">Coming Soon</h1>
   <div class="hero__content text-white mb-3">
-    Home > Solar Calculator
+    Home > Coming Soon
   </div>
 </div>
 @endsection
@@ -16,6 +16,7 @@
     <div class="row mb-5">
         <div class="col">
             <h1 class="highlight mb-4">Coming Soon</h1>  
+            <p>Something exciting is on the way..</p>
         </div>
     </div>
 </div>

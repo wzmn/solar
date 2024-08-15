@@ -125,8 +125,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-5" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="highlight">Overview</h2>
+            <div class="col-12 col-lg-5">
+                <h2 class="highlight" data-aos="fade-up" data-aos-delay="100">Overview</h2>
                 {{-- <p class="text-justify">
                     In the ever-evolving landscape of renewable energy, Enernew Private Limited stands as a pioneering force dedicated to delivering innovative and sustainable energy solutions. Founded by the visionaries behind Sriram Cables, Enernew has recently unveiled its latest venture, Enernew, a fully owned subsidiary committed to pushing the boundaries of solar energy.
                 </p>
@@ -170,10 +170,10 @@
     </div>
 </div>
 <div class="solutions pb-5" style="background-image: url('./assets/images/4.png');    background-size: cover;">
-    <div class="container" data-aos="fade-up">
-        <div class="row" data-aos="fade-up">
+    <div class="container">
+        <div class="row">
             <div class="col">
-                <h2 class="text-center mt-5 mb-5 highlight highlight--center">Our Solutions</h2>
+                <h2 class="text-center mt-5 mb-5 highlight highlight--center" data-aos="fade-up">Our Solutions</h2>
             </div>
         </div>
         <div class="row bg-white pt-5">
@@ -418,9 +418,9 @@
 </div>
 <div class="our-projects pb-5 pt-5" style="background-image: url('./assets/images/7.png');background-size: cover;">
     <div class="container">
-        <div class="row" data-aos="fade-up">
+        <div class="row">
             <div class="col">
-                <h2 class="text-center mb-5 highlight highlight--center">Our Projects</h2>
+                <h2 class="text-center mb-5 highlight highlight--center" data-aos="fade-up">Our Projects</h2>
             </div>
         </div>
         <div class="row mb-5">
@@ -585,22 +585,27 @@
                 <div id="projects" class="carousel slide" data-bs-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./assets/images/Projects03.png" class="d-block w-100" alt="./assets/images/6.png">
+                            <img src="./assets/images/projects/Railway-Single.png" class="d-block w-100" alt="Project Image">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/Projects02.png" class="d-block w-100" alt="./assets/images/6.png">
+                            <img src="./assets/images/projects/Banswara-Collage.png" class="d-block w-100" alt="Project Image">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/Projects04.png" class="d-block w-100" alt="./assets/images/6.png">
+                            <img src="./assets/images/projects/Pragati-Power-Collage.png" class="d-block w-100" alt="Project Image">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/projects/Jindal-Collage.png" class="d-block w-100" alt="Project Image">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/projects/JTEKT-Collage.png" class="d-block w-100" alt="Project Image">
                         </div>
                     </div>
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#projects" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#projects" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#projects" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#projects" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#projects" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#projects" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#projects" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#projects" data-bs-slide-to="4" aria-label="Slide 5"></button>
                     </div>
                 </div>
             </div>
@@ -750,18 +755,18 @@
     <div class="container">
         <div class="row">
             <div class="col mb-5">
-                <h2 class="highlight highlight--center text-center mb-5">Let's talk</h2>
+                <h2 class="highlight highlight--center text-center mb-5" data-aos="fade-up">Let's talk</h2>
             </div>
         </div>
         <div class="border p-5 row mb-5">
             <div
                 class="col-12 col-md-4 flex-column justify-content-center d-flex py-5 align-items-center border-end border-sm-none">
                 <div class="mb-5">
-                    <h3 class="highlight">Our Email</h3>
+                    <h3 class="highlight" data-aos="fade-up">Our Email</h3>
                     <span>contact@enernew.in</span>
                 </div>
                 <div>
-                    <h3 class="highlight">Phone No.</h3>
+                    <h3 class="highlight" data-aos="fade-up">Phone No.</h3>
                     <span>+91-88 00 222 600</span>
                 </div>
             </div>
@@ -813,34 +818,32 @@
             </div>
         </div>
         <div class="row mb-5">
-            <div class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="100">
+            <div href="/blog/solar-technologies-and-techniques" class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="100">
                 <div class="card">
-                    <label for="">
-                        <img src="./assets/images/12.png" class="card-img-top" alt="...">
-                    </label>
+                    <img src="./assets/images/blogs/blog-1-home.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex flex-column justify-content-around">
-                        <h5 class="card-title highlight mb-3">Why Off-Site Solar Parks are the Future of Renewable
+                        <h5 class="card-title highlight mb-3" data-aos="fade-up">Why Off-Site Solar Parks are the Future of Renewable
                             Energy</h5>
                         <p class="card-text">In the heart of the renewable energy revolution, off-site solar parks are emerging as a beacon of innovation and sustainability ...</p>
                         <a href="/blog/solar-technologies-and-techniques" data-aos="fade-right" data-aos-delay="400" class="text-orange">Read More</a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="200">
+            <div href="/blog/embracing-sustainability-with-solar-energy-and-its-environmental-benefits" class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="200">
                 <div class="card">
-                    <img src="./assets/images/10.png" class="card-img-top" alt="...">
+                    <img src="./assets/images/blogs/blog-2-home.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex flex-column justify-content-around">
-                        <h5 class="card-title highlight mb-3">Embracing Sustainability with Solar Energy and Its Environmental Benefits</h5>
+                        <h5 class="card-title highlight mb-3" data-aos="fade-up">Embracing Sustainability with Solar Energy and Its Environmental Benefits</h5>
                         <p class="card-text">Transitioning to sustainable practices is crucial for preserving our planet for future generations...</p>
                         <a href="/blog/embracing-sustainability-with-solar-energy-and-its-environmental-benefits" data-aos="fade-right" data-aos-delay="500" class="text-orange">Read More</a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="300">
+            <div href="/blog/blog-3" class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="300">
                 <div class="card">
-                    <img src="./assets/images/11.png" class="card-img-top" alt="...">
+                    <img src="./assets/images/blogs/blog-3-home.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex flex-column justify-content-around">
-                        <h5 class="card-title highlight mb-3">Impacts of Solar Energy</h5>
+                        <h5 class="card-title highlight mb-3" data-aos="fade-up">Navigating Green Energy Choices: Captive vs. Third-Party PPAs in India</h5>
                         <p class="card-text">As experience with other renewable technologies show, lack of social
                             acceptance and incongruity...</p>
                         <a href="#" data-aos="fade-right" data-aos-delay="600" class="text-orange">Read More</a>
@@ -855,6 +858,10 @@
 @section("scripts")
 <script>
     document.addEventListener('DOMContentLoaded', () => {
+
+        [...document.querySelectorAll("div[href]")].map(s => s.addEventListener('click', (event) => {window.open(event.currentTarget.getAttribute('href'))}))
+
+
         let vid = document.getElementById("heroVideo");
         let hero = document.querySelector('.hero__bg');
         let hero__text_wrapper = document.querySelector('#hero__text_wrapper');

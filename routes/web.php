@@ -48,11 +48,14 @@ Route::get('/life-at-enernew', function () {
 });
 
 Route::get('/press-release', function () {
-    return view('website.pr', ['hero_img' => [asset('assets/images/press-release.png')]]);
+    return view('website.coming-soon', ['hero_img' => [asset('assets/images/press-release.png')]]);
 });
 
 Route::get('/knowledge-center', function () {
-    return view('website.blog', ['hero_img' => [asset('assets/images/blog-header.png')]]);
+    return view('website.blog', [
+                                    'hero_img' => [asset('assets/images/blog-header.png')],
+                                    'recentPosts' => []
+                                ]);
 });
 
 Route::get('/privacy', function () {
@@ -81,11 +84,15 @@ Route::get('/our-solutions', function () {
 
 
 Route::get('/blog/solar-technologies-and-techniques', function () {
-    return view('website.blog-why-off-site-solar-parks-are-the-future-of-renewable-energy');
+    return view('website.blog-why-off-site-solar-parks-are-the-future-of-renewable-energy', ['recentPosts' => []]);
 });
 Route::get('/blog/embracing-sustainability-with-solar-energy-and-its-environmental-benefits', function () {
-    return view('website.blog-embracing-sustainability-with-solar-energy-and-its-environmental-benefits');
+    return view('website.blog-embracing-sustainability-with-solar-energy-and-its-environmental-benefits', ['recentPosts' => []]);
 });
+Route::get('/blog/blog-3', function () {
+    return view('website.blog-3', ['recentPosts' => []]);
+});
+
 
 
 

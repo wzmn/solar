@@ -113,30 +113,7 @@
                         </svg>
                     </button>
                 </div>
-                <div class="recent">
-                  <h4 class="mb-4 text-orange">Recent Posts</h4>
-                    <div class="recent__post d-xl-grid">
-                        <img src="{{ asset('assets/images/c2.png') }}" alt="">
-                        <div class="recent__post_content">
-                            <div class="recent__post__date">January 9, 2024</div>
-                            <div>All you need to know about solar energy.</div>
-                        </div>
-                    </div>
-                    <div class="recent__post d-xl-grid">
-                        <img src="{{ asset('assets/images/c2.png') }}" alt="">
-                        <div class="recent__post_content">
-                            <div class="recent__post__date">January 9, 2024</div>
-                            <div>All you need to know about solar energy.</div>
-                        </div>
-                    </div>
-                    <div class="recent__post d-xl-grid">
-                        <img src="{{ asset('assets/images/c2.png') }}" alt="">
-                        <div class="recent__post_content">
-                            <div class="recent__post__date">January 9, 2024</div>
-                            <div>All you need to know about solar energy.</div>
-                        </div>
-                    </div>
-                </div>
+                <x-recent-posts :posts="$recentPosts" />
                 <div class="categories">
                     <h4 class="mb-4 text-orange">Categories</h4>
                     <ul class="p-0">

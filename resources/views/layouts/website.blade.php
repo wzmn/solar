@@ -128,7 +128,7 @@
                                                 <div class="col-md-3 col-6 py-3">
                                                     <dl>
                                                         <dt class="mb-2">
-                                                            Solar Calculator
+                                                            <a href="/solar-calculator">Solar Calculator</a>
                                                         </dt>
 
                                                     </dl>
@@ -271,7 +271,19 @@
         @yield("content")
 
 
+		<div id="scroll2top">
+		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="35" fill="white"
+	 viewBox="0 0 466.205 466.205">
+		<path d="M416.193,170.894c-0.052-0.053-0.105-0.105-0.158-0.158L253.049,7.536c-1.295-1.288-2.726-2.432-4.267-3.413l-4.693-2.56
+			l-3.2-1.067h-2.347c-3.596-0.661-7.283-0.661-10.88,0h-2.133h-2.56l-3.627,1.92c-2.021,1.098-3.887,2.461-5.547,4.053
+			L50.169,170.736c-10.957,10.87-11.028,28.565-0.158,39.522c0.052,0.053,0.105,0.105,0.158,0.158
+			c11.045,10.538,28.421,10.538,39.467,0l97.493-97.28c4.206-4.124,10.96-4.058,15.084,0.149c1.919,1.957,3.011,4.577,3.049,7.318
+			v317.653c-0.001,15.435,12.51,27.948,27.945,27.949c15.435,0.001,27.947-12.51,27.949-27.945c0-0.001,0-0.003,0-0.004V120.603
+			c0.083-5.89,4.925-10.599,10.815-10.516c2.74,0.039,5.361,1.13,7.318,3.049l97.067,97.28c11.073,10.674,28.607,10.674,39.68,0
+			C426.993,199.546,427.064,181.851,416.193,170.894z"/>
 
+</svg>
+		</div>
         <footer class="pt-5">
             <div class="container">
                 <div class="row" @if(Route::is('home') ) data-aos="fade-up" @endif>
@@ -381,7 +393,7 @@
                                 class="col-md-3 col-6 py-3 border border-bottom-0 border-top-0 border-start-0">
                                 <dl>
                                     <dt class="mb-2">
-                                        Solar Calculator
+                                        <a href="/solar-calculator" class="bold">Solar Calculator</a>
                                     </dt>
 
                                 </dl>
@@ -522,6 +534,34 @@
             }
             document.addEventListener("DOMContentLoaded", () => {
                 AOS.init();
+const scrollButton = document.getElementById("scroll2top");
+const windowObject = window;
+let previousScrollPosition = 0;
+
+// Function to scroll to the top of the page
+function scrollToTop() {
+    windowObject.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Optional: for a smooth scrolling effect
+    });
+}
+
+// Add a click event listener to the button
+scrollButton.addEventListener("click", scrollToTop);
+
+// Show/hide the button based on scroll position
+windowObject.addEventListener("scroll", () => {
+    const currentScrollPosition = windowObject.pageYOffset;
+
+    if (currentScrollPosition > 510 && currentScrollPosition > previousScrollPosition) { 
+        // Show button if scrolling down and past the threshold
+        scrollButton.classList.add("show");
+    } else {
+        scrollButton.classList.remove("show");
+    }
+
+    previousScrollPosition = currentScrollPosition; // Update previous position
+});
                 ifExists('#projects', () => {
 
 

@@ -11,13 +11,13 @@
   <div class="row">
     <div class="col-12 col-md-7">
       <div class="row mb-5">
-        <div class="col" data-aos="fade-up">
-          <h1 class="highlight mb-4">Why Off-Site Solar Parks Are the Future of Renewable Energy
+        <div class="col">
+          <h1 class="highlight mb-4" data-aos="fade-up">Why Off-Site Solar Parks Are the Future of Renewable Energy
           </h1>
           <div class="mb-4">
-            Jul 23, 2024 / by Enernew
+            Jul 23 ,2024 / by Enernew
           </div>
-          <img src="{{ asset('assets/images/asset-cta-2.png') }}" class="img-fluid rounded-3">
+          <img src="{{ asset('assets/images/blogs/blog-1-details.jpg') }}" class="img-fluid rounded-3">
         </div>
       </div>
       <div class="row">
@@ -156,30 +156,7 @@
                 </svg>
             </button>
         </div>
-        <div class="recent">
-          <h4 class="mb-4 text-orange">Recent Posts</h4>
-            <div class="recent__post d-xl-grid">
-                <img src="{{ asset('assets/images/c2.png') }}" alt="">
-                <div class="recent__post_content">
-                    <div class="recent__post__date">January 9, 2024</div>
-                    <div>All you need to know about solar energy.</div>
-                </div>
-            </div>
-            <div class="recent__post d-xl-grid">
-                <img src="{{ asset('assets/images/c2.png') }}" alt="">
-                <div class="recent__post_content">
-                    <div class="recent__post__date">January 9, 2024</div>
-                    <div>All you need to know about solar energy.</div>
-                </div>
-            </div>
-            <div class="recent__post d-xl-grid">
-                <img src="{{ asset('assets/images/c2.png') }}" alt="">
-                <div class="recent__post_content">
-                    <div class="recent__post__date">January 9, 2024</div>
-                    <div>All you need to know about solar energy.</div>
-                </div>
-            </div>
-        </div>
+        <x-recent-posts :posts="$recentPosts" />
         <div class="categories">
             <h4 class="mb-4 text-orange">Categories</h4>
             <ul class="p-0">
@@ -220,7 +197,6 @@
             </ul>
         </div>
     </div>
-  </div>
   </div>
 </div>
 @endsection
