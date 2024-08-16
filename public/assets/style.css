@@ -38,6 +38,9 @@ a {
     text-decoration: none;
     color: #000;
 }
+p {
+    text-align: justify;
+}
 
 .text-orange {
     color: var(--primary);
@@ -1283,6 +1286,8 @@ i {
 .recent__post img {
     grid-area: 1 / 1 / 2 / 2;
     margin-right: 10px;
+    height: 100%;
+    object-fit: cover;
 }
 .main__wrapper .solution_card[class] {
     transition: all 0.5s ease 0s;

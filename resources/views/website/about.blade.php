@@ -346,7 +346,7 @@
         </div>
     </div>
 </div>
-<div id="founders" class="founders" style="background-image: url('{{ asset('assets/images/7.png') }}');    background-size: cover;">
+<div id="founders" class="founders d-none" style="background-image: url('{{ asset('assets/images/7.png') }}');    background-size: cover;">
     <div class="container py-5">
         <div class="row">
             <div class="col my-5">

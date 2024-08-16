@@ -5,7 +5,7 @@
         <img src="{{ $post['image'] }}" alt="{{ $post['title'] }}" class="post-image">
         <div class="recent__post_content">
             <div class="recent__post__date">{{ $post['date'] }}</div>
-            <a href="{{ $post['link'] }}" class="post-title">{{ $post['title'] }}</a>
+            <a href="{{ $post['link'] }}" class="post-title text-green">{{ $post['title'] }}</a>
         </div>
     </div>
     @endforeach
