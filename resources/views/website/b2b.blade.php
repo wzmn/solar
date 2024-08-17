@@ -34,7 +34,7 @@
           <h4 class="mb-4">Rooftop (CAPEX / OPEX)</h4>
           <p>Our rooftop solar solutions are expertly designed to maximize the utilization of available roof space, delivering efficient and sustainable energy tailored to each client’s needs. Clients can choose between the CAPEX model, where they own the system outright, or the OPEX model, which allows them to pay for the energy generated without the burden of ownership, ensuring a seamless and cost-effective transition to renewable energy.</p>
         </div>
-        <div class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5" data-aos="fade-up">
+        <div class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5 gap-4" data-aos="fade-up">
           <h4 class="mb-4">Ground Mount (CAPEX / OPEX)</h4>
           <p>Our ground-mount solar solutions provide a powerful and reliable energy alternative for businesses with ample land resources. Like our rooftop offerings, clients can select between CAPEX and OPEX models, allowing them to align their choice with their financial strategies and operational goals, thereby fostering a sustainable energy future tailored to their unique requirements.</p>
         </div>

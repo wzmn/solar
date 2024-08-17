@@ -110,7 +110,7 @@
         <p>Routine inspections and maintenance checks are conducted to identify potential issues before they escalate,
           safeguarding continuous operation and extending asset longevity.</p>
       </div>
-      <div class="d-flex flex-column-reverse flex-md-row">
+      <div class="d-flex flex-column-reverse flex-md-row gap-4">
         <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
           <h4 class="mb-4">Real-Time Tracking Technology: </h4>
           <p>We leverage cutting-edge technology to monitor the park environment continuously, facilitating immediate

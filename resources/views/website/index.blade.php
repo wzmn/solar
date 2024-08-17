@@ -818,7 +818,7 @@
             </div>
         </div>
         <div class="row mb-5">
-            <div href="/blog/solar-technologies-and-techniques" class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="100">
+            <div href="/knowledge-center/why-off-site-solar-parks-are-the-future-of-renewable-energy" class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="100">
                 <div class="card">
                     <img src="./assets/images/blogs/blog-1-home.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex flex-column justify-content-around">
@@ -829,7 +829,7 @@
                     </div>
                 </div>
             </div>
-            <div href="/blog/embracing-sustainability-with-solar-energy-and-its-environmental-benefits" class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="200">
+            <div href="/knowledge-center/embracing-sustainability-with-solar-energy-and-its-environmental-benefits" class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="200">
                 <div class="card">
                     <img src="./assets/images/blogs/blog-2-home.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex flex-column justify-content-around">
@@ -839,11 +839,11 @@
                     </div>
                 </div>
             </div>
-            <div href="/blog/blog-3" class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="300">
+            <div href="/knowledge-center/choosing-the-right-green-energy-path-a-comparison-of-captive-and-third-party-ppas" class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="300">
                 <div class="card">
                     <img src="./assets/images/blogs/blog-3-home.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex flex-column justify-content-around">
-                        <h5 class="card-title highlight mb-3" data-aos="fade-up">Navigating Green Energy Choices: Captive vs. Third-Party PPAs in India</h5>
+                        <h5 class="card-title highlight mb-3" data-aos="fade-up">Choosing the Right Green Energy Path: A Comparison of Captive and Third-Party PPAS</h5>
                         <p class="card-text">As experience with other renewable technologies show, lack of social
                             acceptance and incongruity...</p>
                         <a href="#" data-aos="fade-right" data-aos-delay="600" class="text-orange">Read More</a>

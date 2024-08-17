@@ -470,6 +470,7 @@ body.open {
 
 .open .navbar__menu>span>svg {
     fill: var(--green);
+    stroke: var(--green);
 }
 
 .menu_toggle {

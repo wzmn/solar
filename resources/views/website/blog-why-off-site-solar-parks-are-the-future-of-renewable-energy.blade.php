@@ -22,7 +22,12 @@
       </div>
       <div class="row">
         <div class="col">
+          <h4 class="text-green" data-aos="fade-up">Your Path to a Sustainable Future</h4>
           <h4 data-aos="fade-up" class="bold mb-4">A New Dawn for Solar Power</h4>
+
+
+
+
           <p data-aos="fade-up" class="mb-5">
             In the heart of the renewable energy revolution, off-site solar parks are emerging as a beacon of innovation
             and
@@ -34,9 +39,11 @@
             off-site solar parks are not only a viable solution but the future of renewable energy.
           </p>
 
-          <h4 data-aos="fade-up" class="bold text-center mb-4">What Are Off-Site Solar Parks? 
-          </h4>
-          <p data-aos="fade-up" class="text-center font-light">Let's Discover the Solar Fields of Tomorrow</p>
+
+          <h4 class="text-green" data-aos="fade-up">What Are Off-Site Solar Parks?</h4>
+          <div class="mb-4">
+            <i class="font-light fs-4" data-aos="fade-up">Let's Discover the Solar Fields of Tomorrow</i>
+          </div>
           <p data-aos="fade-up" class="mb-5">
             Off-site solar parks are large-scale solar power installations located away from the consumer's site, often
             on
@@ -45,8 +52,12 @@
             positioned to harness maximum sunlight exposure, ensuring optimal energy production.
           </p>
 
-          <h4 data-aos="fade-up" class="bold mb-4 text-center">Off-Site vs. On-Site Solar Installations</h4>
-          <p data-aos="fade-up" class="font-light mb-5 text-center">The Battle of Solar Titans</p>
+
+          <h4 class="text-green" data-aos="fade-up">Off-Site vs. On-Site Solar Installations</h4>
+          <div class="mb-4">
+            <i class="font-light fs-4" data-aos="fade-up">The Battle of Solar Titans</i>
+          </div>
+
           <p data-aos="fade-up" class="mb-5">
             The distinction between off-site and on-site solar installations is profound. On-site solar systems are
             integrated with existing structures, making them ideal for small-scale energy needs. In contrast, off-site
@@ -57,8 +68,11 @@
             energy projects.
           </p>
 
-          <h4 data-aos="fade-up" class="bold mb-4 text-center">How Off-Site Solar Parks Work</h4>
-          <p data-aos="fade-up" class="font-light mb-5 text-center">We Turn Sunlight into a Powerhouse</p>
+          <h4 class="text-green" data-aos="fade-up">How Off-Site Solar Parks Work</h4>
+          <div class="mb-4">
+            <i class="font-light fs-4" data-aos="fade-up">We Turn Sunlight into a Powerhouse</i>
+          </div>
+
           <p data-aos="fade-up" class="mb-5">
             Imagine a sprawling landscape dotted with solar panels, each panel working in harmony to convert sunlight
             into
@@ -67,9 +81,12 @@
             homes and businesses, supporting the grid's stability and reducing reliance on fossil fuels.
           </p>
 
-          <h4 data-aos="fade-up" class="bold mb-4 text-center">Advantages of Off-Site Solar Parks</h4>
-          <p data-aos="fade-up" class="font-light mb-5 text-center">Discover The Bright Side of Going Big</p>
-          <h5 data-aos="fade-up" class="mb-4">Environmental Benefits</h4>
+          <h4 class="text-green" data-aos="fade-up">Advantages of Off-Site Solar Parks</h4>
+          <div class="mb-4">
+            <i class="font-light fs-4" data-aos="fade-up">Discover The Bright Side of Going Big</i>
+          </div>
+
+          <h5 data-aos="fade-up" class="mb-4 bold">Environmental Benefits</h4>
             <p data-aos="fade-up" class="mb-5">
               Off-site solar parks bring a myriad of environmental benefits. By harnessing solar energy, these parks
               significantly reduce greenhouse gas emissions, curbing the detrimental effects of fossil fuels on our
@@ -77,7 +94,7 @@
               biodiversity, creating habitats for various species and promoting ecological balance.
             </p>
 
-            <h5 data-aos="fade-up" class="mb-4">Reduction in Carbon Footprint</h4>
+            <h5 data-aos="fade-up" class="mb-4 bold">Reduction in Carbon Footprint</h4>
               <p data-aos="fade-up" class="mb-5">
                 One of the most compelling reasons to embrace off-site solar parks is their capacity to slash carbon
                 footprints. For instance, an off-site solar park can prevent thousands of tons of carbon dioxide from
@@ -86,7 +103,7 @@
                 energy.
               </p>
 
-              <h5 data-aos="fade-up" class="mb-4">Conservation of Natural Resources</h4>
+              <h5 data-aos="fade-up" class="mb-4 bold">Conservation of Natural Resources</h4>
                 <p data-aos="fade-up" class="mb-5">
                   Off-site solar parks also play a crucial role in conserving natural resources. By relying on the sun,
                   they reduce the need for water-intensive power generation methods, conserving precious water supplies.
@@ -95,7 +112,7 @@
                   water resources.
                 </p>
 
-                <h5 data-aos="fade-up" class="mb-4">Contribution to Climate Change Mitigation</h5>
+                <h5 data-aos="fade-up" class="mb-4 bold">Contribution to Climate Change Mitigation</h5>
                 <p data-aos="fade-up" class="mb-5">
                   Through their vast energy output, off-site solar parks contribute significantly to global climate
                   change
@@ -104,8 +121,10 @@
                   infrastructure; they are sanctuaries of hope, demonstrating that we can power our world sustainably.
                 </p>
 
-                <h4 data-aos="fade-up" class="bold mb-4 text-center">Off-Site Solar Parks</h4>
-                <p data-aos="fade-up" class="font-light mb-5 text-center">The Vanguard of a Sustainable Future</p>
+                <h4 class="text-green" data-aos="fade-up">Off-Site Solar Parks</h4>
+                <div class="mb-4">
+                  <i class="font-light fs-4" data-aos="fade-up">The Vanguard of a Sustainable Future</i>
+                </div>
                 <p data-aos="fade-up" class="mb-5">
                   As we stand on the brink of a renewable energy revolution, off-site solar parks are poised to lead the
                   charge. Their potential to generate clean, sustainable energy while preserving our environment is

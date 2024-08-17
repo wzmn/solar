@@ -39,7 +39,7 @@
           <h4 class="mb-4">Optimally Designed Individual Solar Plant Units</h4>
           <p>Each Solar Plant Unit within our parks is meticulously crafted and precisely sized, showcasing the expertise of our technical team. This deliberate planning not only minimizes clutter but also maximizes operational efficiency, ensuring peak performance across the entire solar park.</p>
         </div>
-        <div class="d-flex flex-column-reverse flex-md-row">
+        <div class="d-flex flex-column-reverse flex-md-row gap-4">
           <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
             <h4 class="mb-4">Permits and Approvals</h4>
             <p>At Enernew, regulatory compliance is not just a requirement; it is a core value. We prioritize the acquisition of all essential permits and approvals, with our dedicated team skillfully navigating the intricate policies and frameworks of government entities. This proactive approach prevents potential challenges and facilitates smooth project execution.</p>
@@ -55,7 +55,7 @@
           <h4 class="mb-4">Infrastructure Setup</h4>
           <p>To elevate the performance of our solar initiatives, we invest in comprehensive infrastructure development. Our solar parks are equipped with meticulously constructed roads, secure fencing, dedicated fire fighting stations, extensive lighting, operational site offices, and other critical facilities, all designed to meet and surpass international standards.</p>
         </div>
-        <div class="d-flex flex-column-reverse flex-md-row">
+        <div class="d-flex flex-column-reverse flex-md-row gap-4">
         <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
           <h4 class="mb-4">Transmission</h4>
           <p>Our solar parks are equipped with cutting-edge infrastructure that ensures efficient power transmission to the grid's receiving substation. Leveraging our long-standing collaboration with Sriram Cables, we prioritize minimizing transmission losses to optimize energy generation, while expertly managing all necessary permits and approvals in line with regulatory standards.</p>
@@ -71,7 +71,7 @@
           <h4 class="mb-4">Fire Fighting Station</h4>
           <p>To safeguard our invaluable assets, Enernew proactively establishes fire fighting stations within the solar parks. This strategic initiative ensures rapid response capabilities during emergencies, significantly reducing potential losses and enhancing overall safety.</p>
         </div>
-        <div class="d-flex flex-column-reverse flex-md-row">
+        <div class="d-flex flex-column-reverse flex-md-row gap-4">
         <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
           <h4 class="mb-4">Safety and Security</h4>
           <p>The integrity of our operations is paramount. Our trained security personnel provide continuous monitoring of the solar parks, supported by advanced CCTV and PTZ camera systems to prevent unauthorized access. Regular training guarantees that our security staff is consistently prepared to protect client assets effectively.          </p>

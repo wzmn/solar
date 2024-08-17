@@ -83,13 +83,13 @@ Route::get('/our-solutions', function () {
 });
 
 
-Route::get('/blog/solar-technologies-and-techniques', function () {
+Route::get('/knowledge-center/why-off-site-solar-parks-are-the-future-of-renewable-energy', function () {
     return view('website.blog-why-off-site-solar-parks-are-the-future-of-renewable-energy', ['recentPosts' => []]);
 });
-Route::get('/blog/embracing-sustainability-with-solar-energy-and-its-environmental-benefits', function () {
+Route::get('/knowledge-center/embracing-sustainability-with-solar-energy-and-its-environmental-benefits', function () {
     return view('website.blog-embracing-sustainability-with-solar-energy-and-its-environmental-benefits', ['recentPosts' => []]);
 });
-Route::get('/blog/blog-3', function () {
+Route::get('/knowledge-center/choosing-the-right-green-energy-path-a-comparison-of-captive-and-third-party-ppas', function () {
     return view('website.blog-3', ['recentPosts' => []]);
 });
 

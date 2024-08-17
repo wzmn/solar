@@ -1,4 +1,4 @@
-@section("title", "Blog - Navigating Green Energy Choices: Captive vs. Third-Party PPAs in India")
+@section("title", "Blog - Choosing the Right Green Energy Path: A Comparison of Captive and Third-Party PPAS")
 
 @extends("layouts.website")
 
@@ -12,7 +12,7 @@
     <div class="col-12 col-md-7">
       <div class="row mb-5">
         <div class="col">
-          <h1 class="highlight mb-4" data-aos="fade-up">Navigating Green Energy Choices: Captive vs. Third-Party PPAs in India
+          <h1 class="highlight mb-4" data-aos="fade-up">Choosing the Right Green Energy Path: A Comparison of Captive and Third-Party PPAS
           </h1>
           <div class="mb-4">
             Jul 23, 2024 / by Enernew
@@ -26,8 +26,10 @@
 
           <p class="mb-4" data-aos="fade-up">Imagine you're steering a large corporation, committed to reducing your carbon footprint while securing a reliable energy supply. The options in front of you are enticing but complex. On one hand, there's the Captive Power Purchase Agreement (PPA), promising control and independence. On the other, the Third-Party Open Access PPA offers flexibility and access to a broader market. Both are pathways to sustainability, yet each takes you on a different journey.</p>
 
-          <h4 class="text-green mb-4" data-aos="fade-up">The Captive PPA</h4>
-          <p class="mb-4" data-aos="fade-up">Building Your Own Green Energy Haven</p>
+          <h4 class="text-green" data-aos="fade-up">The Captive PPA</h4>
+          <div class="mb-4">
+            <i class="font-light fs-4" data-aos="fade-up">Building Your Own Green Energy Haven</i>
+          </div>
 
           <h4 class="text-green mb-4" data-aos="fade-up">Embracing Ownership and Control</h4>
 
@@ -43,8 +45,10 @@
 
           <p class="mb-4" data-aos="fade-up">Yet, this path is not without its hurdles. The upfront cost is significant, and the responsibility is immense. Regulatory compliance is a constant companion, requiring vigilance and expertise. But for those who relish control and are prepared for the commitment, the Captive PPA is a powerful choice.</p>
 
-          <h4 class="text-green mb-4" data-aos="fade-up">The Third-Party Open Access PPA</h4>
-          <p class="mb-4" data-aos="fade-up">Flexibility in a Dynamic Market</p>
+          <h4 class="text-green" data-aos="fade-up">The Third-Party Open Access PPA</h4>
+          <div class="mb-4">
+            <i class="font-light fs-4" data-aos="fade-up">Flexibility in a Dynamic Market</i>
+          </div>
 
           <h4 class="text-green mb-4" data-aos="fade-up">Accessing a Green Energy Marketplace</h4>
 
@@ -58,8 +62,10 @@
 
           <p class="mb-4" data-aos="fade-up">However, this flexibility comes at a price. Regulatory complexities are still present, and the cost of energy can fluctuate. You’re also subject to open access charges and surcharges, which can add layers of unpredictability to your energy expenses. But for companies that value adaptability and wish to stay light on their feet, the Third-Party Open Access PPA offers a dynamic solution.</p>
 
-          <h4 class="text-green mb-4" data-aos="fade-up">Guiding Your Green Energy Journey</h4>
-          <p class="mb-4" data-aos="fade-up">Expert Guidance for Tailored Solutions</p>
+          <h4 class="text-green" data-aos="fade-up">Guiding Your Green Energy Journey</h4>
+          <div class="mb-4">
+            <i class="font-light fs-4" data-aos="fade-up">Expert Guidance for Tailored Solutions</i>
+          </div>
 
           <p class="mb-4" data-aos="fade-up">Choosing between these two paths is more than just a business decision; it’s about aligning your energy strategy with your company’s long-term goals. This is where expertise makes all the difference. At Enernew, we understand that every company’s energy needs are unique. Whether you’re drawn to the control of a Captive PPA or the flexibility of a Third-Party Open Access PPA, we’re here to guide you.</p>
 
@@ -67,8 +73,10 @@
 
           <p class="mb-4" data-aos="fade-up">Our team at Enernew brings deep industry knowledge, helping you navigate the complexities of the Indian power market. We ensure that your green energy choice not only meets your sustainability targets but also aligns with your financial and operational goals. Think of us as your compass, pointing you towards the green energy solution that best fits your journey.</p>
 
-          <h4 class="text-green mb-4" data-aos="fade-up">Your Path to a Sustainable Future</h4>
-          <p class="mb-4" data-aos="fade-up">Making the Strategic Choice</p>
+          <h4 class="text-green" data-aos="fade-up">Your Path to a Sustainable Future</h4>
+          <div class="mb-4">
+            <i class="font-light fs-4" data-aos="fade-up">Making the Strategic Choice</i>
+          </div>
 
           <p class="mb-4" data-aos="fade-up">The decision between a Captive and Third-Party Open Access PPA is not just about today; it’s about shaping the future of your business. Both paths offer the promise of sustainability, but each has its own challenges and rewards.</p>
 

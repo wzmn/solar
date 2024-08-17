@@ -28,54 +28,36 @@
         <div class="row">
             <div class="col-md-8 col-12">
                 <div class="row">
-                    <div class="col-sm-6 col-12 mb-4">
-                        <div class="card">
-                            <label for="">
-                                <img src="{{ asset('assets/images/12.png') }}" class="card-img-top" alt="...">
-                            </label>
+                    <div class="col-sm-4 col-12 mb-4">
+                        <div class="card" href="/knowledge-center/why-off-site-solar-parks-are-the-future-of-renewable-energy">
+                            <img src="{{ asset('assets/images/blogs/blog-1-details.jpg') }}" class="card-img-top" alt="...">
                             <div class="card-body d-flex flex-column justify-content-around">
                                 <div class="mb-2">January 9, 2024</div>
-                                <div class="h4 mb-4 text-green">Why Off-Site Solar Parks Are the Future of Renewable Energy</div>
-                                <a href="/blog/solar-technologies-and-techniques" class="text-orange">Read More</a>
+                                <div class="h4 mb-4 text-green">Why Off-Site Solar Parks are the Future of Renewable Energy</div>
+                                <a href="/knowledge-center/why-off-site-solar-parks-are-the-future-of-renewable-energy" class="text-orange">Read More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-12 mb-4">
-                        <div class="card">
-                            <label for="">
-                                <img src="{{ asset('assets/images/12.png') }}" class="card-img-top" alt="...">
-                            </label>
+                    <div class="col-sm-4 col-12 mb-4">
+                        <div class="card" href="/knowledge-center/embracing-sustainability-with-solar-energy-and-its-environmental-benefits">
+                            <img src="{{ asset('assets/images/blogs/blog-2-details.jpg') }}" class="card-img-top" alt="...">
                             <div class="card-body d-flex flex-column justify-content-around">
                                 <div class="mb-2">January 9, 2024</div>
                                 <div class="h4 mb-4 text-green">Embracing Sustainability with Solar Energy and Its Environmental Benefits</div>
-                                <a href="/blog/embracing-sustainability-with-solar-energy-and-its-environmental-benefits" class="text-orange">Read More</a>
+                                <a href="/knowledge-center/embracing-sustainability-with-solar-energy-and-its-environmental-benefits" class="text-orange">Read More</a>
                             </div>
                         </div>
                     </div>
-                    {{-- <div class="col-sm-6 col-12 mb-4">
-                        <div class="card">
-                            <label for="">
-                                <img src="{{ asset('assets/images/12.png') }}" class="card-img-top" alt="...">
-                            </label>
+                    <div class="col-sm-4 col-12 mb-4">
+                        <div class="card" href="/knowledge-center/choosing-the-right-green-energy-path-a-comparison-of-captive-and-third-party-ppas">
+                            <img src="{{ asset('assets/images/blogs/blog-3-details.jpg') }}" class="card-img-top" alt="...">
                             <div class="card-body d-flex flex-column justify-content-around">
                                 <div class="mb-2">January 9, 2024</div>
-                                <div class="h4 mb-4 text-green">All you need to know about solar energy.</div>
-                                <a href="#" class="text-orange">Read More</a>
+                                <div class="h4 mb-4 text-green">Choosing the Right Green Energy Path: A Comparison of Captive and Third-Party PPAS</div>
+                                <a href="/knowledge-center/choosing-the-right-green-energy-path-a-comparison-of-captive-and-third-party-ppas" class="text-orange">Read More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-12 mb-4">
-                        <div class="card">
-                            <label for="">
-                                <img src="{{ asset('assets/images/12.png') }}" class="card-img-top" alt="...">
-                            </label>
-                            <div class="card-body d-flex flex-column justify-content-around">
-                                <div class="mb-2">January 9, 2024</div>
-                                <div class="h4 mb-4 text-green">All you need to know about solar energy.</div>
-                                <a href="#" class="text-orange">Read More</a>
-                            </div>
-                        </div>
-                    </div> --}}
                 </div>
             </div>
             <div class="col-md-4 col-12">
@@ -158,4 +140,13 @@
     </div>
 </div>
 
+@endsection
+
+@section("scripts")
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+        [...document.querySelectorAll("div[href]")].map(s => s.addEventListener('click', (event) => {window.open(event.currentTarget.getAttribute('href'))}))
+    })
+</script>
 @endsection
