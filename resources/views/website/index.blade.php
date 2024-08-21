@@ -825,7 +825,7 @@
                         <h5 class="card-title highlight mb-3" data-aos="fade-up">Why Off-Site Solar Parks are the Future of Renewable
                             Energy</h5>
                         <p class="card-text">In the heart of the renewable energy revolution, off-site solar parks are emerging as a beacon of innovation and sustainability ...</p>
-                        <a href="/blog/solar-technologies-and-techniques" data-aos="fade-right" data-aos-delay="400" class="text-orange">Read More</a>
+                        <a href="/knowledge-center/why-off-site-solar-parks-are-the-future-of-renewable-energy" data-aos="fade-right" data-aos-delay="400" class="text-orange">Read More</a>
                     </div>
                 </div>
             </div>
@@ -835,7 +835,7 @@
                     <div class="card-body d-flex flex-column justify-content-around">
                         <h5 class="card-title highlight mb-3" data-aos="fade-up">Embracing Sustainability with Solar Energy and Its Environmental Benefits</h5>
                         <p class="card-text">Transitioning to sustainable practices is crucial for preserving our planet for future generations...</p>
-                        <a href="/blog/embracing-sustainability-with-solar-energy-and-its-environmental-benefits" data-aos="fade-right" data-aos-delay="500" class="text-orange">Read More</a>
+                        <a href="/knowledge-center/embracing-sustainability-with-solar-energy-and-its-environmental-benefits" data-aos="fade-right" data-aos-delay="500" class="text-orange">Read More</a>
                     </div>
                 </div>
             </div>
@@ -846,7 +846,7 @@
                         <h5 class="card-title highlight mb-3" data-aos="fade-up">Choosing the Right Green Energy Path: A Comparison of Captive and Third-Party PPAS</h5>
                         <p class="card-text">As experience with other renewable technologies show, lack of social
                             acceptance and incongruity...</p>
-                        <a href="#" data-aos="fade-right" data-aos-delay="600" class="text-orange">Read More</a>
+                        <a href="knowledge-center/choosing-the-right-green-energy-path-a-comparison-of-captive-and-third-party-ppas" data-aos="fade-right" data-aos-delay="600" class="text-orange">Read More</a>
                     </div>
                 </div>
             </div>
