@@ -58,11 +58,11 @@
         </div>
     </div>
 </div>
-<div style="background-image: url('{{ asset('assets/images/history-bg.png') }}');    background-size: cover;">
+<div style="background-image: url('{{ asset('assets/images/history-bg.png') }}');    background-size: cover;"  id="whyjoinus">
     <div class="container py-5">
         <div class="row">
             <div class="col-12 mb-5">
-                <div class="text-center mb-4 bold">Why Join Us</div>
+                <div class="text-center mb-4 bold">Why Join Us?</div>
                 <div class="text-center">At Enernew, we believe in the power of collective action to drive meaningful change. Join us to work alongside passionate individuals who share your vision for a sustainable future. Experience the satisfaction of contributing to groundbreaking projects that make a lasting impact on communities and the environment alike. By becoming part of our team, you'll have the opportunity to grow both professionally and personally in a supportive and forward-thinking environment.</div>
             </div>
         </div>
