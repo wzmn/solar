@@ -107,10 +107,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                             <a href="/careers">Careers</a>
                                                         </dt>
                                                         <dd>
-                                                            <a href="#">Why Enernew?</a>
+                                                            <a href="/careers#whyjoinus">Why Enernew?</a>
                                                         </dd>
                                                         <dd>
-                                                            <a href="#">Our Values</a>
+                                                            <a href="/careers#vision">Our Values</a>
                                                         </dd>
                                                         <dd>
                                                             <a href="/job-openings">Job Openings</a>
