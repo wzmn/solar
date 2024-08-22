@@ -763,11 +763,11 @@
                 class="col-12 col-md-4 flex-column justify-content-center d-flex py-5 align-items-center border-end border-sm-none">
                 <div class="mb-5">
                     <h3 class="highlight" data-aos="fade-up">Our Email</h3>
-                    <span>contact@enernew.in</span>
+                    <span><a href="mailto:contact@enernew.in">contact@enernew.in</a></span>
                 </div>
                 <div>
                     <h3 class="highlight" data-aos="fade-up">Phone No.</h3>
-                    <span>+91-88 00 222 600</span>
+                    <span><a href="tel:+91 88 00 222 600">+91 88 00 222 600</a></span>
                 </div>
             </div>
             <div class="col d-none d-lg-block"></div>

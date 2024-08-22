@@ -393,7 +393,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <a class="bold" href="/contact-us">Contact Us</a>
                                     </dt>
                                     <dd>
-                                        <a href="mailto:contact@enernew">contact@enernew.in</a>
+                                        <a href="mailto:contact@enernew.in">contact@enernew.in</a>
                                     </dd>
                                     <dd>
                                         <a href="tel:+91 88 00 222 600">+91 88 00 222 600</a>
