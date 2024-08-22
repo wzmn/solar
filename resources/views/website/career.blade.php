@@ -28,7 +28,7 @@
                     Company Introduction
                 </div>
                 <div>
-                Welcome to Enernew, where our mission transcends traditional energy solutions. We're dedicated to pioneering sustainable innovations that redefine the future of power. Our values of integrity, innovation, and community empowerment drive us to deliver excellence in every endeavor. We are committed to creating a cleaner, greener world for future generations.
+                Welcome to Enernew, where our mission transcends traditional energy solutions. We are dedicated to pioneering sustainable innovations that redefine the future of power. Our values of integrity, innovation, and community empowerment drive us to deliver excellence in every endeavor. We are committed to creating a cleaner, greener world for future generations. With a focus on renewable energy, we push the boundaries of what’s possible, constantly exploring new technologies to meet the evolving needs of our planet. Join us in shaping a future where clean energy is accessible and sustainable for all.
                 </div>
             </div>
             <div class="col-12 col-md-6 py-5">   
@@ -40,12 +40,12 @@
             </div>
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
                 <div class="fs-5 mb-2">Work Culture and Environment</div>
-                <div>At Enernew, we cultivate a dynamic and inclusive work environment that thrives on collaboration and creativity. Our culture fosters a deep sense of purpose as we work toward a common goal of sustainability. We encourage continuous learning and personal growth, supported by a culture of respect and appreciation. Our team enjoys a balance of challenging projects and the opportunity to make a tangible impact on the world.</div>
+                <div>At Enernew, we cultivate a dynamic and inclusive work environment that thrives on collaboration and creativity. Our culture fosters a deep sense of purpose as we work toward a common goal of sustainability. We encourage continuous learning and personal growth, supported by a culture of respect and appreciation. Our team enjoys a balance of challenging projects and opportunities to make a tangible impact on the world. Here, every voice is heard, and every contribution is valued, creating a workplace where innovation flourishes. We believe that diversity in thought and background is key to driving the innovative solutions we champion.</div>
             </div>
 
             <div class="col-12">
                 <div class="fs-5 mb-2 text-center">What Sets Us Apart</div>
-                <div class="text-center mb-5">We invite you to embark on a journey of impactful work and personal fulfillment. Enernew offers competitive benefits and opportunities for advancement, but more importantly, we provide a platform for you to contribute to something larger than yourself. We pride ourselves on creating an environment where every team member's ideas and contributions are valued and can lead to meaningful change. Our commitment to sustainability extends to our workplace practices, promoting a healthy work-life balance and fostering a culture of innovation.</div>
+                <div class="text-center mb-5">We invite you to embark on a journey of impactful work and personal fulfillment. Enernew offers competitive benefits and opportunities for advancement, but more importantly, we provide a platform for you to contribute to something larger than yourself. We pride ourselves on creating an environment where every team member's ideas and contributions are valued and can lead to meaningful change. Our commitment to sustainability extends to our workplace practices, promoting a healthy work-life balance and fostering a culture of innovation. By joining us, you'll be part of a team that's not just changing the energy landscape, but also creating a legacy of positive change for future generations.</div>
                 <div class="career__cta_img rounded-3 mb-5">
                     <img src="{{ asset('assets/images/career-3.png') }}" class="img-fluid">
                 </div>
@@ -63,7 +63,7 @@
         <div class="row">
             <div class="col-12 mb-5">
                 <div class="text-center mb-4 bold">Why Join Us?</div>
-                <div class="text-center">At Enernew, we believe in the power of collective action to drive meaningful change. Join us to work alongside passionate individuals who share your vision for a sustainable future. Experience the satisfaction of contributing to groundbreaking projects that make a lasting impact on communities and the environment alike. By becoming part of our team, you'll have the opportunity to grow both professionally and personally in a supportive and forward-thinking environment.</div>
+                <div class="text-center">At Enernew, we believe in the power of collective action to drive meaningful change. Join us to work alongside passionate individuals who share your vision for a sustainable future. Experience the satisfaction of contributing to groundbreaking projects that make a lasting impact on communities and the environment alike. By becoming part of our team, you'll have the opportunity to grow both professionally and personally in a supportive and forward-thinking environment. Together, we can build a career that not only fulfills your ambitions but also leaves a lasting, positive imprint on the world. Your journey with us is not just a job—it's a chance to be part of a movement towards a brighter, more sustainable future.</div>
             </div>
         </div>
         <div class="row mt-5">
