@@ -34,7 +34,7 @@
             sustainability. Picture vast expanses of land, bathed in sunlight, transforming into fields of photovoltaic
             panels, generating clean, abundant energy. This concept is not just a futuristic dream but a present
             reality,
-            heralded by solar power park developers like <a href="https://www.enernew.in/">Enernew</a>, a leading solar
+            heralded by solar power park developers like <a href="https://enernew.in/">Enernew</a>, a leading solar
             company committed to paving the way for a greener tomorrow. Today, let's embark on a journey to explore why
             off-site solar parks are not only a viable solution but the future of renewable energy.
           </p>
@@ -135,7 +135,6 @@
                 <p data-aos="fade-up" class="mb-5">Join Enernew in championing this cause. Together, we can turn the vast expanses of
                   sunlight into a beacon of hope, powering our world with the sun’s infinite energy. Let’s build a
                   renewable energy future, one solar park at a time.</p>
-
         </div>
       </div>
     </div>
