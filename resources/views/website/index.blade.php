@@ -566,7 +566,8 @@
                     </button>
                     <button class="carousel-control-next d-none d-md-flex" type="button" data-bs-target="#projects"
                         data-bs-slide="next">
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/20
+                         00/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15"
                             viewBox="0 0 511.949 511.949" xml:space="preserve">
                             <g>
@@ -600,13 +601,13 @@
                             <img src="./assets/images/projects/JTEKT-Collage.png" class="d-block w-100" alt="Project Image">
                         </div>
                     </div>
-                    <div class="carousel-indicators">
+                    <!-- <div class="carousel-indicators">
                         <button type="button" data-bs-target="#projects" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#projects" data-bs-slide-to="1" aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#projects" data-bs-slide-to="2" aria-label="Slide 3"></button>
                         <button type="button" data-bs-target="#projects" data-bs-slide-to="3" aria-label="Slide 4"></button>
                         <button type="button" data-bs-target="#projects" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
