@@ -10,6 +10,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-NJ776GQC');</script>
 <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
+<!-- Title Canonical and Description - Start -->
+<title>Enernew @hasSection('title') - @endif @yield('title') </title>
+<meta name="description" property="og:description" content="@yield('title')" />
+<link rel="canonical" href="@yield('title')" />
+
+<!-- End -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ asset('assets/node_modules/bootstrap/dist/css/bootstrap.css') }}">
     <script src="{{ asset('assets/node_modules/bootstrap/dist/js/bootstrap.js') }}" defer></script>
@@ -28,7 +34,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
-    <title>Enernew @hasSection('title') - @endif @yield('title') </title>
     <meta name="google-site-verification" content="gZYGu-x8qMlMgZUa2vgkdG0g0VVIL6Kbx6OmQdeT7kM" />
     <script type="application/ld+json">
         {
