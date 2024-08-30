@@ -11,11 +11,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
 <!-- Title Canonical and Description - Start -->
-<title>Enernew @hasSection('title') - @endif @yield('title') </title>
+
 <!-- <meta name="description" property="og:description" content="{{url()->current()}}" /> -->
 
 
 <!-- End -->
+    <title>@hasSection('title') @endif @yield('title') </title>
     <link rel="canonical" href="{{url()->current()}}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ asset('assets/node_modules/bootstrap/dist/css/bootstrap.css') }}">
