@@ -149,7 +149,7 @@
                             <img src="{{ asset('assets/images/small-3.png') }}" class="img-fluid" data-aos="fade-up" data-aos-delay="50">
                             <img src="{{ asset('assets/images/small-2.png') }}" class="img-fluid" data-aos="fade-up" data-aos-delay="150">
                             <img src="{{ asset('assets/images/small-4.png') }}" class="img-fluid" data-aos="fade-up" data-aos-delay="250">
-                            <img src="{{ asset('assets/images/small-1.png') }}" class="img-fluid" data-aos="fade-up" data-aos-delay="350">
+                            <img src="{{ asset('assets/images/small-1.png') }}" class="img-fluid" data-aos="fade-up" data-aos-delay="350" alt="Sriram Cables Manufacturing building">
                         </div>
                     </div>
 
@@ -411,11 +411,11 @@
                 </div>
                 <div class="vision__grid my-5">
                     <div class="vision__grid_item" data-aos="fade-left" data-aos-delay="100">
-                        <img src="{{ asset('assets/images/icon-1.png') }}" alt="">
+                        <img src="{{ asset('assets/images/icon-1.png') }}" alt="Integrity in all business dealings Logo">
                         <div>Embodying integrity in every business interaction</div>
                     </div>
                     <div class="vision__grid_item" data-aos="fade-left" data-aos-delay="200">
-                        <img src="{{ asset('assets/images/icon-2.png') }}" alt="">
+                        <img src="{{ asset('assets/images/icon-2.png') }}" alt="Embracing innovation Logo">
                         <div>Embracing innovation and a pragmatic approach</div>
                     </div>
                     <div class="vision__grid_image">

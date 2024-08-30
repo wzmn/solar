@@ -30,6 +30,47 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         rel="stylesheet">
     <title>Enernew @hasSection('title') - @endif @yield('title') </title>
     <meta name="google-site-verification" content="gZYGu-x8qMlMgZUa2vgkdG0g0VVIL6Kbx6OmQdeT7kM" />
+    <script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Enernew",
+        "alternateName": "enernew.in",
+        "url": "https://enernew.in/",
+        "logo": "https://enernew.in/assets/images/logo-15.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91 8800222600",
+            "contactType": "customer service",
+            "areaServed": "IN",
+            "availableLanguage": "en"
+        },
+        "sameAs": [
+            "https://www.facebook.com/people/Enernew-Pvt-Ltd/61558307954152/",
+            "https://x.com/enernewpvtltd?s=11",
+            "https://www.instagram.com/enernewsolar/",
+            "https://www.youtube.com/@Enernew",
+            "https://www.linkedin.com/company/enernew-pvt-ltd/",
+            "https://in.pinterest.com/enernewsolar/",
+            "https://enernew.in/"
+        ]
+        }
+</script>
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://enernew.in/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Innovative Renewable Energy & Solar Power Park Solutions">
+<meta property="og:description" content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future.">
+<meta property="og:image" content="https://enernew.in/assets/images/logo-15.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://enernew.in/">
+<meta name="twitter:title" content="Innovative Renewable Energy & Solar Power Park Solutions">
+<meta name="twitter:description" content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future.">
+<meta name="twitter:image" content="https://enernew.in/assets/images/logo-15.png">
+
 </head>
 
 <body>
@@ -68,7 +109,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <div class="col">
                                             <div class="navbar__logo">
                                                 <a href="/">
-                                                    <img src="{{ asset('assets/images/logo-white.png') }}" class="logo">
+                                                    <img src="{{ asset('assets/images/logo-white.png') }}" class="logo" alt="Enernew Logo White">
                                                 </a>
                                             </div>
                                         </div>
@@ -97,7 +138,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                             <a href="/about-us#vision">Vision, Mission & Values</a>
                                                         </dd>
                                                         <dd>
-                                                            <a href="/about-us#whyus">Why Us?</a>
+                                                            <a href="/about-us# us">Why Us?</a>
                                                         </dd>
                                                     </dl>
                                                 </div>
@@ -333,7 +374,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="row">
                     <div class="col-12 col-md-3 justify-content-center d-flex flex-column" @if(Route::is('home') )
                         data-aos="fade-up" @endif>
-                        <a href="/"><img src="{{ asset('assets/images/logo-15.png') }}" class="logo mb-3"></a>
+                        <a href="/"><img src="{{ asset('assets/images/logo-15.png') }}" class="logo mb-3" alt="Enernew Logo"></a>
                         <p class="mb-3 lh-lg fs-7">Enernew continues the legacy of Sriram Cables, a brand well known
                             since 45
                             years for its performance, trust and reliability.</p>

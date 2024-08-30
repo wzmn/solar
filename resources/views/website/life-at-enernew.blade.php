@@ -66,16 +66,16 @@
     <div class="swiper-container swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="{{ asset('assets/images/life-enernew/Diwali 1.jpeg') }}" alt="" />
+          <img src="{{ asset('assets/images/life-enernew/Diwali 1.jpeg') }}" alt="Enernew Diwali Celebration Photo" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ asset('assets/images/life-enernew/Diwali 2.jpeg') }}" alt="" />
+          <img src="{{ asset('assets/images/life-enernew/Diwali 2.jpeg') }}" alt="Enernew Diwali Celebration Group Photo" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ asset('assets/images/life-enernew/Diwali 3.jpeg') }}" alt="" />
+          <img src="{{ asset('assets/images/life-enernew/Diwali 3.jpeg') }}" alt="Enernew Diwali Celebration" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ asset('assets/images/life-enernew/Diwali 4.jpeg') }}" alt="" />
+          <img src="{{ asset('assets/images/life-enernew/Diwali 4.jpeg') }}" alt="Enernew Diwali Celebration Group Photo" />
         </div>
       </div>
 
@@ -100,22 +100,22 @@
     <div class="swiper-container swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="{{ asset('assets/images/life-enernew/Event 1.jpg') }}" alt="" />
+          <img src="{{ asset('assets/images/life-enernew/Event 1.jpg') }}" alt="Renewable Energy India Expo Enernew Team" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ asset('assets/images/life-enernew/Event 2.jpg') }}" alt="" />
+          <img src="{{ asset('assets/images/life-enernew/Event 2.jpg') }}" alt="Renewable Energy India Event photo" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ asset('assets/images/life-enernew/Event 3.jpg') }}" alt="" />
+          <img src="{{ asset('assets/images/life-enernew/Event 3.jpg') }}" alt="Renewable Energy India Expo Enernew Team" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ asset('assets/images/life-enernew/Event 4.jpg') }}" alt="" />
+          <img src="{{ asset('assets/images/life-enernew/Event 4.jpg') }}" alt="Renewable Energy India Event photo" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ asset('assets/images/life-enernew/Event 5.jpg') }}" alt="" />
+          <img src="{{ asset('assets/images/life-enernew/Event 5.jpg') }}" alt="Renewable Energy India Expo Enernew Team" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ asset('assets/images/life-enernew/Event 6.jpg') }}" alt="" />
+          <img src="{{ asset('assets/images/life-enernew/Event 6.jpg') }}" alt="Renewable Energy India Event photo" />
         </div>
       </div>
 
@@ -140,22 +140,22 @@
     <div class="swiper-container swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="{{ asset('assets/images/yoga-1.png') }}" alt="" />
+          <img src="{{ asset('assets/images/yoga-1.png') }}" alt="Enernew Yoga Day Celebration" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ asset('assets/images/yoga-2.png') }}" alt="" />
+          <img src="{{ asset('assets/images/yoga-2.png') }}" alt="Enernew Yoga Day Celebration" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ asset('assets/images/yoga-3.png') }}" alt="" />
+          <img src="{{ asset('assets/images/yoga-3.png') }}" alt="Enernew Yoga Day Celebration" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ asset('assets/images/yoga-1.png') }}" alt="" />
+          <img src="{{ asset('assets/images/yoga-1.png') }}" alt="Enernew Yoga Day Celebration" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ asset('assets/images/yoga-2.png') }}" alt="" />
+          <img src="{{ asset('assets/images/yoga-2.png') }}" alt="Enernew Yoga Day Celebration" />
         </div>
         <div class="swiper-slide">
-          <img src="{{ asset('assets/images/yoga-3.png') }}" alt="" />
+          <img src="{{ asset('assets/images/yoga-3.png') }}" alt="Enernew Yoga Day Celebration" />
         </div>
       </div>
 

@@ -26,7 +26,7 @@
                 <div class="row">
                     <div class="align-items-center border-2 border-end col d-grid p-5">
                         <div class="contact__info_block d-flex gap-3 align-items-center">
-                            <img src="{{ asset('assets/images/social-location.png') }}" alt="">
+                            <img src="{{ asset('assets/images/social-location.png') }}" alt="Office Location Icon">
                             <div>
                                 <div class="bold fs-4">Office Address</div>
                                 <div>
@@ -37,7 +37,7 @@
                     </div>
                     <div class="col p-5">
                         <div class="contact__info_block d-flex gap-3 align-items-center mb-5">
-                            <img src="{{ asset('assets/images/social-phone.png') }}" alt="">
+                            <img src="{{ asset('assets/images/social-phone.png') }}" alt="Social Phone Icon">
                             <div>
                                 <div class="bold fs-4">Phone No.</div>
                                 <div>
@@ -46,7 +46,7 @@
                             </div>
                         </div>
                         <div class="contact__info_block d-flex gap-3 align-items-center">
-                            <img src="{{ asset('assets/images/social-email.png') }}" alt="">
+                            <img src="{{ asset('assets/images/social-email.png') }}" alt="Email Logo">
                             <div>
                                 <div class="bold fs-4">E-mail ID</div>
                                 <div>
@@ -78,7 +78,7 @@
                     <div class="contact__grid_item"
                         style="background-image: url('{{ asset('assets/images/contact-grid-section-bg.png') }}');height: 100%;background-size: cover;">
                         <div>
-                            <img src="{{ asset('assets/images/icon-careers.png') }}" alt="">
+                            <img src="{{ asset('assets/images/icon-careers.png') }}" alt="Careers at Enernew">
                             <div class="fs-4 mb-3">
                                 Careers at Enernew
                             </div>
@@ -93,7 +93,7 @@
                     <div class="contact__grid_item"
                         style="background-image: url('{{ asset('assets/images/contact-grid-section-bg.png') }}');height: 100%;background-size: cover;">
                         <div>
-                            <img src="{{ asset('assets/images/icon-partner.png') }}" alt="">
+                            <img src="{{ asset('assets/images/icon-partner.png') }}" alt="Become a Channel Partner">
 
                             <div class="fs-4 mb-3">
                                 Become a Channel Partner
@@ -110,7 +110,7 @@
                     <div class="contact__grid_item"
                         style="background-image: url('{{ asset('assets/images/contact-grid-section-bg.png') }}');height: 100%;background-size: cover;">
                         <div>
-                            <img src="{{ asset('assets/images/icon-news.png') }}" alt="">
+                            <img src="{{ asset('assets/images/icon-news.png') }}" alt="News, Media and Press Inquiries">
 
                             <div class="fs-4 mb-3">
                                 Media & Press Inquiries

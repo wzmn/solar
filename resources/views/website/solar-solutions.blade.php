@@ -33,7 +33,7 @@
           </h2>
         </div>
         <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
-          <img class="rounded-3" src="{{ asset('assets/images/utility-1.png') }}" alt="">
+          <img class="rounded-3" src="{{ asset('assets/images/utility-1.png') }}" alt="Solar Power Plant Units">
         </div>
         <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5" data-aos-delay="200">
           <h4 class="mb-4">Optimally Designed Individual Solar Plant Units</h4>
@@ -45,11 +45,11 @@
             <p>At Enernew, regulatory compliance is not just a requirement; it is a core value. We prioritize obtaining all essential permits and approvals, with our dedicated team skillfully navigating the intricate policies and frameworks of government entities. This proactive approach prevents potential challenges and facilitates smooth project execution. Our commitment to compliance extends beyond legal requirements, as we actively engage with local communities and stakeholders to align our projects with broader social and environmental goals. This fosters goodwill and ensures long-term project viability.</p>
           </div>
           <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5" data-aos-delay="200">
-            <img class="rounded-3" src="{{ asset('assets/images/utility-2.png') }}" alt="">
+            <img class="rounded-3" src="{{ asset('assets/images/utility-2.png') }}" alt="All Essential Permits and Approvals">
           </div>
         </div>
         <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
-          <img class="rounded-3" src="{{ asset('assets/images/utility-3.png') }}" alt="">
+          <img class="rounded-3" src="{{ asset('assets/images/utility-3.png') }}" alt="Solar Power Park Secure Fencing">
         </div>
         <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5" data-aos-delay="200">
           <h4 class="mb-4">Infrastructure Setup</h4>
@@ -61,11 +61,11 @@
           <p>Our solar parks are equipped with cutting-edge infrastructure that ensures efficient power transmission to the grid's receiving substation. Leveraging our long-standing collaboration with Sriram Cables, we prioritize minimizing transmission losses to optimize energy generation while expertly managing all necessary permits and approvals in line with regulatory standards. Our transmission systems are designed to adapt to future grid enhancements, ensuring that our parks can seamlessly integrate with evolving energy networks. By maintaining rigorous quality control throughout the process, we deliver reliable, consistent power output to meet growing energy demands.</p>
         </div>
         <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5" data-aos-delay="200">
-          <img class="rounded-3" src="{{ asset('assets/images/utility-4.png') }}" alt="">
+          <img class="rounded-3" src="{{ asset('assets/images/utility-4.png') }}" alt="Solar Park Power Transmission">
         </div>
       </div>
         <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
-          <img class="rounded-3" src="{{ asset('assets/images/utility-5.png') }}" alt="">
+          <img class="rounded-3" src="{{ asset('assets/images/utility-5.png') }}" alt="Solar Park Fire Fighting Station">
         </div>
         <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5" data-aos-delay="200">
           <h4 class="mb-4">Fire Fighting Station</h4>
@@ -77,7 +77,7 @@
           <p>The integrity of our operations is paramount. Our trained security personnel provide continuous monitoring of the solar parks, supported by advanced CCTV and PTZ camera systems to prevent unauthorized access. Regular training ensures that our security staff is consistently prepared to protect client assets effectively. We also implement strict access control measures and conduct frequent security assessments to identify and address potential vulnerabilities. By adopting a proactive approach to safety and security, we create a secure environment that fosters uninterrupted operations and instills confidence in our clients and stakeholders.</p>
         </div>
         <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5" data-aos-delay="200">
-          <img class="rounded-3" src="{{ asset('assets/images/utility-6.png') }}" alt="">
+          <img class="rounded-3" src="{{ asset('assets/images/utility-6.png') }}" alt="Solar Park Safety and Security">
         </div>
       </div>
       </div>

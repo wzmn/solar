@@ -103,7 +103,7 @@
     </div>
     <div class="row bg-white rounded-3 p-5">
       <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
-        <img class="rounded-3 py-5" src="{{ asset('assets/images/asset-1.png') }}" alt="">
+        <img class="rounded-3 py-5" src="{{ asset('assets/images/asset-1.png') }}" alt="Routine inspections and maintenance checks">
       </div>
       <div data-aos="fade-up" data-aos-delay="200" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
         <h4 class="mb-4">Proactive Maintenance: </h4>
@@ -115,11 +115,11 @@
           <p>We leverage cutting-edge technology to continuously monitor the park environment, facilitating immediate responses to any anomalies and enhancing overall safety and security. This real-time data allows us to anticipate potential disruptions and take corrective action before they impact performance. Our integrated monitoring systems also provide stakeholders with instant access to critical information, ensuring transparency and fostering confidence in the operational integrity of our solar parks.</p>
         </div>
         <div data-aos="fade-up" data-aos-delay="200" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
-          <img class="rounded-3 py-5" src="{{ asset('assets/images/asset-2.png') }}" alt="">
+          <img class="rounded-3 py-5" src="{{ asset('assets/images/asset-2.png') }}" alt="Real-Time Tracking Technology">
         </div>
       </div>
       <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
-        <img class="rounded-3 py-5" src="{{ asset('assets/images/asset-3.png') }}" alt="">
+        <img class="rounded-3 py-5" src="{{ asset('assets/images/asset-3.png') }}" alt="Emergency Response Capabilities">
       </div>
       <div data-aos="fade-up" data-aos-delay="200" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
         <h4 class="mb-4">Emergency Response Capabilities: </h4>

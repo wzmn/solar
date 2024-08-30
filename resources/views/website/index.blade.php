@@ -72,7 +72,7 @@
     <div class="container-fluid mt-5 position-relative">
         <div class="row mb-5">
             <div class="col-lg-5 col mb-3">
-                <img src="./assets/images/3.png" class="img-fluid">
+                <img src="./assets/images/3.png" class="img-fluid" alt="Off-Site Captive Open Access Solar Parks">
                 <div class="d-md-flex flex-wrap flex-md-nowrap justify-content-center icon_wrapper animate" data-aos="fade-up"  data-aos-offset="400">
                     <div class="icon">
                         <div class="icon__box" data-aos="fade-up">
@@ -261,7 +261,7 @@
                                     </div>
                                 </div>
                                 <div class="col align-items-start d-md-flex mb-4">
-                                    <img src="{{ asset('assets/images/5.png') }}" class="img-fluid">
+                                    <img src="{{ asset('assets/images/5.png') }}" class="img-fluid" alt="Solar Power Park Developer">
                                 </div>
                                
                             </div>
@@ -329,7 +329,7 @@
                                     </div>
                                 </div>
                                 <div class="col align-items-start d-md-flex mb-4">
-                                    <img src="{{ asset('assets/images/solution-2.png') }}" class="img-fluid">
+                                    <img src="{{ asset('assets/images/solution-2.png') }}" class="img-fluid" alt="B2B Solar Solutions">
                                 </div>
                                 
                             </div>
@@ -405,7 +405,7 @@
                                     </div>
                                 </div>
                                 <div class="col align-items-start d-md-flex mb-4">
-                                    <img src="{{ asset('assets/images/solution-3.png') }}" class="img-fluid">
+                                    <img src="{{ asset('assets/images/solution-3.png') }}" class="img-fluid" alt="Asset Management Services">
                                 </div>
                             </div>
                         </div>
@@ -586,19 +586,19 @@
                 <div id="projects" class="carousel slide" data-bs-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./assets/images/projects/Railway-Single.png" class="d-block w-100" alt="Project Image">
+                            <img src="./assets/images/projects/Railway-Single.png" class="d-block w-100" alt="India’s First Solar-Powered Running Coaches">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/projects/Banswara-Collage.png" class="d-block w-100" alt="Project Image">
+                            <img src="./assets/images/projects/Banswara-Collage.png" class="d-block w-100" alt="Banswara Syntex - Single-Site Rooftop Solar Project">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/projects/Pragati-Power-Collage.png" class="d-block w-100" alt="Project Image">
+                            <img src="./assets/images/projects/Pragati-Power-Collage.png" class="d-block w-100" alt="Pragati Power Rooftop Solar Project">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/projects/Jindal-Collage.png" class="d-block w-100" alt="Project Image">
+                            <img src="./assets/images/projects/Jindal-Collage.png" class="d-block w-100" alt="Jindal Saw Ground-Mounted Solar Power Project">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/projects/JTEKT-Collage.png" class="d-block w-100" alt="Project Image">
+                            <img src="./assets/images/projects/JTEKT-Collage.png" class="d-block w-100" alt="JTEKT Corporation turnkey EPC- solar power project">
                         </div>
                     </div>
                     <!-- <div class="carousel-indicators">

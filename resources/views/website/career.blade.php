@@ -36,7 +36,7 @@
             </div>
 
             <div class="col-12 col-md-6 py-5 mb-5">
-                <img src="{{ asset('assets/images/life-enernew/Diwali 3.jpeg') }}" class="img-fluid rounded-3">
+                <img src="{{ asset('assets/images/life-enernew/Diwali 3.jpeg') }}" class="img-fluid rounded-3" alt="Enernew Work Culture Group Photo">
             </div>
             <div class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
                 <div class="fs-5 mb-2">Work Culture and Environment</div>
@@ -118,11 +118,11 @@
                 </div>
                 <div class="vision__grid my-5">
                     <div class="vision__grid_item" data-aos="fade-left" data-aos-delay="100">
-                        <img src="{{ asset('assets/images/icon-1.png') }}" alt="">
+                        <img src="{{ asset('assets/images/icon-1.png') }}" alt="Integrity in all business dealings Logo">
                         <div>Integrity in all  business dealings</div>
                     </div>
                     <div class="vision__grid_item" data-aos="fade-left" data-aos-delay="200">
-                        <img src="{{ asset('assets/images/icon-2.png') }}" alt="">
+                        <img src="{{ asset('assets/images/icon-2.png') }}" alt="Embracing innovation Logo">
                         <div>High ethical and professional standards</div>
                     </div>
                     <div class="vision__grid_image">

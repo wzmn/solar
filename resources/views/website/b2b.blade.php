@@ -28,7 +28,7 @@
       </div>
       <div class="row bg-white rounded-3 p-5" data-aos="fade-up">
         <div class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
-          <img class="rounded-3" src="{{ asset('assets/images/utility-1.png') }}" alt="">
+          <img class="rounded-3" src="{{ asset('assets/images/utility-1.png') }}" alt="Rooftop Solar Solutions">
         </div>
         <div class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5" data-aos="fade-up" data-aos-delay="200">
           <h4 class="mb-4">Rooftop (CAPEX / OPEX)</h4>
@@ -39,7 +39,7 @@
           <p>Our ground-mount solar solutions provide a powerful and reliable energy alternative for businesses with ample land resources. Like our rooftop offerings, clients can select between CAPEX and OPEX models, allowing them to align their choice with their financial strategies and operational goals, thereby fostering a sustainable energy future tailored to their unique requirements.</p>
         </div>
         <div class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5" data-aos="fade-up" data-aos-delay="200">
-          <img class="rounded-3" src="{{ asset('assets/images/utility-2.png') }}" alt="">
+          <img class="rounded-3" src="{{ asset('assets/images/utility-2.png') }}" alt="Ground Mount - CAPEX / OPEX">
         </div>
       </div>
   </div>
