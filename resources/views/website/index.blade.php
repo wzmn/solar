@@ -270,7 +270,7 @@
                             aria-labelledby="pills-profile-tab">
                             <div class="d-flex flex-lg-row flex-column-reverse gap-3">
                                 <div class="col">
-                                    <div class="h3">Our Solar Solutions</div>
+                                    <div class="h3">B2B Solar Solutions</div>
                                     <p>Tailored Solar Energy Solutions for Commercial & Industrial Clients</p>
                                     <div class="accordion" id="solutions-accordion2">
                                         <div class="accordion-item">
