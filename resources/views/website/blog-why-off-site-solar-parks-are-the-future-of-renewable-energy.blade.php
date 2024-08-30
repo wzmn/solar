@@ -1,4 +1,4 @@
-@section("title", "Blog - Why Off-Site Solar Parks Are the Future of Renewable Energy")
+@section("title", "Why Off-Site Solar Parks are the Future of Renewable Energy")
 
 @extends("layouts.website")
 

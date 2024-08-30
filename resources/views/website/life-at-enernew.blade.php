@@ -1,4 +1,4 @@
-@section("title", "Life @ Enernew")
+@section("title", "Life at Enernew – Embrace Innovation & Sustainability")
 
 @extends ("layouts.website")
 

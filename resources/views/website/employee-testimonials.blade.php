@@ -1,4 +1,4 @@
-@section("title", "Employee Testimonials")
+@section("title", "Employee Testimonials at Enernew – Hear from Our Team")
 
 @extends("layouts.website")
 

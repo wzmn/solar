@@ -1,4 +1,4 @@
-@section("title", "Press Release")
+@section("title", "Press Releases – Latest News & Announcements from Enernew")
 
 @extends("layouts.website")
 

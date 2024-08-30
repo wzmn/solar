@@ -1,4 +1,4 @@
-@section("title", "B2B Solutions")
+@section("title", "B2B Solar Energy Solutions & Expert Solar System Installation")
 
 @extends("layouts.website")
 

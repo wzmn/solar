@@ -13,9 +13,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Title Canonical and Description - Start -->
 <title>Enernew @hasSection('title') - @endif @yield('title') </title>
 <!-- <meta name="description" property="og:description" content="{{url()->current()}}" /> -->
-<link rel="canonical" href="{{url()->current()}}" />
+
 
 <!-- End -->
+    <link rel="canonical" href="{{url()->current()}}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ asset('assets/node_modules/bootstrap/dist/css/bootstrap.css') }}">
     <script src="{{ asset('assets/node_modules/bootstrap/dist/js/bootstrap.js') }}" defer></script>

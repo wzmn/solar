@@ -1,4 +1,4 @@
-@section("title", "Blog - Choosing the Right Green Energy Path: A Comparison of Captive and Third-Party PPAS")
+@section("title", "Choosing the Right Green Energy: Captive vs Third-Party PPAs")
 
 @extends("layouts.website")
 

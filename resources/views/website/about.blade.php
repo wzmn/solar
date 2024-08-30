@@ -1,4 +1,4 @@
-@section("title", "About Us")
+@section("title", "About Enernew – Leading Clean Energy & Solar Power Solutions")
 
 @extends("layouts.website")
 

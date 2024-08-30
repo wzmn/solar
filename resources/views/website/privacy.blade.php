@@ -1,4 +1,4 @@
-@section("title", "Privacy Policy")
+@section("title", "Privacy Policy – Enernew Data Protection Practices")
 
 @extends("layouts.website")
 

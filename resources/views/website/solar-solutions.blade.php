@@ -1,4 +1,4 @@
-@section("title", "Utility Scale Solar Solutions")
+@section("title", "Utility Scale Solar Power Park Solutions & Development")
 
 @extends("layouts.website")
 
