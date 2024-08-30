@@ -13,9 +13,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Title Canonical and Description - Start -->
 
     <!-- <meta name="description" content="{{url()->current()}}" /> -->
-    @if(url()->current() == 'https://enernew.in/about-us')
+    <!-- @if(url()->current() == 'https://enernew.in/about-us')
         @set('@metaDescription', "Discover Enernew's commitment to clean energy solutions. We specialize in solar power plants, driving innovation and sustainability for a greener tomorrow.")
-    @endif
+    @endif -->
 <!-- End -->
     <title>@yield('title')</title>
     <!-- <meta name="description" content="{{metaDescription}}" /> -->
