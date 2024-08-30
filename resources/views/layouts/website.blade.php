@@ -14,11 +14,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     <!-- <meta name="description" content="{{url()->current()}}" /> -->
     @if(url()->current() == 'https://enernew.in/about-us')
-        @set('metaDescription', "Discover Enernew's commitment to clean energy solutions. We specialize in solar power plants, driving innovation and sustainability for a greener tomorrow.")
+        @set('@metaDescription', "Discover Enernew's commitment to clean energy solutions. We specialize in solar power plants, driving innovation and sustainability for a greener tomorrow.")
     @endif
 <!-- End -->
     <title>@yield('title')</title>
-    <meta name="description" content="{{metaDescription}}" />
+    <!-- <meta name="description" content="{{metaDescription}}" /> -->
     <link rel="canonical" href="{{url()->current()}}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ asset('assets/node_modules/bootstrap/dist/css/bootstrap.css') }}">
