@@ -12,7 +12,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta charset="UTF-8">
 <!-- Title Canonical and Description - Start -->
 <title>Enernew @hasSection('title') - @endif @yield('title') </title>
-<meta name="description" property="og:description" content="@yield('title')" />
+<meta name="description" property="og:description" content="@URL()" />
 <link rel="canonical" href="@yield('title')" />
 
 <!-- End -->
