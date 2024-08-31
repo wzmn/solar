@@ -4,7 +4,7 @@
 
 @section("header")
 <div class="mb-100 d-flex flex-column flex-fill justify-content-end align-items-start">
-  <h1 class="text-white">Coming Soon</h1>
+  <h1 class="text-white">Solar Calculator</h1>
   <div class="hero__content text-white mb-3">
     Home > Solar Calculator
   </div>
@@ -16,7 +16,7 @@
     <div class="row mb-5">
         <div class="col">
             <h1 class="highlight mb-4">Solar Calculator</h1>  
-            <p>Something exciting is on the way..</p>
+            <p>Something exciting is on the way & will be coming soon..</p>
         </div>
     </div>
 </div>
