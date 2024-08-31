@@ -1,4 +1,4 @@
-@section("title", "Coming Soon")
+@section("title", "Solar Calculator – Estimate Panel Costs & Electricity Savings")
 
 @extends("layouts.website")
 
