@@ -10,19 +10,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-NJ776GQC');</script>
 <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
-<!-- Title Canonical and Description - Start --> 
-
-
-        @if (url()->current()=="https://enernew.in")
-            <meta name="description" content="Discover Enernew's commitment to clean energy solutions. We specialize in solar power plants, driving innovation and sustainability for a greener tomorrow." />
-        @elseif (url()->current()=="https://enernew.in/about-us")
-            <meta name="description" content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future." />
-        @else
-            <meta name="description" content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future." />
-        @endif
-
-    
-
+<!-- Meta Description - Start --> 
+@if (url()->current()=="https://enernew.in")
+    <meta name="description" content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future." />
+@elseif (url()->current()=="https://enernew.in/about-us")
+    <meta name="description" content="Discover Enernew's commitment to clean energy solutions. We specialize in solar power plants, driving innovation and sustainability for a greener tomorrow." />
+@elseif (url()->current()=="https://enernew.in/utility-scale-solar-power-park-solutions")
+    <meta name="description" content="Enernew develops advanced utility-scale solar projects, offering efficient solar power park solutions that maximize energy output and promote sustainability." />
+@elseif (url()->current()=="https://enernew.in/b2b-solar-solutions")
+    <meta name="description" content="Enernew provides tailored B2B solar energy solutions, specializing in solar system installations that deliver reliable, sustainable power for businesses." />
+@elseif (url()->current()=="https://enernew.in/asset-management-services")
+    <meta name="description" content="Enernew offers comprehensive solar asset management services, ensuring peak performance, reliability, and longevity for your solar energy investments." />
+@elseif (url()->current()=="https://enernew.in/careers")
+    <meta name="description" content="Explore rewarding careers at Enernew. Join our team of innovators and contribute to advancing clean energy solutions for a sustainable future." />
+@elseif (url()->current()=="https://enernew.in/job-openings")
+    <meta name="description" content="Discover exciting job openings at Enernew. Join our growing team and help shape the future of renewable energy with innovative and sustainable solutions." />
+@elseif (url()->current()=="https://enernew.in/life-at-enernew")
+    <meta name="description" content="Experience life at Enernew. Our dynamic work environment fosters innovation and collaboration, offering a fulfilling career in the renewable energy sector." />
+@elseif (url()->current()=="https://enernew.in/employee-testimonials")
+    <meta name="description" content="Read employee testimonials at Enernew to see how our team members experience innovation, growth, and satisfaction working in the renewable energy sector." />
+@elseif (url()->current()=="https://enernew.in/knowledge-center")
+    <meta name="description" content="Explore Enernew's Knowledge Center for valuable insights and resources on renewable energy. Stay informed with expert articles, reports, and updates." />
+@elseif (url()->current()=="https://enernew.in/contact-us")
+    <meta name="description" content="Reach out to Enernew for inquiries and support. Our contact page provides all the details you need to connect with our team and learn more about our services." />
+@elseif (url()->current()=="https://enernew.in/privacy")
+    <meta name="description" content="Read Enernew's Privacy Policy to understand how we protect your personal data and ensure your privacy while using our services and engaging with our content." />
+@elseif (url()->current()=="https://enernew.in/terms-of-use")
+    <meta name="description" content="Review Enernew's Terms of Use for detailed guidelines on accessing and using our website and services. Understand your rights and obligations with us." />
+@elseif (url()->current()=="https://enernew.in/solar-calculator")
+    <meta name="description" content="Use our Solar Calculator to estimate solar panel prices and calculate electricity savings. Make informed decisions about your solar energy investment." />
+@elseif (url()->current()=="https://enernew.in/press-release")
+    <meta name="description" content="Stay updated with Enernew's latest press releases, company news, announcements, and product launches. Discover the latest developments and innovations." />
+@elseif (url()->current()=="https://enernew.in/knowledge-center/why-off-site-solar-parks-are-the-future-of-renewable-energy")
+    <meta name="description" content="Find out why off-site solar parks are setting the standard for renewable energy and providing scalable, affordable solutions for a more environmentally friendly future." />
+@elseif (url()->current()=="https://enernew.in/knowledge-center/embracing-sustainability-with-solar-energy-and-its-environmental-benefits")
+    <meta name="description" content="Discover how utilizing clean, sustainable solar energy can decrease carbon footprints and contribute to environmental well-being, thus promoting sustainability." />
+@elseif (url()->current()=="https://enernew.in/knowledge-center/choosing-the-right-green-energy-path-a-comparison-of-captive-and-third-party-ppas")
+    <meta name="description" content="Explore the variances between Captive and Third-Party PPAs to make an informed decision on the optimal green energy path for your requirements." />
+@else
+    <meta name="description" content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future." />
+@endif
 <!-- End -->
     <title>@yield('title')</title>
     <link rel="canonical" href="{{url()->current()}}" />
