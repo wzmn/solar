@@ -12,7 +12,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <meta charset="UTF-8">
 <!-- Title Canonical and Description - Start --> 
 
-    <script>
+
         @if (url()->current()=="https://enernew.in")
             <meta name="description" content="Discover Enernew's commitment to clean energy solutions. We specialize in solar power plants, driving innovation and sustainability for a greener tomorrow." />
         @elseif (url()->current()=="https://enernew.in/about-us")
@@ -20,7 +20,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         @else
             <meta name="description" content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future." />
         @endif
-    </script>
+
     
 
 <!-- End -->
