@@ -10,7 +10,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-NJ776GQC');</script>
 <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
-<!-- Meta Description - Start --> 
 @if (url()->current()=="https://enernew.in")
     <meta name="description" content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future." />
 @elseif (url()->current()=="https://enernew.in/about-us")
@@ -50,7 +49,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 @else
     <meta name="description" content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future." />
 @endif
-<!-- End -->
     <title>@yield('title')</title>
     <link rel="canonical" href="{{url()->current()}}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
