@@ -28,9 +28,14 @@
                         <div class="contact__info_block d-flex gap-3 align-items-center">
                             <img src="{{ asset('assets/images/social-location.png') }}" alt="Office Location Icon">
                             <div>
-                                <div class="bold fs-4">Office Address</div>
-                                <div>
+                                <div class="bold fs-4">Corporate Office</div>
+                                <div class="mb-4">
                                     378-379, Electronic City, <br>Phase IV, Udyog Vihar, Sector 18, <br>Gurugram, Haryana 122015
+                                </div>
+
+                                <div class="bold fs-4">Regional Office (North)</div>
+                                <div>
+                                    Plot No - 407/157, <br> Kitasar, Bidawatan, Bikaner
                                 </div>
                             </div>
                         </div>

@@ -416,6 +416,23 @@
     </div>
 
 </div>
+<div class="lets_talk py-5 ">
+    <div class="container">
+        <div class="row">
+            <div class="col mb-5">
+                <h3 class="highlight highlight--center text-center mb-5" data-aos="fade-up">50 MW Solar Power Park in Bikaner, Rajasthan</h3>
+                <p>Enernew's solar power initiatives reflect our unwavering commitment to shaping a sustainable future through innovative energy solutions. Our 50 MW Solar Power Park in Bikaner, Rajasthan, serves as a prime example of our expertise in executing large-scale renewable energy projects.</p>
+                <p>Spread across 300 acres, this ambitious project highlights our proficiency in developing Off-site solar power solutions, tailored to meet the growing demand for clean energy. We have successfully navigated the complex process of land acquisition and secured all necessary statutory clearances, ensuring the project aligns with both local and national regulations.</p>
+                <p>This solar park marks a key milestone in India's journey toward achieving its renewable energy goals. With a focus on efficient project execution and adherence to industry-leading standards for safety, quality, and environmental stewardship, Enernew is driving the transition to cost-effective, reliable solar power. The Bikaner project is not just an energy solution but a contribution to a greener future, cementing Enernew’s position as a leader in the renewable energy sector.</p>
+            </div>
+        </div>
+        <div class="row">
+        	<div class="col mb-5">
+        		<img src="./assets/images/50MW.jpg" class="rounded-3 img-fluid">
+        	</div>
+        </div>
+    </div>
+</div>
 <div class="our-projects pb-5 pt-5" style="background-image: url('./assets/images/7.png');background-size: cover;">
     <div class="container">
         <div class="row">
