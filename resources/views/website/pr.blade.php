@@ -15,7 +15,7 @@
 <div class="container my-5">
     <div class="row mb-5">
         <div class="col">
-            <h1 class="highlight mb-4">Press Release</h1>  
+            <h2 class="highlight mb-4">Press Release</h2>  
             <p>Something exciting is on the way & will be coming soon..</p>
         </div>
     </div>
