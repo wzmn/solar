@@ -48,7 +48,7 @@ Route::get('/life-at-enernew', function () {
 });
 
 Route::get('/press-release', function () {
-    return view('website.coming-soon', ['hero_img' => [asset('assets/images/press-release.png')]]);
+    return view('website.pr', ['hero_img' => [asset('assets/images/press-release.png')]]);
 });
 
 Route::get('/knowledge-center', function () {

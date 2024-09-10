@@ -15,6 +15,14 @@
 <div class="container my-5">
     <div class="row mb-5">
         <div class="col">
+            <h1 class="highlight mb-4">Press Release</h1>  
+            <p>Something exciting is on the way & will be coming soon..</p>
+        </div>
+    </div>
+</div>
+<!-- <div class="container my-5"> -->
+    <div class="row mb-5">
+        <div class="col">
             <h1 class="highlight mb-4">Enernew's Latest Innovations and Sustainability Initiatives</h1>
             <p>Stay informed with Enernew's latest updates and announcements. Dive into our press releases to witness our efforts come to life through groundbreaking projects, partnerships, and advancements in sustainable energy solutions. Explore how Enernew is leading the charge in shaping the future of renewable energy through innovation and strategic initiatives. Join us as we pave the way towards a greener tomorrow.</p>
         </div>
