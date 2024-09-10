@@ -32,7 +32,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 py-5">   
-                <img src="{{ asset('assets/images/career-1.png') }}" class="img-fluid rounded-3">
+                <img src="{{ asset('assets/images/career-1.png') }}" class="img-fluid rounded-3" alt="Shaping a Sustainable Future">
             </div>
 
             <div class="col-12 col-md-6 py-5 mb-5">
@@ -47,7 +47,7 @@
                 <div class="fs-5 mb-2 text-center">What Sets Us Apart</div>
                 <div class="text-center mb-5">We invite you to embark on a journey of impactful work and personal fulfillment. Enernew offers competitive benefits and opportunities for advancement, but more importantly, we provide a platform for you to contribute to something larger than yourself. We pride ourselves on creating an environment where every team member's ideas and contributions are valued and can lead to meaningful change. Our commitment to sustainability extends to our workplace practices, promoting a healthy work-life balance and fostering a culture of innovation. By joining us, you'll be part of a team that's not just changing the energy landscape, but also creating a legacy of positive change for future generations.</div>
                 <div class="career__cta_img rounded-3 mb-5">
-                    <img src="{{ asset('assets/images/career-3.png') }}" class="img-fluid">
+                    <img src="{{ asset('assets/images/career-3.png') }}" class="img-fluid" alt="Enernew Team members">
                 </div>
                 <div class="text-center">
                     <a href="/life-at-enernew" class="btn bg-orange">
@@ -144,7 +144,7 @@
     </div>
 </div>
 <div class="career position-relative">
-    <img src="{{ asset('assets/images/career-4.png') }}" class="career__cta_bg">
+    <img src="{{ asset('assets/images/career-4.png') }}" class="career__cta_bg" alt="Solar system installation company">
     <div class="container py-5">
         <div class="row my-5 py-5">
             <div class="col-12">

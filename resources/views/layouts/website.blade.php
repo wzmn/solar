@@ -132,7 +132,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="d-flex justify-content-between mt-4 ">
                         <div class="navbar__logo">
                             <a href="/">
-                                <img src="{{ asset('assets/images/logo-15.png') }}" class="logo">
+                                <img src="{{ asset('assets/images/logo-15.png') }}" class="logo" alt="Enernew Logo">
                             </a>
                         </div>
                         <div class="navbar__menu">

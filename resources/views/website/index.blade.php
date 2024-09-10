@@ -419,7 +419,7 @@
 <div class="lets_talk py-5 ">
     <div class="container">
         <div class="row">
-            <div class="col mb-5" align="center">
+            <div class="col mb-5">
                 <h3 class="highlight highlight--center text-center mb-5" data-aos="fade-up">50 MW Solar Park</h3>
                 <p>Enernew's solar power initiatives reflect our unwavering commitment to shaping a sustainable future through innovative energy solutions. Our 50 MW Solar Power Park in Bikaner, Rajasthan, serves as a prime example of our expertise in executing large-scale renewable energy projects.</p>
                 <p>Spread across 300 acres, this ambitious project highlights our proficiency in developing Off-site solar power solutions, tailored to meet the growing demand for clean energy. We have successfully navigated the complex process of land acquisition and secured all necessary statutory clearances, ensuring the project aligns with both local and national regulations.</p>
@@ -428,7 +428,7 @@
         </div>
         <div class="row">
         	<div class="col mb-5">
-        		<img src="./assets/images/50MW.jpg" class="rounded-3 img-fluid">
+        		<img src="./assets/images/50MW.jpg" class="rounded-3 img-fluid" alt="50 MW Solar Power Park in Bikaner, Rajasthan">
         	</div>
         </div>
     </div>
@@ -645,14 +645,14 @@
             </div>
             <div class="col"></div>
             <div class="col-12 col-sm-6 clients__grid">
-                <img src="./assets/images/c1.png" class="img-fluid" data-aos="fade-left">
-                <img src="./assets/images/c2.png" class="img-fluid" data-aos="fade-left" data-aos-delay="100">
-                <img src="./assets/images/c4.png" class="img-fluid" data-aos="fade-left" data-aos-delay="200">
-                <img src="./assets/images/c5.png" class="img-fluid" data-aos="fade-left" data-aos-delay="300">
-                <img src="./assets/images/c6.png" class="img-fluid" data-aos="fade-left" data-aos-delay="400">
-                <img src="./assets/images/c7.png" class="img-fluid" data-aos="fade-left" data-aos-delay="500">
-                <img src="./assets/images/c8.png" class="img-fluid">
-                <img src="./assets/images/c9.png" class="img-fluid">
+                <img src="./assets/images/c1.png" class="img-fluid" data-aos="fade-left" alt="Jindal Saw Client Logo">
+                <img src="./assets/images/c2.png" class="img-fluid" data-aos="fade-left" data-aos-delay="100" alt="NTPC Client Logo">
+                <img src="./assets/images/c4.png" class="img-fluid" data-aos="fade-left" data-aos-delay="200" alt="HSIL Client Logo">
+                <img src="./assets/images/c5.png" class="img-fluid" data-aos="fade-left" data-aos-delay="300" alt="OM Logistics Client Logo">
+                <img src="./assets/images/c6.png" class="img-fluid" data-aos="fade-left" data-aos-delay="400" alt="Banswara Syntex Client Logo">
+                <img src="./assets/images/c7.png" class="img-fluid" data-aos="fade-left" data-aos-delay="500" alt="JTEKT Client Logo">
+                <img src="./assets/images/c8.png" class="img-fluid" alt="SECI Client Logo">
+                <img src="./assets/images/c9.png" class="img-fluid" alt="India Oil Client Logo">
             </div>
         </div>
 
