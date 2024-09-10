@@ -4,9 +4,9 @@
 
 @section("header")
 <div class="mb-100 d-flex flex-column flex-fill justify-content-end align-items-start">
-  <h1 class="text-white" data-aos="fade-right">Asset Management Services</h1>
+  <h1 class="text-white" data-aos="fade-right">Solar Asset Management Services</h1>
   <div class="hero__content text-white mb-3" data-aos="fade-right" data-aos-delay="200">
-    Home > Solutions > Asset Management Services
+    Home > Solutions > Solar Asset Management Services
   </div>
 </div>
 @endsection
@@ -18,7 +18,7 @@
       <div class="col-12 col-md-5" data-aos="fade-up">
         <div class="highlight mb-4 fs-4">
           Holistic
-          <h1 class="bold">Asset Management Services</h1>
+          <h2 class="bold">Asset Management Services</h2>
           for Optimal Performance
         </div>
       </div>

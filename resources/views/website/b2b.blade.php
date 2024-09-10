@@ -4,9 +4,9 @@
 
 @section("header")
 <div class="mb-100 d-flex flex-column flex-fill justify-content-end align-items-start">
-  <h1 class="text-white" data-aos="fade-right">B2B Solutions</h1>
+  <h1 class="text-white" data-aos="fade-right">B2B Solar Solutions</h1>
   <div class="hero__content text-white mb-3" data-aos="fade-right" data-aos-delay="200">
-    Home > Solutions > B2B Solutions
+    Home > Solutions > B2B Solar Solutions
   </div>
 </div>
 @endsection
@@ -18,7 +18,7 @@
           <div class="col-12 col-md-5">
               <div class="highlight mb-4 fs-4" data-aos="fade-up">
                 Comprehensive 
-                <h1 class="bold">B2B Solar Solutions </h1>
+                <h2 class="bold">B2B Solar Solutions </h2>
                 for Your Business Success
               </div>
           </div>

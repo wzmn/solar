@@ -17,7 +17,7 @@
           <div class="mb-4">
             Jul 23, 2024 / by Enernew
           </div>
-          <img src="{{ asset('assets/images/blogs/blog-3-details.jpg') }}" class="img-fluid rounded-3">
+          <img src="{{ asset('assets/images/blogs/blog-3-details.jpg') }}" class="img-fluid rounded-3" alt="Comparison of Captive and Third-Party PPAS">
         </div>
       </div>
       <div class="row">
