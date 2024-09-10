@@ -20,7 +20,7 @@
         </div>
     </div>
 </div>
-<!-- <div class="container my-5"> -->
+<!-- <div class="container my-5">
     <div class="row mb-5">
         <div class="col">
             <h1 class="highlight mb-4">Enernew's Latest Innovations and Sustainability Initiatives</h1>
@@ -128,5 +128,5 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 @endsection
