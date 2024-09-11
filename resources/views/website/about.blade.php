@@ -76,7 +76,7 @@
                     zero carbon emissions. Our state-of-the-art park provides a seamless opportunity for
                     customers to establish their own solar power plants for captive consumption. By offering
                     access to captive open-access power at significantly reduced electricity costs, we ensure an
-                    efficient and cost-effective transition to renewable energy.</p>
+                    efficient and cost-effective transition to <a href="https://enernew.in/" target="_blank" data-aos="fade-right" data-aos-delay="400" class="text-orange">renewable energy</a>.</p>
                 <div class="overview__ul_title mb-3 bold">Benefits: </div>
                 <ul class="overview__ul">
                     <li class="mb-3"><b>Significantly Lower Costs</b>: Enjoy much cheaper electricity compared
