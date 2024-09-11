@@ -388,22 +388,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div id="footerCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="{{ asset('assets/images/c1.png') }}" class="img-fluid">
+                                        <img src="{{ asset('assets/images/c1.png') }}" class="img-fluid" alt="Jindal Saw Client Logo">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/images/c2.png') }}" class="img-fluid">
+                                        <img src="{{ asset('assets/images/c2.png') }}" class="img-fluid" alt="NTPC Client Logo">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/images/6-min.jpeg') }}" class="img-fluid">
+                                        <img src="{{ asset('assets/images/6-min.jpeg') }}" class="img-fluid" alt="HSIL Client Logo">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/images/c1.png') }}" class="img-fluid">
+                                        <img src="{{ asset('assets/images/c1.png') }}" class="img-fluid" alt="Jindal Saw Client Logo">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/images/c2.png') }}" class="img-fluid">
+                                        <img src="{{ asset('assets/images/c2.png') }}" class="img-fluid" alt="NTPC Client Logo">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/images/6-min.jpeg') }}" class="img-fluid">
+                                        <img src="{{ asset('assets/images/6-min.jpeg') }}" class="img-fluid" alt="HSIL Client Logo">
                                     </div>
                                 </div>
                                 's&nbsp;
