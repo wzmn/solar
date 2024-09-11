@@ -46,7 +46,7 @@
             with comprehensive benefits packages and wellness initiatives.
             Our commitment to work-life balance is reflected in policies
             that promote flexibility and encourage a healthy lifestyle.
-            <a href="https://enernew.in" target="_blank">Enernew</a> also stands firm in its dedication to corporate social
+            <a href="https://enernew.in" target="_blank" data-aos="fade-right" data-aos-delay="400" class="text-orange">Enernew</a> also stands firm in its dedication to corporate social
             responsibility, actively contributing to sustainability
             efforts and making a positive impact on our communities. Join
             us at Enernew and experience a fulfilling career where
