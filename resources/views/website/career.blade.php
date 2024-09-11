@@ -28,7 +28,7 @@
                     Company Introduction
                 </div>
                 <div>
-                Welcome to Enernew, where our mission transcends traditional energy solutions. We are dedicated to pioneering sustainable innovations that redefine the future of power. Our values of integrity, innovation, and community empowerment drive us to deliver excellence in every endeavor. We are committed to creating a cleaner, greener world for future generations. With a focus on renewable energy, we push the boundaries of what’s possible, constantly exploring new technologies to meet the evolving needs of our planet. Join us in shaping a future where clean energy is accessible and sustainable for all.
+                Welcome to Enernew, where our mission transcends traditional energy solutions. We are dedicated to pioneering sustainable innovations that redefine the future of power. Our values of integrity, innovation, and community empowerment drive us to deliver excellence in every endeavor. We are committed to creating a cleaner, greener world for future generations. With a focus on <a href="https://enernew.in" target="_blank" data-aos="fade-right" data-aos-delay="400" class="text-orange">renewable energy</a>, we push the boundaries of what’s possible, constantly exploring new technologies to meet the evolving needs of our planet. Join us in shaping a future where clean energy is accessible and sustainable for all.
                 </div>
             </div>
             <div class="col-12 col-md-6 py-5">   
