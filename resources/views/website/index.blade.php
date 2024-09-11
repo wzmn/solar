@@ -638,7 +638,7 @@
                 <p data-aos="fade-up" data-aos-delay="100" class="text-justify">We take pride in serving a diverse and prestigious clientele
                     that spans various industries and sectors. From large corporations and government agencies to
                     educational institutions and residential communities, our clients trust us to deliver reliable,
-                    innovative, and sustainable solar energy solutions. Our commitment to excellence and customer
+                    innovative, and sustainable <a href="https://enernew.in/b2b-solar-solutions" target="_blank" data-aos="fade-right" data-aos-delay="400" class="text-orange">solar energy solutions</a>. Our commitment to excellence and customer
                     satisfaction has enabled us to build strong, long-lasting relationships with each of our valued
                     partners.
                 </p>
