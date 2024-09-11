@@ -76,7 +76,7 @@
                 <div class="d-md-flex flex-wrap flex-md-nowrap justify-content-center icon_wrapper animate" data-aos="fade-up"  data-aos-offset="400">
                     <div class="icon">
                         <div class="icon__box" data-aos="fade-up">
-                            <img src="./assets/images/icon-14.png" class="img-fluid">
+                            <img src="./assets/images/icon-14.png" class="img-fluid" alt="Company Founded">
                             <div>
                                 <span class="bold">Founded in </span>
                                 <h4 class="mb-0" style="--to: 2018;"></h4>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="icon">
                         <div class="icon__box" data-aos="fade-up" data-aos-delay="100">
-                            <img src="./assets/images/icon-16.png" class="img-fluid">
+                            <img src="./assets/images/icon-16.png" class="img-fluid" alt="Company Partners">
                             <div>
                                 <span class="bold">Partnered with </span>
                                 <div class="d-flex justify-content-center align-items-center">
@@ -100,7 +100,7 @@
                     </div>
                     <div class="icon">
                         <div class="icon__box" data-aos="fade-up" data-aos-delay="200">
-                            <img src="./assets/images/ICON-17.png" class="img-fluid">
+                            <img src="./assets/images/ICON-17.png" class="img-fluid" alt="Company Commissioned">
                             <div>
                                 <span class="bold">Commissioned</span>
                                 <div class="d-flex justify-content-center align-items-center">
@@ -112,7 +112,7 @@
                     </div>
                     <div class="icon">
                         <div class="icon__box" data-aos="fade-up" data-aos-delay="300">
-                            <img src="./assets/images/icon-18.png" class="img-fluid">
+                            <img src="./assets/images/icon-18.png" class="img-fluid" alt="Energy Saved">
                             <div>
                                 <span class="bold">Saved</span>
                                 <div class="d-flex justify-content-center align-items-center">
@@ -155,8 +155,8 @@
 
                 <div class="sun__container">
                     <div class="sun position-sticky">
-                        <img src="./assets/images/outer.png" class="sun__outer">
-                        <img src="./assets/images/inner.png" class="sun__inner">
+                        <img src="./assets/images/outer.png" class="sun__outer" alt="Solar Energy">
+                        <img src="./assets/images/inner.png" class="sun__inner" alt="Solar Energy">
                     </div>
                 </div>
             </div>
