@@ -44,7 +44,7 @@
                 <div class="testimonials__grid_item col-lg-6 mb-5">
                     <img src="{{ asset('assets/images/test-bg.png') }}" class="bg">
                     <div class="content">
-                        <div class="fs-7">As a Senior Design Engineer at Enernew, I’m thrilled by the opportunity to work on cutting-edge Solar park developmnetprojects.The role challenges me with innovative solar projects while offering a supportive and dynamic team environment. It’s a privilege to contribute to a Renewable energy future.</div>
+                        <div class="fs-7">As a Senior Design Engineer at Enernew, I’m thrilled by the opportunity to work on cutting-edge Solar park developent projects.The role challenges me with innovative solar projects while offering a supportive and dynamic team environment. It’s a privilege to contribute to a Renewable energy future.</div>
                         <div>
                             <div class="bold fs-7">Satyam Srivastava</div>
                             <div class="fs-7">Senior Design Engineer</div>
