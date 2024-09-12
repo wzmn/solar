@@ -71,7 +71,7 @@
 
           <h3 class="mb-4" data-aos="fade-up">Navigating Complexities with Confidence</h3>
 
-          <p class="mb-4" data-aos="fade-up">Our team at Enernew brings deep industry knowledge, helping you navigate the complexities of the Indian power market. We ensure that your green energy choice not only meets your sustainability targets but also aligns with your financial and operational goals. Think of us as your compass, pointing you towards the green energy solution that best fits your journey.</p>
+          <p class="mb-4" data-aos="fade-up">Our team at Enernew brings deep industry knowledge, helping you navigate the complexities of the Indian power market. We ensure that your green energy choice not only meets your sustainability targets but also aligns with your financial and operational goals. Think of us as your compass, pointing you towards the <a href="https://enernew.in/" target="_blank" data-aos="fade-right" data-aos-delay="400" class="text-orange">green energy solution</a> that best fits your journey.</p>
 
           <h4 class="text-green" data-aos="fade-up">Your Path to a Sustainable Future</h4>
           <div class="mb-4">
