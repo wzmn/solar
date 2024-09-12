@@ -92,13 +92,13 @@
             <div class="testimonials__grid_item col-lg-6 offset-lg-3 mb-5">
                 <img src="{{ asset('assets/images/test-bg.png') }}" class="bg">
                 <div class="content">
-                    <div class="fs-7">Joining Enernew has been a career-defining decision. I'm proud to be part of a team that not only innovates in renewable energy but also prioritizes environmental stewardship and community impact.</div>
+                    <div class="fs-7">Working at Enernew has been incredibly rewarding. The company's dedication to renewable energy and sustainability has greatly contributed to my professional growth. I am thankful for the continuous learning opportunities and the positive work environment.</div>
                     <div>
-                        <div class="bold fs-7">Sanjay Kumar</div>
-                        <div class="fs-7">Senior Manger (Account & Finance)</div>
+                        <div class="bold fs-7">Divya Patel</div>
+                        <div class="fs-7">Sales Project Coordinator</div>
                     </div>
                     <div class="img">
-                        <img src="{{ asset('assets/images/testimonial-1.png') }}" alt="" class="img-fluid">
+                        <img src="{{ asset('assets/images/testimonial-1.jpg') }}" alt="" class="img-fluid">
                     </div>
                 </div>
             </div>
