@@ -33,8 +33,7 @@
             and
             sustainability. Picture vast expanses of land, bathed in sunlight, transforming into fields of photovoltaic
             panels, generating clean, abundant energy. This concept is not just a futuristic dream but a present
-            reality,
-            heralded by solar power park developers like <a href="https://enernew.in/">Enernew</a>, a leading solar
+            reality, heralded by <a href="https://enernew.in/utility-scale-solar-power-park-solutions" target="_blank" data-aos="fade-right" data-aos-delay="400" class="text-orange">solar power park developers</a> like <a href="https://enernew.in/">Enernew</a>, a leading solar
             company committed to paving the way for a greener tomorrow. Today, let's embark on a journey to explore why
             off-site solar parks are not only a viable solution but the future of renewable energy.
           </p>
@@ -45,7 +44,7 @@
             <i class="font-light fs-4" data-aos="fade-up">Let's Discover the Solar Fields of Tomorrow</i>
           </div>
           <p data-aos="fade-up" class="mb-5">
-            Off-site solar parks are large-scale solar power installations located away from the consumer's site, often
+            Off-site solar parks are large-scale <a href="https://enernew.in/b2b-solar-solutions" target="_blank" data-aos="fade-right" data-aos-delay="400" class="text-orange">solar power installations</a> located away from the consumer's site, often
             on
             dedicated land or rooftops specifically designed for solar energy generation. Unlike on-site installations,
             which are typically mounted on residential or commercial buildings, off-site solar parks are strategically
@@ -132,7 +131,7 @@
                   off-site
                   solar development and invest in a future where clean energy is the norm, not the exception.
                 </p>
-                <p data-aos="fade-up" class="mb-5">Join Enernew in championing this cause. Together, we can turn the vast expanses of
+                <p data-aos="fade-up" class="mb-5">Join <a href="https://enernew.in/" target="_blank" data-aos="fade-right" data-aos-delay="400" class="text-orange">Enernew</a> in championing this cause. Together, we can turn the vast expanses of
                   sunlight into a beacon of hope, powering our world with the sun’s infinite energy. Let’s build a
                   renewable energy future, one solar park at a time.</p>
         </div>
