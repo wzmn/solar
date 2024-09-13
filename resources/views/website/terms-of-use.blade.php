@@ -1,4 +1,4 @@
-@section("title", "Terms of Use")
+@section("title", "Terms of Use – Enernew Website and Services")
 
 @extends("layouts.website")
 

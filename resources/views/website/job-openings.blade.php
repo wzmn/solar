@@ -1,4 +1,4 @@
-@section("title", "Job Openings")
+@section("title", "Job Openings – Start Your Career in Renewable Energy")
 
 @extends("layouts.website")
 
@@ -22,7 +22,7 @@
         </h1>
         <div class="content text-center" data-aos="fade-up">
           <p>
-            Step into the future with Enernew. Explore our latest career
+            Step into the future with <a href="https://enernew.in" target="_blank" data-aos="fade-right" data-aos-delay="400" class="text-orange">Enernew</a>. Explore our latest career
             openings that promise to challenge and inspire, empowering you
             to contribute to transformative projects in renewable energy.
             Discover the role that resonates with you, empowering you to

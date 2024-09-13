@@ -1,4 +1,4 @@
-@section("title", "Blog - Why Off-Site Solar Parks Are the Future of Renewable Energy")
+@section("title", "Why Off-Site Solar Parks are the Future of Renewable Energy")
 
 @extends("layouts.website")
 
@@ -11,42 +11,52 @@
   <div class="row">
     <div class="col-12 col-md-7">
       <div class="row mb-5">
-        <div class="col" data-aos="fade-up">
-          <h1 class="highlight mb-4">Why Off-Site Solar Parks Are the Future of Renewable Energy
+        <div class="col">
+          <h1 class="highlight mb-4" data-aos="fade-up">Why Off-Site Solar Parks Are the Future of Renewable Energy
           </h1>
           <div class="mb-4">
-            Jul 23, 2024 / by Enernew
+            Jul 23 ,2024 / by Enernew
           </div>
-          <img src="{{ asset('assets/images/asset-cta-2.png') }}" class="img-fluid rounded-3">
+          <img src="{{ asset('assets/images/blogs/blog-1-details.jpg') }}" class="img-fluid rounded-3" alt="Off-Site Solar Parks Are the Future of Renewable Energy">
         </div>
       </div>
       <div class="row">
         <div class="col">
+          <h4 class="text-green" data-aos="fade-up">Your Path to a Sustainable Future</h4>
           <h4 data-aos="fade-up" class="bold mb-4">A New Dawn for Solar Power</h4>
+
+
+
+
           <p data-aos="fade-up" class="mb-5">
             In the heart of the renewable energy revolution, off-site solar parks are emerging as a beacon of innovation
             and
             sustainability. Picture vast expanses of land, bathed in sunlight, transforming into fields of photovoltaic
             panels, generating clean, abundant energy. This concept is not just a futuristic dream but a present
-            reality,
-            heralded by solar power park developers like <a href="https://www.enernew.in/">Enernew</a>, a leading solar
+            reality, heralded by <a href="https://enernew.in/utility-scale-solar-power-park-solutions" target="_blank" data-aos="fade-right" data-aos-delay="400" class="text-orange">solar power park developers</a> like <a href="https://enernew.in/">Enernew</a>, a leading solar
             company committed to paving the way for a greener tomorrow. Today, let's embark on a journey to explore why
             off-site solar parks are not only a viable solution but the future of renewable energy.
           </p>
 
-          <h4 data-aos="fade-up" class="bold text-center mb-4">What Are Off-Site Solar Parks? 
-          </h4>
-          <p data-aos="fade-up" class="text-center font-light">Let's Discover the Solar Fields of Tomorrow</p>
+
+          <h4 class="text-green" data-aos="fade-up">What Are Off-Site Solar Parks?</h4>
+          <div class="mb-4">
+            <i class="font-light fs-4" data-aos="fade-up">Let's Discover the Solar Fields of Tomorrow</i>
+          </div>
           <p data-aos="fade-up" class="mb-5">
-            Off-site solar parks are large-scale solar power installations located away from the consumer's site, often
+            Off-site solar parks are large-scale <a href="https://enernew.in/b2b-solar-solutions" target="_blank" data-aos="fade-right" data-aos-delay="400" class="text-orange">solar power installations</a> located away from the consumer's site, often
             on
             dedicated land or rooftops specifically designed for solar energy generation. Unlike on-site installations,
             which are typically mounted on residential or commercial buildings, off-site solar parks are strategically
             positioned to harness maximum sunlight exposure, ensuring optimal energy production.
           </p>
 
-          <h4 data-aos="fade-up" class="bold mb-4 text-center">Off-Site vs. On-Site Solar Installations</h4>
-          <p data-aos="fade-up" class="font-light mb-5 text-center">The Battle of Solar Titans</p>
+
+          <h4 class="text-green" data-aos="fade-up">Off-Site vs. On-Site Solar Installations</h4>
+          <div class="mb-4">
+            <i class="font-light fs-4" data-aos="fade-up">The Battle of Solar Titans</i>
+          </div>
+
           <p data-aos="fade-up" class="mb-5">
             The distinction between off-site and on-site solar installations is profound. On-site solar systems are
             integrated with existing structures, making them ideal for small-scale energy needs. In contrast, off-site
@@ -57,8 +67,11 @@
             energy projects.
           </p>
 
-          <h4 data-aos="fade-up" class="bold mb-4 text-center">How Off-Site Solar Parks Work</h4>
-          <p data-aos="fade-up" class="font-light mb-5 text-center">We Turn Sunlight into a Powerhouse</p>
+          <h4 class="text-green" data-aos="fade-up">How Off-Site Solar Parks Work</h4>
+          <div class="mb-4">
+            <i class="font-light fs-4" data-aos="fade-up">We Turn Sunlight into a Powerhouse</i>
+          </div>
+
           <p data-aos="fade-up" class="mb-5">
             Imagine a sprawling landscape dotted with solar panels, each panel working in harmony to convert sunlight
             into
@@ -67,9 +80,12 @@
             homes and businesses, supporting the grid's stability and reducing reliance on fossil fuels.
           </p>
 
-          <h4 data-aos="fade-up" class="bold mb-4 text-center">Advantages of Off-Site Solar Parks</h4>
-          <p data-aos="fade-up" class="font-light mb-5 text-center">Discover The Bright Side of Going Big</p>
-          <h5 data-aos="fade-up" class="mb-4">Environmental Benefits</h4>
+          <h4 class="text-green" data-aos="fade-up">Advantages of Off-Site Solar Parks</h4>
+          <div class="mb-4">
+            <i class="font-light fs-4" data-aos="fade-up">Discover The Bright Side of Going Big</i>
+          </div>
+
+          <h5 data-aos="fade-up" class="mb-4 bold">Environmental Benefits</h4>
             <p data-aos="fade-up" class="mb-5">
               Off-site solar parks bring a myriad of environmental benefits. By harnessing solar energy, these parks
               significantly reduce greenhouse gas emissions, curbing the detrimental effects of fossil fuels on our
@@ -77,7 +93,7 @@
               biodiversity, creating habitats for various species and promoting ecological balance.
             </p>
 
-            <h5 data-aos="fade-up" class="mb-4">Reduction in Carbon Footprint</h4>
+            <h5 data-aos="fade-up" class="mb-4 bold">Reduction in Carbon Footprint</h4>
               <p data-aos="fade-up" class="mb-5">
                 One of the most compelling reasons to embrace off-site solar parks is their capacity to slash carbon
                 footprints. For instance, an off-site solar park can prevent thousands of tons of carbon dioxide from
@@ -86,7 +102,7 @@
                 energy.
               </p>
 
-              <h5 data-aos="fade-up" class="mb-4">Conservation of Natural Resources</h4>
+              <h5 data-aos="fade-up" class="mb-4 bold">Conservation of Natural Resources</h4>
                 <p data-aos="fade-up" class="mb-5">
                   Off-site solar parks also play a crucial role in conserving natural resources. By relying on the sun,
                   they reduce the need for water-intensive power generation methods, conserving precious water supplies.
@@ -95,7 +111,7 @@
                   water resources.
                 </p>
 
-                <h5 data-aos="fade-up" class="mb-4">Contribution to Climate Change Mitigation</h5>
+                <h5 data-aos="fade-up" class="mb-4 bold">Contribution to Climate Change Mitigation</h5>
                 <p data-aos="fade-up" class="mb-5">
                   Through their vast energy output, off-site solar parks contribute significantly to global climate
                   change
@@ -104,8 +120,10 @@
                   infrastructure; they are sanctuaries of hope, demonstrating that we can power our world sustainably.
                 </p>
 
-                <h4 data-aos="fade-up" class="bold mb-4 text-center">Off-Site Solar Parks</h4>
-                <p data-aos="fade-up" class="font-light mb-5 text-center">The Vanguard of a Sustainable Future</p>
+                <h4 class="text-green" data-aos="fade-up">Off-Site Solar Parks</h4>
+                <div class="mb-4">
+                  <i class="font-light fs-4" data-aos="fade-up">The Vanguard of a Sustainable Future</i>
+                </div>
                 <p data-aos="fade-up" class="mb-5">
                   As we stand on the brink of a renewable energy revolution, off-site solar parks are poised to lead the
                   charge. Their potential to generate clean, sustainable energy while preserving our environment is
@@ -113,10 +131,9 @@
                   off-site
                   solar development and invest in a future where clean energy is the norm, not the exception.
                 </p>
-                <p data-aos="fade-up" class="mb-5">Join Enernew in championing this cause. Together, we can turn the vast expanses of
+                <p data-aos="fade-up" class="mb-5">Join <a href="https://enernew.in/" target="_blank" data-aos="fade-right" data-aos-delay="400" class="text-orange">Enernew</a> in championing this cause. Together, we can turn the vast expanses of
                   sunlight into a beacon of hope, powering our world with the sun’s infinite energy. Let’s build a
                   renewable energy future, one solar park at a time.</p>
-
         </div>
       </div>
     </div>
@@ -156,30 +173,7 @@
                 </svg>
             </button>
         </div>
-        <div class="recent">
-          <h4 class="mb-4 text-orange">Recent Posts</h4>
-            <div class="recent__post d-xl-grid">
-                <img src="{{ asset('assets/images/c2.png') }}" alt="">
-                <div class="recent__post_content">
-                    <div class="recent__post__date">January 9, 2024</div>
-                    <div>All you need to know about solar energy.</div>
-                </div>
-            </div>
-            <div class="recent__post d-xl-grid">
-                <img src="{{ asset('assets/images/c2.png') }}" alt="">
-                <div class="recent__post_content">
-                    <div class="recent__post__date">January 9, 2024</div>
-                    <div>All you need to know about solar energy.</div>
-                </div>
-            </div>
-            <div class="recent__post d-xl-grid">
-                <img src="{{ asset('assets/images/c2.png') }}" alt="">
-                <div class="recent__post_content">
-                    <div class="recent__post__date">January 9, 2024</div>
-                    <div>All you need to know about solar energy.</div>
-                </div>
-            </div>
-        </div>
+        <x-recent-posts :posts="$recentPosts" />
         <div class="categories">
             <h4 class="mb-4 text-orange">Categories</h4>
             <ul class="p-0">
@@ -220,7 +214,6 @@
             </ul>
         </div>
     </div>
-  </div>
   </div>
 </div>
 @endsection

@@ -1,4 +1,4 @@
-@section("title", "Home")
+@section("title", "Innovative Renewable Energy & Solar Power Park Solutions")
 
 @extends("layouts.website")
 
@@ -72,11 +72,11 @@
     <div class="container-fluid mt-5 position-relative">
         <div class="row mb-5">
             <div class="col-lg-5 col mb-3">
-                <img src="./assets/images/3.png" class="img-fluid">
+                <img src="./assets/images/3.png" class="img-fluid" alt="Off-Site Captive Open Access Solar Parks">
                 <div class="d-md-flex flex-wrap flex-md-nowrap justify-content-center icon_wrapper animate" data-aos="fade-up"  data-aos-offset="400">
                     <div class="icon">
                         <div class="icon__box" data-aos="fade-up">
-                            <img src="./assets/images/icon-14.png" class="img-fluid">
+                            <img src="./assets/images/icon-14.png" class="img-fluid" alt="Company Founded">
                             <div>
                                 <span class="bold">Founded in </span>
                                 <h4 class="mb-0" style="--to: 2018;"></h4>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="icon">
                         <div class="icon__box" data-aos="fade-up" data-aos-delay="100">
-                            <img src="./assets/images/icon-16.png" class="img-fluid">
+                            <img src="./assets/images/icon-16.png" class="img-fluid" alt="Company Partners">
                             <div>
                                 <span class="bold">Partnered with </span>
                                 <div class="d-flex justify-content-center align-items-center">
@@ -100,7 +100,7 @@
                     </div>
                     <div class="icon">
                         <div class="icon__box" data-aos="fade-up" data-aos-delay="200">
-                            <img src="./assets/images/ICON-17.png" class="img-fluid">
+                            <img src="./assets/images/ICON-17.png" class="img-fluid" alt="Company Commissioned">
                             <div>
                                 <span class="bold">Commissioned</span>
                                 <div class="d-flex justify-content-center align-items-center">
@@ -112,7 +112,7 @@
                     </div>
                     <div class="icon">
                         <div class="icon__box" data-aos="fade-up" data-aos-delay="300">
-                            <img src="./assets/images/icon-18.png" class="img-fluid">
+                            <img src="./assets/images/icon-18.png" class="img-fluid" alt="Energy Saved">
                             <div>
                                 <span class="bold">Saved</span>
                                 <div class="d-flex justify-content-center align-items-center">
@@ -125,8 +125,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-5" data-aos="fade-up" data-aos-delay="100">
-                <h2 class="highlight">Overview</h2>
+            <div class="col-12 col-lg-5">
+                <h2 class="highlight" data-aos="fade-up" data-aos-delay="100">Overview</h2>
                 {{-- <p class="text-justify">
                     In the ever-evolving landscape of renewable energy, Enernew Private Limited stands as a pioneering force dedicated to delivering innovative and sustainable energy solutions. Founded by the visionaries behind Sriram Cables, Enernew has recently unveiled its latest venture, Enernew, a fully owned subsidiary committed to pushing the boundaries of solar energy.
                 </p>
@@ -155,8 +155,8 @@
 
                 <div class="sun__container">
                     <div class="sun position-sticky">
-                        <img src="./assets/images/outer.png" class="sun__outer">
-                        <img src="./assets/images/inner.png" class="sun__inner">
+                        <img src="./assets/images/outer.png" class="sun__outer" alt="Solar Energy">
+                        <img src="./assets/images/inner.png" class="sun__inner" alt="Solar Energy">
                     </div>
                 </div>
             </div>
@@ -170,10 +170,10 @@
     </div>
 </div>
 <div class="solutions pb-5" style="background-image: url('./assets/images/4.png');    background-size: cover;">
-    <div class="container" data-aos="fade-up">
-        <div class="row" data-aos="fade-up">
+    <div class="container">
+        <div class="row">
             <div class="col">
-                <h2 class="text-center mt-5 mb-5 highlight highlight--center">Our Solutions</h2>
+                <h2 class="text-center mt-5 mb-5 highlight highlight--center" data-aos="fade-up">Our Solutions</h2>
             </div>
         </div>
         <div class="row bg-white pt-5">
@@ -188,7 +188,7 @@
                     <li class="nav-item" role="presentation">
                         <button class="btn btn--green" id="pills-profile-tab" data-bs-toggle="pill"
                             data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                            aria-selected="false">Our Solar Solutions</button>
+                            aria-selected="false">B2B Solar Solutions</button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="btn btn--green" id="pills-contact-tab" data-bs-toggle="pill"
@@ -261,7 +261,7 @@
                                     </div>
                                 </div>
                                 <div class="col align-items-start d-md-flex mb-4">
-                                    <img src="{{ asset('assets/images/5.png') }}" class="img-fluid">
+                                    <img src="{{ asset('assets/images/5.png') }}" class="img-fluid" alt="Solar Power Park Developer">
                                 </div>
                                
                             </div>
@@ -270,7 +270,7 @@
                             aria-labelledby="pills-profile-tab">
                             <div class="d-flex flex-lg-row flex-column-reverse gap-3">
                                 <div class="col">
-                                    <div class="h3">Our Solar Solutions</div>
+                                    <div class="h3">B2B Solar Solutions</div>
                                     <p>Tailored Solar Energy Solutions for Commercial & Industrial Clients</p>
                                     <div class="accordion" id="solutions-accordion2">
                                         <div class="accordion-item">
@@ -329,7 +329,7 @@
                                     </div>
                                 </div>
                                 <div class="col align-items-start d-md-flex mb-4">
-                                    <img src="{{ asset('assets/images/solution-2.png') }}" class="img-fluid">
+                                    <img src="{{ asset('assets/images/solution-2.png') }}" class="img-fluid" alt="B2B Solar Solutions">
                                 </div>
                                 
                             </div>
@@ -405,7 +405,7 @@
                                     </div>
                                 </div>
                                 <div class="col align-items-start d-md-flex mb-4">
-                                    <img src="{{ asset('assets/images/solution-3.png') }}" class="img-fluid">
+                                    <img src="{{ asset('assets/images/solution-3.png') }}" class="img-fluid" alt="Asset Management Services">
                                 </div>
                             </div>
                         </div>
@@ -416,11 +416,28 @@
     </div>
 
 </div>
+<div class="lets_talk py-5 ">
+    <div class="container">
+        <div class="row">
+            <div class="col mb-5">
+                <h3 class="highlight highlight--center text-center mb-5" data-aos="fade-up">50 MW Solar Park</h3>
+                <p>Enernew's solar power initiatives reflect our unwavering commitment to shaping a sustainable future through innovative energy solutions. Our 50 MW Solar Power Park in Bikaner, Rajasthan, serves as a prime example of our expertise in executing large-scale renewable energy projects.</p>
+                <p>Spread across 300 acres, this ambitious project highlights our proficiency in developing Off-site solar power solutions, tailored to meet the growing demand for clean energy. We have successfully navigated the complex process of land acquisition and secured all necessary statutory clearances, ensuring the project aligns with both local and national regulations.</p>
+                <p>This solar park marks a key milestone in India's journey toward achieving its renewable energy goals. With a focus on efficient project execution and adherence to industry-leading standards for safety, quality, and environmental stewardship, Enernew is driving the transition to cost-effective, reliable solar power. The Bikaner project is not just an energy solution but a contribution to a greener future, cementing Enernew’s position as a leader in the renewable energy sector.</p>
+            </div>
+        </div>
+        <div class="row">
+        	<div class="col mb-5">
+        		<img src="./assets/images/50MW.jpg" class="rounded-3 img-fluid" alt="50 MW Solar Power Park in Bikaner, Rajasthan">
+        	</div>
+        </div>
+    </div>
+</div>
 <div class="our-projects pb-5 pt-5" style="background-image: url('./assets/images/7.png');background-size: cover;">
     <div class="container">
-        <div class="row" data-aos="fade-up">
+        <div class="row">
             <div class="col">
-                <h2 class="text-center mb-5 highlight highlight--center">Our Projects</h2>
+                <h2 class="text-center mb-5 highlight highlight--center" data-aos="fade-up">Our Projects</h2>
             </div>
         </div>
         <div class="row mb-5">
@@ -566,7 +583,8 @@
                     </button>
                     <button class="carousel-control-next d-none d-md-flex" type="button" data-bs-target="#projects"
                         data-bs-slide="next">
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/20
+                         00/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15"
                             viewBox="0 0 511.949 511.949" xml:space="preserve">
                             <g>
@@ -585,23 +603,28 @@
                 <div id="projects" class="carousel slide" data-bs-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./assets/images/Projects03.png" class="d-block w-100" alt="./assets/images/6.png">
+                            <img src="./assets/images/projects/Railway-Single.png" class="d-block w-100" alt="India’s First Solar-Powered Running Coaches">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/Projects02.png" class="d-block w-100" alt="./assets/images/6.png">
+                            <img src="./assets/images/projects/Banswara-Collage.png" class="d-block w-100" alt="Banswara Syntex - Single-Site Rooftop Solar Project">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/Projects04.png" class="d-block w-100" alt="./assets/images/6.png">
+                            <img src="./assets/images/projects/Pragati-Power-Collage.png" class="d-block w-100" alt="Pragati Power Rooftop Solar Project">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/projects/Jindal-Collage.png" class="d-block w-100" alt="Jindal Saw Ground-Mounted Solar Power Project">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/projects/JTEKT-Collage.png" class="d-block w-100" alt="JTEKT Corporation turnkey EPC- solar power project">
                         </div>
                     </div>
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#projects" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#projects" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#projects" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                    </div>
+                    <!-- <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#projects" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#projects" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#projects" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#projects" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#projects" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -615,21 +638,21 @@
                 <p data-aos="fade-up" data-aos-delay="100" class="text-justify">We take pride in serving a diverse and prestigious clientele
                     that spans various industries and sectors. From large corporations and government agencies to
                     educational institutions and residential communities, our clients trust us to deliver reliable,
-                    innovative, and sustainable solar energy solutions. Our commitment to excellence and customer
+                    innovative, and sustainable <a href="https://enernew.in/b2b-solar-solutions" target="_blank" data-aos="fade-right" data-aos-delay="400" class="text-orange">solar energy solutions</a>. Our commitment to excellence and customer
                     satisfaction has enabled us to build strong, long-lasting relationships with each of our valued
                     partners.
                 </p>
             </div>
             <div class="col"></div>
             <div class="col-12 col-sm-6 clients__grid">
-                <img src="./assets/images/c1.png" class="img-fluid" data-aos="fade-left">
-                <img src="./assets/images/c2.png" class="img-fluid" data-aos="fade-left" data-aos-delay="100">
-                <img src="./assets/images/c4.png" class="img-fluid" data-aos="fade-left" data-aos-delay="200">
-                <img src="./assets/images/c5.png" class="img-fluid" data-aos="fade-left" data-aos-delay="300">
-                <img src="./assets/images/c6.png" class="img-fluid" data-aos="fade-left" data-aos-delay="400">
-                <img src="./assets/images/c7.png" class="img-fluid" data-aos="fade-left" data-aos-delay="500">
-                <img src="./assets/images/c8.png" class="img-fluid">
-                <img src="./assets/images/c9.png" class="img-fluid">
+                <img src="./assets/images/c1.png" class="img-fluid" data-aos="fade-left" alt="Jindal Saw Client Logo">
+                <img src="./assets/images/c2.png" class="img-fluid" data-aos="fade-left" data-aos-delay="100" alt="NTPC Client Logo">
+                <img src="./assets/images/c4.png" class="img-fluid" data-aos="fade-left" data-aos-delay="200" alt="HSIL Client Logo">
+                <img src="./assets/images/c5.png" class="img-fluid" data-aos="fade-left" data-aos-delay="300" alt="OM Logistics Client Logo">
+                <img src="./assets/images/c6.png" class="img-fluid" data-aos="fade-left" data-aos-delay="400" alt="Banswara Syntex Client Logo">
+                <img src="./assets/images/c7.png" class="img-fluid" data-aos="fade-left" data-aos-delay="500" alt="JTEKT Client Logo">
+                <img src="./assets/images/c8.png" class="img-fluid" alt="SECI Client Logo">
+                <img src="./assets/images/c9.png" class="img-fluid" alt="India Oil Client Logo">
             </div>
         </div>
 
@@ -750,19 +773,19 @@
     <div class="container">
         <div class="row">
             <div class="col mb-5">
-                <h2 class="highlight highlight--center text-center mb-5">Let's talk</h2>
+                <h2 class="highlight highlight--center text-center mb-5" data-aos="fade-up">Let's talk</h2>
             </div>
         </div>
         <div class="border p-5 row mb-5">
             <div
                 class="col-12 col-md-4 flex-column justify-content-center d-flex py-5 align-items-center border-end border-sm-none">
                 <div class="mb-5">
-                    <h3 class="highlight">Our Email</h3>
-                    <span>contact@enernew.in</span>
+                    <h3 class="highlight" data-aos="fade-up">Our Email</h3>
+                    <span><a href="mailto:contact@enernew.in">contact@enernew.in</a></span>
                 </div>
                 <div>
-                    <h3 class="highlight">Phone No.</h3>
-                    <span>+91-88 00 222 600</span>
+                    <h3 class="highlight" data-aos="fade-up">Phone No.</h3>
+                    <span><a href="tel:+91 88 00 222 600">+91 88 00 222 600</a></span>
                 </div>
             </div>
             <div class="col d-none d-lg-block"></div>
@@ -813,37 +836,35 @@
             </div>
         </div>
         <div class="row mb-5">
-            <div class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="100">
+            <div href="/knowledge-center/why-off-site-solar-parks-are-the-future-of-renewable-energy" class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="100">
                 <div class="card">
-                    <label for="">
-                        <img src="./assets/images/12.png" class="card-img-top" alt="...">
-                    </label>
+                    <img src="./assets/images/blogs/blog-1-home.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex flex-column justify-content-around">
-                        <h5 class="card-title highlight mb-3">Why Off-Site Solar Parks are the Future of Renewable
+                        <h5 class="card-title highlight mb-3" data-aos="fade-up">Why Off-Site Solar Parks are the Future of Renewable
                             Energy</h5>
                         <p class="card-text">In the heart of the renewable energy revolution, off-site solar parks are emerging as a beacon of innovation and sustainability ...</p>
-                        <a href="/blog/solar-technologies-and-techniques" data-aos="fade-right" data-aos-delay="400" class="text-orange">Read More</a>
+                        <a href="/knowledge-center/why-off-site-solar-parks-are-the-future-of-renewable-energy" data-aos="fade-right" data-aos-delay="400" class="text-orange">Read More</a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="200">
+            <div href="/knowledge-center/embracing-sustainability-with-solar-energy-and-its-environmental-benefits" class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="200">
                 <div class="card">
-                    <img src="./assets/images/10.png" class="card-img-top" alt="...">
+                    <img src="./assets/images/blogs/blog-2-home.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex flex-column justify-content-around">
-                        <h5 class="card-title highlight mb-3">Embracing Sustainability with Solar Energy and Its Environmental Benefits</h5>
+                        <h5 class="card-title highlight mb-3" data-aos="fade-up">Embracing Sustainability with Solar Energy and Its Environmental Benefits</h5>
                         <p class="card-text">Transitioning to sustainable practices is crucial for preserving our planet for future generations...</p>
-                        <a href="/blog/embracing-sustainability-with-solar-energy-and-its-environmental-benefits" data-aos="fade-right" data-aos-delay="500" class="text-orange">Read More</a>
+                        <a href="/knowledge-center/embracing-sustainability-with-solar-energy-and-its-environmental-benefits" data-aos="fade-right" data-aos-delay="500" class="text-orange">Read More</a>
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="300">
+            <div href="/knowledge-center/choosing-the-right-green-energy-path-a-comparison-of-captive-and-third-party-ppas" class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="300">
                 <div class="card">
-                    <img src="./assets/images/11.png" class="card-img-top" alt="...">
+                    <img src="./assets/images/blogs/blog-3-home.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex flex-column justify-content-around">
-                        <h5 class="card-title highlight mb-3">Impacts of Solar Energy</h5>
+                        <h5 class="card-title highlight mb-3" data-aos="fade-up">Choosing the Right Green Energy Path: A Comparison of Captive and Third-Party PPAS</h5>
                         <p class="card-text">As experience with other renewable technologies show, lack of social
                             acceptance and incongruity...</p>
-                        <a href="#" data-aos="fade-right" data-aos-delay="600" class="text-orange">Read More</a>
+                        <a href="knowledge-center/choosing-the-right-green-energy-path-a-comparison-of-captive-and-third-party-ppas" data-aos="fade-right" data-aos-delay="600" class="text-orange">Read More</a>
                     </div>
                 </div>
             </div>
@@ -855,6 +876,10 @@
 @section("scripts")
 <script>
     document.addEventListener('DOMContentLoaded', () => {
+
+        [...document.querySelectorAll("div[href]")].map(s => s.addEventListener('click', (event) => {window.open(event.currentTarget.getAttribute('href'))}))
+
+
         let vid = document.getElementById("heroVideo");
         let hero = document.querySelector('.hero__bg');
         let hero__text_wrapper = document.querySelector('#hero__text_wrapper');

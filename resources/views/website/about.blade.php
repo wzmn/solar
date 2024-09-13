@@ -1,4 +1,4 @@
-@section("title", "About Us")
+@section("title", "About Enernew – Leading Clean Energy & Solar Power Solutions")
 
 @extends("layouts.website")
 
@@ -76,7 +76,7 @@
                     zero carbon emissions. Our state-of-the-art park provides a seamless opportunity for
                     customers to establish their own solar power plants for captive consumption. By offering
                     access to captive open-access power at significantly reduced electricity costs, we ensure an
-                    efficient and cost-effective transition to renewable energy.</p>
+                    efficient and cost-effective transition to <a href="https://enernew.in/" target="_blank" data-aos="fade-right" data-aos-delay="400" class="text-orange">renewable energy</a>.</p>
                 <div class="overview__ul_title mb-3 bold">Benefits: </div>
                 <ul class="overview__ul">
                     <li class="mb-3"><b>Significantly Lower Costs</b>: Enjoy much cheaper electricity compared
@@ -149,7 +149,7 @@
                             <img src="{{ asset('assets/images/small-3.png') }}" class="img-fluid" data-aos="fade-up" data-aos-delay="50">
                             <img src="{{ asset('assets/images/small-2.png') }}" class="img-fluid" data-aos="fade-up" data-aos-delay="150">
                             <img src="{{ asset('assets/images/small-4.png') }}" class="img-fluid" data-aos="fade-up" data-aos-delay="250">
-                            <img src="{{ asset('assets/images/small-1.png') }}" class="img-fluid" data-aos="fade-up" data-aos-delay="350">
+                            <img src="{{ asset('assets/images/small-1.png') }}" class="img-fluid" data-aos="fade-up" data-aos-delay="350" alt="Sriram Cables Manufacturing building">
                         </div>
                     </div>
 
@@ -346,7 +346,7 @@
         </div>
     </div>
 </div>
-<div id="founders" class="founders" style="background-image: url('{{ asset('assets/images/7.png') }}');    background-size: cover;">
+<div id="founders" class="founders d-none" style="background-image: url('{{ asset('assets/images/7.png') }}');    background-size: cover;">
     <div class="container py-5">
         <div class="row">
             <div class="col my-5">
@@ -411,11 +411,11 @@
                 </div>
                 <div class="vision__grid my-5">
                     <div class="vision__grid_item" data-aos="fade-left" data-aos-delay="100">
-                        <img src="{{ asset('assets/images/icon-1.png') }}" alt="">
+                        <img src="{{ asset('assets/images/icon-1.png') }}" alt="Integrity in all business dealings Logo">
                         <div>Embodying integrity in every business interaction</div>
                     </div>
                     <div class="vision__grid_item" data-aos="fade-left" data-aos-delay="200">
-                        <img src="{{ asset('assets/images/icon-2.png') }}" alt="">
+                        <img src="{{ asset('assets/images/icon-2.png') }}" alt="Embracing innovation Logo">
                         <div>Embracing innovation and a pragmatic approach</div>
                     </div>
                     <div class="vision__grid_image">

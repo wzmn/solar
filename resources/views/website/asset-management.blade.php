@@ -1,12 +1,12 @@
-@section("title", "Asset Management Services")
+@section("title", "Expert Solar Asset Management Services by Enernew")
 
 @extends("layouts.website")
 
 @section("header")
 <div class="mb-100 d-flex flex-column flex-fill justify-content-end align-items-start">
-  <h1 class="text-white" data-aos="fade-right">Asset Management Services</h1>
+  <h1 class="text-white" data-aos="fade-right">Solar Asset Management Services</h1>
   <div class="hero__content text-white mb-3" data-aos="fade-right" data-aos-delay="200">
-    Home > Solutions > Asset Management Services
+    Home > Solutions > Solar Asset Management Services
   </div>
 </div>
 @endsection
@@ -18,7 +18,7 @@
       <div class="col-12 col-md-5" data-aos="fade-up">
         <div class="highlight mb-4 fs-4">
           Holistic
-          <h1 class="bold">Asset Management Services</h1>
+          <h2 class="bold">Asset Management Services</h2>
           for Optimal Performance
         </div>
       </div>
@@ -103,30 +103,27 @@
     </div>
     <div class="row bg-white rounded-3 p-5">
       <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
-        <img class="rounded-3 py-5" src="{{ asset('assets/images/asset-1.png') }}" alt="">
+        <img class="rounded-3 py-5" src="{{ asset('assets/images/asset-1.png') }}" alt="Routine inspections and maintenance checks">
       </div>
       <div data-aos="fade-up" data-aos-delay="200" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
         <h4 class="mb-4">Proactive Maintenance: </h4>
-        <p>Routine inspections and maintenance checks are conducted to identify potential issues before they escalate,
-          safeguarding continuous operation and extending asset longevity.</p>
+        <p>Routine inspections and maintenance checks are conducted to identify potential issues before they escalate, safeguarding continuous operation and extending asset longevity. Our proactive approach ensures that minor concerns are addressed swiftly, preventing costly repairs and avoiding unexpected downtime. By maintaining a regular maintenance schedule, we help our clients maximize the return on their investment and ensure the long-term reliability of their solar assets.</p>
       </div>
-      <div class="d-flex flex-column-reverse flex-md-row">
+      <div class="d-flex flex-column-reverse flex-md-row gap-4">
         <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
           <h4 class="mb-4">Real-Time Tracking Technology: </h4>
-          <p>We leverage cutting-edge technology to monitor the park environment continuously, facilitating immediate
-            responses to any anomalies and enhancing overall safety and security.</p>
+          <p>We leverage cutting-edge technology to continuously monitor the park environment, facilitating immediate responses to any anomalies and enhancing overall safety and security. This real-time data allows us to anticipate potential disruptions and take corrective action before they impact performance. Our integrated monitoring systems also provide stakeholders with instant access to critical information, ensuring transparency and fostering confidence in the operational integrity of our solar parks.</p>
         </div>
         <div data-aos="fade-up" data-aos-delay="200" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
-          <img class="rounded-3 py-5" src="{{ asset('assets/images/asset-2.png') }}" alt="">
+          <img class="rounded-3 py-5" src="{{ asset('assets/images/asset-2.png') }}" alt="Real-Time Tracking Technology">
         </div>
       </div>
       <div data-aos="fade-up" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
-        <img class="rounded-3 py-5" src="{{ asset('assets/images/asset-3.png') }}" alt="">
+        <img class="rounded-3 py-5" src="{{ asset('assets/images/asset-3.png') }}" alt="Emergency Response Capabilities">
       </div>
       <div data-aos="fade-up" data-aos-delay="200" class="col-12 col-md-6 d-flex flex-column justify-content-center mb-5">
         <h4 class="mb-4">Emergency Response Capabilities: </h4>
-        <p>Our team is equipped to handle emergencies with precision, ensuring minimal disruption to energy production
-          and protecting valuable assets.</p>
+        <p>Our team is equipped to handle emergencies with precision, ensuring minimal disruption to energy production and protecting valuable assets. With well-defined protocols and rapid deployment strategies, we can quickly address any incident, minimizing potential damage and ensuring the safety of all personnel on-site. Additionally, our continuous training programs ensure that our emergency response teams are always prepared to act swiftly and effectively, maintaining the highest standards of operational resilience.</p>
       </div>
     </div>
   </div>

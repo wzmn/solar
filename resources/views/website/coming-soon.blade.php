@@ -1,4 +1,4 @@
-@section("title", "Solar Calculator")
+@section("title", "Solar Calculator – Estimate Panel Costs & Electricity Savings")
 
 @extends("layouts.website")
 
@@ -15,7 +15,8 @@
 <div class="container my-5">
     <div class="row mb-5">
         <div class="col">
-            <h1 class="highlight mb-4">Coming Soon</h1>  
+            <h2 class="highlight mb-4">Solar Calculator</h2>  
+            <p>Something exciting is on the way & will be coming soon..</p>
         </div>
     </div>
 </div>
