@@ -1269,7 +1269,9 @@ i {
     display: flex;
     transition: width 0.3s ease;
 }
-
+form[class] .input--error {
+    outline-color: var(--red);
+}
 .recent__post {
     /* display: grid; */
     grid-template: 100px / repeat(5, 1fr);

@@ -195,7 +195,7 @@
                                     <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
                                 </label>
                                 <label for="zip">
-                                    <input name="zip" autocomplete="off" id="zip" type="tel" placeholder="Zipcode/Pincode*" required>
+                                    <input name="zip" autocomplete="off" id="zip" type="zip" placeholder="Zipcode/Pincode*" required>
                                 </label>
                                 <label for="city">
                                     <input name="city" id="city" type="text" placeholder="City*" required>
@@ -231,7 +231,7 @@
                                     <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
                                 </label>
                                 <label for="zip">
-                                    <input name="zip" autocomplete="off" id="zip" type="tel" placeholder="Zipcode/Pincode*" required>
+                                    <input name="zip" autocomplete="off" id="zip" type="zip" placeholder="Zipcode/Pincode*" required>
                                 </label>
                                 <label for="city">
                                     <input name="city" id="city" type="text" placeholder="City*" required>
@@ -267,7 +267,7 @@
                                     <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
                                 </label>
                                 <label for="zip">
-                                    <input name="zip" autocomplete="off" id="zip" type="tel" placeholder="Zipcode/Pincode*" required>
+                                    <input name="zip" autocomplete="off" id="zip" type="zip" placeholder="Zipcode/Pincode*" required>
                                 </label>
                                 <label for="city">
                                     <input name="city" id="city" type="text" placeholder="City*" required>
@@ -303,7 +303,7 @@
                                     <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
                                 </label>
                                 <label for="zip">
-                                    <input name="zip" autocomplete="off" id="zip" type="tel" placeholder="Zipcode/Pincode*" required>
+                                    <input name="zip" autocomplete="off" id="zip" type="zip" placeholder="Zipcode/Pincode*" required>
                                 </label>
                                 <label for="city">
                                     <input name="city" id="city" type="text" placeholder="City*" required>
@@ -339,7 +339,7 @@
                                     <input name="phone" id="phone" type="phone" placeholder="Phone No.*" required>
                                 </label>
                                 <label for="zip">
-                                    <input name="zip" autocomplete="off" id="zip" type="tel" placeholder="Zipcode/Pincode*" required>
+                                    <input name="zip" autocomplete="off" id="zip" type="zip" placeholder="Zipcode/Pincode*" required>
                                 </label>
                                 <label for="city">
                                     <input name="city" id="city" type="text" placeholder="City*" required>

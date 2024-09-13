@@ -2,54 +2,76 @@
 <html lang="en">
 
 <head>
-<link rel="icon" type="image/x-icon" href="https://enernew.in/assets/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="https://enernew.in/assets/images/favicon.ico">
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NJ776GQC');</script>
-<!-- End Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NJ776GQC');</script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
-@if (url()->current()=="https://enernew.in")
-    <meta name="description" content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future." />
-@elseif (url()->current()=="https://enernew.in/about-us")
-    <meta name="description" content="Discover Enernew's commitment to clean energy solutions. We specialize in solar power plants, driving innovation and sustainability for a greener tomorrow." />
-@elseif (url()->current()=="https://enernew.in/utility-scale-solar-power-park-solutions")
-    <meta name="description" content="Enernew develops advanced utility-scale solar projects, offering efficient solar power park solutions that maximize energy output and promote sustainability." />
-@elseif (url()->current()=="https://enernew.in/b2b-solar-solutions")
-    <meta name="description" content="Enernew provides tailored B2B solar energy solutions, specializing in solar system installations that deliver reliable, sustainable power for businesses." />
-@elseif (url()->current()=="https://enernew.in/asset-management-services")
-    <meta name="description" content="Enernew offers comprehensive solar asset management services, ensuring peak performance, reliability, and longevity for your solar energy investments." />
-@elseif (url()->current()=="https://enernew.in/careers")
-    <meta name="description" content="Explore rewarding careers at Enernew. Join our team of innovators and contribute to advancing clean energy solutions for a sustainable future." />
-@elseif (url()->current()=="https://enernew.in/job-openings")
-    <meta name="description" content="Discover exciting job openings at Enernew. Join our growing team and help shape the future of renewable energy with innovative and sustainable solutions." />
-@elseif (url()->current()=="https://enernew.in/life-at-enernew")
-    <meta name="description" content="Experience life at Enernew. Our dynamic work environment fosters innovation and collaboration, offering a fulfilling career in the renewable energy sector." />
-@elseif (url()->current()=="https://enernew.in/employee-testimonials")
-    <meta name="description" content="Read employee testimonials at Enernew to see how our team members experience innovation, growth, and satisfaction working in the renewable energy sector." />
-@elseif (url()->current()=="https://enernew.in/knowledge-center")
-    <meta name="description" content="Explore Enernew's Knowledge Center for valuable insights and resources on renewable energy. Stay informed with expert articles, reports, and updates." />
-@elseif (url()->current()=="https://enernew.in/contact-us")
-    <meta name="description" content="Reach out to Enernew for inquiries and support. Our contact page provides all the details you need to connect with our team and learn more about our services." />
-@elseif (url()->current()=="https://enernew.in/privacy")
-    <meta name="description" content="Read Enernew's Privacy Policy to understand how we protect your personal data and ensure your privacy while using our services and engaging with our content." />
-@elseif (url()->current()=="https://enernew.in/terms-of-use")
-    <meta name="description" content="Review Enernew's Terms of Use for detailed guidelines on accessing and using our website and services. Understand your rights and obligations with us." />
-@elseif (url()->current()=="https://enernew.in/solar-calculator")
-    <meta name="description" content="Use our Solar Calculator to estimate solar panel prices and calculate electricity savings. Make informed decisions about your solar energy investment." />
-@elseif (url()->current()=="https://enernew.in/press-release")
-    <meta name="description" content="Stay updated with Enernew's latest press releases, company news, announcements, and product launches. Discover the latest developments and innovations." />
-@elseif (url()->current()=="https://enernew.in/knowledge-center/why-off-site-solar-parks-are-the-future-of-renewable-energy")
-    <meta name="description" content="Find out why off-site solar parks are setting the standard for renewable energy and providing scalable, affordable solutions for a more environmentally friendly future." />
-@elseif (url()->current()=="https://enernew.in/knowledge-center/embracing-sustainability-with-solar-energy-and-its-environmental-benefits")
-    <meta name="description" content="Discover how utilizing clean, sustainable solar energy can decrease carbon footprints and contribute to environmental well-being, thus promoting sustainability." />
-@elseif (url()->current()=="https://enernew.in/knowledge-center/choosing-the-right-green-energy-path-a-comparison-of-captive-and-third-party-ppas")
-    <meta name="description" content="Explore the variances between Captive and Third-Party PPAs to make an informed decision on the optimal green energy path for your requirements." />
-@else
-    <meta name="description" content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future." />
-@endif
+    @if (url()->current()=="https://enernew.in")
+    <meta name="description"
+        content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future." />
+    @elseif (url()->current()=="https://enernew.in/about-us")
+    <meta name="description"
+        content="Discover Enernew's commitment to clean energy solutions. We specialize in solar power plants, driving innovation and sustainability for a greener tomorrow." />
+    @elseif (url()->current()=="https://enernew.in/utility-scale-solar-power-park-solutions")
+    <meta name="description"
+        content="Enernew develops advanced utility-scale solar projects, offering efficient solar power park solutions that maximize energy output and promote sustainability." />
+    @elseif (url()->current()=="https://enernew.in/b2b-solar-solutions")
+    <meta name="description"
+        content="Enernew provides tailored B2B solar energy solutions, specializing in solar system installations that deliver reliable, sustainable power for businesses." />
+    @elseif (url()->current()=="https://enernew.in/asset-management-services")
+    <meta name="description"
+        content="Enernew offers comprehensive solar asset management services, ensuring peak performance, reliability, and longevity for your solar energy investments." />
+    @elseif (url()->current()=="https://enernew.in/careers")
+    <meta name="description"
+        content="Explore rewarding careers at Enernew. Join our team of innovators and contribute to advancing clean energy solutions for a sustainable future." />
+    @elseif (url()->current()=="https://enernew.in/job-openings")
+    <meta name="description"
+        content="Discover exciting job openings at Enernew. Join our growing team and help shape the future of renewable energy with innovative and sustainable solutions." />
+    @elseif (url()->current()=="https://enernew.in/life-at-enernew")
+    <meta name="description"
+        content="Experience life at Enernew. Our dynamic work environment fosters innovation and collaboration, offering a fulfilling career in the renewable energy sector." />
+    @elseif (url()->current()=="https://enernew.in/employee-testimonials")
+    <meta name="description"
+        content="Read employee testimonials at Enernew to see how our team members experience innovation, growth, and satisfaction working in the renewable energy sector." />
+    @elseif (url()->current()=="https://enernew.in/knowledge-center")
+    <meta name="description"
+        content="Explore Enernew's Knowledge Center for valuable insights and resources on renewable energy. Stay informed with expert articles, reports, and updates." />
+    @elseif (url()->current()=="https://enernew.in/contact-us")
+    <meta name="description"
+        content="Reach out to Enernew for inquiries and support. Our contact page provides all the details you need to connect with our team and learn more about our services." />
+    @elseif (url()->current()=="https://enernew.in/privacy")
+    <meta name="description"
+        content="Read Enernew's Privacy Policy to understand how we protect your personal data and ensure your privacy while using our services and engaging with our content." />
+    @elseif (url()->current()=="https://enernew.in/terms-of-use")
+    <meta name="description"
+        content="Review Enernew's Terms of Use for detailed guidelines on accessing and using our website and services. Understand your rights and obligations with us." />
+    @elseif (url()->current()=="https://enernew.in/solar-calculator")
+    <meta name="description"
+        content="Use our Solar Calculator to estimate solar panel prices and calculate electricity savings. Make informed decisions about your solar energy investment." />
+    @elseif (url()->current()=="https://enernew.in/press-release")
+    <meta name="description"
+        content="Stay updated with Enernew's latest press releases, company news, announcements, and product launches. Discover the latest developments and innovations." />
+    @elseif (url()->current()=="https://enernew.in/knowledge-center/why-off-site-solar-parks-are-the-future-of-renewable-energy")
+    <meta name="description"
+        content="Find out why off-site solar parks are setting the standard for renewable energy and providing scalable, affordable solutions for a more environmentally friendly future." />
+    @elseif (url()->current()=="https://enernew.in/knowledge-center/embracing-sustainability-with-solar-energy-and-its-environmental-benefits")
+    <meta name="description"
+        content="Discover how utilizing clean, sustainable solar energy can decrease carbon footprints and contribute to environmental well-being, thus promoting sustainability." />
+    @elseif (url()->current()=="https://enernew.in/knowledge-center/choosing-the-right-green-energy-path-a-comparison-of-captive-and-third-party-ppas")
+    <meta name="description"
+        content="Explore the variances between Captive and Third-Party PPAs to make an informed decision on the optimal green energy path for your requirements." />
+    @else
+    <meta name="description"
+        content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future." />
+    @endif
     <title>@yield('title')</title>
     <link rel="canonical" href="{{url()->current()}}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -98,27 +120,29 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         }
 </script>
 
-<!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://enernew.in/">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Innovative Renewable Energy & Solar Power Park Solutions">
-<meta property="og:description" content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future.">
-<meta property="og:image" content="https://enernew.in/assets/images/logo-15.png">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://enernew.in/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Innovative Renewable Energy & Solar Power Park Solutions">
+    <meta property="og:description"
+        content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future.">
+    <meta property="og:image" content="https://enernew.in/assets/images/logo-15.png">
 
-<!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://enernew.in/">
-<meta name="twitter:title" content="Innovative Renewable Energy & Solar Power Park Solutions">
-<meta name="twitter:description" content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future.">
-<meta name="twitter:image" content="https://enernew.in/assets/images/logo-15.png">
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://enernew.in/">
+    <meta name="twitter:title" content="Innovative Renewable Energy & Solar Power Park Solutions">
+    <meta name="twitter:description"
+        content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future.">
+    <meta name="twitter:image" content="https://enernew.in/assets/images/logo-15.png">
 
 </head>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJ776GQC"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJ776GQC" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div class="main__wrapper {{Route::currentRouteName()}}">
         <div class="d-flex flex-column">
             @isset($hero_img) <div class="hero__bg w-100 flex-fill slide-0" style="background-image: 
@@ -139,7 +163,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="navbar__menu">
                             <span class="menu__text">MENU</span>
                             <span class="menu_toggle">
-                                <svg id="Icons" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="5" stroke="white">
+                                <svg id="Icons" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="5"
+                                    stroke="white">
                                     <path
                                         d="m4.59 59.41a2 2 0 0 0 2.83 0l24.58-24.58 24.59 24.58a2 2 0 0 0 2.83-2.83l-24.59-24.58 24.58-24.59a2 2 0 0 0 -2.83-2.83l-24.58 24.59-24.59-24.58a2 2 0 0 0 -2.82 2.82l24.58 24.59-24.58 24.59a2 2 0 0 0 0 2.82z" />
                                 </svg>
@@ -150,7 +175,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         <div class="col">
                                             <div class="navbar__logo">
                                                 <a href="/">
-                                                    <img src="{{ asset('assets/images/logo-white.png') }}" class="logo" alt="Enernew Logo White">
+                                                    <img src="{{ asset('assets/images/logo-white.png') }}" class="logo"
+                                                        alt="Enernew Logo White">
                                                 </a>
                                             </div>
                                         </div>
@@ -233,7 +259,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                             Our Solutions
                                                         </dt>
                                                         <dd>
-                                                            <a href="/utility-scale-solar-power-park-solutions">Solar Power Park Developer</a>
+                                                            <a href="/utility-scale-solar-power-park-solutions">Solar
+                                                                Power Park Developer</a>
                                                         </dd>
                                                         <dd>
                                                             <a href="/b2b-solar-solutions">B2B Solutions</a>
@@ -263,8 +290,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="15.381"
                                                                 height="15.381" viewBox="0 0 15.381 15.381">
                                                                 <defs>
-                                                                    <linearGradient id="grad1" x1="0%" y1="0%"
-                                                                        x2="0%" y2="100%">
+                                                                    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%"
+                                                                        y2="100%">
                                                                         <stop offset="0%" stop-color="#3b9d30" />
                                                                         <stop offset="100%" stop-color="#ff9436" />
                                                                     </linearGradient>
@@ -280,8 +307,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                                         fill="#fff"></path>
                                                                     <path id="Path_3" data-name="Path 3"
                                                                         d="M11.846,10a1.855,1.855,0,1,0,1.846,1.846A1.846,1.846,0,0,0,11.846,10Z"
-                                                                        transform="translate(-10 -10)"
-                                                                        fill="#fff"></path>
+                                                                        transform="translate(-10 -10)" fill="#fff">
+                                                                    </path>
                                                                 </g>
                                                             </svg>
                                                         </a>
@@ -365,19 +392,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         @yield("content")
 
 
-		<div id="scroll2top">
-		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="35" fill="white"
-	 viewBox="0 0 466.205 466.205">
-		<path d="M416.193,170.894c-0.052-0.053-0.105-0.105-0.158-0.158L253.049,7.536c-1.295-1.288-2.726-2.432-4.267-3.413l-4.693-2.56
+        <div id="scroll2top">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                height="35" fill="white" viewBox="0 0 466.205 466.205">
+                <path d="M416.193,170.894c-0.052-0.053-0.105-0.105-0.158-0.158L253.049,7.536c-1.295-1.288-2.726-2.432-4.267-3.413l-4.693-2.56
 			l-3.2-1.067h-2.347c-3.596-0.661-7.283-0.661-10.88,0h-2.133h-2.56l-3.627,1.92c-2.021,1.098-3.887,2.461-5.547,4.053
 			L50.169,170.736c-10.957,10.87-11.028,28.565-0.158,39.522c0.052,0.053,0.105,0.105,0.158,0.158
 			c11.045,10.538,28.421,10.538,39.467,0l97.493-97.28c4.206-4.124,10.96-4.058,15.084,0.149c1.919,1.957,3.011,4.577,3.049,7.318
 			v317.653c-0.001,15.435,12.51,27.948,27.945,27.949c15.435,0.001,27.947-12.51,27.949-27.945c0-0.001,0-0.003,0-0.004V120.603
 			c0.083-5.89,4.925-10.599,10.815-10.516c2.74,0.039,5.361,1.13,7.318,3.049l97.067,97.28c11.073,10.674,28.607,10.674,39.68,0
-			C426.993,199.546,427.064,181.851,416.193,170.894z"/>
+			C426.993,199.546,427.064,181.851,416.193,170.894z" />
 
-</svg>
-		</div>
+            </svg>
+        </div>
         <footer class="pt-5">
             <div class="container">
                 <div class="row" @if(Route::is('home') ) data-aos="fade-up" @endif>
@@ -388,22 +415,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <div id="footerCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="{{ asset('assets/images/c1.png') }}" class="img-fluid" alt="Jindal Saw Client Logo">
+                                        <img src="{{ asset('assets/images/c1.png') }}" class="img-fluid"
+                                            alt="Jindal Saw Client Logo">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/images/c2.png') }}" class="img-fluid" alt="NTPC Client Logo">
+                                        <img src="{{ asset('assets/images/c2.png') }}" class="img-fluid"
+                                            alt="NTPC Client Logo">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/images/6-min.jpeg') }}" class="img-fluid" alt="HSIL Client Logo">
+                                        <img src="{{ asset('assets/images/6-min.jpeg') }}" class="img-fluid"
+                                            alt="HSIL Client Logo">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/images/c1.png') }}" class="img-fluid" alt="Jindal Saw Client Logo">
+                                        <img src="{{ asset('assets/images/c1.png') }}" class="img-fluid"
+                                            alt="Jindal Saw Client Logo">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/images/c2.png') }}" class="img-fluid" alt="NTPC Client Logo">
+                                        <img src="{{ asset('assets/images/c2.png') }}" class="img-fluid"
+                                            alt="NTPC Client Logo">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/images/6-min.jpeg') }}" class="img-fluid" alt="HSIL Client Logo">
+                                        <img src="{{ asset('assets/images/6-min.jpeg') }}" class="img-fluid"
+                                            alt="HSIL Client Logo">
                                     </div>
                                 </div>
                                 's&nbsp;
@@ -415,7 +448,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="row">
                     <div class="col-12 col-md-3 justify-content-center d-flex flex-column" @if(Route::is('home') )
                         data-aos="fade-up" @endif>
-                        <a href="/"><img src="{{ asset('assets/images/logo-15.png') }}" class="logo mb-3" alt="Enernew Logo"></a>
+                        <a href="/"><img src="{{ asset('assets/images/logo-15.png') }}" class="logo mb-3"
+                                alt="Enernew Logo"></a>
                         <p class="mb-3 lh-lg fs-7">Enernew continues the legacy of Sriram Cables, a brand well known
                             since 45
                             years for its performance, trust and reliability.</p>
@@ -499,7 +533,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                         Our Solutions
                                     </dt>
                                     <dd>
-                                        <a href="/utility-scale-solar-power-park-solutions">Solar Power Park Developer</a>
+                                        <a href="/utility-scale-solar-power-park-solutions">Solar Power Park
+                                            Developer</a>
                                     </dd>
                                     <dd>
                                         <a href="/b2b-solar-solutions">B2B Solutions</a>
@@ -528,38 +563,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <div class="d-flex justify-content-around">
                                     <a href="https://www.linkedin.com/company/enernew-pvt-ltd/" linkedin
                                         target="_blank">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="15.381"
-                                        height="15.381" viewBox="0 0 15.381 15.381">
-                                        <defs>
-                                            <linearGradient id="grad1" x1="0%" y1="0%"
-                                                x2="0%" y2="100%">
-                                                <stop offset="0%" stop-color="#3b9d30" />
-                                                <stop offset="100%" stop-color="#ff9436" />
-                                            </linearGradient>
-                                        </defs>
-                                        <g id="_x31_0.Linkedin" transform="translate(0 0)">
-                                            <path id="Path_1" data-name="Path 1"
-                                                d="M48.24,45.817V40.184c0-2.769-.6-4.884-3.826-4.884A3.338,3.338,0,0,0,41.4,36.953h-.038v-1.4H38.3V45.817h3.192v-5.1c0-1.346.25-2.634,1.9-2.634,1.634,0,1.653,1.519,1.653,2.711v5H48.24Z"
-                                                transform="translate(-32.859 -30.436)"
-                                                fill="url(#grad1)"></path>
-                                            <path id="Path_2" data-name="Path 2"
-                                                d="M11.3,36.6h3.192V46.867H11.3Z"
-                                                transform="translate(-11.05 -31.486)"
-                                                fill="url(#grad1)"></path>
-                                            <path id="Path_3" data-name="Path 3"
-                                                d="M11.846,10a1.855,1.855,0,1,0,1.846,1.846A1.846,1.846,0,0,0,11.846,10Z"
-                                                transform="translate(-10 -10)"
-                                                fill="url(#grad1)"></path>
-                                        </g>
-                                    </svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15.381" height="15.381"
+                                            viewBox="0 0 15.381 15.381">
+                                            <defs>
+                                                <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+                                                    <stop offset="0%" stop-color="#3b9d30" />
+                                                    <stop offset="100%" stop-color="#ff9436" />
+                                                </linearGradient>
+                                            </defs>
+                                            <g id="_x31_0.Linkedin" transform="translate(0 0)">
+                                                <path id="Path_1" data-name="Path 1"
+                                                    d="M48.24,45.817V40.184c0-2.769-.6-4.884-3.826-4.884A3.338,3.338,0,0,0,41.4,36.953h-.038v-1.4H38.3V45.817h3.192v-5.1c0-1.346.25-2.634,1.9-2.634,1.634,0,1.653,1.519,1.653,2.711v5H48.24Z"
+                                                    transform="translate(-32.859 -30.436)" fill="url(#grad1)"></path>
+                                                <path id="Path_2" data-name="Path 2" d="M11.3,36.6h3.192V46.867H11.3Z"
+                                                    transform="translate(-11.05 -31.486)" fill="url(#grad1)"></path>
+                                                <path id="Path_3" data-name="Path 3"
+                                                    d="M11.846,10a1.855,1.855,0,1,0,1.846,1.846A1.846,1.846,0,0,0,11.846,10Z"
+                                                    transform="translate(-10 -10)" fill="url(#grad1)"></path>
+                                            </g>
+                                        </svg>
                                     </a>
                                     <a href="https://x.com/enernewpvtltd?s=11" twitter target="_blank">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="14.935" height="14.178"
                                             viewBox="0 0 14.935 14.178">
                                             <path id="twitter_1_" data-name="twitter (1)"
                                                 d="M20.859,5.58,25.659,0H24.522L20.354,4.845,17.025,0h-3.84l5.034,7.326-5.034,5.851h1.138l4.4-5.116,3.516,5.116h3.84l-5.221-7.6ZM19.3,7.391l-.51-.73L14.732.856H16.48l3.275,4.685.51.73,4.257,6.09H22.775L19.3,7.391Z"
-                                                transform="translate(-12.095 0.5)" fill="url(#grad1)" stroke="url(#grad1)"
-                                                stroke-width="1" />
+                                                transform="translate(-12.095 0.5)" fill="url(#grad1)"
+                                                stroke="url(#grad1)" stroke-width="1" />
                                         </svg>
                                     </a>
                                     <a href="https://www.youtube.com/@Enernew" youtube target="_blank">
@@ -623,39 +653,78 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </footer>
         <script>
+            window.validateInputs = function(form) {
+                const requiredInputs = form.querySelectorAll('input[required]');
+                const message_box = form.querySelector(".message_box");
+                for (let i = 0; i < requiredInputs.length; i++) {
+                    const input = requiredInputs[i];
+                    const type = input.getAttribute('type');
+                    if (type === 'email') {
+                        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                        if (!emailRegex.test(input.value)) {
+                            message_box.innerText = "Please Enter a Valid Email Address";
+                            input.classList.add("input--error")
+                            input.focus()
+                            return false;
+                        }
+                    }
+                    if (type === 'phone') {
+                        const phoneRegex = /^(\+?91)?\s?\d{10,12}$/; // Assuming 10-digit phone numbers
+                        if (!phoneRegex.test(input.value)) {
+                            message_box.innerText = "Please Enter a Valid Phone Number";
+                            input.classList.add("input--error");
+                            input.focus()
+                            return false;
+                        }
+                    } 
+                        
+                    if (type === 'zip') {
+                        const zipRegex = /^\d{6}$/; // Assuming 5-digit ZIP codes
+                        if (!zipRegex.test(input.value)) {
+                            message_box.innerText = "Please Enter a Valid Zip Code";
+                            input.classList.add("input--error");
+                            input.focus()
+                            return false;
+                        }
+                    }
+                    input.classList.remove("input--error");
+                }
+
+                return true;
+            }
             window.ifExists = (selector, cb) => {
                 !!document.querySelector(selector) ? cb.call(this, document.querySelectorAll(selector)) : "";
             }
             document.addEventListener("DOMContentLoaded", () => {
                 AOS.init();
-const scrollButton = document.getElementById("scroll2top");
-const windowObject = window;
-let previousScrollPosition = 0;
+                const scrollButton = document.getElementById("scroll2top");
+                const windowObject = window;
+                let previousScrollPosition = 0;
 
-// Function to scroll to the top of the page
-function scrollToTop() {
-    windowObject.scrollTo({
-        top: 0,
-        behavior: 'smooth' // Optional: for a smooth scrolling effect
-    });
-}
+                // Function to scroll to the top of the page
+                function scrollToTop() {
+                    windowObject.scrollTo({
+                        top: 0,
+                        behavior: 'smooth' // Optional: for a smooth scrolling effect
+                    });
+                }
 
-// Add a click event listener to the button
-scrollButton.addEventListener("click", scrollToTop);
+                // Add a click event listener to the button
+                scrollButton.addEventListener("click", scrollToTop);
 
-// Show/hide the button based on scroll position
-windowObject.addEventListener("scroll", () => {
-    const currentScrollPosition = windowObject.pageYOffset;
+                // Show/hide the button based on scroll position
+                windowObject.addEventListener("scroll", () => {
+                    const currentScrollPosition = windowObject.pageYOffset;
 
-    if (currentScrollPosition > 510 && currentScrollPosition > previousScrollPosition) { 
-        // Show button if scrolling down and past the threshold
-        scrollButton.classList.add("show");
-    } else {
-        scrollButton.classList.remove("show");
-    }
+                    if (currentScrollPosition > 510 && currentScrollPosition > previousScrollPosition) {
+                        // Show button if scrolling down and past the threshold
+                        scrollButton.classList.add("show");
+                    } else {
+                        scrollButton.classList.remove("show");
+                    }
 
-    previousScrollPosition = currentScrollPosition; // Update previous position
-});
+                    previousScrollPosition = currentScrollPosition; // Update previous position
+                });
                 ifExists('#projects', () => {
 
 
@@ -710,14 +779,17 @@ windowObject.addEventListener("scroll", () => {
                     s.forEach(s => {
                         s.addEventListener("submit", e => {
                             e.preventDefault();
+                            if (!validateInputs(s)) return;
                             $submit = s.querySelector('button[type="submit"]');
                             $submit.classList.add('submitting')
                             $submit.disabled = true;
-    
                             let fields = [];
                             for (const pair of new FormData(s).entries()) {
+                                console.log(pair);
                                 fields.push({ [pair[0]]: pair[1] })
                             }
+
+
                             axios.get('/form_submit', {
                                 params: {
                                     form_name: s.name,
@@ -729,7 +801,7 @@ windowObject.addEventListener("scroll", () => {
                                     s.querySelector(".message_box").innerText = "Your message has been sent sucessfully";
                                 })
                                 .catch(function (error) {
-                                    s.querySelector(".message_box").innerText = "Opps something went wrong, please try again later";
+                                    s.querySelector(".message_box").innerText = "Oops something went wrong, please try again later";
                                 })
                                 .finally(function () {
                                     $submit.classList.remove('submitting')
