@@ -173,7 +173,7 @@
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                         aria-labelledby="pills-home-tab">
-                        <form class="lets_talk__form" name="contact-us">
+                        <form class="lets_talk__form" name="General Enquiy">
                             <div>* represents mandatory fields</div>
                             <div class="d-grid lets_talk__form_input_group mb-3">
                                 @csrf
@@ -209,7 +209,7 @@
                     </div>
                     <div class="tab-pane fade" id="pills-sales" role="tabpanel"
                         aria-labelledby="pills-profile-tab">
-                        <form class="lets_talk__form" name="contact-us">
+                        <form class="lets_talk__form" name="Sales Enquiry">
                             <div>* represents mandatory fields</div>
                             <div class="d-grid lets_talk__form_input_group mb-3">
                                 @csrf
@@ -245,7 +245,7 @@
                     </div>
                     <div class="tab-pane fade" id="pills-supplier" role="tabpanel"
                         aria-labelledby="pills-contact-tab">
-                        <form class="lets_talk__form" name="contact-us">
+                        <form class="lets_talk__form" name="Supplier Enquiry">
                             <div>* represents mandatory fields</div>
                             <div class="d-grid lets_talk__form_input_group mb-3">
                                 @csrf
@@ -281,7 +281,7 @@
                     </div>
                     <div class="tab-pane fade" id="pills-channel" role="tabpanel"
                         aria-labelledby="pills-profile-tab">
-                        <form class="lets_talk__form" name="contact-us">
+                        <form class="lets_talk__form" name="Channel Enquiry">
                             <div>* represents mandatory fields</div>
                             <div class="d-grid lets_talk__form_input_group mb-3">
                                 @csrf
@@ -317,7 +317,7 @@
                     </div>
                     <div class="tab-pane fade" id="pills-media" role="tabpanel"
                         aria-labelledby="pills-contact-tab">
-                        <form class="lets_talk__form" name="contact-us">
+                        <form class="lets_talk__form" name="Media Enquiry">
                             <div>* represents mandatory fields</div>
                             <div class="d-grid lets_talk__form_input_group mb-3">
                                 @csrf

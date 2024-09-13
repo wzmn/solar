@@ -518,7 +518,7 @@
         </footer>
         <script>
             window.ifExists = (selector, cb) => {
-                !!document.querySelector(selector) ? cb.call(this, document.querySelector(selector)) : "";
+                !!document.querySelector(selector) ? cb.call(this, document.querySelectorAll(selector)) : "";
             }
             document.addEventListener("DOMContentLoaded", () => {
                 AOS.init();
@@ -572,35 +572,37 @@
                     })
                 })
 
-                ifExists(".lets_talk__form", (s) => {
-                    s.addEventListener("submit", e => {
-                        e.preventDefault();
-                        $submit = s.querySelector('button[type="submit"]');
-                        $submit.classList.add('submitting')
-                        $submit.disabled = true;
-
-                        let fields = [];
-                        for (const pair of new FormData(s).entries()) {
-                            fields.push({ [pair[0]]: pair[1] })
-                        }
-                        axios.get('/form_submit', {
-                            params: {
-                                form_name: 'Home',
-                                form_fields: fields
+                ifExists("form", (s) => {
+                    s.forEach(s => {
+                        s.addEventListener("submit", e => {
+                            e.preventDefault();
+                            $submit = s.querySelector('button[type="submit"]');
+                            $submit.classList.add('submitting')
+                            $submit.disabled = true;
+    
+                            let fields = [];
+                            for (const pair of new FormData(s).entries()) {
+                                fields.push({ [pair[0]]: pair[1] })
                             }
+                            axios.get('/form_submit', {
+                                params: {
+                                    form_name: s.name,
+                                    form_fields: fields
+                                }
+                            })
+                                .then(function (response) {
+                                    s.reset();
+                                    s.querySelector(".message_box").innerText = "Your message has been sent sucessfully";
+                                })
+                                .catch(function (error) {
+                                    s.querySelector(".message_box").innerText = "Opps something went wrong, please try again later";
+                                })
+                                .finally(function () {
+                                    $submit.classList.remove('submitting')
+                                    $submit.disabled = false;
+                                });
                         })
-                            .then(function (response) {
-                                s.reset();
-                                s.querySelector(".message_box").innerText = "Your message has been sent sucessfully";
-                            })
-                            .catch(function (error) {
-                                s.querySelector(".message_box").innerText = "Opps something went wrong, please try again later";
-                            })
-                            .finally(function () {
-                                $submit.classList.remove('submitting')
-                                $submit.disabled = false;
-                            });
-                    })
+                    });
                 })
 
             })

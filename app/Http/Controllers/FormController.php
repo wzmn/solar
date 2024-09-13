@@ -5,6 +5,9 @@ use Illuminate\Support\Facades\DB;
 use App\Models\FormModel;
 use Illuminate\Http\Request;
 
+use Illuminate\Support\Facades\Mail; // Import the Mail facade
+use App\Mail\FormSubmitted; // Assuming you'll create this mail class
+
 class FormController extends Controller
 {
     public function __construct()
@@ -22,8 +25,13 @@ class FormController extends Controller
             $data->name = $request->input('form_name');
             $data->fields = json_encode($request->input('form_fields'));
             $data->save();
-    
+            if(Mail::to('contact@enernew.in')->send(new FormSubmitted($data))){
+                return "Success";
+            }else{
+                return "Failed";
+            };
             return $data;
+
         }else{
             return "Input is not valid";
         };

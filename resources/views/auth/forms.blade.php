@@ -1,32 +1,31 @@
-<table class="table">
+<table class="table" style="border: 1px solid black;">
     <thead>
       <tr>
         <th scope="col">#</th>
-        <th scope="col">Form</th>
-        <th scope="col">Data</th>
+        <th scope="col">Name</th>
+        <th scope="col">Fields</th>
       </tr>
     </thead>
     <tbody>
     @foreach ($data as $form)
-        <tr>
-            <th scope="row">1</th>
+    
+        <tr style="border: 1px solid black;">
+            <th scope="row">{{$form->id}}</th>
             <td>{{$form->name}}</td>
             <td>
                 <table>
-                    <thead>
+                    <tbody>
+                        @foreach(json_decode($form->fields, true) as $field => $value)                            
                         <tr>
-                            
-                            $something = collect($form->fields);
-                            
-                            $something->each(function (String $user) {
-                               foreach ($field as json_decode($user)){
-                                   {{$field}}
-                               }
-                            })
-                            
-                            
+                                @foreach($value as $a => $b)
+                                <td>
+                                    {{$a}} : {{$b}}
+                                </td>
+                                @endforeach
+                                
                         </tr>
-                      </thead>
+                        @endforeach
+                      </tbody>
                 </table>   
             </td>
         </tr>
