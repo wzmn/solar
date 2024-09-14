@@ -1334,7 +1334,15 @@ form[class] .input--error {
     padding: 10px;
     background-color: var(--primary);
 }
-
+.contact_us__tag {
+    position: absolute;
+    right: -41px;
+    top: 50%;
+    background: #fdca01;
+    padding: 5px 15px;
+    transform: rotate(-90deg);
+    font-weight: 700;
+}
 .contact__grid {
     display: grid;
     grid-template: repeat(2, 400px) / 1fr 1fr 1fr;

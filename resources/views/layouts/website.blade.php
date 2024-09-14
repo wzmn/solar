@@ -385,6 +385,11 @@
                         @yield("header")
                         @endif
                     </div>
+                    @if(!Route::is('contact-us') )
+                    <div class="contact_us__tag">
+                        <a href="/contact-us">Contact Us</a>
+                    </div>
+                    @endif
                 </div>
             </div>
         </div>

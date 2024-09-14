@@ -29,7 +29,7 @@ Route::get('/solar-calculator', function () {
 
 Route::get('/contact-us', function () {
     return view('website.contact', ['hero_img' => [asset('assets/images/contact-us.png')]]);
-});
+})->name('contact-us');
 
 Route::get('/careers', function () {
     return view('website.career', ['hero_img' => [asset('assets/images/career.png')]]);
