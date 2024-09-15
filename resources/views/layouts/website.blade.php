@@ -144,6 +144,11 @@
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <div class="main__wrapper {{Route::currentRouteName()}}">
+        @if(!Route::is('contact-us') )
+        <div class="contact_us__tag">
+            <a href="/contact-us">Contact Us</a>
+        </div>
+        @endif
         <div class="d-flex flex-column">
             @isset($hero_img) <div class="hero__bg w-100 flex-fill slide-0" style="background-image: 
             @foreach ($hero_img as $item)
@@ -385,11 +390,6 @@
                         @yield("header")
                         @endif
                     </div>
-                    @if(!Route::is('contact-us') )
-                    <div class="contact_us__tag">
-                        <a href="/contact-us">Contact Us</a>
-                    </div>
-                    @endif
                 </div>
             </div>
         </div>

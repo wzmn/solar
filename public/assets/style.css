@@ -1335,13 +1335,14 @@ form[class] .input--error {
     background-color: var(--primary);
 }
 .contact_us__tag {
-    position: absolute;
+    position: fixed;
     right: -41px;
     top: 50%;
     background: #fdca01;
     padding: 5px 15px;
-    transform: rotate(-90deg);
+    transform: translateY(-50%) rotate(-90deg);
     font-weight: 700;
+    z-index: 1;
 }
 .contact__grid {
     display: grid;
@@ -1737,6 +1738,10 @@ fieldset:disabled .btn {
 }
 
 @media screen and (max-width: 1200px) {
+    .logo {
+        width: 200px;
+        max-width: 100%;
+    }
     .career .accordion .accordion-button {
         font-size: 1.25rem;
         padding: 20px 45px 20px 20px;
