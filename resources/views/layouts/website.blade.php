@@ -146,7 +146,7 @@
     <div class="main__wrapper {{Route::currentRouteName()}}">
         @if(!Route::is('contact-us') )
         <div class="contact_us__tag">
-            <a href="/contact-us">Contact Us</a>
+            <a href="/contact-us" style="color: #f8a40e;">Contact Us</a>
         </div>
         @endif
         <div class="d-flex flex-column">
