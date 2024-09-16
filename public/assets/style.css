@@ -1339,6 +1339,7 @@ form[class] .input--error {
     right: -41px;
     top: 50%;
     background: #4ea647;
+    color: #f8a40e
     padding: 5px 15px;
     transform: translateY(-50%) rotate(-90deg);
     font-weight: 700;
