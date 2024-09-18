@@ -33,7 +33,7 @@
             and
             sustainability. Picture vast expanses of land, bathed in sunlight, transforming into fields of photovoltaic
             panels, generating clean, abundant energy. This concept is not just a futuristic dream but a present
-            reality, heralded by <a href="https://enernew.in/utility-scale-solar-power-park-solutions" target="_blank" data-aos="fade-right" data-aos-delay="400" class="text-orange">solar power park developers</a> like <a href="https://enernew.in/">Enernew</a>, a leading solar
+            reality, heralded by <a href="https://enernew.in/utility-scale-solar-power-park-solutions" target="_blank" data-aos="fade-right" data-aos-delay="400" class="text-orange">solar power park developers</a> like Enernew, a leading solar
             company committed to paving the way for a greener tomorrow. Today, let's embark on a journey to explore why
             off-site solar parks are not only a viable solution but the future of renewable energy.
           </p>
