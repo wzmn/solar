@@ -144,6 +144,228 @@
             style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <div class="main__wrapper {{Route::currentRouteName()}}">
+        <div class="container">
+            <div class="d-flex justify-content-between fixed container">
+                <div class="navbar__logo">
+                    <a href="/">
+                        <img src="{{ asset('assets/images/logo-15.png') }}" class="logo" alt="Enernew Logo">
+                    </a>
+                </div>
+                <div class="navbar__menu">
+                    <span class="menu__text">MENU</span>
+                    <span class="menu_toggle">
+                        <svg id="Icons" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="5"
+                            stroke="white">
+                            <path
+                                d="m4.59 59.41a2 2 0 0 0 2.83 0l24.58-24.58 24.59 24.58a2 2 0 0 0 2.83-2.83l-24.59-24.58 24.58-24.59a2 2 0 0 0 -2.83-2.83l-24.58 24.59-24.59-24.58a2 2 0 0 0 -2.82 2.82l24.58 24.59-24.58 24.59a2 2 0 0 0 0 2.82z" />
+                        </svg>
+                    </span>
+                </div>
+                <div class="menu">
+                    <div class="container p-0">
+                        <div class="row">
+                            <div class="col">
+                                <div class="navbar__logo">
+                                    <a href="/">
+                                        <img src="{{ asset('assets/images/logo-white.png') }}" class="logo"
+                                            alt="Enernew Logo White">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="border-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row mb-5">
+                                    <div class="col-md-3 col-6 col-2 py-3">
+                                        <dl>
+                                            <dt class="mb-2">
+                                                About Us
+                                            </dt>
+                                            <dd>
+                                                <a href="/about-us">About Enernew</a>
+                                            </dd>
+                                            <dd>
+                                                <a href="/about-us#history">Our History</a>
+                                            </dd>
+                                            <dd>
+                                                <a href="/about-us#founders">Our Founders/Team</a>
+                                            </dd>
+                                            <dd>
+                                                <a href="/about-us#vision">Vision, Mission & Values</a>
+                                            </dd>
+                                            <dd>
+                                                <a href="/about-us# us">Why Us?</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <div class="col-md-3 col-6 py-3">
+                                        <dl>
+                                            <dt class="mb-2">
+                                                <a href="/careers">Careers</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="/careers#whyjoinus">Why Enernew?</a>
+                                            </dd>
+                                            <dd>
+                                                <a href="/careers#vision">Our Values</a>
+                                            </dd>
+                                            <dd>
+                                                <a href="/job-openings">Job Openings</a>
+                                            </dd>
+                                            <dd>
+                                                <a href="/life-at-enernew">Life@Enernew</a>
+                                            </dd>
+                                            <dd>
+                                                <a href="/employee-testimonials">Employee Testimonials</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <div class="col-md-3 col-6 py-3">
+                                        <dl>
+                                            <dt class="mb-2">
+                                                <a class="bold" href="/contact-us">Contact Us</a>
+                                            </dt>
+                                            <dd>
+                                                <a href="mailto:contact@enernew">contact@enernew.in</a>
+                                            </dd>
+                                            <dd>
+                                                <a href="tel:+91 88 00 222 600">+91 88 00 222 600</a>
+                                            </dd>
+
+                                        </dl>
+                                    </div>
+                                    <div class="col-md-3 col-6 py-3">
+                                        <dl>
+                                            <dt class="mb-2">
+                                                <a href="/solar-calculator">Solar Calculator</a>
+                                            </dt>
+
+                                        </dl>
+                                    </div>
+                                    <div class="col-md-3 col-6 py-3">
+                                        <dl>
+                                            <dt class="mb-2">
+                                                Our Solutions
+                                            </dt>
+                                            <dd>
+                                                <a href="/utility-scale-solar-power-park-solutions">Solar
+                                                    Power Park Developer</a>
+                                            </dd>
+                                            <dd>
+                                                <a href="/b2b-solar-solutions">B2B Solutions</a>
+                                            </dd>
+                                            <dd>
+                                                <a href="/asset-management-services">Asset Managment</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <div class="col-md-3 col-6 py-3">
+                                        <dl>
+                                            <dt class="mb-2">
+                                                Media
+                                            </dt>
+                                            <dd>
+                                                <a href="/knowledge-center">Knowledge center</a>
+                                            </dd>
+                                            <dd>
+                                                <a href="/press-release">PR</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                    <div class="col-md-3 col-6 py-3">
+                                        <div class="column-gap-3 d-flex justify-content-start">
+                                            <a href="https://www.linkedin.com/company/enernew-pvt-ltd/"
+                                                linkedin target="_blank">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="15.381"
+                                                    height="15.381" viewBox="0 0 15.381 15.381">
+                                                    <defs>
+                                                        <linearGradient id="grad1" x1="0%" y1="0%" x2="0%"
+                                                            y2="100%">
+                                                            <stop offset="0%" stop-color="#3b9d30" />
+                                                            <stop offset="100%" stop-color="#ff9436" />
+                                                        </linearGradient>
+                                                    </defs>
+                                                    <g id="_x31_0.Linkedin" transform="translate(0 0)">
+                                                        <path id="Path_1" data-name="Path 1"
+                                                            d="M48.24,45.817V40.184c0-2.769-.6-4.884-3.826-4.884A3.338,3.338,0,0,0,41.4,36.953h-.038v-1.4H38.3V45.817h3.192v-5.1c0-1.346.25-2.634,1.9-2.634,1.634,0,1.653,1.519,1.653,2.711v5H48.24Z"
+                                                            transform="translate(-32.859 -30.436)"
+                                                            fill="#fff"></path>
+                                                        <path id="Path_2" data-name="Path 2"
+                                                            d="M11.3,36.6h3.192V46.867H11.3Z"
+                                                            transform="translate(-11.05 -31.486)"
+                                                            fill="#fff"></path>
+                                                        <path id="Path_3" data-name="Path 3"
+                                                            d="M11.846,10a1.855,1.855,0,1,0,1.846,1.846A1.846,1.846,0,0,0,11.846,10Z"
+                                                            transform="translate(-10 -10)" fill="#fff">
+                                                        </path>
+                                                    </g>
+                                                </svg>
+                                            </a>
+                                            <a href="https://x.com/enernewpvtltd?s=11" twitter
+                                                target="_blank">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="14.935"
+                                                    height="14.178" viewBox="0 0 14.935 14.178">
+                                                    <path id="twitter_1_" data-name="twitter (1)"
+                                                        d="M20.859,5.58,25.659,0H24.522L20.354,4.845,17.025,0h-3.84l5.034,7.326-5.034,5.851h1.138l4.4-5.116,3.516,5.116h3.84l-5.221-7.6ZM19.3,7.391l-.51-.73L14.732.856H16.48l3.275,4.685.51.73,4.257,6.09H22.775L19.3,7.391Z"
+                                                        transform="translate(-12.095 0.5)" fill="#fff"
+                                                        stroke="#fff" stroke-width="1" />
+                                                </svg>
+                                            </a>
+                                            <a href="https://www.youtube.com/@Enernew" youtube
+                                                target="_blank">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="21.53"
+                                                    height="15.074" viewBox="0 0 21.53 15.074">
+                                                    <path id="youtube"
+                                                        d="M21.087-3.723a2.7,2.7,0,0,0-1.9-1.9c-1.685-.461-8.424-.461-8.424-.461s-6.739,0-8.424.444a2.752,2.752,0,0,0-1.9,1.915A28.421,28.421,0,0,0,0,1.455,28.317,28.317,0,0,0,.444,6.634a2.7,2.7,0,0,0,1.9,1.9c1.7.461,8.424.461,8.424.461s6.739,0,8.424-.444a2.7,2.7,0,0,0,1.9-1.9,28.43,28.43,0,0,0,.443-5.178,26.979,26.979,0,0,0-.444-5.2ZM8.62,4.683V-1.772l5.6,3.228Zm0,0"
+                                                        transform="translate(-0.001 6.082)" fill="#fff" />
+                                                </svg>
+                                            </a>
+                                            <a href="https://www.facebook.com/people/Enernew-Pvt-Ltd/61558307954152/"
+                                                facebook target="_blank">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="7.432"
+                                                    height="14.917" viewBox="0 0 7.432 14.917">
+                                                    <path id="Icon"
+                                                        d="M42.97,19.427H41.261c-.276,0-.361-.115-.361-.39V16.779c0-.3.106-.413.361-.413H42.97v-1.64a4.427,4.427,0,0,1,.467-2.11,2.941,2.941,0,0,1,1.539-1.376A3.483,3.483,0,0,1,46.293,11h1.688c.244,0,.35.115.35.378V13.5c0,.264-.106.378-.35.378-.467,0-.934,0-1.4.023s-.711.241-.711.768c-.021.562,0,1.1,0,1.674h1.985c.276,0,.382.115.382.413v2.259c0,.3-.085.413-.382.413H45.89v6.065c0,.321-.106.424-.393.424H43.342c-.255,0-.361-.115-.361-.39Z"
+                                                        transform="translate(-40.9 -11)" fill="#fff" />
+                                                </svg>
+                                            </a>
+                                            <a href="https://www.instagram.com/enernewsolar/" instagram
+                                                target="_blank">
+                                                <svg viewBox="0 0 60 60" width="20" height="20"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <g>
+                                                        <path
+                                                            d="m30 20.83c-5.06 0-9.17 4.11-9.17 9.17s4.11 9.18 9.17 9.18 9.18-4.12 9.18-9.18-4.12-9.17-9.18-9.17z" />
+                                                        <path
+                                                            d="m43.84 5h-27.68c-6.15 0-11.16 5.01-11.16 11.16v27.68c0 6.16 5.01 11.16 11.16 11.16h27.68c6.16 0 11.16-5 11.16-11.16v-27.68c0-6.15-5-11.16-11.16-11.16zm-13.84 41.2c-8.93 0-16.2-7.27-16.2-16.2s7.27-16.19 16.2-16.19 16.2 7.26 16.2 16.19-7.27 16.2-16.2 16.2zm16.54-29.45c-1.89 0-3.43-1.53-3.43-3.42s1.54-3.43 3.43-3.43 3.43 1.54 3.43 3.43-1.54 3.42-3.43 3.42z" />
+                                                    </g>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 col-6 py-3">
+                                        <dl>
+                                            <dt class="mb-2">
+                                                Legal
+                                            </dt>
+                                            <dd>
+                                                <a href="/privacy">Privacy</a>
+                                            </dd>
+                                            <dd>
+                                                <a href="/terms-of-use">Terms of use</a>
+                                            </dd>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
         @if(!Route::is('contact-us') )
         <div class="contact_us__tag">
             <a href="/contact-us">Contact Us</a>
@@ -159,226 +381,7 @@
             @endforeach
             ;background-size: cover;">@endisset
                 <div class="container">
-                    <div class="d-flex justify-content-between mt-4 ">
-                        <div class="navbar__logo">
-                            <a href="/">
-                                <img src="{{ asset('assets/images/logo-15.png') }}" class="logo" alt="Enernew Logo">
-                            </a>
-                        </div>
-                        <div class="navbar__menu">
-                            <span class="menu__text">MENU</span>
-                            <span class="menu_toggle">
-                                <svg id="Icons" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="5"
-                                    stroke="white">
-                                    <path
-                                        d="m4.59 59.41a2 2 0 0 0 2.83 0l24.58-24.58 24.59 24.58a2 2 0 0 0 2.83-2.83l-24.59-24.58 24.58-24.59a2 2 0 0 0 -2.83-2.83l-24.58 24.59-24.59-24.58a2 2 0 0 0 -2.82 2.82l24.58 24.59-24.58 24.59a2 2 0 0 0 0 2.82z" />
-                                </svg>
-                            </span>
-                            <div class="menu">
-                                <div class="container">
-                                    <div class="row my-4">
-                                        <div class="col">
-                                            <div class="navbar__logo">
-                                                <a href="/">
-                                                    <img src="{{ asset('assets/images/logo-white.png') }}" class="logo"
-                                                        alt="Enernew Logo White">
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr class="border-white">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-12">
-                                            <div class="row mb-5">
-                                                <div class="col-md-3 col-6 col-2 py-3">
-                                                    <dl>
-                                                        <dt class="mb-2">
-                                                            About Us
-                                                        </dt>
-                                                        <dd>
-                                                            <a href="/about-us">About Enernew</a>
-                                                        </dd>
-                                                        <dd>
-                                                            <a href="/about-us#history">Our History</a>
-                                                        </dd>
-                                                        <dd>
-                                                            <a href="/about-us#founders">Our Founders/Team</a>
-                                                        </dd>
-                                                        <dd>
-                                                            <a href="/about-us#vision">Vision, Mission & Values</a>
-                                                        </dd>
-                                                        <dd>
-                                                            <a href="/about-us# us">Why Us?</a>
-                                                        </dd>
-                                                    </dl>
-                                                </div>
-                                                <div class="col-md-3 col-6 py-3">
-                                                    <dl>
-                                                        <dt class="mb-2">
-                                                            <a href="/careers">Careers</a>
-                                                        </dt>
-                                                        <dd>
-                                                            <a href="/careers#whyjoinus">Why Enernew?</a>
-                                                        </dd>
-                                                        <dd>
-                                                            <a href="/careers#vision">Our Values</a>
-                                                        </dd>
-                                                        <dd>
-                                                            <a href="/job-openings">Job Openings</a>
-                                                        </dd>
-                                                        <dd>
-                                                            <a href="/life-at-enernew">Life@Enernew</a>
-                                                        </dd>
-                                                        <dd>
-                                                            <a href="/employee-testimonials">Employee Testimonials</a>
-                                                        </dd>
-                                                    </dl>
-                                                </div>
-                                                <div class="col-md-3 col-6 py-3">
-                                                    <dl>
-                                                        <dt class="mb-2">
-                                                            <a class="bold" href="/contact-us">Contact Us</a>
-                                                        </dt>
-                                                        <dd>
-                                                            <a href="mailto:contact@enernew">contact@enernew.in</a>
-                                                        </dd>
-                                                        <dd>
-                                                            <a href="tel:+91 88 00 222 600">+91 88 00 222 600</a>
-                                                        </dd>
 
-                                                    </dl>
-                                                </div>
-                                                <div class="col-md-3 col-6 py-3">
-                                                    <dl>
-                                                        <dt class="mb-2">
-                                                            <a href="/solar-calculator">Solar Calculator</a>
-                                                        </dt>
-
-                                                    </dl>
-                                                </div>
-                                                <div class="col-md-3 col-6 py-3">
-                                                    <dl>
-                                                        <dt class="mb-2">
-                                                            Our Solutions
-                                                        </dt>
-                                                        <dd>
-                                                            <a href="/utility-scale-solar-power-park-solutions">Solar
-                                                                Power Park Developer</a>
-                                                        </dd>
-                                                        <dd>
-                                                            <a href="/b2b-solar-solutions">B2B Solutions</a>
-                                                        </dd>
-                                                        <dd>
-                                                            <a href="/asset-management-services">Asset Managment</a>
-                                                        </dd>
-                                                    </dl>
-                                                </div>
-                                                <div class="col-md-3 col-6 py-3">
-                                                    <dl>
-                                                        <dt class="mb-2">
-                                                            Media
-                                                        </dt>
-                                                        <dd>
-                                                            <a href="/knowledge-center">Knowledge center</a>
-                                                        </dd>
-                                                        <dd>
-                                                            <a href="/press-release">PR</a>
-                                                        </dd>
-                                                    </dl>
-                                                </div>
-                                                <div class="col-md-3 col-6 py-3">
-                                                    <div class="column-gap-3 d-flex justify-content-start">
-                                                        <a href="https://www.linkedin.com/company/enernew-pvt-ltd/"
-                                                            linkedin target="_blank">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="15.381"
-                                                                height="15.381" viewBox="0 0 15.381 15.381">
-                                                                <defs>
-                                                                    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%"
-                                                                        y2="100%">
-                                                                        <stop offset="0%" stop-color="#3b9d30" />
-                                                                        <stop offset="100%" stop-color="#ff9436" />
-                                                                    </linearGradient>
-                                                                </defs>
-                                                                <g id="_x31_0.Linkedin" transform="translate(0 0)">
-                                                                    <path id="Path_1" data-name="Path 1"
-                                                                        d="M48.24,45.817V40.184c0-2.769-.6-4.884-3.826-4.884A3.338,3.338,0,0,0,41.4,36.953h-.038v-1.4H38.3V45.817h3.192v-5.1c0-1.346.25-2.634,1.9-2.634,1.634,0,1.653,1.519,1.653,2.711v5H48.24Z"
-                                                                        transform="translate(-32.859 -30.436)"
-                                                                        fill="#fff"></path>
-                                                                    <path id="Path_2" data-name="Path 2"
-                                                                        d="M11.3,36.6h3.192V46.867H11.3Z"
-                                                                        transform="translate(-11.05 -31.486)"
-                                                                        fill="#fff"></path>
-                                                                    <path id="Path_3" data-name="Path 3"
-                                                                        d="M11.846,10a1.855,1.855,0,1,0,1.846,1.846A1.846,1.846,0,0,0,11.846,10Z"
-                                                                        transform="translate(-10 -10)" fill="#fff">
-                                                                    </path>
-                                                                </g>
-                                                            </svg>
-                                                        </a>
-                                                        <a href="https://x.com/enernewpvtltd?s=11" twitter
-                                                            target="_blank">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="14.935"
-                                                                height="14.178" viewBox="0 0 14.935 14.178">
-                                                                <path id="twitter_1_" data-name="twitter (1)"
-                                                                    d="M20.859,5.58,25.659,0H24.522L20.354,4.845,17.025,0h-3.84l5.034,7.326-5.034,5.851h1.138l4.4-5.116,3.516,5.116h3.84l-5.221-7.6ZM19.3,7.391l-.51-.73L14.732.856H16.48l3.275,4.685.51.73,4.257,6.09H22.775L19.3,7.391Z"
-                                                                    transform="translate(-12.095 0.5)" fill="#fff"
-                                                                    stroke="#fff" stroke-width="1" />
-                                                            </svg>
-                                                        </a>
-                                                        <a href="https://www.youtube.com/@Enernew" youtube
-                                                            target="_blank">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="21.53"
-                                                                height="15.074" viewBox="0 0 21.53 15.074">
-                                                                <path id="youtube"
-                                                                    d="M21.087-3.723a2.7,2.7,0,0,0-1.9-1.9c-1.685-.461-8.424-.461-8.424-.461s-6.739,0-8.424.444a2.752,2.752,0,0,0-1.9,1.915A28.421,28.421,0,0,0,0,1.455,28.317,28.317,0,0,0,.444,6.634a2.7,2.7,0,0,0,1.9,1.9c1.7.461,8.424.461,8.424.461s6.739,0,8.424-.444a2.7,2.7,0,0,0,1.9-1.9,28.43,28.43,0,0,0,.443-5.178,26.979,26.979,0,0,0-.444-5.2ZM8.62,4.683V-1.772l5.6,3.228Zm0,0"
-                                                                    transform="translate(-0.001 6.082)" fill="#fff" />
-                                                            </svg>
-                                                        </a>
-                                                        <a href="https://www.facebook.com/people/Enernew-Pvt-Ltd/61558307954152/"
-                                                            facebook target="_blank">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="7.432"
-                                                                height="14.917" viewBox="0 0 7.432 14.917">
-                                                                <path id="Icon"
-                                                                    d="M42.97,19.427H41.261c-.276,0-.361-.115-.361-.39V16.779c0-.3.106-.413.361-.413H42.97v-1.64a4.427,4.427,0,0,1,.467-2.11,2.941,2.941,0,0,1,1.539-1.376A3.483,3.483,0,0,1,46.293,11h1.688c.244,0,.35.115.35.378V13.5c0,.264-.106.378-.35.378-.467,0-.934,0-1.4.023s-.711.241-.711.768c-.021.562,0,1.1,0,1.674h1.985c.276,0,.382.115.382.413v2.259c0,.3-.085.413-.382.413H45.89v6.065c0,.321-.106.424-.393.424H43.342c-.255,0-.361-.115-.361-.39Z"
-                                                                    transform="translate(-40.9 -11)" fill="#fff" />
-                                                            </svg>
-                                                        </a>
-                                                        <a href="https://www.instagram.com/enernewsolar/" instagram
-                                                            target="_blank">
-                                                            <svg viewBox="0 0 60 60" width="20" height="20"
-                                                                xmlns="http://www.w3.org/2000/svg">
-                                                                <g>
-                                                                    <path
-                                                                        d="m30 20.83c-5.06 0-9.17 4.11-9.17 9.17s4.11 9.18 9.17 9.18 9.18-4.12 9.18-9.18-4.12-9.17-9.18-9.17z" />
-                                                                    <path
-                                                                        d="m43.84 5h-27.68c-6.15 0-11.16 5.01-11.16 11.16v27.68c0 6.16 5.01 11.16 11.16 11.16h27.68c6.16 0 11.16-5 11.16-11.16v-27.68c0-6.15-5-11.16-11.16-11.16zm-13.84 41.2c-8.93 0-16.2-7.27-16.2-16.2s7.27-16.19 16.2-16.19 16.2 7.26 16.2 16.19-7.27 16.2-16.2 16.2zm16.54-29.45c-1.89 0-3.43-1.53-3.43-3.42s1.54-3.43 3.43-3.43 3.43 1.54 3.43 3.43-1.54 3.42-3.43 3.42z" />
-                                                                </g>
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-3 col-6 py-3">
-                                                    <dl>
-                                                        <dt class="mb-2">
-                                                            Legal
-                                                        </dt>
-                                                        <dd>
-                                                            <a href="/privacy">Privacy</a>
-                                                        </dd>
-                                                        <dd>
-                                                            <a href="/terms-of-use">Terms of use</a>
-                                                        </dd>
-                                                    </dl>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <div class="row">
                         @if(!Route::is('home') )
                         @isset($hero_img)
@@ -703,6 +706,7 @@
             document.addEventListener("DOMContentLoaded", () => {
                 AOS.init();
                 const scrollButton = document.getElementById("scroll2top");
+                const menu = document.querySelector(".fixed");
                 const windowObject = window;
                 let previousScrollPosition = 0;
 
@@ -720,6 +724,20 @@
                 // Show/hide the button based on scroll position
                 windowObject.addEventListener("scroll", () => {
                     const currentScrollPosition = windowObject.pageYOffset;
+
+
+
+                    // Sticky menu bg color
+                    if (currentScrollPosition > 100 && currentScrollPosition) {
+                        // Show button if scrolling down and past the threshold
+                        menu.classList.add("bg-white");
+                    } else {
+                        menu.classList.remove("bg-white");
+                    }
+
+                    
+
+                    // Scroll to top 
 
                     if (currentScrollPosition > 510 && currentScrollPosition > previousScrollPosition) {
                         // Show button if scrolling down and past the threshold
