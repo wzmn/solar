@@ -1375,8 +1375,8 @@ form[class] .input--error {
 .contact_us__tag {
     position: fixed;
     right: -41px;
+    background: #f8a40e;
     top: 50%;
-    background: #fdca01;
     padding: 5px 15px;
     transform: translateY(-50%) rotate(-90deg);
     font-weight: 700;
