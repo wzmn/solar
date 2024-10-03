@@ -310,6 +310,7 @@ p {
     position: relative;
     background-image: url(./images/1.png);
     z-index: 0;
+    padding-top: 93px;
     transition: all 1.5s ease;
 }
 
@@ -1480,6 +1481,9 @@ form[class] .input--error {
 
     .contact__info {
         transform: translateY(0%);
+    }
+    .fs-xl {
+        font-size: 3.5rem;
     }
 }
 
