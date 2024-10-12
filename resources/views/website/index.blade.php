@@ -17,7 +17,7 @@
                 </div>
                 <a href="/about-us" class="btn btn--black">Explore Our Solution</a>
             </div>
-            <div class="d-flex align-items-end flex-column">
+            <div class="align-items-end d-flex flex-column justify-content-center">
                 <div class="bg-red hero__play">
                     <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 490 490"
@@ -880,7 +880,7 @@
         [...document.querySelectorAll("div[href]")].map(s => s.addEventListener('click', (event) => {window.open(event.currentTarget.getAttribute('href'))}))
 
 
-        let vid = document.getElementById("heroVideo");
+        window.vid = document.getElementById("heroVideo");
         let hero = document.querySelector('.hero__bg');
         let hero__text_wrapper = document.querySelector('#hero__text_wrapper');
         let hero__title = document.querySelector('.hero__title');
@@ -905,7 +905,6 @@
             })
         })
 
-        vid.load()
         vid.addEventListener("canplay", (event) => {
             console.log("video loaded")
             $parent = event.target;
@@ -933,5 +932,6 @@
             })
         });
     })
+    window.addEventListener("load", () => {if (vid) {vid.load()}});
 </script>
 @endsection
