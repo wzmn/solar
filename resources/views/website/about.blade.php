@@ -15,7 +15,7 @@
     <div class="container-fluid mt-5 position-relative">
         <div class="row mb-5">
             <div class="col mb-3" data-aos="fade-up">
-                <img src="{{ asset('assets/images/3.png') }}" class="img-fluid">
+                <img src="{{ asset('assets/images/3.webp') }}" class="img-fluid">
                 <div class="col-12 d-md-flex flex-wrap flex-md-nowrap justify-content-center">
                     <div class="icon">
                         <div class="icon__box" data-aos="fade-up">

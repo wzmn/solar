@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('website.index', ['hero_img' => [asset('assets/images/1.png'), asset('assets/images/video-slide.png'), asset('assets/images/slider-3.jpg')]]);
+    return view('website.index', ['hero_img' => [asset('assets/images/1.webp'), asset('assets/images/video-slide.webp'), asset('assets/images/slider-3.webp')]]);
 })->name('home');
 
 Auth::routes();
@@ -99,3 +99,7 @@ Route::get('/knowledge-center/choosing-the-right-green-energy-path-a-comparison-
 Route::get('/form_submit', [App\Http\Controllers\FormController::class, 'store'])->name('form.store');
 Route::get('/admin/form_view', [App\Http\Controllers\FormController::class, 'show'])->name('form.show');
 
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
+});

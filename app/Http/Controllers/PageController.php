@@ -23,6 +23,6 @@ class PageController extends Controller
      */
     public function index()
     {
-        return view('website.index', ['hero_img' => asset('assets/images/1.png')])->name('home');
+        return view('website.index', ['hero_img' => asset('assets/images/1.webp')])->name('home');
     }
 }

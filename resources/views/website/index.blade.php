@@ -6,7 +6,7 @@
 
 <div class="align-items-center col-12 d-flex hero justify-content-end">
     <div class="w-100">
-        <video id="heroVideo" muted loop>
+        <video id="heroVideo" muted loop preload="none">
             <source src="{{ asset('assets/videos/hero.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
@@ -68,11 +68,11 @@
 
 @section("content")
 <div class="overview pt-5"
-    style="background-image: url('./assets/images/2.png');    background-position: 70%;    background-size: cover;">
+    style="background-image: url('./assets/images/2.webp');    background-position: 70%;    background-size: cover;">
     <div class="container-fluid mt-5 position-relative">
         <div class="row mb-5">
             <div class="col-lg-5 col mb-3">
-                <img src="./assets/images/3.png" class="img-fluid" alt="Off-Site Captive Open Access Solar Parks">
+                <img src="./assets/images/3.webp" class="img-fluid" alt="Off-Site Captive Open Access Solar Parks">
                 <div class="d-md-flex flex-wrap flex-md-nowrap justify-content-center icon_wrapper animate" data-aos="fade-up"  data-aos-offset="400">
                     <div class="icon">
                         <div class="icon__box" data-aos="fade-up">
@@ -261,7 +261,7 @@
                                     </div>
                                 </div>
                                 <div class="col align-items-start d-md-flex mb-4">
-                                    <img src="{{ asset('assets/images/5.png') }}" class="img-fluid" alt="Solar Power Park Developer">
+                                    <img src="{{ asset('assets/images/5.webp') }}" class="img-fluid" alt="Solar Power Park Developer">
                                 </div>
                                
                             </div>
@@ -329,7 +329,7 @@
                                     </div>
                                 </div>
                                 <div class="col align-items-start d-md-flex mb-4">
-                                    <img src="{{ asset('assets/images/solution-2.png') }}" class="img-fluid" alt="B2B Solar Solutions">
+                                    <img src="{{ asset('assets/images/solution-2.webp') }}" class="img-fluid" alt="B2B Solar Solutions">
                                 </div>
                                 
                             </div>
@@ -428,7 +428,7 @@
         </div>
         <div class="row">
         	<div class="col mb-5">
-        		<img src="./assets/images/50MW.jpg" class="rounded-3 img-fluid" alt="50 MW Solar Power Park in Bikaner, Rajasthan">
+        		<img src="./assets/images/50MW.webp" class="rounded-3 img-fluid" alt="50 MW Solar Power Park in Bikaner, Rajasthan">
         	</div>
         </div>
     </div>
@@ -603,19 +603,19 @@
                 <div id="projects" class="carousel slide" data-bs-interval="false">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./assets/images/projects/Railway-Single.png" class="d-block w-100" alt="India’s First Solar-Powered Running Coaches">
+                            <img src="./assets/images/projects/Railway-Single.webp" class="d-block w-100" alt="India’s First Solar-Powered Running Coaches">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/projects/Banswara-Collage.png" class="d-block w-100" alt="Banswara Syntex - Single-Site Rooftop Solar Project">
+                            <img src="./assets/images/projects/Banswara-Collage.webp" class="d-block w-100" alt="Banswara Syntex - Single-Site Rooftop Solar Project">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/projects/Pragati-Power-Collage.png" class="d-block w-100" alt="Pragati Power Rooftop Solar Project">
+                            <img src="./assets/images/projects/Pragati-Power-Collage.webp" class="d-block w-100" alt="Pragati Power Rooftop Solar Project">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/projects/Jindal-Collage.png" class="d-block w-100" alt="Jindal Saw Ground-Mounted Solar Power Project">
+                            <img src="./assets/images/projects/Jindal-Collage.webp" class="d-block w-100" alt="Jindal Saw Ground-Mounted Solar Power Project">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/images/projects/JTEKT-Collage.png" class="d-block w-100" alt="JTEKT Corporation turnkey EPC- solar power project">
+                            <img src="./assets/images/projects/JTEKT-Collage.webp" class="d-block w-100" alt="JTEKT Corporation turnkey EPC- solar power project">
                         </div>
                     </div>
                     <!-- <div class="carousel-indicators">
@@ -630,7 +630,7 @@
         </div>
     </div>
 </div>
-<div class="clients pt-5" style="background-image: url('./assets/images/8.png');">
+<div class="clients pt-5" style="background-image: url('./assets/images/8.webp');">
     <div class="container">
         <div class="row pb-5">
             <div class="col-12 col-sm-5 d-flex justify-content-center flex-column mb-5">
@@ -838,7 +838,7 @@
         <div class="row mb-5">
             <div href="/knowledge-center/why-off-site-solar-parks-are-the-future-of-renewable-energy" class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="100">
                 <div class="card">
-                    <img src="./assets/images/blogs/blog-1-home.png" class="card-img-top" alt="...">
+                    <img src="./assets/images/blogs/blog-1-home.webp" class="card-img-top" alt="...">
                     <div class="card-body d-flex flex-column justify-content-around">
                         <h5 class="card-title highlight mb-3" data-aos="fade-up">Why Off-Site Solar Parks are the Future of Renewable
                             Energy</h5>
@@ -849,7 +849,7 @@
             </div>
             <div href="/knowledge-center/embracing-sustainability-with-solar-energy-and-its-environmental-benefits" class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="200">
                 <div class="card">
-                    <img src="./assets/images/blogs/blog-2-home.png" class="card-img-top" alt="...">
+                    <img src="./assets/images/blogs/blog-2-home.webp" class="card-img-top" alt="...">
                     <div class="card-body d-flex flex-column justify-content-around">
                         <h5 class="card-title highlight mb-3" data-aos="fade-up">Embracing Sustainability with Solar Energy and Its Environmental Benefits</h5>
                         <p class="card-text">Transitioning to sustainable practices is crucial for preserving our planet for future generations...</p>
@@ -859,7 +859,7 @@
             </div>
             <div href="/knowledge-center/choosing-the-right-green-energy-path-a-comparison-of-captive-and-third-party-ppas" class="col-12 col-md-4 d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-delay="300">
                 <div class="card">
-                    <img src="./assets/images/blogs/blog-3-home.png" class="card-img-top" alt="...">
+                    <img src="./assets/images/blogs/blog-3-home.webp" class="card-img-top" alt="...">
                     <div class="card-body d-flex flex-column justify-content-around">
                         <h5 class="card-title highlight mb-3" data-aos="fade-up">Choosing the Right Green Energy Path: A Comparison of Captive and Third-Party PPAS</h5>
                         <p class="card-text">As experience with other renewable technologies show, lack of social

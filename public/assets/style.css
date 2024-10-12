@@ -189,7 +189,7 @@ p {
 }
 
 .hero {
-    min-height: calc(100vh - 100px);
+    height: 100%;
 }
 
 .text-shadow {
@@ -307,10 +307,11 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-image: url(./images/1.png);
+    background-image: url(./images/1.webp);
     z-index: 0;
     padding-top: 93px;
     transition: all 1.5s ease;
+    height: calc(100vh - 100px);
 }
 
 .hero__bg::before {

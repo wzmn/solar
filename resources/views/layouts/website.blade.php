@@ -135,7 +135,27 @@
     <meta name="twitter:description"
         content="Enernew provides renewable energy solutions, specializing in solar power parks that drive sustainability & deliver efficient, clean energy for a greener future.">
     <meta name="twitter:image" content="https://enernew.in/assets/images/logo-15.png">
-
+    @isset($hero_img) 
+        @foreach ($hero_img as $item)
+            @php 
+                preg_match("/[^.\W]+$/", $item, $match);
+                $type = "image/".$match[0];
+            @endphp
+            <link rel="preload" fetchpriority="high" as="image" href="{{$item}}" type="{{$type}}">
+        @endforeach
+    @endisset
+    <style>
+        .bg__images {
+            background-image: 
+        @foreach ($hero_img as $item)
+            url('{{ $item }}')
+            @if (!$loop->last)
+                ,
+            @endif
+        @endforeach
+        ;
+        }
+    </style>
 </head>
 
 <body>
@@ -372,17 +392,10 @@
         </div>
         @endif
         <div class="d-flex flex-column">
-            @isset($hero_img) <div class="hero__bg w-100 flex-fill slide-0" style="background-image: 
-            @foreach ($hero_img as $item)
-                url('{{ $item }}')
-                @if (!$loop->last)
-                    ,
-                @endif
-            @endforeach
-            ;background-size: cover;">@endisset
-                <div class="container">
+            @isset($hero_img) <div id="hero" class="hero__bg w-100 flex-fill slide-0">@endisset
+                <div class="container h-100">
 
-                    <div class="row">
+                    <div class="row h-100">
                         @if(!Route::is('home') )
                         @isset($hero_img)
                         <div class="d-flex flex-column hero col-md-6 col-lg-4">
@@ -718,6 +731,10 @@
                     });
                 }
 
+                const addSliderImagesOnPageLoad = ()=>{
+                    document.querySelector(".hero__bg").classList.add("bg__images")
+                }
+                
                 // Add a click event listener to the button
                 scrollButton.addEventListener("click", scrollToTop);
 
@@ -834,6 +851,9 @@
                     });
                 })
 
+                setTimeout(() => {
+                    addSliderImagesOnPageLoad() 
+                }, 250);
             })
         </script>
         @yield('scripts')
