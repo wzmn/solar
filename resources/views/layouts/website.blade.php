@@ -82,16 +82,6 @@
     <link rel="stylesheet" href="{{ asset('assets/style.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">
     <meta name="google-site-verification" content="gZYGu-x8qMlMgZUa2vgkdG0g0VVIL6Kbx6OmQdeT7kM" />
     <script type="application/ld+json">
         {
@@ -118,7 +108,7 @@
             "https://enernew.in/"
         ]
         }
-</script>
+    </script>
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://enernew.in/">
@@ -436,27 +426,27 @@
                             <div id="footerCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="{{ asset('assets/images/c1.png') }}" class="img-fluid"
+                                        <img fetchpriority="low" src="{{ asset('assets/images/c1.png') }}" class="img-fluid"
                                             alt="Jindal Saw Client Logo">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/images/c2.png') }}" class="img-fluid"
+                                        <img fetchpriority="low" src="{{ asset('assets/images/c2.png') }}" class="img-fluid"
                                             alt="NTPC Client Logo">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/images/6-min.jpeg') }}" class="img-fluid"
+                                        <img fetchpriority="low" src="{{ asset('assets/images/6-min.jpeg') }}" class="img-fluid"
                                             alt="HSIL Client Logo">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/images/c1.png') }}" class="img-fluid"
+                                        <img fetchpriority="low" src="{{ asset('assets/images/c1.png') }}" class="img-fluid"
                                             alt="Jindal Saw Client Logo">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/images/c2.png') }}" class="img-fluid"
+                                        <img fetchpriority="low" src="{{ asset('assets/images/c2.png') }}" class="img-fluid"
                                             alt="NTPC Client Logo">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('assets/images/6-min.jpeg') }}" class="img-fluid"
+                                        <img fetchpriority="low" src="{{ asset('assets/images/6-min.jpeg') }}" class="img-fluid"
                                             alt="HSIL Client Logo">
                                     </div>
                                 </div>
@@ -673,6 +663,16 @@
                 </div>
             </div>
         </footer>
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+            <link
+                href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap"
+                rel="stylesheet">
+            <link
+                href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+                rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+                rel="stylesheet">
         <script>
             window.validateInputs = function(form) {
                 const requiredInputs = form.querySelectorAll('input[required]');
@@ -734,7 +734,7 @@
                 const addSliderImagesOnPageLoad = ()=>{
                     document.querySelector(".hero__bg").classList.add("bg__images")
                 }
-                
+
                 // Add a click event listener to the button
                 scrollButton.addEventListener("click", scrollToTop);
 
