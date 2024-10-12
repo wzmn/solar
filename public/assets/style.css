@@ -311,7 +311,7 @@ p {
     z-index: 0;
     padding-top: 93px;
     transition: all 1.5s ease;
-    height: calc(100vh - 100px);
+    height: min(100vh, 900px);
 }
 
 .hero__bg::before {
