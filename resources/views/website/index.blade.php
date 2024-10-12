@@ -905,8 +905,9 @@
             })
         })
 
-
+        vid.load()
         vid.addEventListener("canplay", (event) => {
+            console.log("video loaded")
             $parent = event.target;
             let hero__play = document.querySelector('.hero__play');
             let hero__sound = document.querySelector('.hero__sound');
