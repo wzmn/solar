@@ -904,22 +904,28 @@
                 showHeroText($this.getAttribute('data-title'), $this.getAttribute('data-content'));
             })
         })
+        
+        let hero__play = document.querySelector('.hero__play');
 
-        vid.addEventListener("canplay", (event) => {
-            console.log("video loaded")
-            $parent = event.target;
-            let hero__play = document.querySelector('.hero__play');
-            let hero__sound = document.querySelector('.hero__sound');
+        hero__play.addEventListener("click", (event)=>{
+            if ( vid.readyState != 4 ) {
+                vid.load();
+            }
+            playVideo(vid)
+        })
 
-            hero__play.addEventListener('click', () => {
-                if ($parent.classList.contains('playing')) {
-                    $parent.classList.remove('playing')
-                    $parent.pause()
+        const playVideo = (video) => {
+            if (video.classList.contains('playing')) {
+                    video.classList.remove('playing')
+                    video.pause()
                 } else {
-                    $parent.classList.add('playing')
-                    $parent.play()
+                    video.classList.add('playing')
+                    video.play()
                 }
-            })
+        }
+        vid.addEventListener("canplay", (event) => {
+            $parent = event.target;
+            let hero__sound = document.querySelector('.hero__sound');
             hero__sound.addEventListener('click', () => {
                 if ($parent.muted) {
                     $parent.classList.add('sound')
@@ -932,6 +938,6 @@
             })
         });
     })
-    window.addEventListener("load", () => {if (vid) {vid.load()}});
+    // window.addEventListener("load", () => {if (vid) {vid.load()}});
 </script>
 @endsection
