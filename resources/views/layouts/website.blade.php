@@ -133,7 +133,7 @@
             @endphp
             <link rel="preload" fetchpriority="high" as="image" href="{{$item}}" type="{{$type}}">
         @endforeach
-    @endisset
+
     <style>
         .bg__images {
             background-image: 
@@ -146,6 +146,7 @@
         ;
         }
     </style>
+    @endisset
 </head>
 
 <body>
@@ -382,22 +383,25 @@
         </div>
         @endif
         <div class="d-flex flex-column">
-            @isset($hero_img) <div id="hero" class="hero__bg w-100 flex-fill slide-0">@endisset
-                <div class="container h-100">
-
-                    <div class="row h-100">
-                        @if(!Route::is('home') )
-                        @isset($hero_img)
-                        <div class="d-flex flex-column hero col-md-6 col-lg-4">
-                            @yield("header")
+            @if(isset($hero_img)) 
+                <div id="hero" class="hero__bg w-100 flex-fill slide-0">
+                    <div class="container h-100">
+                        <div class="row h-100">
+                            @if(!Route::is('home') )
+                                @isset($hero_img)
+                                    <div class="d-flex flex-column hero col-md-6 col-lg-4">
+                                        @yield("header")
+                                    </div>
+                                @endisset
+                            @else
+                                @yield("header")
+                            @endif
                         </div>
-                        @endisset
-                        @else
-                        @yield("header")
-                        @endif
                     </div>
                 </div>
-            </div>
+            @else
+                <div style="height: 100px" class="[this is a spacer]"></div>
+            @endif
         </div>
 
         @yield("content")
